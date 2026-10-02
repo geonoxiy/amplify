@@ -1,0 +1,102 @@
+{
+  "driver": "content-bank/P015-lip-sync-dance-trend/runs/run-02_2026-10-01_willow-car-park-dance/raw/motion/driver.mp4",
+  "clip": "content-bank/P015-lip-sync-dance-trend/runs/run-02_2026-10-01_willow-car-park-dance/raw/motion/clip_v1a.mp4",
+  "verdict": "pass",
+  "mean_angle_error_deg": 5.0,
+  "by_group_deg": {
+    "arms": 6.8,
+    "legs": 4.0,
+    "torso": 1.3,
+    "head": 5.9
+  },
+  "per_second_deg": [
+    6.5,
+    4.7,
+    4.3,
+    4.0,
+    7.7,
+    4.0,
+    12.6,
+    7.0,
+    2.3,
+    4.1,
+    2.6,
+    2.7,
+    3.5,
+    7.8,
+    3.7,
+    4.6,
+    5.6
+  ],
+  "worst_seconds": [
+    {
+      "second": 6,
+      "error_deg": 12.6
+    },
+    {
+      "second": 13,
+      "error_deg": 7.8
+    },
+    {
+      "second": 4,
+      "error_deg": 7.7
+    }
+  ],
+  "lag_s": -0.07,
+  "timing_r": 0.47,
+  "driver_movement": "full body, travelling",
+  "clip_movement": "full body, travelling",
+  "clip_one_person_pct": 100.0,
+  "limb_length_spread": {
+    "driver": {
+      "l_upper_arm": 0.232,
+      "l_forearm": 0.271,
+      "r_upper_arm": 0.273,
+      "r_forearm": 0.222,
+      "l_thigh": 0.099,
+      "l_shin": 0.152,
+      "r_thigh": 0.108,
+      "r_shin": 0.187
+    },
+    "clip": {
+      "l_upper_arm": 0.224,
+      "l_forearm": 0.245,
+      "r_upper_arm": 0.29,
+      "r_forearm": 0.294,
+      "l_thigh": 0.086,
+      "l_shin": 0.159,
+      "r_thigh": 0.094,
+      "r_shin": 0.175
+    }
+  },
+  "duplicates": {
+    "driver": {
+      "min_phash_distance": 18,
+      "near_duplicate_frames": 0
+    },
+    "source": {
+      "min_phash_distance": 16,
+      "near_duplicate_frames": 0
+    }
+  },
+  "placement": {
+    "driver": {
+      "nose_y": 47.5,
+      "centre_x": 50.0,
+      "torso": 18.8
+    },
+    "clip": {
+      "nose_y": 46.0,
+      "centre_x": 49.3,
+      "torso": 18.5
+    }
+  },
+  "fails": [],
+  "warnings": [],
+  "thresholds": {
+    "good_deg": 20.0,
+    "fail_deg": 35.0,
+    "near_duplicate_phash": 10,
+    "placement": "nose and centre within 2 points, torso within 8%"
+  }
+}

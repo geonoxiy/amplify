@@ -1,0 +1,91 @@
+{
+  "video": "content-bank/_sources/zaralarsson/7683300809983020310/video.mp4",
+  "length": 20.46,
+  "size": [
+    1080,
+    1920
+  ],
+  "sampled_fps": 15,
+  "shot_detector": "content-12 (fallback: the default found few cuts)",
+  "shots": [
+    {
+      "shot": 1,
+      "start": 0.0,
+      "end": 19.77,
+      "people_max": 1,
+      "person_found_pct": 99.7,
+      "framing": "full body",
+      "label": "full body, travelling",
+      "energy_deg_per_s": {
+        "arms": 122.9,
+        "legs": 35.4,
+        "torso": 18.7,
+        "head": 51.7
+      },
+      "travel_torso_lengths": 0.85,
+      "hits_per_s": 1.37
+    },
+    {
+      "shot": 2,
+      "start": 19.77,
+      "end": 20.43,
+      "people_max": 1,
+      "person_found_pct": 90.0,
+      "framing": "chest up",
+      "label": "arms only",
+      "energy_deg_per_s": {
+        "arms": 25.3,
+        "legs": null,
+        "torso": null,
+        "head": 16.6
+      },
+      "travel_torso_lengths": null,
+      "hits_per_s": null
+    }
+  ],
+  "overall": {
+    "label": "full body",
+    "energy_deg_per_s": {
+      "arms": 122.3,
+      "legs": 35.4,
+      "torso": 18.7,
+      "head": 51.2
+    },
+    "travel_torso_lengths": null,
+    "hits_per_s": 1.32
+  },
+  "driver_segments": [
+    {
+      "shot": 1,
+      "start": 0.0,
+      "end": 19.73,
+      "length": 19.73,
+      "framing": "full body",
+      "max_people": 1,
+      "hands_out_of_frame_pct": 23.3,
+      "label": "full body, travelling",
+      "energy_deg_per_s": {
+        "arms": 122.9,
+        "legs": 35.4,
+        "torso": 18.7,
+        "head": 51.7
+      },
+      "travel_torso_lengths": 0.85,
+      "hits_per_s": 1.37,
+      "segment": 1,
+      "camera": "static"
+    }
+  ],
+  "no_segment_shots": [
+    {
+      "shot": 2,
+      "start": 19.77,
+      "end": 20.43,
+      "why": [
+        "shot is 0.7s (motion control needs one continuous shot of 3s or more)",
+        "framing tighter than waist up (Kling needs head, shoulders and torso)"
+      ]
+    }
+  ],
+  "note": "Angles are image-plane; limb energy is the mean smoothed angular speed (a still person reads 5-12 deg/s from tracker jitter, 25+ counts as moving). Labels are rough. Pick a segment for `motion.py driver --segment N`."
+}

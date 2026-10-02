@@ -1,0 +1,41 @@
+{
+  "source": "content-bank/P015-lip-sync-dance-trend/originals/7683300809983020310/video.mp4",
+  "segment": [
+    2.7,
+    19.5
+  ],
+  "crop": null,
+  "size": [
+    720,
+    1280
+  ],
+  "length": 16.8,
+  "mb": 7.42,
+  "framing": "full body",
+  "label": "full body, travelling",
+  "energy_deg_per_s": {
+    "arms": 125.3,
+    "legs": 35.0,
+    "torso": 19.7,
+    "head": 58.5
+  },
+  "travel_torso_lengths": 0.7,
+  "hits_per_s": 1.25,
+  "checks": {
+    "length_3_to_30s": true,
+    "under_100mb": true,
+    "one_person_pct": 99.6,
+    "head_to_waist_in_frame_pct": 99.6,
+    "image_orientation_allowed": false
+  },
+  "warnings": [],
+  "credit": {
+    "creator": "@zaralarsson",
+    "url": "https://www.tiktok.com/@zaralarsson/video/7683300809983020310",
+    "post_id": "7683300809983020310",
+    "caption_credit": "dc @zaralarsson",
+    "note": "the moves are theirs: credit the creator in the caption (TikTok's 'dc' convention), never present the choreography as ours"
+  },
+  "pose_reference": "driver_pose0.png",
+  "next": "render the persona still in the same framing and starting pose (attach driver_pose0.png as a pose reference, never a frame of the source person), in the setting you want: Kling keeps the still's background. Then kie.py motion."
+}

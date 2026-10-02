@@ -1,0 +1,124 @@
+{
+  "type": "video",
+  "length": 20.46,
+  "size": {
+    "width": 1024,
+    "height": 1820
+  },
+  "shot_detector": "content-12 (fallback: the default found few cuts)",
+  "shot_count": 2,
+  "cuts_per_second": 0.049,
+  "average_shot_length": 10.23,
+  "shots": [
+    {
+      "shot": 1,
+      "start": 0.0,
+      "end": 19.77,
+      "length": 19.77,
+      "key_frame": "frames/shot_01_9.9s.jpg",
+      "palette": [
+        {
+          "hex": "#808a96",
+          "share": 0.276
+        },
+        {
+          "hex": "#595a5c",
+          "share": 0.274
+        },
+        {
+          "hex": "#a5abb1",
+          "share": 0.222
+        },
+        {
+          "hex": "#13181a",
+          "share": 0.119
+        },
+        {
+          "hex": "#d0d8d2",
+          "share": 0.109
+        }
+      ],
+      "visual": {
+        "brightness_pct": 49.6,
+        "contrast_pct": 22.3,
+        "saturation_pct": 15.4,
+        "sharpness": 384.7,
+        "noise_sigma": 0.73,
+        "clutter_pct": 2.69,
+        "bars_pct": {
+          "top": 0.0,
+          "bottom": 0.0,
+          "left": 0.0,
+          "right": 0.0
+        },
+        "phash": "e69d336aec910d62",
+        "dhash": "01023004254d4c0c"
+      },
+      "motion": {
+        "label": "static",
+        "speed_pct_w_per_s": 0.13,
+        "consistency": 0.77,
+        "zoom_pct_per_s": -0.14,
+        "rotation_deg_per_s": -0.04,
+        "subject_motion_pct_w_per_s": 5.21,
+        "pairs": 8,
+        "note": "rough label from optical flow; static/handheld/pan/zoom thresholds are set on test clips"
+      }
+    },
+    {
+      "shot": 2,
+      "start": 19.77,
+      "end": 20.43,
+      "length": 0.67,
+      "key_frame": "frames/shot_02_20.1s.jpg",
+      "palette": [
+        {
+          "hex": "#a2abb7",
+          "share": 0.303
+        },
+        {
+          "hex": "#cad5db",
+          "share": 0.231
+        },
+        {
+          "hex": "#9c8273",
+          "share": 0.181
+        },
+        {
+          "hex": "#645249",
+          "share": 0.156
+        },
+        {
+          "hex": "#16181c",
+          "share": 0.128
+        }
+      ],
+      "visual": {
+        "brightness_pct": 55.6,
+        "contrast_pct": 24.4,
+        "saturation_pct": 22.0,
+        "sharpness": 179.5,
+        "noise_sigma": 0.32,
+        "clutter_pct": 2.72,
+        "bars_pct": {
+          "top": 0.0,
+          "bottom": 0.0,
+          "left": 0.0,
+          "right": 0.0
+        },
+        "phash": "9fe1044b3bb640eb",
+        "dhash": "01c030385b716c7e"
+      },
+      "motion": {
+        "label": "pan right + zoom in / push-in",
+        "speed_pct_w_per_s": 6.03,
+        "consistency": 0.97,
+        "zoom_pct_per_s": 3.52,
+        "rotation_deg_per_s": 2.16,
+        "subject_motion_pct_w_per_s": 17.45,
+        "pairs": 8,
+        "note": "rough label from optical flow; static/handheld/pan/zoom thresholds are set on test clips"
+      }
+    }
+  ]
+}

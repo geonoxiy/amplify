@@ -1,0 +1,28 @@
+{
+ "_source": "yt-dlp (gallery-dl returned nothing)",
+ "id": "7683300809983020310",
+ "desc": "🌕",
+ "createTime": 1788907893,
+ "stats": {
+  "playCount": 5300000,
+  "diggCount": 854400,
+  "commentCount": 3176,
+  "shareCount": 5052,
+  "collectCount": 19614
+ },
+ "music": {
+  "title": "Blue Moon",
+  "authorName": "Zara Larsson",
+  "original": null,
+  "id": null
+ },
+ "video": {
+  "duration": 20,
+  "width": 1080,
+  "height": 1920
+ },
+ "author": {
+  "uniqueId": "zaralarsson",
+  "nickname": "zaralarsson"
+ }
+}

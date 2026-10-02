@@ -87,9 +87,31 @@ def post_meta(handle, post_id):
     errors = [i for i in items if i and i[0] == -1]
     meta = next((i[1] for i in items if i and i[0] == 2), None)
     if meta is None:
-        raise RuntimeError(f"no post data returned {errors[:1]}")
+        meta = meta_from_ytdlp(handle, post_id)  # gallery-dl returns nothing for some posts (seen on an artist's video)
+        if meta is None:
+            raise RuntimeError(f"no post data returned {errors[:1]}")
     files = [(i[1], i[2]) for i in items if i and i[0] == 3]
     return meta, files
+
+
+def meta_from_ytdlp(handle, post_id):
+    """Video posts only: yt-dlp's data mapped onto the TikTok fields normalize() reads. yt-dlp has no save count,
+    so saves stay missing (None), not zero."""
+    try:
+        d = json.loads(run([portable.exe("yt-dlp"), "-J", "--no-warnings", "--impersonate", "chrome",
+                            f"https://www.tiktok.com/@{handle}/video/{post_id}"]))
+    except (RuntimeError, json.JSONDecodeError):
+        return None
+    artists = d.get("artists") or ([d["artist"]] if d.get("artist") else [])
+    return {"_source": "yt-dlp (gallery-dl returned nothing)", "id": post_id, "desc": d.get("description") or "",
+            "createTime": d.get("timestamp"),
+            "stats": {"playCount": d.get("view_count"), "diggCount": d.get("like_count"),
+                      "commentCount": d.get("comment_count"), "shareCount": d.get("repost_count"),
+                      "collectCount": d.get("save_count")},
+            "music": {"title": d.get("track"), "authorName": ", ".join(artists) or None, "original": None,
+                      "id": None},
+            "video": {"duration": d.get("duration"), "width": d.get("width"), "height": d.get("height")},
+            "author": {"uniqueId": handle, "nickname": d.get("uploader") or d.get("channel")}}
 
 
 def hashtags_of(meta):
@@ -107,9 +129,9 @@ def hashtags_of(meta):
 def normalize(meta, handle, post_id, kind, files):
     stats = meta.get("statsV2") or meta.get("stats") or {}
     n = lambda k: int(stats.get(k) or 0)
-    views, likes, comments, shares, saves = (n("playCount"), n("diggCount"), n("commentCount"),
-                                             n("shareCount"), n("collectCount"))
-    rate = lambda x: round(x / views, 4) if views else None
+    views, likes, comments, shares = n("playCount"), n("diggCount"), n("commentCount"), n("shareCount")
+    saves = n("collectCount") if stats.get("collectCount") is not None else None  # yt-dlp fallback: unknown, not 0
+    rate = lambda x: round(x / views, 4) if views and x is not None else None
     published = datetime.fromtimestamp(int(meta.get("createTime") or 0) or int(id_time(post_id).timestamp()),
                                        timezone.utc)
     local = published.astimezone(LOCAL_TZ)
@@ -137,7 +159,7 @@ def normalize(meta, handle, post_id, kind, files):
         "mentions": list(dict.fromkeys(mentions)),
         "stats": {"views": views, "likes": likes, "comments": comments, "shares": shares, "saves": saves},
         "rates": {
-            "engagement": rate(likes + comments + shares + saves),
+            "engagement": rate(likes + comments + shares + (saves or 0)),
             "save": rate(saves), "share": rate(shares), "comment": rate(comments),
         },
         "sound": {

@@ -1,0 +1,50 @@
+{
+  "id": "7683300809983020310",
+  "url": "https://www.tiktok.com/@zaralarsson/video/7683300809983020310",
+  "creator": "zaralarsson",
+  "type": "video",
+  "collected_at": "2026-10-01T14:37:23+00:00",
+  "published": {
+    "utc": "2026-09-08T22:51:33+00:00",
+    "local": "2026-09-09T06:51:33+08:00",
+    "timezone": "Asia/Manila",
+    "weekday": "Wednesday",
+    "hour": 6
+  },
+  "caption": "🌕",
+  "hashtags": [],
+  "mentions": [],
+  "stats": {
+    "views": 5300000,
+    "likes": 854400,
+    "comments": 3176,
+    "shares": 5052,
+    "saves": 19614
+  },
+  "rates": {
+    "engagement": 0.1665,
+    "save": 0.0037,
+    "share": 0.001,
+    "comment": 0.0006
+  },
+  "sound": {
+    "title": "Blue Moon",
+    "author": "Zara Larsson",
+    "original": null,
+    "id": null
+  },
+  "slide_count": null,
+  "duration": 20,
+  "size": {
+    "width": 1080,
+    "height": 1920
+  },
+  "labels": {
+    "ad": false,
+    "ai_generated": false,
+    "location": null
+  },
+  "files": {
+    "video": "video.mp4"
+  }
+}

@@ -4,11 +4,13 @@ name: Lip-sync dance trend
 status: draft
 type: video
 visual_class: humans
-confidence: Low
+confidence: Medium
 sources:
 - '7689387357631515937'
+- '7683300809983020310'
 creators:
 - aishahdv
+- zaralarsson
 created: '2026-10-01'
 updated: '2026-10-01'
 summary: A 15-second single-shot dance and lip-sync to a trending song, one person filmed handheld by a friend in a sunny narrow alley, starting on a face close-up and pulling back to knees up, no text on screen.

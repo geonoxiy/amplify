@@ -1,0 +1,54 @@
+{
+  "still": "content-bank/P015-lip-sync-dance-trend/runs/run-02_2026-10-01_willow-car-park-dance/raw/stills/willow_v3_sd5.png",
+  "matched": "content-bank/P015-lip-sync-dance-trend/runs/run-02_2026-10-01_willow-car-park-dance/raw/stills/willow_v3_sd5_matched.png",
+  "crop_px": [
+    75,
+    186,
+    1388,
+    2467
+  ],
+  "source": {
+    "nose_y": 52.6,
+    "centre_x": 50.7,
+    "torso": 16.5
+  },
+  "still_target": {
+    "nose_y": 50.1,
+    "centre_x": 50.7,
+    "torso": 15.4
+  },
+  "still_got": {
+    "nose_y": 50.2,
+    "centre_x": 50.8,
+    "torso": 15.0
+  },
+  "predicted_after_model": {
+    "nose_y": 52.7,
+    "centre_x": 50.8,
+    "torso": 16.1
+  },
+  "model_scale": 1.07,
+  "model_shift": 2.5,
+  "warnings": [],
+  "grade": {
+    "source": {
+      "brightness_pct": 52.2,
+      "contrast_pct": 24.1,
+      "saturation_pct": 18.1,
+      "sharpness": 346.9,
+      "noise_sigma": 1.4
+    },
+    "still": {
+      "brightness_pct": 61.0,
+      "contrast_pct": 20.6,
+      "saturation_pct": 13.2,
+      "sharpness": 186.9,
+      "noise_sigma": 1.48
+    },
+    "suggested_finish": {
+      "exposure": 0.86,
+      "saturation": 1.37,
+      "note": "re-measure the generated clip before finishing: the model shifts the grade too"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "driver": "content-bank/P015-lip-sync-dance-trend/runs/run-02_2026-10-01_willow-car-park-dance/raw/motion/driver.mp4",
+  "size": [
+    720,
+    1280
+  ],
+  "aspect": 0.5625,
+  "placement": {
+    "nose_y": 52.6,
+    "centre_x": 50.7,
+    "torso": 16.5
+  },
+  "placement_at": "start",
+  "framing": "full body",
+  "vanishing_point": null,
+  "ground_edge_pct": 73.6,
+  "camera": {
+    "label": "moving",
+    "shift_range_pct": 1.72,
+    "scale_range": [
+      1.0,
+      1.011
+    ]
+  },
+  "guide_frame_s": 0.4,
+  "silhouette_box_pct": [
+    36.5,
+    49.5,
+    66.9,
+    99.9
+  ],
+  "still_target": {
+    "nose_y": 50.1,
+    "centre_x": 50.7,
+    "torso": 15.4,
+    "note": "aimed off for Kling (x1.07 larger, 2.5 points lower)"
+  },
+  "finish_camera": "content-bank/P015-lip-sync-dance-trend/runs/run-02_2026-10-01_willow-car-park-dance/raw/motion/driver.mp4",
+  "prompt_layout": "The layout guide image is only a guide: copy its camera angle, its camera height: the far edge of the ground (the darker line in the guide) sits 74 percent of the way down the frame, level with her hips (the phone low, so the sky or the far scene fills the frame above), and exactly where she stands and how big she is (the grey shape), with her whole body in frame, feet just above the bottom edge. Do not draw any lines, grey shapes or guide marks."
+}

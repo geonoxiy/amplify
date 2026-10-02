@@ -26,3 +26,9 @@ The owner's frame: **layers. background, character, foreground.** Change the bac
 - **Fast spins, hair flips and head throws smear the face** in every take (about 150 px face at knees-up framing). Pick sources with fewer of them when realism matters, or expect 0.2 to 0.3 s smears there. Adding motion blur does not hide it: our face is already blurrier than the source's at speed (measured).
 - **Kling sometimes invents a camera move** (one take panned 6% and pulled back 9%). Measure each take's camera (`motion.camera_path`) before choosing: a locked camera on a moving take needs a big zoom.
 - **Look at faces, don't trust the flags alone:** `motion.py faces` catches warped proportions, not smeared features.
+
+## From run-02 (Willow car-park dance, @zaralarsson source, 2026-10-01)
+- **A person walking towards or away from the camera:** match the still to where they stand when the driver starts (`motion.py layout --at start`), not their average placement.
+- **Open scenes have no vanishing point:** the far ground edge shows the camera height (`layout` now detects it, draws it in the guide and states it in the prompt). Nano Banana Pro kept the camera at chest height or overdid a worm's-eye view; Seedream 5.0 Pro matched "phone at hip height, head and shoulders against the sky".
+- **Kling pans to follow a person who comes close** (both takes, 10% and 22%), even when the source camera is still. Locking it costs a big zoom; filling the uncovered edge shows a seam when the scene has depth (parallax). Until there's a fix, offer the owner the follow-pan version and the zoomed lock side by side.
+- **The face check is unreliable when the person is small or turned away:** run it on the driver too and compare (here both found a face in ~68% of samples), then judge by eye.

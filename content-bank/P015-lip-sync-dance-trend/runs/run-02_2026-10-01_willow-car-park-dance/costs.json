@@ -1,0 +1,44 @@
+[
+ {
+  "model": "nano-banana-pro",
+  "task_id": "9991c3dd4a98fb5736a42f74761403c9",
+  "credits": 24.0,
+  "output": "content-bank/P015-lip-sync-dance-trend/runs/run-02_2026-10-01_willow-car-park-dance/raw/stills/willow_v1_nbp.png",
+  "prompt": "Unretouched iPhone photo. Images 1 and 2 are the woman: keep her exact identity: oval face with a slightly square jaw, a small bump on the nose bridge, freckles across the nose bridge and upper cheeks, small flat moles on one cheek and near the jaw, visible pores, light-olive skin, brown eyes, small"
+ },
+ {
+  "model": "nano-banana-pro",
+  "task_id": "84a3372e06d0b2bf663fed028f3fc250",
+  "credits": 24.0,
+  "output": "content-bank/P015-lip-sync-dance-trend/runs/run-02_2026-10-01_willow-car-park-dance/raw/stills/willow_v2_nbp.png",
+  "prompt": "Unretouched iPhone photo. Images 1 and 2 are the woman: keep her exact identity: oval face with a slightly square jaw, a small bump on the nose bridge, freckles across the nose bridge and upper cheeks, small flat moles on one cheek and near the jaw, visible pores, light-olive skin, brown eyes, small"
+ },
+ {
+  "model": "seedream/5-pro-image-to-image",
+  "task_id": "f58e37d58cadd77449b6b1f14ef909ef",
+  "credits": 15.0,
+  "output": "content-bank/P015-lip-sync-dance-trend/runs/run-02_2026-10-01_willow-car-park-dance/raw/stills/willow_v3_sd5.png",
+  "prompt": "Unretouched iPhone photo taken from a low camera. Images 1 and 2 are the woman: keep her exact identity (oval face, slightly square jaw, small bump on the nose bridge, freckles across the nose bridge and cheeks, small flat moles on one cheek and near the jaw, visible pores, light-olive skin, brown e"
+ },
+ {
+  "model": "nano-banana-pro",
+  "task_id": "368376de04d2a02f66a3055b54f2a6e5",
+  "credits": 24.0,
+  "output": "content-bank/P015-lip-sync-dance-trend/runs/run-02_2026-10-01_willow-car-park-dance/raw/stills/willow_v3_nbp.png",
+  "prompt": "Unretouched iPhone photo taken from a low camera. Images 1 and 2 are the woman: keep her exact identity (oval face, slightly square jaw, small bump on the nose bridge, freckles across the nose bridge and cheeks, small flat moles on one cheek and near the jaw, visible pores, light-olive skin, brown e"
+ },
+ {
+  "model": "kling-3.0/motion-control",
+  "task_id": "b32a9d4421fcf47b4b2caa3730300281",
+  "credits": 432.0,
+  "output": "content-bank/P015-lip-sync-dance-trend/runs/run-02_2026-10-01_willow-car-park-dance/raw/motion/clip_v1b.mp4",
+  "prompt": "No distortion, the character's movements are consistent with the video. "
+ },
+ {
+  "model": "kling-3.0/motion-control",
+  "task_id": "5b28599c3ca62e1b080af8124cbaf150",
+  "credits": 432.0,
+  "output": "content-bank/P015-lip-sync-dance-trend/runs/run-02_2026-10-01_willow-car-park-dance/raw/motion/clip_v1a.mp4",
+  "prompt": "No distortion, the character's movements are consistent with the video."
+ }
+]

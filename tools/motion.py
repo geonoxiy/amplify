@@ -24,6 +24,16 @@ Usage:
       <clip>_faces.jpg + .json: face size in pixels, frames where no face is found, and frames whose face proportions
       (nose, jaw, mouth width against the eye spacing) jump from the clip's median, boxed in red. Look at the sheet:
       teeth are not measured, only seen.
+  motion.py layout <driver.mp4> --out <dir> [--at median|start]
+      Measures how the source frames its person → <dir>/layout.json: median placement (nose height, body centre,
+      torso length as % of the frame), framing, the vanishing point of the place's receding lines, whether the camera
+      moves, still targets aimed off for the model, and the layout wording for the image prompt; plus
+      <dir>/layout_guide.png: a grey silhouette from a calm frame near the typical placement, perspective lines and
+      the horizon, no source pixels. Attach the guide to the persona still's image call.
+  motion.py fit <still.png> --layout <dir>/layout.json --out matched.png [--width 1440]
+      Crops a persona still so that after the model the person lands where the source person stands (the model draws
+      them about 7% larger and 2.5 points lower); the best compromise when the still lacks room, with warnings, the
+      predicted placement, and the grade gap to the source with suggested finish settings → matched.fit.json.
   motion.py splice <take_a.mp4> <take_b.mp4> [...] --out best.mp4 [--window 1] [--plan "0-3:a,6-8:b"]
       Best-of takes made from the same driver (frame k is the same pose in each): per window the take with fewer
       flagged faces, cut where the takes look most alike, 4-frame crossfade → best.mp4 + best.json (the plan).
@@ -705,6 +715,7 @@ def cmd_check(args):
     timing_r = (round(float(np.corrcoef(ds[ok], cs[ok])[0, 1]), 2)
                 if ok.sum() >= 10 and np.std(ds[ok]) > 0 and np.std(cs[ok]) > 0 else None)
     drv_move = movement(dtrk)
+    place = {"driver": placement(dtrk["lm"], *dtrk["size"]), "clip": placement(ctrk["lm"], *ctrk["size"])}
     clip_people = cn[b0:b0 + k]
     clip_people = clip_people[clip_people >= 0]
     stretch_d, stretch_c = limb_stretch(dtrk), limb_stretch(ctrk)
@@ -739,6 +750,12 @@ def cmd_check(args):
             fails.append(f"{v['near_duplicate_frames']} frames are near-duplicates of the {name} (source footage came through)")
     if drv_move["label"] == "still":
         warns.append("the driver barely moves, so this comparison says little")
+    if place["driver"] and place["clip"]:  # where the person stands: the owner asked for the source's placement
+        pd, pc = place["driver"], place["clip"]
+        if abs(pc["nose_y"] - pd["nose_y"]) > 2 or abs(pc["centre_x"] - pd["centre_x"]) > 2 \
+                or abs(pc["torso"] / pd["torso"] - 1) > 0.08:
+            warns.append(f"placement off: nose {pc['nose_y']}% vs {pd['nose_y']}%, centre {pc['centre_x']}% vs "
+                         f"{pd['centre_x']}%, torso {pc['torso']}% vs {pd['torso']}% (clip vs driver)")
     worst = sorted([(v, i) for i, v in enumerate(seconds) if v is not None], reverse=True)[:3]
     result = {"driver": rel(drv), "clip": rel(clip), "verdict": "fail" if fails else "check" if warns else "pass",
               "mean_angle_error_deg": round(mean_err, 1), "by_group_deg": by_group, "per_second_deg": seconds,
@@ -747,8 +764,9 @@ def cmd_check(args):
               "clip_movement": movement(ctrk)["label"],
               "clip_one_person_pct": round(float(np.mean(clip_people == 1)) * 100, 1),
               "limb_length_spread": {"driver": stretch_d, "clip": stretch_c}, "duplicates": dup,
-              "fails": fails, "warnings": warns,
-              "thresholds": {"good_deg": GOOD_ERR, "fail_deg": BAD_ERR, "near_duplicate_phash": 10}}
+              "placement": place, "fails": fails, "warnings": warns,
+              "thresholds": {"good_deg": GOOD_ERR, "fail_deg": BAD_ERR, "near_duplicate_phash": 10,
+                             "placement": "nose and centre within 2 points, torso within 8%"}}
     dest = clip.with_name(clip.stem + "_motion_check.json")
     dest.write_text(json.dumps(result, indent=2))
     imgs, labels = [], []
@@ -964,6 +982,343 @@ def cmd_splice(args):
           f"{[c['t'] for c in info['cuts']]}; flagged faces per take {info['flagged_per_take']} → kept {info['flagged_kept']}")
 
 
+# ---------------------------------------------------------------- layout
+
+# Kling motion control draws the subject a little larger and lower than the still. Measured on P015 run-01's two
+# 1080p finals (2026-10-01): torso x1.065 to x1.083, nose 2.4 to 3 points lower. `fit` aims the still off by that much.
+MODEL_SCALE, MODEL_SHIFT = 1.07, 2.5
+FRAMING_WORDS = {"face": "a tight face close-up", "chest up": "her body cut off at the chest by the bottom edge",
+                 "waist up": "her body cut off at the waist by the bottom edge",
+                 "knees up": "her body cut off around the knees by the bottom edge",
+                 "full body": "her whole body in frame, feet just above the bottom edge"}
+
+
+def placement(lm, w, h):
+    """Median nose height, body centre and torso length as % of the frame (samples with nose, shoulders and hips seen)."""
+    lm = lm if lm.ndim == 3 else lm[None]
+    ok = seen(lm, 0) & seen(lm, 11) & seen(lm, 12) & seen(lm, 23) & seen(lm, 24)
+    if not ok.any():
+        return None
+    sh = (lm[:, 11, :2] + lm[:, 12, :2]) / 2
+    hp = (lm[:, 23, :2] + lm[:, 24, :2]) / 2
+    return {"nose_y": round(float(np.median(lm[ok, 0, 1])) / h * 100, 1),
+            "centre_x": round(float(np.median(((sh[:, 0] + hp[:, 0]) / 2)[ok])) / w * 100, 1),
+            "torso": round(float(np.median(np.linalg.norm(sh - hp, axis=-1)[ok])) / h * 100, 1)}
+
+
+def segment_people(frame_bgr):
+    """Body outline of everyone in one frame (uint8, 1 = a person), from the pose model's segmentation."""
+    import mediapipe as mp
+    from mediapipe.tasks.python import BaseOptions, vision
+    landmarker(video_mode=False).close()  # makes sure the model file is there
+    opts = vision.PoseLandmarkerOptions(
+        base_options=BaseOptions(model_asset_path=str(MODEL), delegate=BaseOptions.Delegate.CPU),
+        running_mode=vision.RunningMode.IMAGE, num_poses=3, output_segmentation_masks=True)
+    with vision.PoseLandmarker.create_from_options(opts) as pl:
+        res = pl.detect(mp.Image(image_format=mp.ImageFormat.SRGB, data=cv2.cvtColor(frame_bgr, cv2.COLOR_BGR2RGB)))
+    mask = np.zeros(frame_bgr.shape[:2], np.uint8)
+    for sm in res.segmentation_masks or []:
+        mask |= (sm.numpy_view().squeeze() > 0.5).astype(np.uint8)
+    return mask
+
+
+def vanishing_point(frames, seed=0):
+    """Where the place's receding lines meet (wall tops and bases, kerbs, door tops), people masked out, median over
+    several frames, as % of the frame. A length-weighted vote: a line counts for a candidate point only if it points
+    at it within 2 degrees, so long wall edges outvote the short fake diagonals a brick or tile texture makes.
+    None in an open scene with too few such lines."""
+    rng = np.random.default_rng(seed)
+    pts = []
+    for f in frames:
+        h, w = f.shape[:2]
+        g = cv2.cvtColor(f, cv2.COLOR_BGR2GRAY)
+        edges = cv2.Canny(cv2.GaussianBlur(g, (5, 5), 0), 60, 160)
+        edges[cv2.dilate(segment_people(f), np.ones((15, 15), np.uint8)) > 0] = 0
+        lines = cv2.HoughLinesP(edges, 1, np.pi / 360, 100, minLineLength=h * 0.10, maxLineGap=8)
+        if lines is None:
+            continue
+        L = []
+        for x1, y1, x2, y2 in lines.reshape(-1, 4).astype(float):
+            ang = abs(np.degrees(np.arctan2(y2 - y1, x2 - x1))) % 180
+            if 12 < ang < 78 or 102 < ang < 168:  # diagonals only: verticals and horizontals don't recede
+                L.append((x1, y1, x2, y2, np.hypot(x2 - x1, y2 - y1)))
+        if len(L) < 6:
+            continue
+        L = np.array(sorted(L, key=lambda r: -r[4])[:80])
+        mid = (L[:, :2] + L[:, 2:4]) / 2
+        dirs = (L[:, 2:4] - L[:, :2]) / L[:, 4:5]
+
+        rising = dirs[:, 0] * dirs[:, 1] < 0  # in image coordinates: lines going up to the right vs down to the right
+
+        def support(v):
+            to = v[None] - mid
+            dist = np.linalg.norm(to, axis=1) + 1e-6
+            cosang = np.abs((to / dist[:, None] * dirs).sum(1))
+            inl = cosang > np.cos(np.radians(2.0))
+            # a real vanishing point gathers lines from both sides (left wall and right wall, kerb and wall top);
+            # one family of near-parallel lines (brick courses on one wall) only "meets" far off the frame
+            return inl, float(min(L[inl & rising, 4].sum(), L[inl & ~rising, 4].sum()))
+
+        best = (None, -1, None)
+        for _ in range(400):
+            i, j = rng.choice(len(L), 2, replace=False)
+            a1, b1 = L[i, :2], dirs[i]
+            a2, b2 = L[j, :2], dirs[j]
+            M = np.array([b1, -b2]).T
+            if abs(np.linalg.det(M)) < 1e-3:
+                continue
+            s_, _ = np.linalg.solve(M, a2 - a1)
+            v = a1 + s_ * b1
+            if not (-0.5 * w < v[0] < 1.5 * w and -0.5 * h < v[1] < 1.5 * h):
+                continue
+            inl, score = support(v)
+            if score > best[1]:
+                best = (v, score, inl)
+        v, score, inl = best
+        if v is None or score <= 0 or inl.sum() < 5:
+            continue
+        A = np.stack([dirs[inl, 1], -dirs[inl, 0]], 1)  # refine: least squares on the lines that agree
+        b = (A * L[inl, :2]).sum(1)
+        v, *_ = np.linalg.lstsq(A, b, rcond=None)
+        pts.append((v[0] / w * 100, v[1] / h * 100, int(inl.sum())))
+    if not pts:
+        return None
+    a = np.array(pts)
+    return {"x": round(float(np.median(a[:, 0])), 1), "y": round(float(np.median(a[:, 1])), 1),
+            "lines": int(np.median(a[:, 2])), "frames": len(pts),
+            "spread_pct": round(float(np.max(np.ptp(a[:, :2], axis=0))), 1)}
+
+
+def ground_edge(frames):
+    """Open scenes have no converging lines; the camera height then shows in where the far edge of the ground sits
+    (kerb, base of parked cars, parapet, the line where the floor meets a far wall): the longest near-horizontal
+    lines outside the people, median over frames, as % of the height. None if nothing long and level is found."""
+    ys = []
+    for f in frames:
+        h, w = f.shape[:2]
+        g = cv2.cvtColor(f, cv2.COLOR_BGR2GRAY)
+        edges = cv2.Canny(cv2.GaussianBlur(g, (5, 5), 0), 50, 150)
+        edges[cv2.dilate(segment_people(f), np.ones((15, 15), np.uint8)) > 0] = 0
+        lines = cv2.HoughLinesP(edges, 1, np.pi / 360, 80, minLineLength=w * 0.25, maxLineGap=12)
+        if lines is None:
+            continue
+        best = []
+        for x1, y1, x2, y2 in lines.reshape(-1, 4).astype(float):
+            if abs(np.degrees(np.arctan2(y2 - y1, x2 - x1))) % 180 < 4 or abs(np.degrees(np.arctan2(y2 - y1, x2 - x1))) % 180 > 176:
+                best.append((np.hypot(x2 - x1, y2 - y1), (y1 + y2) / 2 / h * 100))
+        if best:
+            best.sort(reverse=True)
+            ys.append(float(np.median([y for _, y in best[:3]])))
+    return round(float(np.median(ys)), 1) if ys else None
+
+
+def camera_summary(video):
+    path = camera_path(video)
+    w, h = video_size(video)
+    xs = [m_[0, 2] / w * 100 for m_ in path]
+    ys = [m_[1, 2] / h * 100 for m_ in path]
+    sc = [float(np.hypot(m_[0, 0], m_[1, 0])) for m_ in path]
+    span = max(max(xs) - min(xs), max(ys) - min(ys))
+    still = span < 0.5 and max(sc) - min(sc) < 0.01
+    return {"label": "static" if still else "moving", "shift_range_pct": round(span, 2),
+            "scale_range": [round(min(sc), 3), round(max(sc), 3)]}
+
+
+def neutral_frame(trk, target):
+    """A calm, front-on sample near the clip's typical placement: hands near the hips, shoulders level."""
+    lm, (w, h) = trk["lm"], trk["size"]
+    best = None
+    for k in range(len(trk["t"])):
+        if trk["n"][k] != 1 or not all(lm[k, j, 2] >= VIS for j in (0, 11, 12, 15, 16, 23, 24)):
+            continue
+        sw = abs(lm[k, 11, 0] - lm[k, 12, 0])
+        if sw < 1:
+            continue
+        hipc = (lm[k, 23, :2] + lm[k, 24, :2]) / 2
+        spread = (np.linalg.norm(lm[k, 15, :2] - hipc) + np.linalg.norm(lm[k, 16, :2] - hipc)) / sw
+        tilt = abs(lm[k, 11, 1] - lm[k, 12, 1]) / sw
+        p = placement(lm[k], w, h)
+        off = 0 if p is None else abs(p["torso"] / target["torso"] - 1) * 3 + abs(p["nose_y"] - target["nose_y"]) / 5
+        score = spread + 2 * tilt + off
+        if best is None or score < best[0]:
+            best = (score, k)
+    return None if best is None else best[1]
+
+
+def layout_prompt(lay):
+    """The layout guide instructions for the image prompt, from the measurements."""
+    p, vp, cam = lay["placement"], lay["vanishing_point"], lay["camera"]
+    parts = ["The layout guide image is only a guide: copy its camera angle"]
+    if vp:
+        if abs(vp["x"] - p["centre_x"]) < 12 and abs(vp["y"] - p["nose_y"]) < 8:
+            where = "a point right behind her head (the phone held level at her eye height)"
+        elif vp["y"] < p["nose_y"] - 8:
+            where = "a point above her head (the phone held high and tilted down)"
+        else:
+            where = "a point below her head (the phone held low and tilted up)"
+        parts.append(f", its horizon height, how the lines of the place converge to {where}")
+    elif lay.get("ground_edge_pct"):
+        e = lay["ground_edge_pct"]
+        body = "her hips" if e > p["nose_y"] + 10 else "her shoulders" if e > p["nose_y"] + 3 else "her head"
+        low = " (the phone low, so the sky or the far scene fills the frame above)" if e > 60 else ""
+        parts.append(f", its camera height: the far edge of the ground (the darker line in the guide) sits {e:.0f} percent "
+                     f"of the way down the frame, level with {body}{low}")
+    parts.append(", and exactly where she stands and how big she is (the grey shape), with "
+                 + FRAMING_WORDS.get(lay["framing"].split(" (")[0], lay["framing"]) + ".")
+    parts.append(" Do not draw any lines, grey shapes or guide marks.")
+    if cam["label"] == "static":
+        parts.append(" The phone is perfectly still, as if on a tripod.")
+    return "".join(parts)
+
+
+def cmd_layout(args):
+    """Measure where and how the source frames its person, and draw the guide for the persona still."""
+    drv = Path(args.driver)
+    out = Path(args.out)
+    out.mkdir(parents=True, exist_ok=True)
+    trk = track(drv, 10)
+    w, h = trk["size"]
+    # median: the person stays at one distance. start: the person walks towards or away from the camera, so the still
+    # has to match where they stand when the clip starts (the model takes the still's placement as its first frame)
+    early = trk["t"] - trk["t"][0] <= 0.5
+    target = placement(trk["lm"][early] if args.at == "start" else trk["lm"], w, h)
+    if target is None:
+        sys.exit("nose, shoulders and hips are never all in frame: there is no placement to copy")
+    frames = read_frames(drv)
+    fps = cv2.VideoCapture(str(drv)).get(cv2.CAP_PROP_FPS) or 30
+    sample = [frames[int(i)] for i in np.linspace(0, len(frames) - 1, 5)]
+    vp = vanishing_point(sample)
+    edge = None if vp else ground_edge(sample)
+    cam = camera_summary(drv)
+    if args.at == "start":  # the guide comes from the opening second, or frame 0 if nothing calm is there
+        first = trk["t"] - trk["t"][0] <= 1.0
+        sub_trk = {**trk, "t": trk["t"][first], "n": trk["n"][first], "lm": trk["lm"][first]}
+        k = neutral_frame(sub_trk, target)
+        k = 0 if k is None else k
+    else:
+        k = neutral_frame(trk, target)
+    if k is None:
+        sys.exit("no calm, front-on frame with the hands and hips in view: give the guide frame by hand (not built)")
+    t = float(trk["t"][k])
+    frame = frames[min(int(round(t * fps)), len(frames) - 1)]
+    mask = segment_people(frame)
+    kern = max(3, int(w * 0.043)) | 1
+    mask = cv2.morphologyEx(mask, cv2.MORPH_OPEN, cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (kern, kern)))
+    n_, lab, stats, _ = cv2.connectedComponentsWithStats(mask)
+    if n_ > 1:
+        mask = (lab == 1 + int(np.argmax(stats[1:, cv2.CC_STAT_AREA]))).astype(np.uint8)
+    guide = Image.new("RGB", (w, h), (246, 246, 246))
+    d = ImageDraw.Draw(guide)
+    if vp:
+        v = (vp["x"] / 100 * w, vp["y"] / 100 * h)
+        for end in [(0, 0), (w, 0), (0, h), (w, h), (0.18 * w, 0), (0.75 * w, 0), (0, 0.8 * h), (w, 0.86 * h)]:
+            d.line([v, end], fill=(200, 200, 200), width=3)
+        d.line([(0, v[1]), (w, v[1])], fill=(170, 200, 230), width=2)  # horizon = the camera's height
+    elif edge:  # open scene: the far ground edge, and a light grey for the ground below it
+        y = edge / 100 * h
+        d.rectangle([0, y, w, h], fill=(222, 222, 222))
+        d.line([(0, y), (w, y)], fill=(150, 150, 150), width=4)
+    guide.paste((128, 128, 128), mask=Image.fromarray(mask * 255))
+    guide.save(out / "layout_guide.png")
+    ys, xs = np.where(mask > 0)
+    lay = {"driver": rel(drv), "size": [w, h], "aspect": round(w / h, 4), "placement": target, "placement_at": args.at,
+           "framing": framing(trk["lm"]), "vanishing_point": vp, "ground_edge_pct": edge, "camera": cam,
+           "guide_frame_s": round(t, 2),
+           "silhouette_box_pct": [round(xs.min() / w * 100, 1), round(ys.min() / h * 100, 1),
+                                  round(xs.max() / w * 100, 1), round(ys.max() / h * 100, 1)] if len(xs) else None,
+           "still_target": {"nose_y": round(target["nose_y"] - MODEL_SHIFT, 1), "centre_x": target["centre_x"],
+                            "torso": round(target["torso"] / MODEL_SCALE, 1),
+                            "note": f"aimed off for Kling (x{MODEL_SCALE} larger, {MODEL_SHIFT} points lower)"},
+           "finish_camera": "static" if cam["label"] == "static" else rel(drv)}
+    lay["prompt_layout"] = layout_prompt(lay)
+    (out / "layout.json").write_text(json.dumps(lay, indent=2))
+    print(f"{rel(out / 'layout.json')}: nose {target['nose_y']}%  centre {target['centre_x']}%  torso {target['torso']}%  "
+          f"{lay['framing']}; vanishing point {('%s%%, %s%%' % (vp['x'], vp['y'])) if vp else 'none (open scene)'}"
+          f"{'' if vp else '; far ground edge at %s%%' % edge}; "
+          f"camera {cam['label']} (shift range {cam['shift_range_pct']}%); guide from {t:.2f}s → {rel(out / 'layout_guide.png')}")
+    print(f"prompt: {lay['prompt_layout']}")
+
+
+def cmd_fit(args):
+    """Crop a persona still so that, after Kling, the person lands where the source person stands."""
+    from measure import visual_measures
+    lay = json.loads(Path(args.layout).read_text())
+    T = lay["placement"]
+    tgt = {"nose_y": T["nose_y"] - args.model_shift, "centre_x": T["centre_x"], "torso": T["torso"] / args.model_scale}
+    aspect = lay["aspect"]
+    im = Image.open(args.still).convert("RGB")
+    W, H = im.size
+    n, L = pose_still(args.still)
+    p = placement(L, W, H) if L is not None else None
+    if p is None:
+        sys.exit("no person with nose, shoulders and hips in view in the still")
+    nose, cx, torso = p["nose_y"] / 100 * H, p["centre_x"] / 100 * W, p["torso"] / 100 * H
+    best = None
+    full = min(W, H * aspect)
+    for cw in np.linspace(full * 0.35, full, 260):  # every crop width; position clamped inside the picture
+        ch = cw / aspect
+        left = float(np.clip(cx - tgt["centre_x"] / 100 * cw, 0, W - cw))
+        top = float(np.clip(nose - tgt["nose_y"] / 100 * ch, 0, H - ch))
+        got = {"nose_y": (nose - top) / ch * 100, "centre_x": (cx - left) / cw * 100, "torso": torso / ch * 100}
+        cost = ((got["torso"] / tgt["torso"] - 1) * 100) ** 2 + (got["centre_x"] - tgt["centre_x"]) ** 2 \
+            + (got["nose_y"] - tgt["nose_y"]) ** 2
+        if best is None or cost < best[0]:
+            best = (cost, cw, ch, left, top)
+    _, cw, ch, left, top = best
+    ow = args.width
+    oh = int(round(ow / aspect / 2) * 2)
+    crop = im.crop((round(left), round(top), round(left + cw), round(top + ch))).resize((ow, oh), Image.LANCZOS)
+    dst = Path(args.out)
+    dst.parent.mkdir(parents=True, exist_ok=True)
+    crop.save(dst)
+    n2, L2 = pose_still(dst)
+    got = placement(L2, ow, oh) if L2 is not None else None
+    pred = {"nose_y": round(got["nose_y"] + args.model_shift, 1), "centre_x": got["centre_x"],
+            "torso": round(got["torso"] * args.model_scale, 1)} if got else None
+    warns = []
+    if pred:
+        if abs(pred["nose_y"] - T["nose_y"]) > 2:
+            warns.append(f"nose will land about {pred['nose_y']}% (source {T['nose_y']}%)")
+        if abs(pred["centre_x"] - T["centre_x"]) > 2:
+            warns.append(f"body centre will land about {pred['centre_x']}% (source {T['centre_x']}%): the still has too "
+                         "little room on one side; render it with more space around her")
+        if abs(pred["torso"] / T["torso"] - 1) > 0.08:
+            warns.append(f"torso will be about {pred['torso']}% (source {T['torso']}%): render the still "
+                         + ("wider" if pred["torso"] > T["torso"] else "closer"))
+    if cw < ow * 0.6:
+        warns.append(f"the crop is only {int(cw)} px wide and is enlarged to {ow}: render the still at 4K")
+    if n2 and n2 > 1:
+        warns.append(f"{n2} people found in the matched still")
+    drv_frames = read_frames(ROOT / lay["driver"]) if (ROOT / lay["driver"]).exists() else []
+    keys = ("brightness_pct", "contrast_pct", "saturation_pct", "sharpness", "noise_sigma")
+    vs = visual_measures(crop.resize((lay["size"][0], lay["size"][1]), Image.LANCZOS))
+    gap = None
+    if drv_frames:
+        ref = [visual_measures(Image.fromarray(cv2.cvtColor(drv_frames[int(i)], cv2.COLOR_BGR2RGB)))
+               for i in np.linspace(0, len(drv_frames) - 1, 5)]
+        src = {k_: round(float(np.mean([r[k_] for r in ref])), 1) for k_ in keys}
+        gap = {"source": src, "still": {k_: vs[k_] for k_ in keys},
+               "suggested_finish": {"exposure": round(min(1.15, max(0.85, src["brightness_pct"] / max(vs["brightness_pct"], 1))), 2),
+                                    "saturation": round(min(1.4, max(0.9, src["saturation_pct"] / max(vs["saturation_pct"], 1))), 2),
+                                    "note": "re-measure the generated clip before finishing: the model shifts the grade too"}}
+    info = {"still": rel(args.still), "matched": rel(dst), "crop_px": [round(left), round(top), round(cw), round(ch)],
+            "source": T, "still_target": {k_: round(v, 1) for k_, v in tgt.items()}, "still_got": got,
+            "predicted_after_model": pred, "model_scale": args.model_scale, "model_shift": args.model_shift,
+            "warnings": warns, "grade": gap}
+    dst.with_suffix(".fit.json").write_text(json.dumps(info, indent=2))
+    print(f"{rel(dst)}: crop {int(cw)}x{int(ch)} at ({int(left)},{int(top)}) of {W}x{H} → {ow}x{oh}")
+    print(f"  {'':16s}{'nose':>8s}{'centre':>8s}{'torso':>8s}")
+    for name, d_ in (("source", T), ("still target", tgt), ("still got", got), ("after model", pred)):
+        if d_:
+            print(f"  {name:16s}{d_['nose_y']:8.1f}{d_['centre_x']:8.1f}{d_['torso']:8.1f}")
+    if gap:
+        print("  grade " + "  ".join(f"{k_.split('_')[0]} {gap['source'][k_]}/{gap['still'][k_]}" for k_ in keys)
+              + f"  (source/still) → finish --exposure {gap['suggested_finish']['exposure']} --saturation "
+              f"{gap['suggested_finish']['saturation']}")
+    for w_ in warns:
+        print(f"  warning: {w_}")
+
+
 # ---------------------------------------------------------------- finish
 
 def person_masks(video, grow=0.03):
@@ -1067,7 +1422,44 @@ def cmd_finish(args):
             warps = [src[min(i, len(src) - 1)] @ warps[i] for i in range(len(warps))]
         n = min(n, len(warps))
     anchor = (w / 2, h / 2)
-    z0 = overscan(warps[:n], w, h, anchor) if args.camera != "generated" else 1.0
+    plate = None
+    if args.fill and args.camera != "generated":
+        # the background the model drew comes from our still: fill the edges the lock uncovers from that still instead
+        # of zooming in. The person is removed from it first (inpainted) so no ghost of her can appear in a filled edge
+        if args.camera == "static":  # nothing to save by aiming at the middle of the drift: lock to frame 0, the still
+            warps = [np.linalg.inv(m_) for m_ in gen]
+            ref = np.eye(3)
+        if args.fill == "clip":
+            # the clip's own first seconds, stabilised, people masked out, per-pixel median: the scene as the model
+            # drew it, so clouds and textures line up at the seam (the still itself was redrawn by the model)
+            cap0 = cv2.VideoCapture(str(clip))
+            stack, k_ = [], 0
+            want = set(np.linspace(0, min(n, int(src_fps * 3)) - 1, 10).astype(int))
+            while k_ < min(n, int(src_fps * 3)):
+                ok_, fr_ = cap0.read()
+                if not ok_:
+                    break
+                if k_ in want:
+                    Mk = warps[k_][:2]
+                    st_ = cv2.warpAffine(fr_, Mk, (w, h), flags=cv2.INTER_LINEAR, borderValue=0).astype(np.float32)
+                    ok_px = cv2.warpAffine(np.full((h, w), 255, np.uint8), Mk, (w, h), borderValue=0) > 128
+                    ppl = cv2.warpAffine(cv2.dilate(segment_people(fr_), np.ones((41, 41), np.uint8)), Mk, (w, h)) > 0
+                    st_[~ok_px | ppl] = np.nan
+                    stack.append(st_)
+                k_ += 1
+            cap0.release()
+            med = np.nanmedian(np.stack(stack), axis=0)
+            gaps = np.isnan(med[..., 0]).astype(np.uint8)
+            plate = cv2.inpaint(np.nan_to_num(med).astype(np.uint8), gaps, 9, cv2.INPAINT_TELEA)
+            print(f"fill plate from the clip's first 3 s: {len(stack)} frames, {gaps.mean() * 100:.1f}% inpainted")
+        else:
+            pl = cv2.resize(cv2.imread(str(args.fill)), (w, h), interpolation=cv2.INTER_AREA)
+            hole = cv2.dilate(segment_people(pl), cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (41, 41)))
+            plate = cv2.inpaint(pl, hole, 9, cv2.INPAINT_TELEA)
+        plate_ref = ref if args.fill != "clip" else np.eye(3)
+        z0 = 1.0
+    else:
+        z0 = overscan(warps[:n], w, h, anchor) if args.camera != "generated" else 1.0
     nose = None
     if args.pullback > 0:
         trk = track(clip, 15, 0, max(args.pullback, 0.5))
@@ -1079,6 +1471,8 @@ def cmd_finish(args):
                             "-r", str(fps), "-i", "-", "-an", "-c:v", "libx264", "-crf", "16", "-preset", "medium",
                             "-pix_fmt", "yuv420p", "-movflags", "+faststart", str(out)], stdin=subprocess.PIPE)
     rng = np.random.default_rng()
+    gain = np.ones(3, np.float32)
+    filled = []
     i = 0
     while i < n:
         ok, frame = cap.read()
@@ -1091,7 +1485,23 @@ def cmd_finish(args):
             ax = tuple(nose)
         Z = np.array([[z, 0, ax[0] * (1 - z)], [0, z, ax[1] * (1 - z)], [0, 0, 1]])
         M = (np.diag([W / w, H / h, 1.0]) @ Z @ warps[i])[:2]
-        img = cv2.warpAffine(frame, M, (W, H), flags=cv2.INTER_LANCZOS4, borderMode=cv2.BORDER_REFLECT)
+        if plate is None:
+            img = cv2.warpAffine(frame, M, (W, H), flags=cv2.INTER_LANCZOS4, borderMode=cv2.BORDER_REFLECT)
+        else:
+            img = cv2.warpAffine(frame, M, (W, H), flags=cv2.INTER_LANCZOS4, borderMode=cv2.BORDER_CONSTANT)
+            valid = cv2.warpAffine(np.full((h, w), 255, np.uint8), M, (W, H), flags=cv2.INTER_NEAREST, borderValue=0)
+            missing = valid < 128
+            filled.append(float(missing.mean()))
+            if missing.any():
+                Mp = (np.diag([W / w, H / h, 1.0]) @ Z @ plate_ref)[:2]
+                pw = cv2.warpAffine(plate, Mp, (W, H), flags=cv2.INTER_LANCZOS4, borderMode=cv2.BORDER_REPLICATE)
+                band = cv2.dilate(missing.astype(np.uint8), np.ones((61, 61), np.uint8)).astype(bool) & ~missing
+                if band.sum() > 500:  # match the still's colour to this frame next to the seam, smoothed over time
+                    g_ = img[band].mean(0) / np.maximum(pw[band].mean(0), 1)
+                    gain = 0.85 * gain + 0.15 * np.clip(g_, 0.7, 1.4).astype(np.float32)
+                alpha = cv2.GaussianBlur(cv2.erode(valid, np.ones((25, 25), np.uint8)).astype(np.float32) / 255, (0, 0), 14)
+                img = (img.astype(np.float32) * alpha[..., None]
+                       + np.clip(pw.astype(np.float32) * gain, 0, 255) * (1 - alpha[..., None])).astype(np.uint8)
         img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB).astype(np.float32)
         if args.exposure != 1.0:
             img *= args.exposure
@@ -1108,6 +1518,9 @@ def cmd_finish(args):
     enc.stdin.close()
     if enc.wait():
         sys.exit("ffmpeg failed while encoding")
+    if filled:
+        print(f"edge fill from {rel(args.fill)}: up to {max(filled) * 100:.1f}% of the frame, frames needing it "
+              f"{sum(f_ > 0 for f_ in filled)} of {len(filled)}")
     print(f"{rel(out)}: {i / src_fps:.1f}s, {W}x{H}, camera {args.camera if args.camera in ('static', 'generated') else 'from ' + rel(args.camera)}, "
           f"overscan {z0:.3f}x, pull-back {args.pullback:g}s, exposure {args.exposure:g}, saturation {args.saturation:g}, "
           f"sharpen {args.sharpen:g}, grain sigma {args.grain:g}")
@@ -1146,12 +1559,26 @@ def main():
     sp.add_argument("--crossfade", type=int, default=4, help="frames")
     sp.add_argument("--plan", help="manual choices in seconds, e.g. '0-3:a,3-5:b' (the rest is automatic)")
     sp.add_argument("--z", type=float, default=4.0)
+    ly = sub.add_parser("layout")
+    ly.add_argument("driver")
+    ly.add_argument("--out", required=True, help="folder for layout.json and layout_guide.png")
+    ly.add_argument("--at", choices=["median", "start"], default="median",
+                    help="placement over the whole clip, or over its first half second (person walks towards or away)")
+    ft = sub.add_parser("fit")
+    ft.add_argument("still")
+    ft.add_argument("--layout", required=True)
+    ft.add_argument("--out", required=True)
+    ft.add_argument("--width", type=int, default=1440, help="output width (height follows the driver's aspect)")
+    ft.add_argument("--model-scale", type=float, default=MODEL_SCALE, help="how much larger the model draws the person")
+    ft.add_argument("--model-shift", type=float, default=MODEL_SHIFT, help="how many points lower the model draws the nose")
     f = sub.add_parser("finish")
     f.add_argument("clip")
     f.add_argument("--out", required=True)
     f.add_argument("--camera", default="generated",
                    help="'generated' keeps the model's camera; 'static' locks it; a video path (the driver) replays that "
                         "video's real camera movement")
+    f.add_argument("--fill", help="'clip' (best: the clip's own first 3 s, stabilised, person removed) or the persona "
+                                  "still: fills the edges a camera lock uncovers instead of zooming in")
     f.add_argument("--pullback", type=float, default=0.0, help="seconds of digital pull-back at the start (0 = none)")
     f.add_argument("--zoom", type=float, default=1.8, help="zoom at the first frame of the pull-back")
     f.add_argument("--exposure", type=float, default=1.0, help="brightness gain")
@@ -1163,7 +1590,7 @@ def main():
         sys.exit("give both --start and --end, or neither")
     {"scan": cmd_scan, "driver": cmd_driver, "preflight": cmd_preflight, "check": cmd_check,
      "finish": cmd_finish, "faces": cmd_faces,
-     "splice": cmd_splice}[args.cmd](args)
+     "splice": cmd_splice, "layout": cmd_layout, "fit": cmd_fit}[args.cmd](args)
 
 
 if __name__ == "__main__":
