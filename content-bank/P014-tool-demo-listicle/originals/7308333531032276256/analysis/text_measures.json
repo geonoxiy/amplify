@@ -1,0 +1,333 @@
+{
+  "unit 1": {
+    "problems": [],
+    "text_blocks": [
+      {
+        "i": 1,
+        "text": "How To Find Trending\nContent Ideas 💡",
+        "box": [
+          5,
+          5,
+          70,
+          12
+        ],
+        "contrast": {
+          "bg_hex": "#bbb4af",
+          "text_hex": "#ffffff",
+          "text_hex_source": "record",
+          "contrast_ratio": 2.05,
+          "band": "low (<3)"
+        },
+        "safe_zone": {
+          "applies": false,
+          "note": "zones are for 9:16 (aspect 0.75 here)"
+        },
+        "fill_check": "record says #ffffff, pixels in the box suggest #aea59e"
+      },
+      {
+        "i": 2,
+        "text": "From A Social Media Manager",
+        "box": [
+          5,
+          16,
+          60,
+          5
+        ],
+        "contrast": {
+          "bg_hex": "#b8afa9",
+          "text_hex": "#ffffff",
+          "text_hex_source": "record",
+          "contrast_ratio": 2.16,
+          "band": "low (<3)"
+        },
+        "safe_zone": {
+          "applies": false,
+          "note": "zones are for 9:16 (aspect 0.75 here)"
+        },
+        "fill_check": "record says #ffffff, pixels in the box suggest #030202"
+      }
+    ]
+  },
+  "unit 2": {
+    "problems": [],
+    "text_blocks": [
+      {
+        "i": 1,
+        "text": "HubSpot Blog Ideas\nGenerator 👀",
+        "box": [
+          22,
+          5,
+          56,
+          8
+        ],
+        "contrast": {
+          "bg_hex": "#bbbac2",
+          "text_hex": "#171719",
+          "text_hex_source": "sampled",
+          "contrast_ratio": 9.33,
+          "band": "good (4.5+)"
+        },
+        "safe_zone": {
+          "applies": false,
+          "note": "zones are for 9:16 (aspect 0.75 here)"
+        }
+      },
+      {
+        "i": 2,
+        "text": "Gives You 5 FREE Ideas",
+        "box": [
+          28,
+          47,
+          44,
+          4
+        ],
+        "contrast": {
+          "bg_hex": "#253a4c",
+          "text_hex": "#f7fcf8",
+          "text_hex_source": "sampled",
+          "contrast_ratio": 11.29,
+          "band": "good (4.5+)"
+        },
+        "safe_zone": {
+          "applies": false,
+          "note": "zones are for 9:16 (aspect 0.75 here)"
+        }
+      }
+    ]
+  },
+  "unit 3": {
+    "problems": [],
+    "text_blocks": [
+      {
+        "i": 1,
+        "text": "Canva Magic Write ✍️",
+        "box": [
+          22,
+          5,
+          56,
+          8
+        ],
+        "contrast": {
+          "bg_hex": "#bfbcc7",
+          "text_hex": "#46454b",
+          "text_hex_source": "sampled",
+          "contrast_ratio": 5.1,
+          "band": "good (4.5+)"
+        },
+        "safe_zone": {
+          "applies": false,
+          "note": "zones are for 9:16 (aspect 0.75 here)"
+        }
+      },
+      {
+        "i": 2,
+        "text": "This is my favourite and not many people",
+        "box": [
+          22,
+          46,
+          56,
+          6
+        ],
+        "contrast": {
+          "bg_hex": "#ccd1cb",
+          "text_hex": "#979b96",
+          "text_hex_source": "sampled",
+          "contrast_ratio": 1.82,
+          "band": "low (<3)"
+        },
+        "safe_zone": {
+          "applies": false,
+          "note": "zones are for 9:16 (aspect 0.75 here)"
+        }
+      }
+    ]
+  },
+  "unit 4": {
+    "problems": [],
+    "text_blocks": [
+      {
+        "i": 1,
+        "text": "Semrush Free Title\nGenerator ✍️",
+        "box": [
+          22,
+          5,
+          56,
+          8
+        ],
+        "contrast": {
+          "bg_hex": "#b7b5bc",
+          "text_hex": "#27252b",
+          "text_hex_source": "sampled",
+          "contrast_ratio": 7.49,
+          "band": "good (4.5+)"
+        },
+        "safe_zone": {
+          "applies": false,
+          "note": "zones are for 9:16 (aspect 0.75 here)"
+        }
+      },
+      {
+        "i": 2,
+        "text": "Love Semrush For SEO As Well ✨",
+        "box": [
+          22,
+          46,
+          56,
+          5
+        ],
+        "contrast": {
+          "bg_hex": "#4f4cc1",
+          "text_hex": "#e7ebe4",
+          "text_hex_source": "sampled",
+          "contrast_ratio": 5.56,
+          "band": "good (4.5+)"
+        },
+        "safe_zone": {
+          "applies": false,
+          "note": "zones are for 9:16 (aspect 0.75 here)"
+        }
+      }
+    ]
+  },
+  "unit 5": {
+    "problems": [],
+    "text_blocks": [
+      {
+        "i": 1,
+        "text": "AnswerThePublic 👀",
+        "box": [
+          22,
+          5,
+          56,
+          8
+        ],
+        "contrast": {
+          "bg_hex": "#bebec1",
+          "text_hex": "#12141d",
+          "text_hex_source": "sampled",
+          "contrast_ratio": 9.93,
+          "band": "good (4.5+)"
+        },
+        "safe_zone": {
+          "applies": false,
+          "note": "zones are for 9:16 (aspect 0.75 here)"
+        }
+      },
+      {
+        "i": 2,
+        "text": "Ideas that people are actually searching",
+        "box": [
+          22,
+          46,
+          56,
+          6
+        ],
+        "contrast": {
+          "bg_hex": "#2b1b19",
+          "text_hex": "#3896f6",
+          "text_hex_source": "sampled",
+          "contrast_ratio": 5.41,
+          "band": "good (4.5+)"
+        },
+        "safe_zone": {
+          "applies": false,
+          "note": "zones are for 9:16 (aspect 0.75 here)"
+        }
+      }
+    ]
+  },
+  "unit 6": {
+    "problems": [],
+    "text_blocks": [
+      {
+        "i": 1,
+        "text": "Google 📱",
+        "box": [
+          22,
+          5,
+          56,
+          8
+        ],
+        "contrast": {
+          "bg_hex": "#c2bdca",
+          "text_hex": "#18141a",
+          "text_hex_source": "sampled",
+          "contrast_ratio": 9.89,
+          "band": "good (4.5+)"
+        },
+        "safe_zone": {
+          "applies": false,
+          "note": "zones are for 9:16 (aspect 0.75 here)"
+        }
+      },
+      {
+        "i": 2,
+        "text": "The “people also ask” section is perfect",
+        "box": [
+          18,
+          46,
+          64,
+          6
+        ],
+        "contrast": {
+          "bg_hex": "#d3d5d1",
+          "text_hex": "#474947",
+          "text_hex_source": "sampled",
+          "contrast_ratio": 6.18,
+          "band": "good (4.5+)"
+        },
+        "safe_zone": {
+          "applies": false,
+          "note": "zones are for 9:16 (aspect 0.75 here)"
+        }
+      }
+    ]
+  },
+  "unit 7": {
+    "problems": [],
+    "text_blocks": [
+      {
+        "i": 1,
+        "text": "BuzzSumo Content\nDiscovery 💡",
+        "box": [
+          22,
+          5,
+          56,
+          8
+        ],
+        "contrast": {
+          "bg_hex": "#b8b7bc",
+          "text_hex": "#070607",
+          "text_hex_source": "sampled",
+          "contrast_ratio": 10.13,
+          "band": "good (4.5+)"
+        },
+        "safe_zone": {
+          "applies": false,
+          "note": "zones are for 9:16 (aspect 0.75 here)"
+        }
+      },
+      {
+        "i": 2,
+        "text": "2 more ideas in the caption 👇🏻",
+        "box": [
+          22,
+          46,
+          56,
+          5
+        ],
+        "contrast": {
+          "bg_hex": "#025791",
+          "text_hex": "#f6fcf7",
+          "text_hex_source": "sampled",
+          "contrast_ratio": 7.28,
+          "band": "good (4.5+)"
+        },
+        "safe_zone": {
+          "applies": false,
+          "note": "zones are for 9:16 (aspect 0.75 here)"
+        }
+      }
+    ]
+  }
+}

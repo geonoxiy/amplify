@@ -1,0 +1,37 @@
+[
+ {
+  "model": "nano-banana-pro",
+  "task_id": "31caded0eec485fa119afcb435495302",
+  "credits": 18.0,
+  "output": "content-bank/P014-tool-demo-listicle/runs/run-01_2026-09-28_willow-hard-sell-pagepilot/raw/cover.png",
+  "prompt": "Real phone photo, high angle looking down, vertical 3:4. A woman is reclined on a light grey couch, photographed from above and slightly to the side so her face is not visible, just her shoulder, one arm and hand raised up holding a phone as if taking a photo of the scene below (the phone screen fac"
+ },
+ {
+  "model": "nano-banana-pro",
+  "task_id": "639d38ea23c54b40c31305f3a2f18d4f",
+  "credits": 18.0,
+  "output": "content-bank/P014-tool-demo-listicle/runs/run-01_2026-09-28_willow-hard-sell-pagepilot/raw/laptop_base.png",
+  "prompt": "Real phone photo of an open laptop on a wooden desk, photographed from a low angle just above the keyboard, looking up and slightly toward the screen, vertical 3:4. The laptop screen fills most of the upper frame and shows a soft, blurred, abstract app interface: pale rounded panels and boxes in cre"
+ },
+ {
+  "model": "nano-banana-pro",
+  "task_id": "7a7762833ceaa09361d4354570e7d8b6",
+  "credits": 18.0,
+  "output": "content-bank/P014-tool-demo-listicle/runs/run-01_2026-09-28_willow-hard-sell-pagepilot/raw/laptop_base_v2.png",
+  "prompt": "Amateur real phone photo, not professional photography, of an open laptop on a slightly cluttered wooden desk, photographed from a low angle just above the keyboard, looking up toward the screen, vertical 3:4. The laptop screen fills most of the upper frame and shows a plain, flat, evenly lit pale l"
+ },
+ {
+  "model": "nano-banana-pro",
+  "task_id": "9fedfc046a53852391cd4113636c9921",
+  "credits": 18.0,
+  "output": "content-bank/P014-tool-demo-listicle/runs/run-01_2026-09-28_willow-hard-sell-pagepilot/raw/cover_v2.png",
+  "prompt": "Amateur real phone photo, not professional photography, high angle looking down, vertical 3:4. A woman reclined on a slightly rumpled grey couch, photographed from above and to the side so her face is not visible, just her shoulder, one arm and hand raised holding a phone as if taking the photo (pho"
+ },
+ {
+  "model": "nano-banana-pro",
+  "task_id": "98e5df9e86f9c4936c1f94ee6f5cdf55",
+  "credits": 18.0,
+  "output": "content-bank/P014-tool-demo-listicle/runs/run-01_2026-09-28_willow-hard-sell-pagepilot/raw/cover_v2.png",
+  "prompt": "Amateur real phone photo, not professional photography, high angle looking down, vertical 3:4. A woman sits reclined on a slightly rumpled grey couch, photographed from above and to the side so her face is not visible, just her shoulder, one arm and hand raised holding a phone as if taking the photo"
+ }
+]

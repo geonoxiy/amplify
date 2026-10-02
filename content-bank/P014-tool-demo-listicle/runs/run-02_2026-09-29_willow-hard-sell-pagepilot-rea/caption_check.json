@@ -1,0 +1,13 @@
+{
+  "style": "hard",
+  "brand": "brands/pagepilot.md",
+  "disclosure_position": "end",
+  "characters": 276,
+  "hashtags": 4,
+  "first_100_characters": "i stopped building my Shopify product pages from scratch. pagepilot turns a product link into a fini",
+  "fails": [],
+  "warnings": [
+    "style rule is lowercase for overlay/caption text; found capitalised word(s): ['Shopify']"
+  ],
+  "verdict": "pass"
+}

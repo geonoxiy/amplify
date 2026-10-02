@@ -1,0 +1,375 @@
+{
+  "type": "video",
+  "length": 34.71,
+  "size": {
+    "width": 720,
+    "height": 1280
+  },
+  "shot_detector": "content-27",
+  "shot_count": 6,
+  "cuts_per_second": 0.144,
+  "average_shot_length": 5.79,
+  "shots": [
+    {
+      "shot": 1,
+      "start": 0.0,
+      "end": 6.17,
+      "length": 6.17,
+      "key_frame": "frames/shot_01_3.1s.jpg",
+      "palette": [
+        {
+          "hex": "#f3f3f5",
+          "share": 0.442
+        },
+        {
+          "hex": "#f9f9f9",
+          "share": 0.285
+        },
+        {
+          "hex": "#231f22",
+          "share": 0.118
+        },
+        {
+          "hex": "#1b60ce",
+          "share": 0.091
+        },
+        {
+          "hex": "#a6aab5",
+          "share": 0.064
+        }
+      ],
+      "visual": {
+        "brightness_pct": 79.1,
+        "contrast_pct": 32.5,
+        "saturation_pct": 10.1,
+        "sharpness": 657.8,
+        "noise_sigma": 0.59,
+        "clutter_pct": 3.86,
+        "bars_pct": {
+          "top": 5.0,
+          "bottom": 0.0,
+          "left": 0.0,
+          "right": 0.0
+        },
+        "phash": "e996967994659332",
+        "dhash": "2a2b2e27979b9b95"
+      },
+      "motion": {
+        "label": "static",
+        "speed_pct_w_per_s": 0.0,
+        "consistency": 0.15,
+        "zoom_pct_per_s": -0.0,
+        "rotation_deg_per_s": -0.0,
+        "subject_motion_pct_w_per_s": 1.02,
+        "pairs": 8,
+        "note": "rough label from optical flow; static/handheld/pan/zoom thresholds are set on test clips"
+      }
+    },
+    {
+      "shot": 2,
+      "start": 6.17,
+      "end": 11.33,
+      "length": 5.17,
+      "key_frame": "frames/shot_02_8.8s.jpg",
+      "palette": [
+        {
+          "hex": "#f6f7f8",
+          "share": 0.666
+        },
+        {
+          "hex": "#252227",
+          "share": 0.111
+        },
+        {
+          "hex": "#fcfcfc",
+          "share": 0.084
+        },
+        {
+          "hex": "#2565c4",
+          "share": 0.077
+        },
+        {
+          "hex": "#b8bdc5",
+          "share": 0.062
+        }
+      ],
+      "visual": {
+        "brightness_pct": 81.9,
+        "contrast_pct": 30.8,
+        "saturation_pct": 9.2,
+        "sharpness": 454.8,
+        "noise_sigma": 0.6,
+        "clutter_pct": 3.26,
+        "bars_pct": {
+          "top": 5.5,
+          "bottom": 12.2,
+          "left": 0.0,
+          "right": 0.0
+        },
+        "phash": "aff0986ef013c9a4",
+        "dhash": "2a2b2b4d0663691c"
+      },
+      "motion": {
+        "label": "static",
+        "speed_pct_w_per_s": 0.01,
+        "consistency": 0.32,
+        "zoom_pct_per_s": -0.0,
+        "rotation_deg_per_s": 0.0,
+        "subject_motion_pct_w_per_s": 0.99,
+        "pairs": 8,
+        "note": "rough label from optical flow; static/handheld/pan/zoom thresholds are set on test clips"
+      }
+    },
+    {
+      "shot": 3,
+      "start": 11.33,
+      "end": 16.73,
+      "length": 5.4,
+      "key_frame": "frames/shot_03_14.0s.jpg",
+      "palette": [
+        {
+          "hex": "#f4f4f6",
+          "share": 0.529
+        },
+        {
+          "hex": "#f9f9fa",
+          "share": 0.236
+        },
+        {
+          "hex": "#272426",
+          "share": 0.103
+        },
+        {
+          "hex": "#175ccd",
+          "share": 0.073
+        },
+        {
+          "hex": "#9aa4ab",
+          "share": 0.058
+        }
+      ],
+      "visual": {
+        "brightness_pct": 81.6,
+        "contrast_pct": 30.7,
+        "saturation_pct": 9.0,
+        "sharpness": 597.5,
+        "noise_sigma": 0.55,
+        "clutter_pct": 3.62,
+        "bars_pct": {
+          "top": 3.8,
+          "bottom": 0.0,
+          "left": 0.0,
+          "right": 0.0
+        },
+        "phash": "afe0f06a8793c0ce",
+        "dhash": "2a2b2a6961336d82"
+      },
+      "motion": {
+        "label": "static",
+        "speed_pct_w_per_s": 0.01,
+        "consistency": 0.14,
+        "zoom_pct_per_s": 0.0,
+        "rotation_deg_per_s": 0.0,
+        "subject_motion_pct_w_per_s": 0.37,
+        "pairs": 8,
+        "note": "rough label from optical flow; static/handheld/pan/zoom thresholds are set on test clips"
+      }
+    },
+    {
+      "shot": 4,
+      "start": 16.73,
+      "end": 22.93,
+      "length": 6.2,
+      "key_frame": "frames/shot_04_19.8s.jpg",
+      "palette": [
+        {
+          "hex": "#f7f7f9",
+          "share": 0.681
+        },
+        {
+          "hex": "#1e1d1f",
+          "share": 0.116
+        },
+        {
+          "hex": "#e8e9ea",
+          "share": 0.071
+        },
+        {
+          "hex": "#1a62d0",
+          "share": 0.068
+        },
+        {
+          "hex": "#a0abae",
+          "share": 0.064
+        }
+      ],
+      "visual": {
+        "brightness_pct": 80.7,
+        "contrast_pct": 32.0,
+        "saturation_pct": 9.7,
+        "sharpness": 592.4,
+        "noise_sigma": 0.54,
+        "clutter_pct": 3.93,
+        "bars_pct": {
+          "top": 5.5,
+          "bottom": 9.4,
+          "left": 13.3,
+          "right": 18.2
+        },
+        "phash": "e9c69669d6e4c192",
+        "dhash": "2a2b2a279f931739"
+      },
+      "motion": {
+        "label": "static",
+        "speed_pct_w_per_s": 0.01,
+        "consistency": 0.11,
+        "zoom_pct_per_s": 0.0,
+        "rotation_deg_per_s": -0.0,
+        "subject_motion_pct_w_per_s": 0.68,
+        "pairs": 8,
+        "note": "rough label from optical flow; static/handheld/pan/zoom thresholds are set on test clips"
+      }
+    },
+    {
+      "shot": 5,
+      "start": 22.93,
+      "end": 29.03,
+      "length": 6.1,
+      "key_frame": "frames/shot_05_26.0s.jpg",
+      "palette": [
+        {
+          "hex": "#f4f5f6",
+          "share": 0.534
+        },
+        {
+          "hex": "#f9f9fa",
+          "share": 0.252
+        },
+        {
+          "hex": "#282929",
+          "share": 0.085
+        },
+        {
+          "hex": "#1360d0",
+          "share": 0.083
+        },
+        {
+          "hex": "#9aadb0",
+          "share": 0.047
+        }
+      ],
+      "visual": {
+        "brightness_pct": 83.2,
+        "contrast_pct": 28.7,
+        "saturation_pct": 11.6,
+        "sharpness": 398.1,
+        "noise_sigma": 0.53,
+        "clutter_pct": 3.06,
+        "bars_pct": {
+          "top": 3.8,
+          "bottom": 0.0,
+          "left": 5.6,
+          "right": 3.3
+        },
+        "phash": "e59ad86592d28f70",
+        "dhash": "2b2b2bcd4e57970c"
+      },
+      "motion": {
+        "label": "static",
+        "speed_pct_w_per_s": 0.01,
+        "consistency": 0.15,
+        "zoom_pct_per_s": 0.0,
+        "rotation_deg_per_s": -0.0,
+        "subject_motion_pct_w_per_s": 0.86,
+        "pairs": 8,
+        "note": "rough label from optical flow; static/handheld/pan/zoom thresholds are set on test clips"
+      }
+    },
+    {
+      "shot": 6,
+      "start": 29.03,
+      "end": 34.7,
+      "length": 5.67,
+      "key_frame": "frames/shot_06_31.9s.jpg",
+      "palette": [
+        {
+          "hex": "#f1f1f2",
+          "share": 0.54
+        },
+        {
+          "hex": "#f8f7f8",
+          "share": 0.211
+        },
+        {
+          "hex": "#1a2a48",
+          "share": 0.127
+        },
+        {
+          "hex": "#417bb6",
+          "share": 0.076
+        },
+        {
+          "hex": "#b9bec6",
+          "share": 0.045
+        }
+      ],
+      "visual": {
+        "brightness_pct": 80.5,
+        "contrast_pct": 30.2,
+        "saturation_pct": 12.2,
+        "sharpness": 647.9,
+        "noise_sigma": 0.54,
+        "clutter_pct": 3.7,
+        "bars_pct": {
+          "top": 0.0,
+          "bottom": 0.0,
+          "left": 0.0,
+          "right": 0.0
+        },
+        "phash": "f986863992cd9336",
+        "dhash": "2b2b23939b9b932f"
+      },
+      "motion": {
+        "label": "static",
+        "speed_pct_w_per_s": 0.34,
+        "consistency": 0.98,
+        "zoom_pct_per_s": 0.28,
+        "rotation_deg_per_s": 0.09,
+        "subject_motion_pct_w_per_s": 4.4,
+        "pairs": 8,
+        "note": "rough label from optical flow; static/handheld/pan/zoom thresholds are set on test clips"
+      }
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "has_speech": false,
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 29.98,
+        "text": "Thank you.",
+        "no_speech": 0.0,
+        "avg_logprob": -0.42,
+        "compression_ratio": 0.56,
+        "suspect": [
+          "compression ratio 0.56 is outside 0.8-2.4 (typical of a hallucination on music)",
+          "1-3 words spread over 6s or more"
+        ]
+      },
+      {
+        "start": 30.0,
+        "end": 59.98,
+        "text": "Thank you.",
+        "no_speech": 0.0,
+        "avg_logprob": -0.59,
+        "compression_ratio": 0.56,
+        "suspect": [
+          "compression ratio 0.56 is outside 0.8-2.4 (typical of a hallucination on music)",
+          "1-3 words spread over 6s or more"
+        ]
+      }
+    ],
+    "note": "A segment with a non-empty 'suspect' list is probably music or noise, not words. has_speech is true only if at least one segment passes."
+  }
+}

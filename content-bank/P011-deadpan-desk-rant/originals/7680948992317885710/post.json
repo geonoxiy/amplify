@@ -1,0 +1,56 @@
+{
+  "id": "7680948992317885710",
+  "url": "https://www.tiktok.com/@alexusrenee0413/video/7680948992317885710",
+  "creator": "alexusrenee0413",
+  "type": "video",
+  "collected_at": "2026-09-26T23:55:05+00:00",
+  "published": {
+    "utc": "2026-09-02T14:45:41+00:00",
+    "local": "2026-09-02T22:45:41+08:00",
+    "timezone": "Asia/Manila",
+    "weekday": "Wednesday",
+    "hour": 22
+  },
+  "caption": "The quarterly earnings will recover  #worktok #9to5 #workhumor #worklife #relateable ",
+  "hashtags": [
+    "worktok",
+    "9to5",
+    "workhumor",
+    "worklife",
+    "relateable"
+  ],
+  "mentions": [],
+  "stats": {
+    "views": 1100000,
+    "likes": 103500,
+    "comments": 109,
+    "shares": 12400,
+    "saves": 2578
+  },
+  "rates": {
+    "engagement": 0.1078,
+    "save": 0.0023,
+    "share": 0.0113,
+    "comment": 0.0001
+  },
+  "sound": {
+    "title": "Ghost on the Walls",
+    "author": "Wren Whispers",
+    "original": false,
+    "id": "7647885082065471534"
+  },
+  "slide_count": null,
+  "duration": 5,
+  "size": {
+    "width": 720,
+    "height": 1280
+  },
+  "labels": {
+    "ad": false,
+    "ai_generated": false,
+    "location": "US"
+  },
+  "files": {
+    "video": "video.mp4"
+  }
+}

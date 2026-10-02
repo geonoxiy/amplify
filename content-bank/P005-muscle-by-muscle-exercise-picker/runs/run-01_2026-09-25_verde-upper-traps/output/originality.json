@@ -1,0 +1,124 @@
+{
+  "slides": [
+    {
+      "slide": 1,
+      "words": 2,
+      "raw_overlap_max": 0.0,
+      "raw_overlap_post": "7674122199007022344",
+      "shared_words_with_that_post": [],
+      "content_overlap_max": 0.0,
+      "longest_shared_run_words": 0,
+      "longest_shared_run": "",
+      "longest_run_source": "",
+      "status": "pass"
+    },
+    {
+      "slide": 2,
+      "words": 20,
+      "raw_overlap_max": 0.2,
+      "raw_overlap_post": "7686686917852761362",
+      "shared_words_with_that_post": [
+        "anatomy",
+        "the",
+        "to",
+        "your"
+      ],
+      "content_overlap_max": 0.08,
+      "longest_shared_run_words": 1,
+      "longest_shared_run": "anatomy",
+      "longest_run_source": "7686686917852761362: Forearm Anatomy",
+      "status": "pass"
+    },
+    {
+      "slide": 3,
+      "words": 23,
+      "raw_overlap_max": 0.17,
+      "raw_overlap_post": "7686686917852761362",
+      "shared_words_with_that_post": [
+        "1",
+        "or",
+        "the",
+        "your"
+      ],
+      "content_overlap_max": 0.06,
+      "longest_shared_run_words": 1,
+      "longest_shared_run": "1",
+      "longest_run_source": "7686686917852761362: #1",
+      "status": "pass"
+    },
+    {
+      "slide": 4,
+      "words": 28,
+      "raw_overlap_max": 0.14,
+      "raw_overlap_post": "7686686917852761362",
+      "shared_words_with_that_post": [
+        "or",
+        "the",
+        "with",
+        "your"
+      ],
+      "content_overlap_max": 0.0,
+      "longest_shared_run_words": 1,
+      "longest_shared_run": "2",
+      "longest_run_source": "7685705106909613320: 2-3 Sets x 6-10 Reps",
+      "status": "pass"
+    },
+    {
+      "slide": 5,
+      "words": 27,
+      "raw_overlap_max": 0.15,
+      "raw_overlap_post": "7686686917852761362",
+      "shared_words_with_that_post": [
+        "a",
+        "or",
+        "the",
+        "your"
+      ],
+      "content_overlap_max": 0.0,
+      "longest_shared_run_words": 1,
+      "longest_shared_run": "3",
+      "longest_run_source": "7685705106909613320: 2-3 Sets x 6-10 Reps",
+      "status": "pass"
+    },
+    {
+      "slide": 6,
+      "words": 23,
+      "raw_overlap_max": 0.17,
+      "raw_overlap_post": "7686686917852761362",
+      "shared_words_with_that_post": [
+        "are",
+        "or",
+        "the",
+        "your"
+      ],
+      "content_overlap_max": 0.06,
+      "longest_shared_run_words": 2,
+      "longest_shared_run": "your arms",
+      "longest_run_source": "7675542015425137938: How to train your arms! #armday #armworkout #bigarms ",
+      "status": "pass"
+    }
+  ],
+  "hook": {
+    "words": [
+      "flat",
+      "traps"
+    ],
+    "overlap_by_source": {
+      "7674122199007022344": 0.0,
+      "7675542015425137938": 0.0,
+      "7685705106909613320": 0.0,
+      "7686686917852761362": 0.0
+    },
+    "max": 0.0,
+    "status": "pass"
+  },
+  "images": {
+    "min_hash_distance": 15,
+    "closest_pair": "slide3.png ~ 7675542015425137938/05.jpg",
+    "near_duplicate_threshold": 10,
+    "status": "pass",
+    "source_blue_share_in_sources_mean": 0.09,
+    "source_blue_share_in_ours_mean": 0.0
+  },
+  "verdict": "pass"
+}

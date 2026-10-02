@@ -1,0 +1,321 @@
+{
+  "post": "7675162181951917319",
+  "type": "slideshow",
+  "fingerprint": {
+    "structure": "8 slides: hook ('RANKING GYM SPLITS' + mascot with 4 calendar cards) → 7 ranked items counting down #7 to #1, each with a score badge (1/10 to 11/10), a one-line verdict and a weekly split strip of mascots with the trained muscles in red. No CTA",
+    "hook": "Ranking promise 'RANKING GYM SPLITS' (italic condensed) over the mascot surrounded by calendar cards labelled BRO SPLIT, PUSH PULL LEGS, UPPER/LOWER, FBEOD",
+    "camera_motion": "2d-characters (mascot) inside designed cards; diagrams built from repeated mascots; 4:5 slides",
+    "pacing": "8 slides, 12 to 25 words of body text per item",
+    "text_overlay": "Headings: Anton-like condensed heavy grotesque, Title Case (ALL CAPS on covers), navy #041732 with accent blue; '#N' numerals in blue, slightly italic; short blue underline (about 12.6% wide) under each heading; body: Didact Gothic-like light sans, gray #4b4945, about 2.7% of frame height, left-aligned at x=10%, 2 to 4 short lines; BLUE BRO logo top-left on every slide; ranking slides use a humanist bold sans for the item title and a colored score badge",
+    "audio": "third-party sound (library-style title and author), not original, no voiceover; slideshow so the sound is only background",
+    "arc": "Countdown from worst to best → the best gets 11/10 (a joke score)"
+  },
+  "units": [
+    {
+      "n": 1,
+      "role": "hook",
+      "class": "2d-characters",
+      "confidence": "high",
+      "summary": "cover with mascot and 4 calendar cards"
+    },
+    {
+      "n": 2,
+      "role": "ranked-item",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "#7 Push, Pull, Skip: red 1/10 badge, one-line verdict, weekly split strip with the skipped leg day crossed out",
+      "frame": {
+        "canvas": "4:5 portrait, 1080x1350, no bars or border",
+        "layers": [
+          {
+            "type": "background",
+            "box": [
+              0,
+              0,
+              100,
+              100
+            ],
+            "note": "flat warm beige (#f4f1ea); no gradient, no texture"
+          },
+          {
+            "type": "mark",
+            "box": [
+              2.7,
+              2.1,
+              14.4,
+              4.2
+            ],
+            "note": "BLUE BRO wordmark (black condensed caps) with the blue mascot-head icon, top-left on every slide and video frame"
+          },
+          {
+            "type": "accent-line",
+            "box": [
+              10,
+              23.5,
+              12.6,
+              0.5
+            ],
+            "note": "blue underline"
+          },
+          {
+            "type": "score-badge",
+            "box": [
+              8.9,
+              27.1,
+              10.9,
+              5.9
+            ],
+            "note": "red rounded rectangle, white bold '1/10'; badge color runs red → orange → yellow → green with the score"
+          },
+          {
+            "type": "split-strip",
+            "box": [
+              2.7,
+              52.3,
+              94.6,
+              32.2
+            ],
+            "note": "6 columns, dark header bar with white caps (PUSH PULL LEGS PUSH PULL LEGS; LEGS struck through), each column a front or back view mascot with red-highlighted trained muscles; red X over the skipped leg-day figures"
+          }
+        ],
+        "composition": {
+          "focal": [
+            50,
+            68
+          ],
+          "subject_box": [
+            2.7,
+            52.3,
+            94.6,
+            32.2
+          ],
+          "zone": "bottom-center",
+          "negative_space": [
+            [
+              0,
+              44,
+              100,
+              8
+            ],
+            [
+              0,
+              85,
+              100,
+              15
+            ]
+          ],
+          "balance": "top-left text stack, full-width strip in the lower half",
+          "grouping": "heading row → underline → score badge → verdict → full-width strip"
+        },
+        "safe_zones": "not applicable (4:5 slide)",
+        "color_light": "same palette plus red, orange, yellow and green score colors",
+        "quality": "clean vector-like render",
+        "origin_realism": "designed card with a diagram built from the mascot"
+      },
+      "text_blocks": [
+        {
+          "text": "#7",
+          "origin": "designed",
+          "role": "number",
+          "pattern": "numbered-heading",
+          "box": [
+            8.5,
+            14.5,
+            10.5,
+            5.3
+          ],
+          "zone": "top-left",
+          "align": "left",
+          "font": "Anton (closest): condensed heavy grotesque, slightly italic",
+          "size_pct": 8,
+          "case": "n/a",
+          "stroke": "none",
+          "under": "solid beige background",
+          "fill": "#0375d7",
+          "bg": "#f4f1ea",
+          "contrast_ratio": 4.1,
+          "fill_source": "sampled from the pixels in the box (measure.py)"
+        },
+        {
+          "text": "Push, Pull, Skip",
+          "origin": "designed",
+          "role": "headline",
+          "pattern": "numbered-heading",
+          "box": [
+            22.7,
+            14.6,
+            47.6,
+            5.0
+          ],
+          "zone": "top-center",
+          "align": "left",
+          "font": "Open Sans Bold (closest): humanist sans, NOT the condensed heading font used elsewhere",
+          "size_pct": 5.4,
+          "case": "Title Case",
+          "stroke": "none",
+          "under": "solid beige background",
+          "fill": "#343433",
+          "bg": "#f4f1ea",
+          "contrast_ratio": 11.1,
+          "fill_source": "sampled from the pixels in the box (measure.py)"
+        },
+        {
+          "text": "1/10",
+          "origin": "designed",
+          "role": "label",
+          "pattern": "callout",
+          "box": [
+            8.9,
+            27.1,
+            10.9,
+            5.9
+          ],
+          "zone": "top-left",
+          "align": "center",
+          "font": "Open Sans Bold-like",
+          "size_pct": 4.2,
+          "case": "n/a",
+          "stroke": "none",
+          "under": "red badge (#e1002a)",
+          "fill": "#ffffff",
+          "bg": "#e2002a",
+          "contrast_ratio": 4.92,
+          "fill_source": "manual: white text on the red badge (the tool samples against the surrounding card)"
+        },
+        {
+          "text": "Your little chicken legs aren't going to grow if you keep skipping legs.",
+          "origin": "designed",
+          "role": "body",
+          "pattern": "top-headline",
+          "box": [
+            10,
+            36.3,
+            61,
+            7.6
+          ],
+          "zone": "middle-left",
+          "align": "left",
+          "font": "Didact Gothic (closest): light geometric humanist sans",
+          "size_pct": 2.7,
+          "case": "Sentence case",
+          "stroke": "none",
+          "under": "solid beige background",
+          "fill": "#4b4946",
+          "bg": "#f4f1ea",
+          "contrast_ratio": 7.91,
+          "fill_source": "sampled from the pixels in the box (measure.py)"
+        },
+        {
+          "text": "PUSH PULL LEGS PUSH PULL LEGS",
+          "origin": "designed",
+          "role": "label",
+          "pattern": "callout",
+          "box": [
+            2.7,
+            52.3,
+            94.6,
+            3.5
+          ],
+          "zone": "middle-center",
+          "align": "center",
+          "font": "Open Sans Bold-like",
+          "size_pct": 2.5,
+          "case": "ALL CAPS",
+          "stroke": "none",
+          "under": "dark grey header bar (#333333)",
+          "fill": "#ffffff",
+          "bg": "#333333",
+          "contrast_ratio": 12.63,
+          "fill_source": "manual: white caps on the dark header bar"
+        },
+        {
+          "text": "BLUE BRO",
+          "origin": "mark",
+          "role": "watermark",
+          "pattern": "corner-mark",
+          "box": [
+            5.7,
+            2.1,
+            11.4,
+            4.2
+          ],
+          "zone": "top-left",
+          "align": "left",
+          "font": "Anton-like condensed caps",
+          "size_pct": 3.0,
+          "case": "ALL CAPS",
+          "stroke": "none",
+          "under": "solid beige background",
+          "fill": "#353434",
+          "bg": "#f4f1ea",
+          "contrast_ratio": 10.98,
+          "fill_source": "sampled from the pixels in the box (measure.py)"
+        }
+      ],
+      "image": {
+        "art_style": "western comic / cel-shaded illustration, thick black outline, flat fills with a little hard shading (likely AI-generated, very consistent across posts)",
+        "character": "Blue Bro mascot: faceless, fully blue (#0270f9) muscular male figure, white almond-shaped eyes with black outline, black shorts, black smartwatch on the left wrist, thick black outline, cel-shaded comic style with vein and abs detail",
+        "pose": "neutral standing front and back view, arms at sides",
+        "recurring": true,
+        "rights": "original brand mascot (owner's own character)",
+        "model_sheet_needed": true,
+        "extra": "muscle highlight overlay in red on the trained body parts"
+      }
+    },
+    {
+      "n": 3,
+      "role": "ranked-item",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "#6 Bro Split, 3/10 (orange), 5-column strip CHEST BACK ARMS SHOULDERS LEGS",
+      "same_as": "slide 2"
+    },
+    {
+      "n": 4,
+      "role": "ranked-item",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "#5 FBEOD, 6/10 (yellow), strip FULL REST FULL REST FULL",
+      "same_as": "slide 2"
+    },
+    {
+      "n": 5,
+      "role": "ranked-item",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "#4 PPL x2, 7/10 (green)",
+      "same_as": "slide 2"
+    },
+    {
+      "n": 6,
+      "role": "ranked-item",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "#3 Arnold Split, 7/10 (green)",
+      "same_as": "slide 2"
+    },
+    {
+      "n": 7,
+      "role": "ranked-item",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "#2 Upper/Lower, 9/10 (dark green)",
+      "same_as": "slide 2"
+    },
+    {
+      "n": 8,
+      "role": "ranked-item",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "#1 PPL/UL, 11/10 (dark green), 'IMO the perfect split'",
+      "same_as": "slide 2"
+    }
+  ],
+  "product": "none",
+  "proof_device": "diagram: weekly split strip (mascot figures with red highlights)",
+  "series": "single post",
+  "caption": "Superlative + hashtags: 'Ranking all popular gym splits from worst to best for muscle growth!'",
+  "hashtags": "3: #gymsplits #workoutroutine #musclegrowthtips",
+  "topic": "training splits",
+  "language": "English, opinionated, second person + 'IMO'; deliberate joke score 11/10; typos ('srarts', 'desinated')"
+}

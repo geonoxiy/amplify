@@ -1,0 +1,65 @@
+{
+  "id": "7684431864446127380",
+  "url": "https://www.tiktok.com/@smartshopper858/photo/7684431864446127380",
+  "creator": "smartshopper858",
+  "type": "slideshow",
+  "collected_at": "2026-09-23T18:02:04+00:00",
+  "published": {
+    "utc": "2026-09-12T12:00:00+00:00",
+    "local": "2026-09-12T20:00:00+08:00",
+    "timezone": "Asia/Manila",
+    "weekday": "Saturday",
+    "hour": 20
+  },
+  "caption": "check ur skincare 👀 glycolic acid is everywhere, but do u actually know what it does? swipe for the safe % to start at, an honest timeline, and what to pair it with 🧴 not medical advice, just research 🔬 talk to a derm if you have sensitive skin or eczema. follow for more ingredient breakdowns 🔍 #Budol #SkincareTips #TikTokMadeMeBuyIt #SkincarePH #skinimalism",
+  "hashtags": [
+    "Budol",
+    "SkincareTips",
+    "TikTokMadeMeBuyIt",
+    "SkincarePH",
+    "skinimalism"
+  ],
+  "mentions": [],
+  "stats": {
+    "views": 1029,
+    "likes": 14,
+    "comments": 1,
+    "shares": 1,
+    "saves": 3
+  },
+  "rates": {
+    "engagement": 0.0185,
+    "save": 0.0029,
+    "share": 0.001,
+    "comment": 0.001
+  },
+  "sound": {
+    "title": "Pretty (Sped Up)",
+    "author": "MEYY",
+    "original": false,
+    "id": "7212600172143085570"
+  },
+  "slide_count": 7,
+  "duration": null,
+  "size": {
+    "width": 1080,
+    "height": 1080
+  },
+  "labels": {
+    "ad": false,
+    "ai_generated": false,
+    "location": "PH"
+  },
+  "files": {
+    "sound": "sound.mp3",
+    "slides": [
+      "slides/01.jpg",
+      "slides/02.jpg",
+      "slides/03.jpg",
+      "slides/04.jpg",
+      "slides/05.jpg",
+      "slides/06.jpg",
+      "slides/07.jpg"
+    ]
+  }
+}

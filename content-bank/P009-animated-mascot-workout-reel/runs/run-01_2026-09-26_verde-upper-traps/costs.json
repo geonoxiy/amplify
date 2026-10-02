@@ -1,0 +1,58 @@
+[
+ {
+  "model": "kling-3.0/video",
+  "task_id": "fca3203cbff22d265bfed0239652e387",
+  "credits": 42.0,
+  "output": "content-bank/P009-animated-mascot-workout-reel/runs/run-01_2026-09-26_verde-upper-traps/raw/clip1.mp4",
+  "prompt": "The character stands still and performs slow, controlled dumbbell shrugs: both shoulders rise straight up toward the ears with the arms staying straight and the dumbbells hanging at his sides, a brief squeeze at the top, then lower slowly. Two clean reps. The feet stay planted. Flat 2D cel-shaded co"
+ },
+ {
+  "model": "kling-3.0/video",
+  "task_id": "37e2dcbe754fcc2303d29002b43bf2f7",
+  "credits": 42.0,
+  "output": "content-bank/P009-animated-mascot-workout-reel/runs/run-01_2026-09-26_verde-upper-traps/raw/clip1.mp4",
+  "prompt": "The character performs dumbbell shrugs. ONLY the shoulders and neck muscles move: the shoulders lift straight up a short distance toward the ears (a small, compact movement) and drop back down. The arms hang straight down the entire time with the elbows locked and never bending; the dumbbells stay h"
+ },
+ {
+  "model": "kling-3.0/video",
+  "task_id": "e0ef37f7c27ea7913612753e1b0503f9",
+  "credits": 42.0,
+  "output": "content-bank/P009-animated-mascot-workout-reel/runs/run-01_2026-09-26_verde-upper-traps/raw/clip2.mp4",
+  "prompt": "The character performs dumbbell shrugs. ONLY the shoulders and neck muscles move: the shoulders lift straight up a short distance toward the ears (a small, compact movement) and drop back down. The arms stay straight in front of the thighs holding the barbell the entire time with the elbows locked a"
+ },
+ {
+  "model": "kling-3.0/video",
+  "task_id": "6bf90cacbf8f3c27ba2bb2ae9df2b96f",
+  "credits": 42.0,
+  "output": "content-bank/P009-animated-mascot-workout-reel/runs/run-01_2026-09-26_verde-upper-traps/raw/clip3.mp4",
+  "prompt": "The character performs a slow cable upright row. The handle stays close to his body the whole time: he pulls it straight up the front of his torso to chest height with the elbows leading and rising above the wrists, pauses, then lowers it slowly under control. The hands never move out in front of th"
+ },
+ {
+  "model": "kling-3.0/video",
+  "task_id": "cad4398c09b582b4bd816cddca5915b0",
+  "credits": 42.0,
+  "output": "content-bank/P009-animated-mascot-workout-reel/runs/run-01_2026-09-26_verde-upper-traps/raw/clip4.mp4",
+  "prompt": "The seated character performs a slow dumbbell shoulder press: both dumbbells travel straight up from shoulder height until the arms are fully extended overhead, pause, then lower slowly to shoulder height. This is NOT a bicep curl. Two slow reps. The bench stays completely still and he stays seated."
+ },
+ {
+  "model": "kling-3.0/video",
+  "task_id": "43a89dd960b0f4c040de5e1ba6d579ea",
+  "credits": 42.0,
+  "output": "content-bank/P009-animated-mascot-workout-reel/runs/run-01_2026-09-26_verde-upper-traps/raw/clip5.mp4",
+  "prompt": "The character walks in place with a steady, heavy stride, like on a treadmill, gripping the two heavy weights hanging straight down at his sides with straight arms and tall shoulders; only the legs alternate and the body bobs slightly. He stays centred in the frame and does not travel across it. Fla"
+ },
+ {
+  "model": "kling-3.0/video",
+  "task_id": "87793dae5a7f3768865e6afcd9bc21b6",
+  "credits": 42.0,
+  "output": "content-bank/P009-animated-mascot-workout-reel/runs/run-01_2026-09-26_verde-upper-traps/raw/clip6.mp4",
+  "prompt": "The character walks in place with a steady stride, like on a treadmill, gripping one heavy weight hanging straight down in one hand at his side with a straight arm, torso upright; only the legs alternate and the body bobs slightly. He stays centred in the frame and does not travel across it. Flat 2D"
+ },
+ {
+  "model": "kling-3.0/video",
+  "task_id": "db06ae798c69c4eaeb2ef43a85310876",
+  "credits": 42.0,
+  "output": "content-bank/P009-animated-mascot-workout-reel/runs/run-01_2026-09-26_verde-upper-traps/raw/clip3.mp4",
+  "prompt": "The character is in the top position of a cable upright row: the bar is at chest height with the elbows raised high and out. He slowly lowers the bar straight down the front of his body to the front of his thighs with his arms nearly straight, pauses, then pulls it back up along the front of his bod"
+ }
+]

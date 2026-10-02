@@ -1,0 +1,26 @@
+# Amplify agent · Python 3.12 environment in ./.venv (created with conda: python=3.12 ffmpeg from conda-forge)
+# Rebuild: ~/miniconda3/bin/conda create -p ./.venv python=3.12 ffmpeg -c conda-forge --override-channels -y
+#          ./.venv/bin/python -m pip install -r requirements.txt
+yt-dlp[default,curl-cffi]
+gallery-dl
+pillow
+numpy
+pyyaml
+imagehash
+scenedetect
+opencv-python-headless
+mlx-whisper; sys_platform == "darwin" and platform_machine == "arm64"   # speech to text on Apple Silicon
+faster-whisper; sys_platform != "darwin" or platform_machine != "arm64"  # the same model on Windows (CPU)
+av<19; sys_platform != "darwin" or platform_machine != "arm64"  # faster-whisper 1.2 breaks on PyAV 19 (metadata_errors)
+tzdata  # time zones for fetch.py; Windows has no built-in time zone database
+playwright
+scipy
+requests
+matplotlib  # mediapipe imports it
+absl-py
+flatbuffers
+# motion.py pose tracking. Install it on its own, without its dependencies: it pulls in opencv-contrib-python, a second
+# copy of cv2 that clashes with ours, and 1.0.x aborts on this Mac (Metal check), so stay on 0.10.35:
+#   ./.venv/bin/python -m pip install --no-deps mediapipe==0.10.35
+#   (Windows: ./.venv/python.exe -m pip install --no-deps mediapipe==0.10.35)
+# The pose model (pose_landmarker_full.task, 9 MB) downloads itself into .cache/models/ on first use.

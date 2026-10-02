@@ -1,0 +1,55 @@
+{
+  "id": "7687128368654847240",
+  "url": "https://www.tiktok.com/@bluebro.fit/video/7687128368654847240",
+  "creator": "bluebro.fit",
+  "type": "video",
+  "collected_at": "2026-09-25T02:47:11+00:00",
+  "published": {
+    "utc": "2026-09-19T06:24:17+00:00",
+    "local": "2026-09-19T14:24:17+08:00",
+    "timezone": "Asia/Manila",
+    "weekday": "Saturday",
+    "hour": 14
+  },
+  "caption": "The pefect pull workout in 6 exercises! #pullday #pullworkout #gymworkout #hypertrophy ",
+  "hashtags": [
+    "pullday",
+    "pullworkout",
+    "gymworkout",
+    "hypertrophy"
+  ],
+  "mentions": [],
+  "stats": {
+    "views": 303400,
+    "likes": 7571,
+    "comments": 27,
+    "shares": 612,
+    "saves": 5456
+  },
+  "rates": {
+    "engagement": 0.045,
+    "save": 0.018,
+    "share": 0.002,
+    "comment": 0.0001
+  },
+  "sound": {
+    "title": "Cold Room Rise",
+    "author": "Tommy Burrito",
+    "original": false,
+    "id": "7663364381614409766"
+  },
+  "slide_count": null,
+  "duration": 16,
+  "size": {
+    "width": 576,
+    "height": 1024
+  },
+  "labels": {
+    "ad": false,
+    "ai_generated": false,
+    "location": "NZ"
+  },
+  "files": {
+    "video": "video.mp4"
+  }
+}

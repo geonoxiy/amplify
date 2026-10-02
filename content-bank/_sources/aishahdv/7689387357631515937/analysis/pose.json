@@ -1,0 +1,64 @@
+{
+  "video": "content-bank/_sources/aishahdv/7689387357631515937/video.mp4",
+  "length": 15.0,
+  "size": [
+    1080,
+    1920
+  ],
+  "sampled_fps": 15,
+  "shot_detector": "content-27",
+  "shots": [
+    {
+      "shot": 1,
+      "start": 0.0,
+      "end": 15.0,
+      "people_max": 1,
+      "person_found_pct": 99.6,
+      "framing": "knees up",
+      "label": "full body, travelling",
+      "energy_deg_per_s": {
+        "arms": 139.3,
+        "legs": 26.7,
+        "torso": 20.1,
+        "head": 44.9
+      },
+      "travel_torso_lengths": 0.79,
+      "hits_per_s": 1.07
+    }
+  ],
+  "overall": {
+    "label": "full body, travelling",
+    "energy_deg_per_s": {
+      "arms": 139.3,
+      "legs": 26.7,
+      "torso": 20.1,
+      "head": 44.9
+    },
+    "travel_torso_lengths": 0.79,
+    "hits_per_s": 1.07
+  },
+  "driver_segments": [
+    {
+      "shot": 1,
+      "start": 0.4,
+      "end": 15.0,
+      "length": 14.6,
+      "framing": "knees up",
+      "max_people": 1,
+      "hands_out_of_frame_pct": 8.7,
+      "label": "full body, travelling",
+      "energy_deg_per_s": {
+        "arms": 140.0,
+        "legs": 26.7,
+        "torso": 20.1,
+        "head": 45.1
+      },
+      "travel_torso_lengths": 0.79,
+      "hits_per_s": 1.1,
+      "segment": 1,
+      "camera": "zoom out / pull-back"
+    }
+  ],
+  "no_segment_shots": [],
+  "note": "Angles are image-plane; limb energy is the mean smoothed angular speed (a still person reads 5-12 deg/s from tracker jitter, 25+ counts as moving). Labels are rough. Pick a segment for `motion.py driver --segment N`."
+}

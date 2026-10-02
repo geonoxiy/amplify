@@ -1,0 +1,85 @@
+{
+  "driver": "content-bank/P015-lip-sync-dance-trend/runs/run-01_2026-10-01_willow-lip-sync-dance/raw/motion/driver.mp4",
+  "clip": "content-bank/P015-lip-sync-dance-trend/runs/run-01_2026-10-01_willow-lip-sync-dance/raw/motion/clip_v1.mp4",
+  "verdict": "pass",
+  "mean_angle_error_deg": 7.9,
+  "by_group_deg": {
+    "arms": 10.2,
+    "legs": 9.6,
+    "torso": 2.1,
+    "head": 5.9
+  },
+  "per_second_deg": [
+    10.8,
+    7.2,
+    8.2,
+    5.0,
+    9.3,
+    5.2,
+    7.6,
+    8.2,
+    6.2,
+    8.4,
+    9.4,
+    4.4,
+    7.1,
+    13.4,
+    9.1
+  ],
+  "worst_seconds": [
+    {
+      "second": 13,
+      "error_deg": 13.4
+    },
+    {
+      "second": 0,
+      "error_deg": 10.8
+    },
+    {
+      "second": 10,
+      "error_deg": 9.4
+    }
+  ],
+  "lag_s": -0.07,
+  "timing_r": 0.55,
+  "driver_movement": "arms + head only, travelling",
+  "clip_movement": "arms + head only, travelling",
+  "clip_one_person_pct": 96.3,
+  "limb_length_spread": {
+    "driver": {
+      "l_upper_arm": 0.19,
+      "l_forearm": 0.315,
+      "r_upper_arm": 0.15,
+      "r_forearm": 0.387,
+      "l_thigh": 0.183,
+      "r_thigh": 0.147
+    },
+    "clip": {
+      "l_upper_arm": 0.209,
+      "l_forearm": 0.285,
+      "r_upper_arm": 0.155,
+      "r_forearm": 0.342,
+      "l_thigh": 0.06,
+      "l_shin": 0.161,
+      "r_thigh": 0.062,
+      "r_shin": 0.18
+    }
+  },
+  "duplicates": {
+    "driver": {
+      "min_phash_distance": 20,
+      "near_duplicate_frames": 0
+    },
+    "source": {
+      "min_phash_distance": 22,
+      "near_duplicate_frames": 0
+    }
+  },
+  "fails": [],
+  "warnings": [],
+  "thresholds": {
+    "good_deg": 20.0,
+    "fail_deg": 35.0,
+    "near_duplicate_phash": 10
+  }
+}

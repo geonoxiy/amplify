@@ -1,0 +1,13 @@
+{
+  "style": "none",
+  "brand": null,
+  "disclosure_position": null,
+  "characters": 0,
+  "hashtags": 0,
+  "first_100_characters": "",
+  "fails": [],
+  "warnings": [
+    "empty caption (no text, no hashtags): matches a pillar whose source has none"
+  ],
+  "verdict": "pass"
+}

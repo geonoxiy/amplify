@@ -1,0 +1,121 @@
+{
+  "type": "video",
+  "length": 5.13,
+  "size": {
+    "width": 1024,
+    "height": 1820
+  },
+  "shot_detector": "content-27",
+  "shot_count": 1,
+  "cuts_per_second": 0.0,
+  "average_shot_length": 5.13,
+  "shots": [
+    {
+      "shot": 1,
+      "start": 0.0,
+      "end": 5.13,
+      "length": 5.13,
+      "key_frame": "frames/shot_01_2.6s.jpg",
+      "palette": [
+        {
+          "hex": "#2f242a",
+          "share": 0.26
+        },
+        {
+          "hex": "#c9b7a0",
+          "share": 0.223
+        },
+        {
+          "hex": "#675553",
+          "share": 0.209
+        },
+        {
+          "hex": "#a4857a",
+          "share": 0.206
+        },
+        {
+          "hex": "#e1d3bc",
+          "share": 0.102
+        }
+      ],
+      "visual": {
+        "brightness_pct": 47.8,
+        "contrast_pct": 27.3,
+        "saturation_pct": 25.7,
+        "sharpness": 1285.4,
+        "noise_sigma": 0.72,
+        "clutter_pct": 6.13,
+        "bars_pct": {
+          "top": 0.0,
+          "bottom": 0.0,
+          "left": 0.0,
+          "right": 0.0
+        },
+        "phash": "fac5875f48b1462a",
+        "dhash": "f0dc979731291953"
+      },
+      "motion": {
+        "label": "static",
+        "speed_pct_w_per_s": 0.06,
+        "consistency": 0.41,
+        "zoom_pct_per_s": -0.02,
+        "rotation_deg_per_s": 0.01,
+        "subject_motion_pct_w_per_s": 3.36,
+        "pairs": 8,
+        "note": "rough label from optical flow; static/handheld/pan/zoom thresholds are set on test clips"
+      }
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "has_speech": true,
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 1.84,
+        "text": "Oh",
+        "no_speech": 0.0,
+        "avg_logprob": -1.72,
+        "compression_ratio": 1.08,
+        "suspect": []
+      },
+      {
+        "start": 1.84,
+        "end": 3.68,
+        "text": "Oh",
+        "no_speech": 0.0,
+        "avg_logprob": -1.72,
+        "compression_ratio": 1.08,
+        "suspect": []
+      },
+      {
+        "start": 3.68,
+        "end": 4.78,
+        "text": "Oh",
+        "no_speech": 0.0,
+        "avg_logprob": -1.72,
+        "compression_ratio": 1.08,
+        "suspect": []
+      },
+      {
+        "start": 4.78,
+        "end": 5.12,
+        "text": "Oh",
+        "no_speech": 0.0,
+        "avg_logprob": -1.72,
+        "compression_ratio": 1.08,
+        "suspect": []
+      },
+      {
+        "start": 5.12,
+        "end": 5.36,
+        "text": "Oh",
+        "no_speech": 0.0,
+        "avg_logprob": -1.72,
+        "compression_ratio": 1.08,
+        "suspect": []
+      }
+    ],
+    "note": "A segment with a non-empty 'suspect' list is probably music or noise, not words. has_speech is true only if at least one segment passes."
+  }
+}

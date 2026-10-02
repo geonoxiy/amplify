@@ -1,0 +1,78 @@
+{
+  "post": "7677039565802179858",
+  "type": "slideshow",
+  "fingerprint": {
+    "structure": "7 slides: hook (before/after mascot) → 6 numbered tips (train 2x/week, intensity, carbs, get stronger, surplus, sleep), each a heading, 2 short paragraphs and a mascot acting it out. No CTA slide; HealthMeter app appears inside tip #5",
+    "hook": "'HOW TO BUILD MUSCLE AS FAST AS HUMANLY POSSIBLE' over a lean-to-muscular mascot pair with a >> arrow",
+    "camera_motion": "2d-characters (mascot) on designed cards; 4:5 slides",
+    "pacing": "7 slides, 20 to 40 words of body text on tip slides",
+    "text_overlay": "Headings: Anton-like condensed heavy grotesque, Title Case (ALL CAPS on covers), navy #041732 with accent blue; '#N' numerals in blue, slightly italic; short blue underline (about 12.6% wide) under each heading; body: Didact Gothic-like light sans, gray #4b4945, about 2.7% of frame height, left-aligned at x=10%, 2 to 4 short lines; BLUE BRO logo top-left on every slide",
+    "audio": "third-party sound (library-style title and author), not original, no voiceover; slideshow so the sound is only background",
+    "arc": "Promise the fastest way → six tips → soft product mention inside a tip"
+  },
+  "units": [
+    {
+      "n": 1,
+      "role": "hook",
+      "class": "2d-characters",
+      "confidence": "high",
+      "summary": "cover before/after mascots + >> arrow",
+      "same_as": "cut-body-fat post slide 1 layout, muscle-gain wording"
+    },
+    {
+      "n": 2,
+      "role": "tip",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "#1 Train Every Muscle 2x/Week: mascot curling a dumbbell",
+      "same_as": "cut-body-fat post slide 3"
+    },
+    {
+      "n": 3,
+      "role": "tip",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "#2 Intensity is King: 0-2 reps shy of failure; mascot cable curl with red biceps",
+      "same_as": "slide 2"
+    },
+    {
+      "n": 4,
+      "role": "tip",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "#3 Carb Up Before Workouts: mascot eating a banana",
+      "same_as": "slide 2"
+    },
+    {
+      "n": 5,
+      "role": "tip",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "#4 Keep Getting Stronger: mascot deadlifting",
+      "same_as": "slide 2"
+    },
+    {
+      "n": 6,
+      "role": "tip",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "#5 Slight Surplus: text says 'I use HealthMeter to track my macros & calories' + mascot with steak plate beside a phone mockup of the app",
+      "same_as": "slide 2, plus a phone mockup (UI screenshot of the Nutrition screen) on the right"
+    },
+    {
+      "n": 7,
+      "role": "tip",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "#6 Get Enough Sleep: mascot hugging a teddy bear inside a blue circle vignette, mentions magnesium",
+      "same_as": "slide 2, except the circular vignette"
+    }
+  ],
+  "product": "Slide 6, soft-sell inline plug: 'I use HealthMeter to track my macros & calories' with an app mockup; caption '@HealthMeter' and #healthmeter. No #ad / paid-partnership label",
+  "proof_device": "phone mockup of the HealthMeter Nutrition screen (calories 2500, protein 125g, carbs 313g, fat 83g)",
+  "series": "single post",
+  "caption": "Short claim + '@HealthMeter' mention + 5 hashtags including #healthmeter",
+  "hashtags": "5: #musclegrowthtips #gymtips #buildmuscle #healthmeter #gymtok (topic + product tag + broad)",
+  "topic": "muscle building tips + nutrition app",
+  "language": "English, second person, factual claims; first person for the app plug ('I use')"
+}

@@ -1,0 +1,38 @@
+{
+ "video": "content-bank/P009-animated-mascot-workout-reel/runs/run-01_2026-09-26_verde-upper-traps/output/reel.mp4",
+ "fps": 30.0,
+ "frames": 486,
+ "checks": [
+  {
+   "check": "length 16 to 16.8 s (pillar range; a longer variant exists)",
+   "ok": true,
+   "detail": "16.2 s"
+  },
+  {
+   "check": "6 shots, 5 hard cuts",
+   "ok": true,
+   "detail": "5 cuts at [2.7, 5.4, 8.13, 10.8, 13.53] s"
+  },
+  {
+   "check": "shot lengths 2.4 to 3.1 s",
+   "ok": true,
+   "detail": "[2.7, 2.7, 2.73, 2.67, 2.73, 2.67]"
+  },
+  {
+   "check": "every clip moves (not a frozen image)",
+   "ok": true,
+   "detail": "mean frame change in the art zone per shot: [1.52, 2.02, 0.97, 2.92, 2.87, 2.55]"
+  },
+  {
+   "check": "bottom 20% left empty",
+   "ok": true,
+   "detail": "0.0% of bottom-fifth pixels differ from the background"
+  },
+  {
+   "check": "no near-duplicate of a source frame (hash distance above 10)",
+   "ok": true,
+   "detail": "closest 14 bits (7688954741229128968/shot_02_4.3s.jpg); source frames include their overlay and tracker"
+  }
+ ],
+ "verdict": "pass"
+}

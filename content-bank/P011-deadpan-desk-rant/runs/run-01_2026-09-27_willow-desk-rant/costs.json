@@ -1,0 +1,16 @@
+[
+ {
+  "model": "nano-banana-pro",
+  "task_id": "4c23514fe2409797bf5b52a00566eb59",
+  "credits": 18.0,
+  "output": "content-bank/P011-deadpan-desk-rant/runs/run-01_2026-09-27_willow-desk-rant/raw/still.png",
+  "prompt": "Candid phone video frame, vertical 9:16, from a front-facing camera propped on a desk slightly below eye level and tilted up, no phone visible in the shot. The woman is the same person as in the reference image (same face, freckles, dark brown shoulder-length hair worn down, light-olive skin, small "
+ },
+ {
+  "model": "kling-3.0/video",
+  "task_id": "a59ca36e94a5f16ed4f0c3dc6c355068",
+  "credits": 70.0,
+  "output": "content-bank/P011-deadpan-desk-rant/runs/run-01_2026-09-27_willow-desk-rant/raw/clip.mp4",
+  "prompt": "Realistic phone-camera video, the camera is completely locked off on a desk, no zoom, no pan, no shake, no cuts. The woman keeps typing on the white keyboard with small, natural, relaxed finger movements at the bottom of the frame. Her eyes stay rolled up and away toward the upper left with a deadpa"
+ }
+]

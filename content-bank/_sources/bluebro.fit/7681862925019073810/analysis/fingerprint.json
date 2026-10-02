@@ -1,0 +1,44 @@
+{
+  "post": "7681862925019073810",
+  "type": "slideshow",
+  "fingerprint": {
+    "structure": "3 slides: hook ('THIS IS WHAT A PERFECT PUSH DAY LOOKS LIKE') → overview card ('PUSH WORKOUT, SIX EXERCISES': 6 numbered cards + mascot) → Bonus Tip (HealthMeter phone mockup and app icon)",
+    "hook": "Claim headline over the mascot with arms open, chest and shoulders in red",
+    "camera_motion": "2d-characters (mascot) + one card grid; 4:5 slides",
+    "pacing": "3 slides, minimal text",
+    "text_overlay": "Headings: Anton-like condensed heavy grotesque, Title Case (ALL CAPS on covers), navy #041732 with accent blue; '#N' numerals in blue, slightly italic; short blue underline (about 12.6% wide) under each heading; body: Didact Gothic-like light sans, gray #4b4945, about 2.7% of frame height, left-aligned at x=10%, 2 to 4 short lines; BLUE BRO logo top-left on every slide",
+    "audio": "third-party sound (library-style title and author), not original, no voiceover; slideshow so the sound is only background",
+    "arc": "Show the workout at a glance → app plug"
+  },
+  "units": [
+    {
+      "n": 1,
+      "role": "hook",
+      "class": "2d-characters",
+      "confidence": "high",
+      "summary": "cover with mascot arms open, red chest and shoulders"
+    },
+    {
+      "n": 2,
+      "role": "workout-overview",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "'PUSH WORKOUT, SIX EXERCISES' title with the mascot top-right and a 3x2 card grid (same cards as the program-day slides)"
+    },
+    {
+      "n": 3,
+      "role": "bonus-tip",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "Bonus Tip + app icon 'HealthMeter' + phone mockup",
+      "same_as": "macro post slide 8"
+    }
+  ],
+  "product": "Slide 3: HealthMeter plug (bonus tip, app store instruction), caption '@HealthMeter'",
+  "proof_device": "phone UI mockup",
+  "series": "single post",
+  "caption": "Medium: description + product plug + 5 hashtags",
+  "hashtags": "5: #healthmeter #gymtips #pushday #pushworkout #musclebuilding",
+  "topic": "push day + nutrition app",
+  "language": "English, second person"
+}

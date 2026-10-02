@@ -1,0 +1,77 @@
+{
+  "post": "7677822379434724626",
+  "type": "slideshow",
+  "fingerprint": {
+    "structure": "7 slides: hook (part 2 of 'gym tips I wish I knew') → 5 tips by muscle (shoulders, biceps, triceps, forearms, abs), each a heading + short lines + mascot on equipment → '#6 Bonus Tip' (HealthMeter app in the mascot's hand)",
+    "hook": "'I WISH I KNEW THESE GYM TIPS SOONER (PT. 2)' over the mascot in a relaxed stance",
+    "camera_motion": "2d-characters (mascot) on designed cards; 4:5 slides",
+    "pacing": "7 slides, 25 to 45 words of body text per tip slide",
+    "text_overlay": "Headings: Anton-like condensed heavy grotesque, Title Case (ALL CAPS on covers), navy #041732 with accent blue; '#N' numerals in blue, slightly italic; short blue underline (about 12.6% wide) under each heading; body: Didact Gothic-like light sans, gray #4b4945, about 2.7% of frame height, left-aligned at x=10%, 2 to 4 short lines; BLUE BRO logo top-left on every slide",
+    "audio": "third-party sound (library-style title and author), not original, no voiceover; slideshow so the sound is only background",
+    "arc": "Continue the series → five tips → soft-sell app tip as the last item"
+  },
+  "units": [
+    {
+      "n": 1,
+      "role": "hook",
+      "class": "2d-characters",
+      "confidence": "high",
+      "summary": "cover pt. 2"
+    },
+    {
+      "n": 2,
+      "role": "tip",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "#1 Shoulders",
+      "same_as": "cut-body-fat post slide 3 layout"
+    },
+    {
+      "n": 3,
+      "role": "tip",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "#2 Biceps",
+      "same_as": "slide 2"
+    },
+    {
+      "n": 4,
+      "role": "tip",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "#3 Triceps",
+      "same_as": "slide 2"
+    },
+    {
+      "n": 5,
+      "role": "tip",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "#4 Forearms",
+      "same_as": "slide 2"
+    },
+    {
+      "n": 6,
+      "role": "tip",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "#5 Abs",
+      "same_as": "slide 2"
+    },
+    {
+      "n": 7,
+      "role": "bonus-tip",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "#6 Bonus Tip: 'Track what you actually eat, not what you think you eat. I use HealthMeter.' + a blue mascot hand holding a phone showing the app's Nutrition screen",
+      "same_as": "slide 2 for the heading and text; the picture is a phone UI screenshot held by the mascot's hand"
+    }
+  ],
+  "product": "Slide 7 ('#6 Bonus Tip'): soft-sell plug for HealthMeter with the app UI in a mascot hand; caption '@HealthMeter'; no ad label",
+  "proof_device": "phone UI screenshot (HealthMeter Nutrition screen) held by a mascot hand",
+  "series": "part 2 of 2 (part 1 posted 2026-08-21)",
+  "caption": "'Part 2 of the gym tips I wish I knew sooner for muscle growth! Using @HealthMeter to log all my calories' + 4 hashtags",
+  "hashtags": "4: #gymtips #musclegrowthtips #buildmuscle #healthmeter",
+  "topic": "gym tips + nutrition app",
+  "language": "English, first person + second person; a typo in the text ('pgroram', 'exericse')"
+}

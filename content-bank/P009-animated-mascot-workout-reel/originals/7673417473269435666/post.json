@@ -1,0 +1,56 @@
+{
+  "id": "7673417473269435666",
+  "url": "https://www.tiktok.com/@bluebro.fit/video/7673417473269435666",
+  "creator": "bluebro.fit",
+  "type": "video",
+  "collected_at": "2026-09-25T02:47:59+00:00",
+  "published": {
+    "utc": "2026-08-13T07:38:54+00:00",
+    "local": "2026-08-13T15:38:54+08:00",
+    "timezone": "Asia/Manila",
+    "weekday": "Thursday",
+    "hour": 15
+  },
+  "caption": "The perfect back & biceps workout in 6 exercises! 1️⃣ Lat Pulldown 2️⃣ T-Bar Row 3️⃣ Seated Cable Row 4️⃣ Reverse Fly 5️⃣ Preacher Curl 6️⃣ Cable Hammer Curl 2-3 sets x 6-12 reps of all #pullday #pullworkout #backandbiceps #backday #musclebuilding ",
+  "hashtags": [
+    "pullday",
+    "pullworkout",
+    "backandbiceps",
+    "backday",
+    "musclebuilding"
+  ],
+  "mentions": [],
+  "stats": {
+    "views": 18400,
+    "likes": 503,
+    "comments": 2,
+    "shares": 38,
+    "saves": 363
+  },
+  "rates": {
+    "engagement": 0.0492,
+    "save": 0.0197,
+    "share": 0.0021,
+    "comment": 0.0001
+  },
+  "sound": {
+    "title": "Tron 1982 - New Retro Wave",
+    "author": "Synthwave Nation",
+    "original": false,
+    "id": "6789324061563422722"
+  },
+  "slide_count": null,
+  "duration": 34,
+  "size": {
+    "width": 576,
+    "height": 1024
+  },
+  "labels": {
+    "ad": false,
+    "ai_generated": false,
+    "location": "NZ"
+  },
+  "files": {
+    "video": "video.mp4"
+  }
+}

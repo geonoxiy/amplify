@@ -1,0 +1,85 @@
+{
+  "post": "7678909857365265672",
+  "type": "slideshow",
+  "fingerprint": {
+    "structure": "8 slides: hook ('HOW TO FIGURE OUT YOUR MACRO INTAKE') → macro breakdown → 4 steps (calories, protein, fat, carbs) with a worked example → recap → Bonus Tip (HealthMeter app mockup and icon)",
+    "hook": "How-to headline in dark grey and blue over the mascot writing macros in a notebook next to a plate and shaker",
+    "camera_motion": "2d-characters (mascot) on designed cards; 4:5 slides",
+    "pacing": "8 slides, 30 to 60 words of body text (math worked out in the text)",
+    "text_overlay": "Headings: Anton-like condensed heavy grotesque, Title Case (ALL CAPS on covers), navy #041732 with accent blue; '#N' numerals in blue, slightly italic; short blue underline (about 12.6% wide) under each heading; body: Didact Gothic-like light sans, gray #4b4945, about 2.7% of frame height, left-aligned at x=10%, 2 to 4 short lines; BLUE BRO logo top-left on every slide",
+    "audio": "third-party sound (library-style title and author), not original, no voiceover; slideshow so the sound is only background",
+    "arc": "How-to hook → step-by-step calculation → recap → app plug"
+  },
+  "units": [
+    {
+      "n": 1,
+      "role": "hook",
+      "class": "2d-characters",
+      "confidence": "high",
+      "summary": "cover: mascot at a desk with plates, a shaker and a notebook (CARBS 250, PROTEIN 125, FATS 60)"
+    },
+    {
+      "n": 2,
+      "role": "explainer",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "Macro Breakdown: protein 1g = 4 cal, carbs 1g = 4, fat 1g = 9; mascot leaning",
+      "same_as": "cut-body-fat post slide 3 layout without a number"
+    },
+    {
+      "n": 3,
+      "role": "step",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "Step 1: Find Your Caloric Goal",
+      "same_as": "slide 2"
+    },
+    {
+      "n": 4,
+      "role": "step",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "Step 2: Find Your Protein Intake (mascot with steak)",
+      "same_as": "slide 2"
+    },
+    {
+      "n": 5,
+      "role": "step",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "Step 3: Find Your Fat Intake (mascot with olive oil)",
+      "same_as": "slide 2"
+    },
+    {
+      "n": 6,
+      "role": "step",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "Step 4: Find Your Carb Intake (mascot with banana)",
+      "same_as": "slide 2"
+    },
+    {
+      "n": 7,
+      "role": "recap",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "Recap: the worked example as a list",
+      "same_as": "slide 2"
+    },
+    {
+      "n": 8,
+      "role": "bonus-tip",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "Bonus Tip: 'Search Health Meter on the apple/play store' + app icon labelled \"HealthMeter\" + phone mockup",
+      "same_as": "slide 2 heading; picture is a phone mockup and the app icon"
+    }
+  ],
+  "product": "Slide 8 (Bonus Tip): tells viewers to search 'Health Meter' in the app stores, with the app icon and a Nutrition screen mockup; caption '@HealthMeter'; no ad label",
+  "proof_device": "phone UI mockup and app icon",
+  "series": "single post",
+  "caption": "Long instruction + '@HealthMeter' + 4 hashtags",
+  "hashtags": "4: #macronutrientes #nutritiontips #healthmeter #nutrition (includes a Spanish-language tag)",
+  "topic": "macro / calorie calculation + nutrition app",
+  "language": "English, first person example ('I weigh 150 lbs'); typos ('u', 'i'll')"
+}

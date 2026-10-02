@@ -1,0 +1,9 @@
+[
+ {
+  "model": "nano-banana-pro",
+  "task_id": "a91c169ef5eefe47d7a846a4f37de941",
+  "credits": 24.0,
+  "output": "/Users/love/Documents/Claude/Amplify/mockups/templates/phone-04/template.png",
+  "prompt": "Recreate this reference photo as a new, original photo to use as a phone mockup template. Keep the same kind of phone (same model and size, same case style and colour), the same camera angle, tilt, distance and framing, and the same lighting mood. If a hand holds the phone, keep a similar natural ha"
+ }
+]

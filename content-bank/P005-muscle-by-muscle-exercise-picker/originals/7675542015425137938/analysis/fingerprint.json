@@ -1,0 +1,76 @@
+{
+  "post": "7675542015425137938",
+  "type": "slideshow",
+  "fingerprint": {
+    "structure": "6 slides: hook ('SMALL ARMS?') → anatomy overview ('DO THIS', 3 muscle insets around the mascot) → 4 muscle slides (triceps lateral, triceps long head, biceps, forearm), each with 'CHOOSE ONE:' + 3 exercise thumbnails and a large mascot with the target muscle highlighted red. No CTA",
+    "hook": "Two-word problem question 'SMALL ARMS?' over the mascot curling a dumbbell, on a grey circle",
+    "camera_motion": "2d-characters (mascot) on designed cards; larger mascot figures than the other formats; 4:5 slides",
+    "pacing": "6 slides, no body text; each muscle slide = heading + sets x reps + 3 thumbnails + one big figure",
+    "text_overlay": "Headings: Anton-like condensed heavy grotesque, Title Case (ALL CAPS on covers), navy #041732 with accent blue; '#N' numerals in blue, slightly italic; short blue underline (about 12.6% wide) under each heading; body: Didact Gothic-like light sans, gray #4b4945, about 2.7% of frame height, left-aligned at x=10%, 2 to 4 short lines; BLUE BRO logo top-left on every slide; 'CHOOSE ONE:' small caps label above 3 rounded thumbnails with dark name tags; large mascot with red muscle overlay on the right",
+    "audio": "third-party sound (library-style title and author), not original, no voiceover; slideshow so the sound is only background",
+    "arc": "Name the problem → show the muscles → pick one of three exercises per muscle (no sell)"
+  },
+  "units": [
+    {
+      "n": 1,
+      "role": "hook",
+      "class": "2d-characters",
+      "confidence": "high",
+      "summary": "cover 'SMALL ARMS?' + mascot with dumbbell over a light grey circle"
+    },
+    {
+      "n": 2,
+      "role": "anatomy",
+      "class": "2d-characters",
+      "confidence": "high",
+      "summary": "'DO THIS' + mascot with 3 muscle insets (TRICEPS, BICEPS, FOREARMS) joined by leader lines"
+    },
+    {
+      "n": 3,
+      "role": "muscle-pick",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "#1 Triceps (Lateral-Head): CHOOSE ONE: JM Press / Machine Dips / Weighted Dips + mascot back view with red triceps",
+      "image": {
+        "art_style": "western comic / cel-shaded illustration, thick black outline, flat fills with a little hard shading (likely AI-generated, very consistent across posts)",
+        "character": "Blue Bro mascot: faceless, fully blue (#0270f9) muscular male figure, white almond-shaped eyes with black outline, black shorts, black smartwatch on the left wrist, thick black outline, cel-shaded comic style with vein and abs detail",
+        "pose": "back three-quarter view, arms slightly flexed",
+        "recurring": true,
+        "rights": "original brand mascot (owner's own character)",
+        "model_sheet_needed": true,
+        "extra": "red muscle overlay on the target head"
+      }
+    },
+    {
+      "n": 4,
+      "role": "muscle-pick",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "#2 Triceps (Long-Head): Cable Extension / Overhead Extension / Skull-Crushers",
+      "same_as": "slide 3, except title, thumbnails and highlight"
+    },
+    {
+      "n": 5,
+      "role": "muscle-pick",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "#3 Biceps: Preacher Curl / Bayesian Curl / Recline Curl",
+      "same_as": "slide 3, front view"
+    },
+    {
+      "n": 6,
+      "role": "muscle-pick",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "#4 Forearm: Hammer Preacher Curl / Cable Reverse Curl / Cable Hammer Curl",
+      "same_as": "slide 3, front view"
+    }
+  ],
+  "product": "none",
+  "proof_device": "none",
+  "series": "single post",
+  "caption": "Short: 'How to train your arms!' + 3 hashtags",
+  "hashtags": "3: #armday #armworkout #bigarms",
+  "topic": "arm training",
+  "language": "English, imperative ('DO THIS')"
+}

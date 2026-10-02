@@ -1,0 +1,23 @@
+[
+ {
+  "model": "google/nano-banana-edit",
+  "task_id": "5442ab8a83f0be2dc672f07c9aebb3ef",
+  "credits": 4.0,
+  "output": "content-bank/P004-clapback-outfit-reveal/runs/run-01_2026-09-24_wellness-willow-gym-kit-to-fri/output/raw/slide2.png",
+  "prompt": "Photorealistic full-length mirror selfie taken on an iPhone, vertical 9:16. The woman is the same person as in the reference image (same face, hair colour and skin), her dark brown hair now in a sleek low bun. She stands in the hallway of a London Victorian conversion flat: sage-green panelled wall,"
+ },
+ {
+  "model": "google/nano-banana-edit",
+  "task_id": "9817743f9554ddb6410f9e7c4b94d600",
+  "credits": 4.0,
+  "output": "content-bank/P004-clapback-outfit-reveal/runs/run-01_2026-09-24_wellness-willow-gym-kit-to-fri/output/raw/slide3.png",
+  "prompt": "Edit this photo: change ONLY her outfit. She now wears a cobalt-blue satin midi slip dress, an oversized charcoal-grey blazer draped over her shoulders, black strappy heeled sandals and small gold hoop earrings. Keep everything else exactly the same: her pose, hand on hip, body, low bun, the phone a"
+ },
+ {
+  "model": "google/nano-banana-edit",
+  "task_id": "dfd23bc219bdc3f095d44cf7dbbb9c77",
+  "credits": 4.0,
+  "output": "content-bank/P004-clapback-outfit-reveal/runs/run-01_2026-09-24_wellness-willow-gym-kit-to-fri/output/raw/slide1.png",
+  "prompt": "Photorealistic close-up phone selfie, vertical 9:16, taken from slightly above eye level with the front camera. The woman is the same person as in the reference image (same face, freckles, hair colour, gold hoops), dark brown hair in a sleek low bun, wearing a sage-green cropped zip-up jacket. She s"
+ }
+]

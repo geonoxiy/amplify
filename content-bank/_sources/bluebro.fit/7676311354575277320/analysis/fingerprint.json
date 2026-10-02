@@ -1,0 +1,69 @@
+{
+  "post": "7676311354575277320",
+  "type": "slideshow",
+  "fingerprint": {
+    "structure": "6 slides: hook ('I WISH I KNEW THESE GYM TIPS SOONER (PT. 1)') → 5 tips by muscle (chest, shoulders, lats, traps, erectors), each a heading + 1 to 3 short lines + mascot on a machine. No CTA",
+    "hook": "'I WISH I KNEW THESE GYM TIPS SOONER (PT. 1)' over the mascot with a dumbbell; part-number in a smaller blue bracket",
+    "camera_motion": "2d-characters (mascot) on designed cards; 4:5 slides",
+    "pacing": "6 slides, 25 to 45 words of body text per tip slide",
+    "text_overlay": "Headings: Anton-like condensed heavy grotesque, Title Case (ALL CAPS on covers), navy #041732 with accent blue; '#N' numerals in blue, slightly italic; short blue underline (about 12.6% wide) under each heading; body: Didact Gothic-like light sans, gray #4b4945, about 2.7% of frame height, left-aligned at x=10%, 2 to 4 short lines; BLUE BRO logo top-left on every slide",
+    "audio": "third-party sound (library-style title and author), not original, no voiceover; slideshow so the sound is only background",
+    "arc": "Regret hook → five muscle-specific tips → 'Part 2?' engagement bait"
+  },
+  "units": [
+    {
+      "n": 1,
+      "role": "hook",
+      "class": "2d-characters",
+      "confidence": "high",
+      "summary": "cover: regret headline + mascot curling a dumbbell"
+    },
+    {
+      "n": 2,
+      "role": "tip",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "#1 Chest: you only need 2 exercises (upper-chest bias, mid/lower); mascot on a pec deck",
+      "same_as": "cut-body-fat post slide 3 layout"
+    },
+    {
+      "n": 3,
+      "role": "tip",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "#2 Shoulders",
+      "same_as": "slide 2"
+    },
+    {
+      "n": 4,
+      "role": "tip",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "#3 Lats",
+      "same_as": "slide 2"
+    },
+    {
+      "n": 5,
+      "role": "tip",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "#4 Traps (Upper Back)",
+      "same_as": "slide 2"
+    },
+    {
+      "n": 6,
+      "role": "tip",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "#5 Erectors (Lower Back)",
+      "same_as": "slide 2"
+    }
+  ],
+  "product": "none",
+  "proof_device": "none",
+  "series": "part 1 of 2 (part 2 posted 2026-08-25)",
+  "caption": "'Part 1. Who wants to see part 2?' + 3 hashtags: an engagement-bait question",
+  "hashtags": "3: #gymtips #musclebuildingtips #growthtips",
+  "topic": "gym tips by muscle",
+  "language": "English, first person regret ('I wish I knew'), second-person tips"
+}

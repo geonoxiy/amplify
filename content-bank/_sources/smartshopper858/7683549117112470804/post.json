@@ -1,0 +1,63 @@
+{
+  "id": "7683549117112470804",
+  "url": "https://www.tiktok.com/@smartshopper858/photo/7683549117112470804",
+  "creator": "smartshopper858",
+  "type": "slideshow",
+  "collected_at": "2026-09-23T18:02:18+00:00",
+  "published": {
+    "utc": "2026-09-10T11:00:00+00:00",
+    "local": "2026-09-10T19:00:00+08:00",
+    "timezone": "Asia/Manila",
+    "weekday": "Thursday",
+    "hour": 19
+  },
+  "caption": "effective ba talaga si dermorepublic??? share your experience sa comments! #dermorepubliq #skincare #underarmserum #affiliatemarketing",
+  "hashtags": [
+    "dermorepubliq",
+    "skincare",
+    "underarmserum",
+    "affiliatemarketing"
+  ],
+  "mentions": [],
+  "stats": {
+    "views": 738,
+    "likes": 10,
+    "comments": 0,
+    "shares": 2,
+    "saves": 5
+  },
+  "rates": {
+    "engagement": 0.023,
+    "save": 0.0068,
+    "share": 0.0027,
+    "comment": 0.0
+  },
+  "sound": {
+    "title": "original sound - ⌖",
+    "author": "⌖",
+    "original": true,
+    "id": "7667011973359635218"
+  },
+  "slide_count": 6,
+  "duration": null,
+  "size": {
+    "width": 828,
+    "height": 533
+  },
+  "labels": {
+    "ad": false,
+    "ai_generated": false,
+    "location": "PH"
+  },
+  "files": {
+    "sound": "sound.mp3",
+    "slides": [
+      "slides/01.jpg",
+      "slides/02.jpg",
+      "slides/03.jpg",
+      "slides/04.jpg",
+      "slides/05.jpg",
+      "slides/06.jpg"
+    ]
+  }
+}

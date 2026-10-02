@@ -1,0 +1,100 @@
+[
+ {
+  "model": "nano-banana-pro",
+  "task_id": "ee0049049aeb80f39e53decbc6e5f77b",
+  "credits": 18.0,
+  "output": "content-bank/P015-lip-sync-dance-trend/runs/run-01_2026-10-01_willow-lip-sync-dance/raw/stills/willow_start_v1.png",
+  "prompt": "Photo of the woman in the reference image: keep her exact face, dark brown shoulder-length hair, light-olive skin, faint freckles across the nose and cheeks, brown eyes, groomed brows and small gold hoop earrings. She stands facing the camera in a narrow cobbled London mews lane lined with cream and"
+ },
+ {
+  "model": "kling-3.0/motion-control",
+  "task_id": "6f9fb41215c067a04d86acbeab2de3f1",
+  "credits": 280.0,
+  "output": "content-bank/P015-lip-sync-dance-trend/runs/run-01_2026-10-01_willow-lip-sync-dance/raw/motion/clip_v1.mp4",
+  "prompt": "Phone video filmed by a friend in a sunny cobbled London mews lane, natural handheld camera, the woman lip-syncs and dances playfully, realistic skin, hair and fleece fabric, no distortion, the character's movements are consistent with the video."
+ },
+ {
+  "model": "nano-banana-pro",
+  "task_id": "6d5d34a9ae53bce36b35e2215556c74d",
+  "credits": 18.0,
+  "output": "content-bank/P015-lip-sync-dance-trend/runs/run-01_2026-10-01_willow-lip-sync-dance/raw/stills/willow_start_v2.png",
+  "prompt": "Photo of the woman from image 1 (keep her exact face, dark brown shoulder-length hair, light-olive skin, faint freckles, brown eyes, groomed brows, small gold hoop earrings) wearing the same outfit and standing in the same sunny cobbled London mews lane as in image 2: oversized sage-green fleece zip"
+ },
+ {
+  "model": "kling-3.0/motion-control",
+  "task_id": "f9fa7819e207804e6a38ca68c7000669",
+  "credits": 280.0,
+  "output": "content-bank/P015-lip-sync-dance-trend/runs/run-01_2026-10-01_willow-lip-sync-dance/raw/motion/clip_v2.mp4",
+  "prompt": "Handheld phone video in a sunny cobbled London mews lane. The woman is the only person in the whole video: no other people, no hands, heads, shoulders or objects in the foreground, nothing between her and the camera. She lip-syncs and dances playfully. Her hair stays dark brown. Realistic skin, hair"
+ },
+ {
+  "model": "kling-3.0/motion-control",
+  "task_id": "882546579d1497534b748619c566c967",
+  "credits": 260.0,
+  "output": "content-bank/P015-lip-sync-dance-trend/runs/run-01_2026-10-01_willow-lip-sync-dance/raw/motion_trim/clip_v3.mp4",
+  "prompt": "Handheld phone video in a sunny cobbled London mews lane. The woman is the only person in the whole video: no other people, no hands, heads, shoulders or objects in the foreground, nothing between her and the camera. She lip-syncs and dances playfully. Her hair stays dark brown. Realistic skin, hair"
+ },
+ {
+  "model": "kling-3.0/motion-control",
+  "task_id": "a9c9ae73dfa61e060febe92ace881795",
+  "credits": 260.0,
+  "output": "content-bank/P015-lip-sync-dance-trend/runs/run-01_2026-10-01_willow-lip-sync-dance/raw/motion_trim/clip_v4.mp4",
+  "prompt": "No distortion, the character's movements are consistent with the video."
+ },
+ {
+  "model": "nano-banana-pro",
+  "task_id": "685d9dc4634057b7d7e9b20ac0241250",
+  "credits": 24.0,
+  "output": "content-bank/P015-lip-sync-dance-trend/runs/run-01_2026-10-01_willow-lip-sync-dance/raw/stills/willow_v5_layout.png",
+  "prompt": "Unretouched iPhone photo. Image 1 is the woman's face: keep her exact identity and features: oval face with a slightly square jaw, a small bump on the nose bridge, freckles across the nose bridge and upper cheeks, a few small flat moles on one cheek, visible pores, light-olive skin, brown eyes, smal"
+ },
+ {
+  "model": "kling-3.0/motion-control",
+  "task_id": "fab75ddb758c455b98dd2a9c960e7fb1",
+  "credits": 351.0,
+  "output": "content-bank/P015-lip-sync-dance-trend/runs/run-01_2026-10-01_willow-lip-sync-dance/raw/motion_trim/clip_v5_1080.mp4",
+  "prompt": "No distortion, the character's movements are consistent with the video."
+ },
+ {
+  "model": "topaz/video-upscale",
+  "task_id": "9bf9bc228e26e07aa9b61fc396f1b444",
+  "credits": 0.0,
+  "output": "FAILED",
+  "prompt": "topaz x2 clip_v5_1080.mp4"
+ },
+ {
+  "model": "topaz/video-upscale",
+  "task_id": "95cf92b30a906d38cc61c6edd02a8eee",
+  "credits": 0.0,
+  "output": "FAILED",
+  "prompt": "topaz x2 clip_v5_1080.mp4"
+ },
+ {
+  "model": "seedream/5-pro-image-to-image",
+  "task_id": "7dd4ed45e20be0ac1362a936b7e6745f",
+  "credits": 14.5,
+  "output": "content-bank/P015-lip-sync-dance-trend/runs/run-01_2026-10-01_willow-lip-sync-dance/raw/stills/willow_v6_sd5.png",
+  "prompt": "Edit image 1 only where described and keep everything else exactly as it is: the same back passage, walls, light, framing, her position, size, pose, outfit and hair. Image 2 is a reference sheet of the same woman: match her face to it exactly (oval face, slightly square jaw, small bump on the nose b"
+ },
+ {
+  "model": "nano-banana-pro",
+  "task_id": "c866579dc2255a114246257b3874d841",
+  "credits": 24.0,
+  "output": "content-bank/P015-lip-sync-dance-trend/runs/run-01_2026-10-01_willow-lip-sync-dance/raw/stills/willow_v6_nbp.png",
+  "prompt": "Edit image 1 only where described and keep everything else exactly as it is: the same back passage, walls, light, framing, her position, size, pose, outfit and hair. Image 2 is a reference sheet of the same woman: match her face to it exactly (oval face, slightly square jaw, small bump on the nose b"
+ },
+ {
+  "model": "kling-3.0/motion-control",
+  "task_id": "658ea72f36f2965321eddda3a28904e6",
+  "credits": 351.0,
+  "output": "content-bank/P015-lip-sync-dance-trend/runs/run-01_2026-10-01_willow-lip-sync-dance/raw/motion_trim/clip_v6a.mp4",
+  "prompt": "No distortion, the character's movements are consistent with the video."
+ },
+ {
+  "model": "kling-3.0/motion-control",
+  "task_id": "48484b7e6b0f293fee62a7249c748cec",
+  "credits": 351.0,
+  "output": "content-bank/P015-lip-sync-dance-trend/runs/run-01_2026-10-01_willow-lip-sync-dance/raw/motion_trim/clip_v6b.mp4",
+  "prompt": "No distortion, the character's movements are consistent with the video. "
+ }
+]

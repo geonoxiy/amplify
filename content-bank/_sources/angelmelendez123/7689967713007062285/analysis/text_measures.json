@@ -1,0 +1,31 @@
+{
+  "unit 1": {
+    "problems": [],
+    "text_blocks": [
+      {
+        "i": 1,
+        "text": "My therapist saved\nmy relationship, he s",
+        "box": [
+          16.3,
+          41.2,
+          67.7,
+          32.4
+        ],
+        "contrast": {
+          "bg_hex": "#0a0605",
+          "text_hex": "#fcffb0",
+          "text_hex_source": "record",
+          "contrast_ratio": 19.28,
+          "band": "good (4.5+)"
+        },
+        "safe_zone": {
+          "applies": true,
+          "calibrated": false,
+          "top_bar": 0.0,
+          "right_buttons": 0.0,
+          "bottom_caption": 0.0
+        }
+      }
+    ]
+  }
+}

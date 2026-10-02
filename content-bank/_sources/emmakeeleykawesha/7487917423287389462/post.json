@@ -1,0 +1,57 @@
+{
+  "id": "7487917423287389462",
+  "url": "https://www.tiktok.com/@emmakeeleykawesha/photo/7487917423287389462",
+  "creator": "emmakeeleykawesha",
+  "type": "slideshow",
+  "collected_at": "2026-09-28T15:16:57+00:00",
+  "published": {
+    "utc": "2025-03-31T10:24:01+00:00",
+    "local": "2025-03-31T18:24:01+08:00",
+    "timezone": "Asia/Manila",
+    "weekday": "Monday",
+    "hour": 18
+  },
+  "caption": "i need to get creative lollol #fyp #advice #unhinged ",
+  "hashtags": [
+    "fyp",
+    "advice",
+    "unhinged"
+  ],
+  "mentions": [],
+  "stats": {
+    "views": 17400000,
+    "likes": 1600000,
+    "comments": 26300,
+    "shares": 38300,
+    "saves": 303325
+  },
+  "rates": {
+    "engagement": 0.1131,
+    "save": 0.0174,
+    "share": 0.0022,
+    "comment": 0.0015
+  },
+  "sound": {
+    "title": "(1938) Ромео и Джульетта - Сцена II: No 13, Танец рыцарей",
+    "author": "Сергей Прокофьев",
+    "original": false,
+    "id": "6940113592684349441"
+  },
+  "slide_count": 1,
+  "duration": null,
+  "size": {
+    "width": 1080,
+    "height": 1920
+  },
+  "labels": {
+    "ad": false,
+    "ai_generated": false,
+    "location": "AU"
+  },
+  "files": {
+    "sound": "sound.mp3",
+    "slides": [
+      "slides/01.jpg"
+    ]
+  }
+}

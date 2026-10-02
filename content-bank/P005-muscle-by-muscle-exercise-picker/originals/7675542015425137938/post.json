@@ -1,0 +1,62 @@
+{
+  "id": "7675542015425137938",
+  "url": "https://www.tiktok.com/@bluebro.fit/photo/7675542015425137938",
+  "creator": "bluebro.fit",
+  "type": "slideshow",
+  "collected_at": "2026-09-25T02:47:43+00:00",
+  "published": {
+    "utc": "2026-08-19T01:03:15+00:00",
+    "local": "2026-08-19T09:03:15+08:00",
+    "timezone": "Asia/Manila",
+    "weekday": "Wednesday",
+    "hour": 9
+  },
+  "caption": "How to train your arms! #armday #armworkout #bigarms ",
+  "hashtags": [
+    "armday",
+    "armworkout",
+    "bigarms"
+  ],
+  "mentions": [],
+  "stats": {
+    "views": 13000,
+    "likes": 460,
+    "comments": 3,
+    "shares": 15,
+    "saves": 321
+  },
+  "rates": {
+    "engagement": 0.0615,
+    "save": 0.0247,
+    "share": 0.0012,
+    "comment": 0.0002
+  },
+  "sound": {
+    "title": "cRYSTAL",
+    "author": "NO153 & ICE CREAM MUSIC",
+    "original": false,
+    "id": "7658295268287334416"
+  },
+  "slide_count": 6,
+  "duration": null,
+  "size": {
+    "width": 1080,
+    "height": 1350
+  },
+  "labels": {
+    "ad": false,
+    "ai_generated": false,
+    "location": "NZ"
+  },
+  "files": {
+    "sound": "sound.mp3",
+    "slides": [
+      "slides/01.jpg",
+      "slides/02.jpg",
+      "slides/03.jpg",
+      "slides/04.jpg",
+      "slides/05.jpg",
+      "slides/06.jpg"
+    ]
+  }
+}

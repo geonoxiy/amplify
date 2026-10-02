@@ -1,0 +1,258 @@
+{
+  "post": "7685884575632919815",
+  "type": "slideshow",
+  "fingerprint": {
+    "structure": "8 slides: hook (before/after mascot) → 6 numbered tips (#1 to #6), each a heading, 2 short paragraphs and a mascot acting out the tip → CTA (eBook)",
+    "hook": "'HOW TO CUT BODY FAT AS FAST AS HUMANY POSSIBLE' (typo) over a soft-to-lean mascot pair joined by a >> arrow",
+    "camera_motion": "2d-characters (mascot) on designed cards; 4:5 slides",
+    "pacing": "8 slides, 15 to 45 words of body text on tip slides",
+    "text_overlay": "Headings: Anton-like condensed heavy grotesque, Title Case (ALL CAPS on covers), navy #041732 with accent blue; '#N' numerals in blue, slightly italic; short blue underline (about 12.6% wide) under each heading; body: Didact Gothic-like light sans, gray #4b4945, about 2.7% of frame height, left-aligned at x=10%, 2 to 4 short lines; BLUE BRO logo top-left on every slide",
+    "audio": "third-party sound (library-style title and author), not original, no voiceover; slideshow so the sound is only background",
+    "arc": "Promise the fastest way → six actionable tips → sell the program"
+  },
+  "units": [
+    {
+      "n": 1,
+      "role": "hook",
+      "class": "2d-characters",
+      "confidence": "high",
+      "summary": "cover: two-mascot before/after (softer vs lean) with a >> arrow, bold 3-line headline in navy and blue"
+    },
+    {
+      "n": 2,
+      "role": "tip",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "#1 Train Every Muscle 2x/Week: mascot doing a dip on parallel bars"
+    },
+    {
+      "n": 3,
+      "role": "tip",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "#2 Eat a High Protein Intake: explainer paragraph over the mascot eating steak and eggs",
+      "frame": {
+        "canvas": "4:5 portrait, 1080x1350, no bars or border",
+        "layers": [
+          {
+            "type": "background",
+            "box": [
+              0,
+              0,
+              100,
+              100
+            ],
+            "note": "flat warm beige (#f4f1ea); no gradient, no texture"
+          },
+          {
+            "type": "mark",
+            "box": [
+              2.7,
+              2.1,
+              14.4,
+              4.2
+            ],
+            "note": "BLUE BRO wordmark (black condensed caps) with the blue mascot-head icon, top-left on every slide and video frame"
+          },
+          {
+            "type": "accent-line",
+            "box": [
+              10,
+              26.6,
+              12.6,
+              0.5
+            ],
+            "note": "blue underline"
+          },
+          {
+            "type": "mascot",
+            "box": [
+              43.3,
+              53.2,
+              44.1,
+              41.3
+            ],
+            "note": "mascot half-body holding fork with a piece of steak, plate of steak and fried eggs, knife in the other hand"
+          }
+        ],
+        "composition": {
+          "focal": [
+            63,
+            72
+          ],
+          "subject_box": [
+            43.3,
+            53.2,
+            44.1,
+            41.3
+          ],
+          "zone": "bottom-center",
+          "negative_space": [
+            [
+              10,
+              55,
+              32,
+              40
+            ]
+          ],
+          "balance": "text left and top, figure lower-right; diagonal read from heading to figure",
+          "grouping": "heading row → underline → paragraph → illustration"
+        },
+        "safe_zones": "not applicable (4:5 slide)",
+        "color_light": "same palette",
+        "quality": "clean vector-like render",
+        "origin_realism": "designed card, illustration; food drawn in a more realistic style than the mascot"
+      },
+      "text_blocks": [
+        {
+          "text": "#2",
+          "origin": "designed",
+          "role": "number",
+          "pattern": "numbered-heading",
+          "box": [
+            10,
+            17,
+            9.8,
+            6.6
+          ],
+          "zone": "top-left",
+          "align": "left",
+          "font": "Anton (closest): condensed heavy grotesque, slightly italic",
+          "size_pct": 9.2,
+          "case": "n/a",
+          "stroke": "none",
+          "under": "solid beige background",
+          "fill": "#0375d8",
+          "bg": "#f4f1ea",
+          "contrast_ratio": 4.1,
+          "fill_source": "sampled from the pixels in the box (measure.py)"
+        },
+        {
+          "text": "Eat a High Protein Intake",
+          "origin": "designed",
+          "role": "headline",
+          "pattern": "numbered-heading",
+          "box": [
+            24.4,
+            17.8,
+            59.8,
+            5.4
+          ],
+          "zone": "top-center",
+          "align": "left",
+          "font": "Anton (closest): condensed heavy grotesque",
+          "size_pct": 5.4,
+          "case": "Title Case",
+          "stroke": "none",
+          "under": "solid beige background",
+          "fill": "#051b3a",
+          "bg": "#f4f1ea",
+          "contrast_ratio": 15.21,
+          "fill_source": "sampled from the pixels in the box (measure.py)"
+        },
+        {
+          "text": "To preserve muscle in a deficit, protein needs to be high (commonly cited around 0.7-1g per lb of bodyweight). / Without this, \"train consistently\" won't protect muscle nearly as well.",
+          "origin": "designed",
+          "role": "body",
+          "pattern": "top-headline",
+          "box": [
+            10,
+            33.2,
+            64.7,
+            19.5
+          ],
+          "zone": "top-left",
+          "align": "left",
+          "font": "Didact Gothic (closest): light geometric humanist sans",
+          "size_pct": 2.7,
+          "case": "Sentence case",
+          "stroke": "none",
+          "under": "solid beige background",
+          "fill": "#4b4946",
+          "bg": "#f4f1ea",
+          "contrast_ratio": 7.9,
+          "fill_source": "sampled from the pixels in the box (measure.py)"
+        },
+        {
+          "text": "BLUE BRO",
+          "origin": "mark",
+          "role": "watermark",
+          "pattern": "corner-mark",
+          "box": [
+            5.7,
+            2.1,
+            11.4,
+            4.2
+          ],
+          "zone": "top-left",
+          "align": "left",
+          "font": "Anton-like condensed caps",
+          "size_pct": 3.0,
+          "case": "ALL CAPS",
+          "stroke": "none",
+          "under": "solid beige background",
+          "fill": "#020101",
+          "bg": "#f4f1ea",
+          "contrast_ratio": 18.44,
+          "fill_source": "sampled from the pixels in the box (measure.py)"
+        }
+      ],
+      "image": {
+        "art_style": "western comic / cel-shaded illustration, thick black outline, flat fills with a little hard shading (likely AI-generated, very consistent across posts)",
+        "character": "Blue Bro mascot: faceless, fully blue (#0270f9) muscular male figure, white almond-shaped eyes with black outline, black shorts, black smartwatch on the left wrist, thick black outline, cel-shaded comic style with vein and abs detail",
+        "pose": "eating: fork and knife, seated behind a plate",
+        "recurring": true,
+        "rights": "original brand mascot (owner's own character)",
+        "model_sheet_needed": true,
+        "extra": "the illustration acts out the tip, one prop per tip"
+      }
+    },
+    {
+      "n": 4,
+      "role": "tip",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "#3 Eat in a Healthy Deficit: mascot with phone and a plate",
+      "same_as": "slide 3"
+    },
+    {
+      "n": 5,
+      "role": "tip",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "#4 Walk More: mascot walking, 10,000+ steps",
+      "same_as": "slide 3, full-body figure"
+    },
+    {
+      "n": 6,
+      "role": "tip",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "#5 Eat Low Calorie Snacks: mascot with a bowl of blueberries and yogurt",
+      "same_as": "slide 3"
+    },
+    {
+      "n": 7,
+      "role": "tip",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "#6 Get Good Sleep, Everyday: mascot asleep in a bed",
+      "same_as": "slide 3"
+    },
+    {
+      "n": 8,
+      "role": "cta",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "'Want A Better Physique?' + Muscle Manual tablet",
+      "same_as": "forearms post slide 6, identical"
+    }
+  ],
+  "product": "Slide 8: the same hard-sell eBook CTA slide (identical text and art)",
+  "proof_device": "none",
+  "series": "single post",
+  "caption": "Short: 'How to cut weight as fast as possible (while still being healthy)' + 3 hashtags; no CTA in the caption",
+  "hashtags": "3: #cuttingweight #weightloss #gymtips (topic + broad)",
+  "topic": "cutting / fat loss",
+  "language": "English, second person; claims stated as fact ('a 400-800 calorie deficit should be sufficient'); typo 'HUMANY'"
+}

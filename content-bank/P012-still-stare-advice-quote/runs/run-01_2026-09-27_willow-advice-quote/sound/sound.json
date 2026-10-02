@@ -1,0 +1,29 @@
+{
+ "title": "Younger Years",
+ "author": "Zach Bryan",
+ "album": "American Heartbreak",
+ "tiktok_sound_id": "7099926205368895489",
+ "tiktok_sound_page": "https://www.tiktok.com/music/Younger-Years-7099926205368895489",
+ "sound_page_note": "standard TikTok sound-page pattern, not opened",
+ "original_sound": false,
+ "full_sound_seconds": 60,
+ "tiktok_flags": {
+  "isCopyrighted": true,
+  "is_commerce_music": false,
+  "is_unlimited_music": false
+ },
+ "source_post": "https://www.tiktok.com/@angelmelendez123/video/7689967713007062285",
+ "clip_file": "younger-years_zach-bryan_source-clip.m4a",
+ "clip_seconds": 5.11,
+ "clip_is": "the audio track of the source video (the part of the sound the source used), copied without re-encoding",
+ "loudness_db": {
+  "mean": -14.4,
+  "max": -3.9
+ },
+ "extracted_at": "2026-09-27T00:27:07+00:00",
+ "caveats": [
+  "Third-party music: rights stay with the owner. The licensed way to use it is to pick the sound in TikTok by name or ID when posting.",
+  "TikTok's data does not list it as commercial-library music (is_commerce_music false): business or brand accounts may not be allowed to use it.",
+  "This clip is the source video's mix, which may also carry that video's own audio."
+ ]
+}

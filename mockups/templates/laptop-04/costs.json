@@ -1,0 +1,16 @@
+[
+ {
+  "model": "nano-banana-pro",
+  "task_id": "4ea2f1216887de1b28112922ef79ccbb",
+  "credits": 18.0,
+  "output": "/Users/love/Documents/Claude/Amplify/mockups/templates/laptop-04/template.png",
+  "prompt": "Recreate this reference photo as a new, original photo to use as a product mockup template. Keep the same kind of laptop (same model, colour and size), the same camera angle, height, tilt and distance, the same framing and crop, the same lighting mood and time of day, and similar surroundings.\n\nThe "
+ },
+ {
+  "model": "nano-banana-pro",
+  "task_id": "9c7488214d4ff53bc98dee045cfac2d8",
+  "credits": 24.0,
+  "output": "/Users/love/Documents/Claude/Amplify/mockups/templates/laptop-04/template.png",
+  "prompt": "Recreate this reference photo as a new, original photo to use as a product mockup template. Keep the same kind of laptop (same model, colour and size), the same camera angle, height, tilt and distance, the same framing and crop, and the same lighting mood and time of day.\n\nThe laptop is switched on "
+ }
+]

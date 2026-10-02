@@ -1,0 +1,63 @@
+{
+ "takes": {
+  "a": "content-bank/P015-lip-sync-dance-trend/runs/run-01_2026-10-01_willow-lip-sync-dance/raw/motion_trim/clip_v6a.mp4",
+  "b": "content-bank/P015-lip-sync-dance-trend/runs/run-01_2026-10-01_willow-lip-sync-dance/raw/motion_trim/clip_v6b.mp4"
+ },
+ "window_s": 1.0,
+ "flagged_faces_per_window": {
+  "a": [
+   3,
+   0,
+   0,
+   0,
+   0,
+   3,
+   0,
+   0,
+   0,
+   0,
+   0,
+   2,
+   0,
+   0
+  ],
+  "b": [
+   3,
+   0,
+   0,
+   0,
+   0,
+   4,
+   0,
+   1,
+   0,
+   0,
+   0,
+   2,
+   0,
+   0
+  ]
+ },
+ "plan": [
+  "a",
+  "a",
+  "a",
+  "a",
+  "a",
+  "a",
+  "a",
+  "a",
+  "a",
+  "a",
+  "a",
+  "a",
+  "a",
+  "a"
+ ],
+ "cuts": [],
+ "flagged_kept": 8,
+ "flagged_per_take": {
+  "a": 8,
+  "b": 10
+ }
+}

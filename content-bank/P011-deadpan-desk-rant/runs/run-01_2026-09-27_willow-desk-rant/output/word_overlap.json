@@ -1,0 +1,13 @@
+{
+ "our_words": 32,
+ "shared_unique_words": [
+  "did",
+  "not",
+  "still",
+  "the",
+  "who"
+ ],
+ "overlap_of_ours_pct": 16.7,
+ "longest_shared_run_words": 2,
+ "longest_shared_run": "did not"
+}

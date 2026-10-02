@@ -1,0 +1,146 @@
+{
+ "canvas": [
+  1080,
+  1350
+ ],
+ "theme": {},
+ "slides": [
+  {
+   "type": "cover",
+   "role": "hook",
+   "class": "2d-characters",
+   "lines": [
+    {
+     "text": "FLAT",
+     "color": "ink",
+     "cap_pct": 11
+    },
+    {
+     "text": "TRAPS?",
+     "color": "accent",
+     "cap_pct": 11
+    }
+   ],
+   "top_pct": 11.5,
+   "gap_pct": 2.8,
+   "art": "raw/cover.png",
+   "art_box": [
+    2,
+    36,
+    96,
+    64
+   ],
+   "crop_top": 0.6
+  },
+  {
+   "type": "overview",
+   "role": "anatomy",
+   "class": "2d-characters",
+   "title": "Trap Anatomy",
+   "body": "The upper traps run from your neck out to your shoulders. They lift and rotate your shoulder blades.",
+   "art": "raw/overview_fixed.png",
+   "crop_top": 0.62,
+   "art_box": [
+    16,
+    31,
+    68,
+    63
+   ],
+   "labels": [
+    {
+     "text": "UPPER TRAPS",
+     "color": "red",
+     "text_color": "white",
+     "side": "left",
+     "target": "red",
+     "y_pct": 32.5
+    },
+    {
+     "text": "MID + LOWER TRAPS",
+     "color": "yellow",
+     "text_color": "ink",
+     "side": "right",
+     "target": "yellow",
+     "y_pct": 32.5,
+     "target_q": 78
+    }
+   ]
+  },
+  {
+   "type": "pick",
+   "role": "muscle-pick",
+   "number": "#1",
+   "title": "Shrugs",
+   "sets": "2-3 Sets x 8-15 Reps",
+   "body": "Shrugs train the upper traps’ main job: lifting your shoulders. Pause at the top, then lower slowly.",
+   "pick_label": "Pick either:",
+   "options": [
+    {
+     "art": "raw/ex1_db_shrug.png",
+     "caption": "Dumbbell Shrug"
+    },
+    {
+     "art": "raw/ex2_bb_shrug.png",
+     "caption": "Barbell Shrug"
+    }
+   ]
+  },
+  {
+   "type": "pick",
+   "role": "muscle-pick",
+   "number": "#2",
+   "title": "Upright Rows",
+   "sets": "2-3 Sets x 8-12 Reps",
+   "body": "Pulls that end with your shoulders lifting also load the upper traps. Lead with your elbows and stop at chest height.",
+   "pick_label": "Pick either:",
+   "options": [
+    {
+     "art": "raw/ex3_cable_upright_row.png",
+     "caption": "Cable Upright Row"
+    },
+    {
+     "art": "raw/ex4_db_upright_row.png",
+     "caption": "Dumbbell Upright Row"
+    }
+   ]
+  },
+  {
+   "type": "pick",
+   "role": "muscle-pick",
+   "number": "#3",
+   "title": "Carries",
+   "sets": "2-3 Sets x 30-60 Seconds",
+   "body": "Holding a heavy load keeps the upper traps working the whole time. Walk tall and don’t let your shoulders sag.",
+   "pick_label": "Pick either:",
+   "options": [
+    {
+     "art": "raw/ex5_farmers_carry.png",
+     "caption": "Farmer’s Carry"
+    },
+    {
+     "art": "raw/ex6_suitcase_carry.png",
+     "caption": "Suitcase Carry"
+    }
+   ]
+  },
+  {
+   "type": "pick",
+   "role": "muscle-pick",
+   "number": "#4",
+   "title": "Overhead Press",
+   "sets": "2-3 Sets x 6-10 Reps",
+   "body": "Pressing overhead turns your shoulder blades upward, and the upper traps help. Press until your arms are fully overhead.",
+   "pick_label": "Pick either:",
+   "options": [
+    {
+     "art": "raw/ex7_db_shoulder_press.png",
+     "caption": "Dumbbell Shoulder Press"
+    },
+    {
+     "art": "raw/ex8_landmine_press.png",
+     "caption": "Landmine Press"
+    }
+   ]
+  }
+ ]
+}

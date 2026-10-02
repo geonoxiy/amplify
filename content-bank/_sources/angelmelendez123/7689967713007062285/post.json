@@ -1,0 +1,50 @@
+{
+  "id": "7689967713007062285",
+  "url": "https://www.tiktok.com/@angelmelendez123/video/7689967713007062285",
+  "creator": "angelmelendez123",
+  "type": "video",
+  "collected_at": "2026-09-27T00:19:27+00:00",
+  "published": {
+    "utc": "2026-09-26T22:02:38+00:00",
+    "local": "2026-09-27T06:02:38+08:00",
+    "timezone": "Asia/Manila",
+    "weekday": "Sunday",
+    "hour": 6
+  },
+  "caption": "",
+  "hashtags": [],
+  "mentions": [],
+  "stats": {
+    "views": 40400,
+    "likes": 2957,
+    "comments": 4,
+    "shares": 245,
+    "saves": 400
+  },
+  "rates": {
+    "engagement": 0.0893,
+    "save": 0.0099,
+    "share": 0.0061,
+    "comment": 0.0001
+  },
+  "sound": {
+    "title": "Younger Years",
+    "author": "Zach Bryan",
+    "original": false,
+    "id": "7099926205368895489"
+  },
+  "slide_count": null,
+  "duration": 5,
+  "size": {
+    "width": 720,
+    "height": 1280
+  },
+  "labels": {
+    "ad": false,
+    "ai_generated": false,
+    "location": "US"
+  },
+  "files": {
+    "video": "video.mp4"
+  }
+}

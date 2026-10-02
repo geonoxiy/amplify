@@ -1,0 +1,76 @@
+{
+  "post": "7674122199007022344",
+  "type": "slideshow",
+  "fingerprint": {
+    "structure": "7 slides: hook ('STRUCTURE THE PERFECT PULL DAY', italic condensed) → 6 muscle slides (#1 Lats adduction … #6 Brachioradialis), each with sets x reps, 'CHOOSE ONE:' and 2 to 3 exercise thumbnails plus a big mascot with the target muscle highlighted red. No overview slide, no CTA",
+    "hook": "Claim/instruction headline 'STRUCTURE THE PERFECT PULL DAY' (navy/blue, italic) with the mascot seen from the back on a grey circle",
+    "camera_motion": "2d-characters (mascot) on designed cards; 4:5 slides",
+    "pacing": "7 slides, no body text; the whole post is one repeated card layout",
+    "text_overlay": "Headings: Anton-like condensed heavy grotesque, Title Case (ALL CAPS on covers), navy #041732 with accent blue; '#N' numerals in blue, slightly italic; short blue underline (about 12.6% wide) under each heading; body: Didact Gothic-like light sans, gray #4b4945, about 2.7% of frame height, left-aligned at x=10%, 2 to 4 short lines; BLUE BRO logo top-left on every slide; italic condensed cover headline",
+    "audio": "third-party sound (library-style title and author), not original, no voiceover; slideshow so the sound is only background",
+    "arc": "Promise a complete pull day → deliver one choice of exercises per muscle, in order"
+  },
+  "units": [
+    {
+      "n": 1,
+      "role": "hook",
+      "class": "2d-characters",
+      "confidence": "high",
+      "summary": "cover: 'STRUCTURE THE PERFECT PULL DAY' + back view mascot on grey circle"
+    },
+    {
+      "n": 2,
+      "role": "muscle-pick",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "#1 Lats (Adduction): 2 thumbnails (Lat Pulldown, Weighted Pull-ups) + mascot back with red lats"
+    },
+    {
+      "n": 3,
+      "role": "muscle-pick",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "#2 Traps: 3 thumbnails (Wide-Grip Seated Row, Chest Supported T-Bar Row, Kelso Shrug)",
+      "same_as": "slide 2"
+    },
+    {
+      "n": 4,
+      "role": "muscle-pick",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "#3 Lats (Extension): 3 thumbnails",
+      "same_as": "slide 2"
+    },
+    {
+      "n": 5,
+      "role": "muscle-pick",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "#4 Rear-Delts: 3 thumbnails",
+      "same_as": "slide 2"
+    },
+    {
+      "n": 6,
+      "role": "muscle-pick",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "#5 Biceps: 3 thumbnails",
+      "same_as": "slide 2"
+    },
+    {
+      "n": 7,
+      "role": "muscle-pick",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "#6 Brachioradialis: 3 thumbnails",
+      "same_as": "slide 2"
+    }
+  ],
+  "product": "none",
+  "proof_device": "none",
+  "series": "single post",
+  "caption": "Instruction + hashtags: 'Choose one of each exercise and you've built the PERFECT pull workout!'",
+  "hashtags": "4: #pullday #pullworkout #backday #workouttips",
+  "topic": "pull workout",
+  "language": "English, imperative; 'perfect' as the recurring claim word"
+}

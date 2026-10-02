@@ -1,0 +1,50 @@
+{
+  "id": "7688713874157096223",
+  "url": "https://www.tiktok.com/@sara.pepkit/video/7688713874157096223",
+  "creator": "sara.pepkit",
+  "type": "video",
+  "collected_at": "2026-09-23T18:04:17+00:00",
+  "published": {
+    "utc": "2026-09-23T12:56:50+00:00",
+    "local": "2026-09-23T20:56:50+08:00",
+    "timezone": "Asia/Manila",
+    "weekday": "Wednesday",
+    "hour": 20
+  },
+  "caption": "Perfect for fall! 🍁🍁",
+  "hashtags": [],
+  "mentions": [],
+  "stats": {
+    "views": 20,
+    "likes": 0,
+    "comments": 0,
+    "shares": 0,
+    "saves": 0
+  },
+  "rates": {
+    "engagement": 0.0,
+    "save": 0.0,
+    "share": 0.0,
+    "comment": 0.0
+  },
+  "sound": {
+    "title": "som original - starn🧸",
+    "author": "starn 🍂",
+    "original": true,
+    "id": "7668722545762650888"
+  },
+  "slide_count": null,
+  "duration": 8,
+  "size": {
+    "width": 720,
+    "height": 1280
+  },
+  "labels": {
+    "ad": false,
+    "ai_generated": true,
+    "location": "US"
+  },
+  "files": {
+    "video": "video.mp4"
+  }
+}

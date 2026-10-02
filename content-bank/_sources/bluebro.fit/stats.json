@@ -1,0 +1,260 @@
+{
+  "posts": 20,
+  "types": {
+    "video": 5,
+    "slideshow": 15
+  },
+  "first": "2026-08-13T15:38:54+08:00",
+  "last": "2026-09-24T12:31:40+08:00",
+  "posts_per_week": 3.3,
+  "max_posts_in_a_day": 2,
+  "median_gap_hours": 27.7,
+  "weekdays": {
+    "Friday": 4,
+    "Wednesday": 4,
+    "Thursday": 3,
+    "Saturday": 3,
+    "Tuesday": 3,
+    "Sunday": 2,
+    "Monday": 1
+  },
+  "hours_local": {
+    "5": 1,
+    "8": 1,
+    "9": 6,
+    "10": 2,
+    "12": 3,
+    "13": 1,
+    "14": 1,
+    "15": 2,
+    "16": 1,
+    "18": 2
+  },
+  "timezone": "Asia/Manila",
+  "median_views": 24200.0,
+  "average_rates": {
+    "engagement": 0.0554,
+    "save": 0.0203,
+    "share": 0.0015,
+    "comment": 0.0002
+  },
+  "ranked_by": "engagement rate among posts with at least 5,000 views (19 of 20 posts)",
+  "top_5": [
+    {
+      "id": "7674122199007022344",
+      "type": "slideshow",
+      "views": 156100,
+      "engagement": 0.0782,
+      "save": 0.0338,
+      "caption": "Choose one of each exercise and you’ve built the PERFECT pull workout! #pullday "
+    },
+    {
+      "id": "7677445948393393426",
+      "type": "slideshow",
+      "views": 448400,
+      "engagement": 0.0674,
+      "save": 0.0297,
+      "caption": "The power of consistency! Growth comes from repeating it over and over and over "
+    },
+    {
+      "id": "7685884575632919815",
+      "type": "slideshow",
+      "views": 5347,
+      "engagement": 0.0619,
+      "save": 0.0168,
+      "caption": "How to cut weight as fast as possible (while still being healthy) #cuttingweight"
+    },
+    {
+      "id": "7675542015425137938",
+      "type": "slideshow",
+      "views": 13000,
+      "engagement": 0.0615,
+      "save": 0.0247,
+      "caption": "How to train your arms! #armday #armworkout #bigarms "
+    },
+    {
+      "id": "7686084738775321863",
+      "type": "video",
+      "views": 53800,
+      "engagement": 0.0589,
+      "save": 0.0269,
+      "caption": "The percect push workout in 6 exercises! #pushday #pushworkout #gymtips #gymwork"
+    }
+  ],
+  "bottom_5": [
+    {
+      "id": "7688954741229128968",
+      "type": "video",
+      "views": 36300,
+      "engagement": 0.0385,
+      "save": 0.017,
+      "caption": "The perfect leg day for muscle growth in 6 exercises! #gymworkout #legday #legwo"
+    },
+    {
+      "id": "7673693117375188242",
+      "type": "slideshow",
+      "views": 27900,
+      "engagement": 0.0414,
+      "save": 0.0121,
+      "caption": "GOATED chest exercises actually worth doing! #chestexercise #chestdayworkout #wo"
+    },
+    {
+      "id": "7677039565802179858",
+      "type": "slideshow",
+      "views": 35800,
+      "engagement": 0.0418,
+      "save": 0.0119,
+      "caption": "This is how you build muscle as fast as humanly possible! I use @HealthMeter to "
+    },
+    {
+      "id": "7687128368654847240",
+      "type": "video",
+      "views": 303400,
+      "engagement": 0.045,
+      "save": 0.018,
+      "caption": "The pefect pull workout in 6 exercises! #pullday #pullworkout #gymworkout #hyper"
+    },
+    {
+      "id": "7677822379434724626",
+      "type": "slideshow",
+      "views": 28100,
+      "engagement": 0.0451,
+      "save": 0.0143,
+      "caption": "Part 2 of the gym tips I wish I knew sooner for muscle growth! Using @HealthMete"
+    }
+  ],
+  "top_5_by_views": [
+    {
+      "id": "7677445948393393426",
+      "type": "slideshow",
+      "views": 448400,
+      "engagement": 0.0674,
+      "save": 0.0297,
+      "caption": "The power of consistency! Growth comes from repeating it over and over and over "
+    },
+    {
+      "id": "7687128368654847240",
+      "type": "video",
+      "views": 303400,
+      "engagement": 0.045,
+      "save": 0.018,
+      "caption": "The pefect pull workout in 6 exercises! #pullday #pullworkout #gymworkout #hyper"
+    },
+    {
+      "id": "7674122199007022344",
+      "type": "slideshow",
+      "views": 156100,
+      "engagement": 0.0782,
+      "save": 0.0338,
+      "caption": "Choose one of each exercise and you’ve built the PERFECT pull workout! #pullday "
+    },
+    {
+      "id": "7686084738775321863",
+      "type": "video",
+      "views": 53800,
+      "engagement": 0.0589,
+      "save": 0.0269,
+      "caption": "The percect push workout in 6 exercises! #pushday #pushworkout #gymtips #gymwork"
+    },
+    {
+      "id": "7688954741229128968",
+      "type": "video",
+      "views": 36300,
+      "engagement": 0.0385,
+      "save": 0.017,
+      "caption": "The perfect leg day for muscle growth in 6 exercises! #gymworkout #legday #legwo"
+    }
+  ],
+  "bottom_5_by_views": [
+    {
+      "id": "7688645964222991634",
+      "type": "slideshow",
+      "views": 2200,
+      "engagement": 0.1018,
+      "save": 0.0355,
+      "caption": "You don’t need more motivation. You need a plan you can actually stick to. 💪 Thi"
+    },
+    {
+      "id": "7685884575632919815",
+      "type": "slideshow",
+      "views": 5347,
+      "engagement": 0.0619,
+      "save": 0.0168,
+      "caption": "How to cut weight as fast as possible (while still being healthy) #cuttingweight"
+    },
+    {
+      "id": "7676013399314025735",
+      "type": "video",
+      "views": 6066,
+      "engagement": 0.0476,
+      "save": 0.0125,
+      "caption": "The ultimate shoulder workout for HUGE delts. #shoulderworkout #shoulderday #del"
+    },
+    {
+      "id": "7678909857365265672",
+      "type": "slideshow",
+      "views": 12100,
+      "engagement": 0.0469,
+      "save": 0.0193,
+      "caption": "Here is the simplest way to figure out your macro ratio.  This teaches you exact"
+    },
+    {
+      "id": "7675542015425137938",
+      "type": "slideshow",
+      "views": 13000,
+      "engagement": 0.0615,
+      "save": 0.0247,
+      "caption": "How to train your arms! #armday #armworkout #bigarms "
+    }
+  ],
+  "brand_palette": [
+    {
+      "hex": "#f1efe8",
+      "share": 0.574
+    },
+    {
+      "hex": "#fafaf9",
+      "share": 0.146
+    },
+    {
+      "hex": "#1c4d8b",
+      "share": 0.141
+    },
+    {
+      "hex": "#f6f5f1",
+      "share": 0.054
+    },
+    {
+      "hex": "#c2c5c6",
+      "share": 0.046
+    },
+    {
+      "hex": "#8b8f9a",
+      "share": 0.038
+    }
+  ],
+  "hashtags": {
+    "gymtips": 7,
+    "gymworkout": 6,
+    "healthmeter": 5,
+    "hypertrophy": 5,
+    "buildmuscle": 4,
+    "musclegrowth": 4,
+    "pullday": 3,
+    "pullworkout": 3,
+    "backday": 3,
+    "musclegrowthtips": 3,
+    "musclebuilding": 2,
+    "workouttips": 2,
+    "pushday": 2,
+    "pushworkout": 2,
+    "gymtip": 2
+  },
+  "sounds": {
+    "Tron 1982 - New Retro Wave – Synthwave Nation": 1,
+    "original sound – Mr Bobby ™️": 1,
+    "original sound - stevelacyoffline – stevelacyoffline (fan)": 1,
+    "original sound – spidrsaudios": 1,
+    "cRYSTAL – NO153 & ICE CREAM MUSIC": 1
+  }
+}

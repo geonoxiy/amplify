@@ -1,0 +1,13 @@
+{
+  "slides": [],
+  "hook": {},
+  "images": {
+    "min_hash_distance": 99,
+    "closest_pair": " ~ ",
+    "near_duplicate_threshold": 10,
+    "status": "not checked (no source images stored)",
+    "source_blue_share_in_sources_mean": null,
+    "source_blue_share_in_ours_mean": 0.0005
+  },
+  "verdict": "incomplete"
+}

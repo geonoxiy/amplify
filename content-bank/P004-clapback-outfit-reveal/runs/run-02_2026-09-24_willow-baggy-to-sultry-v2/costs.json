@@ -1,0 +1,51 @@
+[
+ {
+  "model": "google/nano-banana-edit",
+  "task_id": "0958f60771e25d158238d5ba82a745ad",
+  "credits": 4.0,
+  "output": "content-bank/P004-clapback-outfit-reveal/runs/run-02_2026-09-24_willow-baggy-to-sultry-v2/raw/slide2.png",
+  "prompt": "Candid amateur full-length mirror selfie taken on an iPhone, vertical 9:16. The woman is the same person as in the reference image (same hair colour and skin tone), her hair in a messy claw-clip updo with loose strands. She stands in front of a cheap full-length mirror leaning against the wall of a "
+ },
+ {
+  "model": "google/nano-banana-edit",
+  "task_id": "c9f724a5dbf15b62c1a3bfa0a9172a71",
+  "credits": 4.0,
+  "output": "content-bank/P004-clapback-outfit-reveal/runs/run-02_2026-09-24_willow-baggy-to-sultry-v2/raw/slide3.png",
+  "prompt": "Edit this photo: change only her outfit, hair and pose. She now wears a figure-hugging emerald-green satin mini dress with thin straps and a low neckline that shows off her silhouette, bare legs, black pointed heels; her dark hair is let down from the clip into loose, slightly messy waves. She stand"
+ },
+ {
+  "model": "google/nano-banana-edit",
+  "task_id": "5399b5a6a307df8170e5a4e9a9e60576",
+  "credits": 4.0,
+  "output": "content-bank/P004-clapback-outfit-reveal/runs/run-02_2026-09-24_willow-baggy-to-sultry-v2/raw/slide1.png",
+  "prompt": "Candid, quirky front-camera selfie, vertical 9:16, phone held above her face at an odd tilted angle. The woman has the same face as the first reference image (same freckles, brown eyes, gold hoops) and wears the same huge washed-grey hoodie as the second reference image, hood half up, hair in a mess"
+ },
+ {
+  "model": "nano-banana-pro",
+  "task_id": "d849d1f91844985c2a725efdb2bbf7e1",
+  "credits": 18.0,
+  "output": "content-bank/P004-clapback-outfit-reveal/runs/run-02_2026-09-24_willow-baggy-to-sultry-v2/raw/slide2.png",
+  "prompt": "v3 slide 2: baggy mirror selfie, 2K, ref willow front.png"
+ },
+ {
+  "model": "nano-banana-pro",
+  "task_id": "ba2d375ccb3dea655ddaf2cf69a76d70",
+  "credits": 18.0,
+  "output": "content-bank/P004-clapback-outfit-reveal/runs/run-02_2026-09-24_willow-baggy-to-sultry-v2/raw/slide3.png",
+  "prompt": "Edit the first photo (a real unedited iPhone mirror selfie): keep the exact same bedroom, mirror, camera position and framing, lighting, clutter, chair with clothes, sneakers, cables, unmade bed, and the black iPhone held in front of her face. Change only her outfit, hair and pose. She now wears a f"
+ },
+ {
+  "model": "nano-banana-pro",
+  "task_id": "97c0a2a2715bad5f94a45b20a3dd893b",
+  "credits": 18.0,
+  "output": "content-bank/P004-clapback-outfit-reveal/runs/run-02_2026-09-24_willow-baggy-to-sultry-v2/raw/slide1.png",
+  "prompt": "Unedited candid front-camera iPhone selfie, vertical. The woman has the same face as the first reference photo (same freckles, brown eyes, dark brown hair, light-olive skin, small gold hoops) and wears the same oversized washed-grey sweatshirt as in the second photo, hair in a messy claw clip with l"
+ },
+ {
+  "model": "nano-banana-pro",
+  "task_id": "0248b87fef34a609c2faf79bfc492a44",
+  "credits": 18.0,
+  "output": "content-bank/P004-clapback-outfit-reveal/runs/run-02_2026-09-24_willow-baggy-to-sultry-v2/raw/slide1.png",
+  "prompt": "A true front-camera iPhone selfie, vertical 9:16: the camera IS the phone, so NO phone is visible anywhere in the image and it is not a photo of someone holding a phone. The woman has the same face as the first reference photo (same freckles, brown eyes, dark brown hair, light-olive skin, small gold"
+ }
+]

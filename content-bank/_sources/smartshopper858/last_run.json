@@ -1,0 +1,34 @@
+{
+  "link": "https://www.tiktok.com/@smartshopper858",
+  "limit": 5,
+  "since": "",
+  "until": "",
+  "ran_at": "2026-09-23T18:02:18+00:00",
+  "posts": [
+    {
+      "id": "7684432581869178132",
+      "status": "cached",
+      "type": "slideshow"
+    },
+    {
+      "id": "7684431864446127380",
+      "status": "downloaded",
+      "type": "slideshow"
+    },
+    {
+      "id": "7684431148138777877",
+      "status": "downloaded",
+      "type": "slideshow"
+    },
+    {
+      "id": "7683568097717980424",
+      "status": "downloaded",
+      "type": "slideshow"
+    },
+    {
+      "id": "7683549117112470804",
+      "status": "downloaded",
+      "type": "slideshow"
+    }
+  ]
+}

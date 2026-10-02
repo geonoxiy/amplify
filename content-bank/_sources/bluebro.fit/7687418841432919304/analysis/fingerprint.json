@@ -1,0 +1,92 @@
+{
+  "post": "7687418841432919304",
+  "type": "slideshow",
+  "fingerprint": {
+    "structure": "9 slides: hook ('NO MORE SKINNY LEGS' before/after) → 'The Perfect Leg Workout' list of 7 exercises with sets x reps + mascot → 7 exercise slides (#1 Hack Squat … #7 Cable Ab Crunch), each with two mascot poses (start and end of the rep) side by side. No CTA",
+    "hook": "Promise headline 'NO MORE SKINNY LEGS' (navy + blue) over a thin-legs to big-legs mascot pair with a >> arrow",
+    "camera_motion": "2d-characters (mascot) on designed cards; two-pose illustrations; 4:5 slides",
+    "pacing": "9 slides, one exercise per slide, no body text",
+    "text_overlay": "Headings: Anton-like condensed heavy grotesque, Title Case (ALL CAPS on covers), navy #041732 with accent blue; '#N' numerals in blue, slightly italic; short blue underline (about 12.6% wide) under each heading; body: Didact Gothic-like light sans, gray #4b4945, about 2.7% of frame height, left-aligned at x=10%, 2 to 4 short lines; BLUE BRO logo top-left on every slide",
+    "audio": "third-party sound (library-style title and author), not original, no voiceover; slideshow so the sound is only background",
+    "arc": "Promise → the full list → one exercise per slide, shown as start and end position"
+  },
+  "units": [
+    {
+      "n": 1,
+      "role": "hook",
+      "class": "2d-characters",
+      "confidence": "high",
+      "summary": "cover: before/after mascot legs and a >> arrow"
+    },
+    {
+      "n": 2,
+      "role": "overview",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "'The Perfect Leg Workout': bullet list of 7 exercises with sets x reps and the mascot flexing at the right"
+    },
+    {
+      "n": 3,
+      "role": "exercise",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "#1 Hack Squat, 2-3 Sets x 6-10 Reps: two mascot poses (bottom and top of the rep)",
+      "same_as": "forearms post slide 3 heading layout; the picture is a pair of poses instead of two different exercises"
+    },
+    {
+      "n": 4,
+      "role": "exercise",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "#2 Romanian Deadlift",
+      "same_as": "slide 3"
+    },
+    {
+      "n": 5,
+      "role": "exercise",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "#3 Leg Extension",
+      "same_as": "slide 3"
+    },
+    {
+      "n": 6,
+      "role": "exercise",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "#4 Seated Leg Curl",
+      "same_as": "slide 3"
+    },
+    {
+      "n": 7,
+      "role": "exercise",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "#5 Adductor Machine",
+      "same_as": "slide 3"
+    },
+    {
+      "n": 8,
+      "role": "exercise",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "#6 Standing Calf Raise",
+      "same_as": "slide 3"
+    },
+    {
+      "n": 9,
+      "role": "exercise",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "#7 Cable Ab Crunch",
+      "same_as": "slide 3"
+    }
+  ],
+  "product": "none",
+  "proof_device": "none",
+  "series": "single post",
+  "caption": "Short: 'Tired of having skinny legs? Here's the only leg workout you need!' + 4 hashtags",
+  "hashtags": "4: #legdayworkout #legday #gymworkout #hypertrophy",
+  "topic": "leg workout",
+  "language": "English, second person, slightly teasing ('skinny legs')"
+}

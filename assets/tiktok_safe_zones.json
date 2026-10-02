@@ -1,0 +1,10 @@
+{
+  "calibrated": false,
+  "aspect": 0.5625,
+  "note": "PLACEHOLDER rule-of-thumb zones for 9:16, in % of the frame as [x, y, w, h]. They were NOT measured from TikTok. Calibrate once: screenshot a TikTok photo post and a video on a phone, then set each zone to the area the app's buttons, top bar and caption block actually cover. Set calibrated to true afterwards. measure.py labels every safe-zone result with this flag.",
+  "zones": {
+    "top_bar": [0, 0, 100, 10],
+    "right_buttons": [86, 35, 14, 45],
+    "bottom_caption": [0, 76, 80, 24]
+  }
+}

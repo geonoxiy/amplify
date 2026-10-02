@@ -1,0 +1,43 @@
+{
+  "post": "7676013399314025735",
+  "type": "video",
+  "fingerprint": {
+    "structure": "20.2s video, 3 shots of about 6.7s: 3 shoulder exercises (front, side, rear delt); a single shoulder muscle icon with 3 circles under it ticks one more each shot; a voiceover names each head",
+    "hook": "First 2 seconds: the voiceover says 'Your shoulder day is missing this.' over the mascot doing the first exercise; one shoulder icon with 3 empty circles above",
+    "camera_motion": "2d-characters (mascot) on near-white background, AI-animated with a locked camera; 9:16",
+    "pacing": "20.2s, 3 shots (0.10 cuts/s); voiceover lines at 0s, 2s, 7s, 13s and 18s",
+    "text_overlay": "No BLUE BRO logo visible in the sampled frames; a small muscle icon and 3 tick circles top-center; no exercise names",
+    "audio": "voiceover (short, evenly timed 2s lines, likely text-to-speech) over a third-party sound; the line 'Follow for more.' at the end",
+    "arc": "Hook line → three named exercises → follow CTA"
+  },
+  "units": [
+    {
+      "n": 1,
+      "role": "exercise",
+      "class": "2d-characters",
+      "confidence": "high",
+      "summary": "front delt exercise: mascot seated dumbbell press, shoulder icon with 3 empty circles"
+    },
+    {
+      "n": 2,
+      "role": "exercise",
+      "class": "2d-characters",
+      "confidence": "medium",
+      "summary": "side delt exercise: 1 tick"
+    },
+    {
+      "n": 3,
+      "role": "exercise",
+      "class": "2d-characters",
+      "confidence": "medium",
+      "summary": "rear delt exercise: 2 ticks; ends with 'Follow for more.'"
+    }
+  ],
+  "product": "none (follow CTA in the voiceover only)",
+  "proof_device": "progress tracker (3 circles)",
+  "series": "single post",
+  "caption": "Short: 'The ultimate shoulder workout for HUGE delts.' + 4 hashtags",
+  "hashtags": "4: #shoulderworkout #shoulderday #deltoids #gymworkout",
+  "topic": "shoulder workout",
+  "language": "English voiceover, imperative"
+}

@@ -1,0 +1,16 @@
+[
+ {
+  "model": "nano-banana-pro",
+  "task_id": "6c397abe267b8f97801cc2be65f41d5f",
+  "credits": 24.0,
+  "output": "/Users/love/Documents/Claude/Amplify/mockups/templates/phone-01/template.png",
+  "prompt": "Recreate this reference photo as a new, original photo to use as a phone mockup template. Keep the same kind of phone (same model and size, same case style and colour), the same camera angle, tilt, distance and framing, and the same lighting mood. If a hand holds the phone, keep a similar natural ha"
+ },
+ {
+  "model": "nano-banana-pro",
+  "task_id": "24308f916843465f7c5aaef7f8d94809",
+  "credits": 24.0,
+  "output": "/Users/love/Documents/Claude/Amplify/mockups/templates/phone-01/template.png",
+  "prompt": "Recreate this reference photo as a new, original photo to use as a phone mockup template. Keep the same kind of phone (same model and size, same case style and colour), the same camera angle, tilt, distance and framing, and the same lighting mood. If a hand holds the phone, keep a similar natural ha"
+ }
+]

@@ -1,0 +1,71 @@
+{
+  "post": "7684431148138777877",
+  "type": "slideshow",
+  "fingerprint": {
+    "structure": "7 slides: hook (problem + question) → checks #1-2 → checks #3-4 → verify it yourself (3 numbered steps) → banned list → red flags list → disclaimer + follow CTA",
+    "hook": "Problem + one-word question: pill 'LABEL DECODE' + 'a new skincare brand drops on your feed every single day.' + giant 'safe?' + 'here's how to actually check 👇'",
+    "camera_motion": "Static designed cards (no photos)",
+    "pacing": "Medium text density: list cards with a title + one-line detail each (15–35 words per slide)",
+    "text_overlay": "Bold rounded sans (closest: Inter / SF Pro Bold), all lowercase except pill labels; small uppercase letter-spaced pill label above each title; titles in a deep shade of the slide's pastel; centered; short body lines in the same hue; no outlines or boxes. Adds white rounded list cards with a line icon, bold item + small detail line.",
+    "audio": "Trending song (I Think I Like When It Rains – WILLIS), not original",
+    "arc": "Worry → checklist → do-it-yourself verification → warnings → reassurance; payoff = a checklist to save before buying"
+  },
+  "units": [
+    {
+      "n": 1,
+      "role": "hook",
+      "text": "LABEL DECODE / a new skincare brand drops on your feed every single day. / safe? / here's how to actually check 👇",
+      "visual": "pink, giant 'safe?' with glow",
+      "layout": "centered stack"
+    },
+    {
+      "n": 2,
+      "role": "checklist",
+      "text": "CHECK #1-2 / look for these first / FDA Notification · Full Ingredient List",
+      "visual": "2 list cards with icons",
+      "layout": "stacked cards"
+    },
+    {
+      "n": 3,
+      "role": "checklist",
+      "text": "CHECK #3-4 / keep looking / Batch Number + Expiry or PAO · PH Manufacturer / Importer Info",
+      "visual": "2 list cards",
+      "layout": "stacked cards"
+    },
+    {
+      "n": 4,
+      "role": "how-to",
+      "text": "VERIFY IT YOURSELF / go to verification.fda.gov.ph / 1 search · 2 match · 3 no match? skip it",
+      "visual": "3 numbered cards",
+      "layout": "numbered steps"
+    },
+    {
+      "n": 5,
+      "role": "warning",
+      "text": "⚠️ BANNED IN THE PH / these should NEVER be in your cosmetics / Tretinoin · Hydroquinone · Mercury",
+      "visual": "3 red-tinted cards",
+      "layout": "stacked cards"
+    },
+    {
+      "n": 6,
+      "role": "warning",
+      "text": "RED FLAGS 🚩 / walk away if you see... / 4 items with 🚫",
+      "visual": "4 cards",
+      "layout": "stacked list"
+    },
+    {
+      "n": 7,
+      "role": "disclaimer + CTA",
+      "text": "general consumer safety info, not legal advice / NOTE always verify… / NEXT STEP follow @smartshopper858 for more label breakdowns 🔍",
+      "visual": "info icon",
+      "layout": "heading + 2 columns"
+    }
+  ],
+  "product": "None on slides",
+  "proof_device": "None (points to a real verification site instead)",
+  "series": "Recurring series 'Label decode'",
+  "caption": "Relatable problem line → question → swipe promise → 'spoiler' tease → save CTA → disclaimer → follow CTA → 5 hashtags. Longer (8 sentences), 7 emojis",
+  "hashtags": "5: #TikTokMadeMeBuyIt, #SkincareTips, #SkincarePH, #FDAApproved, #budolfinds (topic-specific #FDAApproved rotates in)",
+  "topic": "checking if a skincare product is legit (PH FDA)",
+  "language": "English, lowercase, second person, protective big-sister tone"
+}

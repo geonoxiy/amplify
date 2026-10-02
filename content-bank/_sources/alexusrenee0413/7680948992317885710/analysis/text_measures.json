@@ -1,0 +1,32 @@
+{
+  "unit 1": {
+    "problems": [],
+    "text_blocks": [
+      {
+        "i": 1,
+        "text": "I will never understand\npeople who get a",
+        "box": [
+          21.5,
+          52.2,
+          57.1,
+          24.4
+        ],
+        "contrast": {
+          "bg_hex": "#715652",
+          "text_hex": "#ffffff",
+          "text_hex_source": "record",
+          "contrast_ratio": 6.66,
+          "band": "good (4.5+)"
+        },
+        "safe_zone": {
+          "applies": true,
+          "calibrated": false,
+          "top_bar": 0.0,
+          "right_buttons": 0.0,
+          "bottom_caption": 2.5
+        },
+        "fill_check": "record says #ffffff, pixels in the box suggest #050203"
+      }
+    ]
+  }
+}

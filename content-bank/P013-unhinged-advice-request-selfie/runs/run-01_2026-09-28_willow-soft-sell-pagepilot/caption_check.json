@@ -1,0 +1,14 @@
+{
+  "style": "soft",
+  "brand": "brands/pagepilot.md",
+  "disclosure_position": "end",
+  "characters": 372,
+  "hashtags": 4,
+  "first_100_characters": "unhinged money advice is my favourite genre. everyone has one scrappy plan they have never admitted ",
+  "fails": [],
+  "warnings": [
+    "bridge is longer than 2 sentences; soft sell reads better short",
+    "style rule is lowercase for overlay/caption text; found capitalised word(s): ['Shopify']"
+  ],
+  "verdict": "pass"
+}

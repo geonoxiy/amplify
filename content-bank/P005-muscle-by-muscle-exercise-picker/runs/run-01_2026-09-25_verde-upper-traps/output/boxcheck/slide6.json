@@ -1,0 +1,196 @@
+{
+  "problems": [],
+  "text_blocks": [
+    {
+      "i": 1,
+      "text": "VERDE FIT",
+      "box": [
+        9.1,
+        3.0,
+        13.5,
+        2.5
+      ],
+      "contrast": {
+        "bg_hex": "#f2f3ee",
+        "text_hex": "#16202b",
+        "text_hex_source": "record",
+        "contrast_ratio": 14.76,
+        "band": "good (4.5+)"
+      },
+      "safe_zone": {
+        "applies": false,
+        "note": "zones are for 9:16 (aspect 0.80 here)"
+      }
+    },
+    {
+      "i": 2,
+      "text": "#4",
+      "box": [
+        10.0,
+        17.2,
+        7.1,
+        5.4
+      ],
+      "contrast": {
+        "bg_hex": "#f2f3ee",
+        "text_hex": "#0b8a77",
+        "text_hex_source": "record",
+        "contrast_ratio": 3.83,
+        "band": "ok for large text (3-4.5)"
+      },
+      "safe_zone": {
+        "applies": false,
+        "note": "zones are for 9:16 (aspect 0.80 here)"
+      }
+    },
+    {
+      "i": 3,
+      "text": "Overhead Press",
+      "box": [
+        24.4,
+        18.3,
+        36.2,
+        4.3
+      ],
+      "contrast": {
+        "bg_hex": "#f2f3ee",
+        "text_hex": "#16202b",
+        "text_hex_source": "record",
+        "contrast_ratio": 14.76,
+        "band": "good (4.5+)"
+      },
+      "safe_zone": {
+        "applies": false,
+        "note": "zones are for 9:16 (aspect 0.80 here)"
+      }
+    },
+    {
+      "i": 4,
+      "text": "2-3 Sets x 6-10 Reps",
+      "box": [
+        24.4,
+        24.2,
+        25.0,
+        2.1
+      ],
+      "contrast": {
+        "bg_hex": "#f2f3ee",
+        "text_hex": "#4a5561",
+        "text_hex_source": "record",
+        "contrast_ratio": 6.81,
+        "band": "good (4.5+)"
+      },
+      "safe_zone": {
+        "applies": false,
+        "note": "zones are for 9:16 (aspect 0.80 here)"
+      }
+    },
+    {
+      "i": 5,
+      "text": "Pressing overhead turns your shoulder bl",
+      "box": [
+        10.0,
+        31.9,
+        62.9,
+        12.3
+      ],
+      "contrast": {
+        "bg_hex": "#f2f3ee",
+        "text_hex": "#4a5561",
+        "text_hex_source": "record",
+        "contrast_ratio": 6.81,
+        "band": "good (4.5+)"
+      },
+      "safe_zone": {
+        "applies": false,
+        "note": "zones are for 9:16 (aspect 0.80 here)"
+      }
+    },
+    {
+      "i": 6,
+      "text": "Pick either:",
+      "box": [
+        10.0,
+        46.7,
+        14.0,
+        1.7
+      ],
+      "contrast": {
+        "bg_hex": "#f2f3ee",
+        "text_hex": "#16202b",
+        "text_hex_source": "record",
+        "contrast_ratio": 14.76,
+        "band": "good (4.5+)"
+      },
+      "safe_zone": {
+        "applies": false,
+        "note": "zones are for 9:16 (aspect 0.80 here)"
+      }
+    },
+    {
+      "i": 7,
+      "text": "Dumbbell Shoulder Press",
+      "box": [
+        7.0,
+        91.5,
+        35.0,
+        1.9
+      ],
+      "contrast": {
+        "bg_hex": "#f2f3ee",
+        "text_hex": "#16202b",
+        "text_hex_source": "record",
+        "contrast_ratio": 14.76,
+        "band": "good (4.5+)"
+      },
+      "safe_zone": {
+        "applies": false,
+        "note": "zones are for 9:16 (aspect 0.80 here)"
+      }
+    },
+    {
+      "i": 8,
+      "text": "Landmine Press",
+      "box": [
+        64.7,
+        91.5,
+        21.6,
+        1.9
+      ],
+      "contrast": {
+        "bg_hex": "#f2f3ee",
+        "text_hex": "#16202b",
+        "text_hex_source": "record",
+        "contrast_ratio": 14.76,
+        "band": "good (4.5+)"
+      },
+      "safe_zone": {
+        "applies": false,
+        "note": "zones are for 9:16 (aspect 0.80 here)"
+      }
+    },
+    {
+      "i": 9,
+      "text": "OR",
+      "box": [
+        48.0,
+        68.6,
+        4.1,
+        2.8
+      ],
+      "contrast": {
+        "bg_hex": "#f2f3ee",
+        "text_hex": "#ffffff",
+        "text_hex_source": "record",
+        "contrast_ratio": 1.12,
+        "band": "low (<3)"
+      },
+      "safe_zone": {
+        "applies": false,
+        "note": "zones are for 9:16 (aspect 0.80 here)"
+      },
+      "fill_check": "record says #ffffff, pixels in the box suggest #0a8a76"
+    }
+  ]
+}
+drawn: content-bank/P005-muscle-by-muscle-exercise-picker/runs/run-01_2026-09-25_verde-upper-traps/output/boxcheck/slide6_boxcheck.jpg

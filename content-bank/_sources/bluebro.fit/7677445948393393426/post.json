@@ -1,0 +1,70 @@
+{
+  "id": "7677445948393393426",
+  "url": "https://www.tiktok.com/@bluebro.fit/photo/7677445948393393426",
+  "creator": "bluebro.fit",
+  "type": "slideshow",
+  "collected_at": "2026-09-25T02:47:32+00:00",
+  "published": {
+    "utc": "2026-08-24T04:11:33+00:00",
+    "local": "2026-08-24T12:11:33+08:00",
+    "timezone": "Asia/Manila",
+    "weekday": "Monday",
+    "hour": 12
+  },
+  "caption": "The power of consistency! Growth comes from repeating it over and over and over again! Using @HealthMeter to keep track of EVERY nutrient going into my body! #musclegrowth #consistencyiskey #gymtips #buildmuscle #healthmeter ",
+  "hashtags": [
+    "musclegrowth",
+    "consistencyiskey",
+    "gymtips",
+    "buildmuscle",
+    "healthmeter"
+  ],
+  "mentions": [
+    "healthmeter.app",
+    "HealthMeter"
+  ],
+  "stats": {
+    "views": 448400,
+    "likes": 16100,
+    "comments": 43,
+    "shares": 791,
+    "saves": 13307
+  },
+  "rates": {
+    "engagement": 0.0674,
+    "save": 0.0297,
+    "share": 0.0018,
+    "comment": 0.0001
+  },
+  "sound": {
+    "title": "next to you (Slowed + Reverb)",
+    "author": "Øneheart",
+    "original": false,
+    "id": "7276668226528561154"
+  },
+  "slide_count": 9,
+  "duration": null,
+  "size": {
+    "width": 1080,
+    "height": 1350
+  },
+  "labels": {
+    "ad": false,
+    "ai_generated": false,
+    "location": "NZ"
+  },
+  "files": {
+    "sound": "sound.mp3",
+    "slides": [
+      "slides/01.jpg",
+      "slides/02.jpg",
+      "slides/03.jpg",
+      "slides/04.jpg",
+      "slides/05.jpg",
+      "slides/06.jpg",
+      "slides/07.jpg",
+      "slides/08.jpg",
+      "slides/09.jpg"
+    ]
+  }
+}

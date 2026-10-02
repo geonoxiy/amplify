@@ -1,0 +1,32 @@
+{
+  "unit 1": {
+    "problems": [],
+    "text_blocks": [
+      {
+        "i": 1,
+        "text": "I'm incredibly broke,\nplease give me you",
+        "box": [
+          8,
+          24,
+          84,
+          30
+        ],
+        "contrast": {
+          "bg_hex": "#a79b88",
+          "text_hex": "#ffffff",
+          "text_hex_source": "record",
+          "contrast_ratio": 2.73,
+          "band": "low (<3)"
+        },
+        "safe_zone": {
+          "applies": true,
+          "calibrated": false,
+          "top_bar": 0.0,
+          "right_buttons": 4.5,
+          "bottom_caption": 0.0
+        },
+        "fill_check": "record says #ffffff, pixels in the box suggest #040302"
+      }
+    ]
+  }
+}

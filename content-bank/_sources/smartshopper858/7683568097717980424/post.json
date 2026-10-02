@@ -1,0 +1,63 @@
+{
+  "id": "7683568097717980424",
+  "url": "https://www.tiktok.com/@smartshopper858/photo/7683568097717980424",
+  "creator": "smartshopper858",
+  "type": "slideshow",
+  "collected_at": "2026-09-23T18:02:13+00:00",
+  "published": {
+    "utc": "2026-09-10T13:00:00+00:00",
+    "local": "2026-09-10T21:00:00+08:00",
+    "timezone": "Asia/Manila",
+    "weekday": "Thursday",
+    "hour": 21
+  },
+  "caption": "sobrang dami na ng tiktok affiliates ngayon 😅 here's how i'm actually different: ingredients decoded, label checks, real reviews, realistic timelines 🧴 follow along sa journey ko 🌟 #affiliatemarketing #creatorsearchinsights2026  #creatorsearchinsights #skincare ",
+  "hashtags": [
+    "affiliatemarketing",
+    "creatorsearchinsights2026",
+    "creatorsearchinsights",
+    "skincare"
+  ],
+  "mentions": [],
+  "stats": {
+    "views": 155,
+    "likes": 5,
+    "comments": 0,
+    "shares": 0,
+    "saves": 1
+  },
+  "rates": {
+    "engagement": 0.0387,
+    "save": 0.0065,
+    "share": 0.0,
+    "comment": 0.0
+  },
+  "sound": {
+    "title": "FREAKED OUT",
+    "author": "Fat Papi & prodshushy",
+    "original": false,
+    "id": "7646775660023974664"
+  },
+  "slide_count": 6,
+  "duration": null,
+  "size": {
+    "width": 1080,
+    "height": 1080
+  },
+  "labels": {
+    "ad": false,
+    "ai_generated": false,
+    "location": "PH"
+  },
+  "files": {
+    "sound": "sound.mp3",
+    "slides": [
+      "slides/01.jpg",
+      "slides/02.jpg",
+      "slides/03.jpg",
+      "slides/04.jpg",
+      "slides/05.jpg",
+      "slides/06.jpg"
+    ]
+  }
+}

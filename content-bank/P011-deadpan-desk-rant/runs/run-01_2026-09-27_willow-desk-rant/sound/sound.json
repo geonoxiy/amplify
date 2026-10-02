@@ -1,0 +1,29 @@
+{
+ "title": "Ghost on the Walls",
+ "author": "Wren Whispers",
+ "album": "Faint Morning Light",
+ "tiktok_sound_id": "7647885082065471534",
+ "tiktok_sound_page": "https://www.tiktok.com/music/Ghost-On-The-Walls-7647885082065471534",
+ "sound_page_note": "standard TikTok sound-page pattern, not opened",
+ "original_sound": false,
+ "full_sound_seconds": 33,
+ "tiktok_flags": {
+  "isCopyrighted": false,
+  "is_commerce_music": false,
+  "is_unlimited_music": false
+ },
+ "source_post": "https://www.tiktok.com/@alexusrenee0413/video/7680948992317885710",
+ "clip_file": "ghost-on-the-walls_wren-whispers_source-clip.m4a",
+ "clip_seconds": 5.13,
+ "clip_is": "the audio track of the source video (the part of the sound the source used), copied without re-encoding",
+ "loudness_db": {
+  "mean": -20.2,
+  "max": -9.6
+ },
+ "extracted_at": "2026-09-27T00:14:37+00:00",
+ "caveats": [
+  "Third-party music: rights stay with the owner. The licensed way to use it is to pick the sound in TikTok by name or ID when posting.",
+  "TikTok's data does not list it as commercial-library music (is_commerce_music false): business or brand accounts may not be allowed to use it.",
+  "This clip is the source video's mix, which may also carry that video's own audio."
+ ]
+}

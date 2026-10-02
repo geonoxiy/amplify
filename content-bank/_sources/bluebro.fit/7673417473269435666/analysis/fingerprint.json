@@ -1,0 +1,69 @@
+{
+  "post": "7673417473269435666",
+  "type": "video",
+  "fingerprint": {
+    "structure": "34.7s video, 6 shots of about 5.8s: 6 exercises, one per shot (Lat Pulldown, T-Bar Row, Seated Cable Row, Reverse Fly, Preacher Curl, Cable Hammer Curl); a 2x3 grid of 6 muscle icons gets a tick per exercise; no on-screen title, exercise names or sets x reps (they are in the caption)",
+    "hook": "First 2 seconds: the first exercise already playing (mascot rep animating) with the tracker at 0 ticks; the title and tracker fade in within about 1s",
+    "camera_motion": "2d-characters (mascot) on a plain near-white background, AI-animated (image-to-video) with a locked camera; 9:16, 720x1280",
+    "pacing": "34.7s, 6 shots (0.14 cuts/s), about 5.8s per exercise, twice as slow as the 16s reels",
+    "text_overlay": "Only the logo and the 2x3 tracker grid; no title and no exercise labels (all exercise details are in the caption with number emojis)",
+    "audio": "third-party music, no speech (a music hallucination in the transcript is filtered out)",
+    "arc": "Promise a perfect workout → show 6 exercises in order with visible progress → end"
+  },
+  "units": [
+    {
+      "n": 1,
+      "role": "exercise",
+      "class": "2d-characters",
+      "confidence": "high",
+      "summary": "Lat Pulldown (tracker 0/6, 2x3 grid)"
+    },
+    {
+      "n": 2,
+      "role": "exercise",
+      "class": "2d-characters",
+      "confidence": "high",
+      "summary": "T-Bar Row",
+      "same_as": "shot 1"
+    },
+    {
+      "n": 3,
+      "role": "exercise",
+      "class": "2d-characters",
+      "confidence": "high",
+      "summary": "Seated Cable Row",
+      "same_as": "shot 1"
+    },
+    {
+      "n": 4,
+      "role": "exercise",
+      "class": "2d-characters",
+      "confidence": "high",
+      "summary": "Reverse Fly",
+      "same_as": "shot 1"
+    },
+    {
+      "n": 5,
+      "role": "exercise",
+      "class": "2d-characters",
+      "confidence": "high",
+      "summary": "Preacher Curl",
+      "same_as": "shot 1"
+    },
+    {
+      "n": 6,
+      "role": "exercise",
+      "class": "2d-characters",
+      "confidence": "high",
+      "summary": "Cable Hammer Curl",
+      "same_as": "shot 1"
+    }
+  ],
+  "product": "none",
+  "proof_device": "progress tracker (2x3 grid)",
+  "series": "single post (the earliest of the series)",
+  "caption": "Long for the account: title + numbered exercise list with number emojis + sets x reps line + 5 hashtags",
+  "hashtags": "5: #pullday #pullworkout #backandbiceps #backday #musclebuilding",
+  "topic": "back and biceps workout",
+  "language": "English text, no speech"
+}

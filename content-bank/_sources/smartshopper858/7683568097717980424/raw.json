@@ -1,0 +1,392 @@
+{
+ "AIGCDescription": "",
+ "CategoryType": 120,
+ "IsAigc": false,
+ "ShowAIGC": true,
+ "author": {
+  "UserStoryStatus": 0,
+  "avatarLarger": "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/e5b6817981d06612adb86563d492cf9f~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=2b39d82b&x-expires=1790359200&x-signature=UKsihmGj5MT2z%2BbzjASFDPatlx0%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
+  "avatarMedium": "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/e5b6817981d06612adb86563d492cf9f~tplv-tiktokx-cropcenter:720:720.jpeg?dr=14579&refresh_token=16c9ffc9&x-expires=1790359200&x-signature=75IDyHen%2FVXgqwfkFYrBXYrymYw%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
+  "avatarThumb": "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/e5b6817981d06612adb86563d492cf9f~tplv-tiktokx-cropcenter:100:100.jpeg?dr=14579&refresh_token=2f771991&x-expires=1790359200&x-signature=lQn2RPa5GBynEq%2BfhdgZZDqXVh0%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
+  "canExpPlaylist": false,
+  "commentSetting": 0,
+  "createTime": 1786940931,
+  "downloadSetting": 0,
+  "duetSetting": 0,
+  "ftc": false,
+  "id": "7674852747790779410",
+  "isADVirtual": false,
+  "isEmbedBanned": false,
+  "nickNameModifyTime": 0,
+  "nickname": "smartshopper",
+  "nowInvitationCardUrl": "",
+  "openFavorite": false,
+  "privateAccount": false,
+  "recommendReason": "",
+  "relation": 0,
+  "roomId": "",
+  "secUid": "MS4wLjABAAAA9NtxROX_JOMEfLdY4yAk55567PIU9rrTXQneqVr9tZt6P4BBHxCqcXHMPBpFuE5z",
+  "secret": false,
+  "shortDramaCreator": {},
+  "shortId": "",
+  "signature": "Smart skincare shopping 🇵🇭 | I read labels so you don't have to 💅",
+  "stitchSetting": 0,
+  "suggestAccountBind": false,
+  "ttSeller": false,
+  "uniqueId": "smartshopper858",
+  "uniqueIdModifyTime": 0,
+  "verified": false
+ },
+ "authorStats": {
+  "diggCount": 23,
+  "followerCount": 26,
+  "followingCount": 26,
+  "friendCount": 0,
+  "heart": 71,
+  "heartCount": 71,
+  "videoCount": 4
+ },
+ "authorStatsV2": {
+  "diggCount": "23",
+  "followerCount": "26",
+  "followingCount": "26",
+  "friendCount": "0",
+  "heart": "71",
+  "heartCount": "71",
+  "videoCount": "4"
+ },
+ "backendSourceEventTracking": "",
+ "category": "tiktok",
+ "challenges": [
+  {
+   "coverLarger": "",
+   "coverMedium": "",
+   "coverThumb": "",
+   "desc": "",
+   "id": "59289072",
+   "profileLarger": "",
+   "profileMedium": "",
+   "profileThumb": "",
+   "title": "affiliatemarketing"
+  },
+  {
+   "coverLarger": "",
+   "coverMedium": "",
+   "coverThumb": "",
+   "desc": "",
+   "id": "7444324807765819448",
+   "profileLarger": "",
+   "profileMedium": "",
+   "profileThumb": "",
+   "title": "creatorsearchinsights2026"
+  },
+  {
+   "coverLarger": "",
+   "coverMedium": "",
+   "coverThumb": "",
+   "desc": "",
+   "id": "7340824418278440993",
+   "profileLarger": "",
+   "profileMedium": "",
+   "profileThumb": "",
+   "title": "creatorsearchinsights"
+  },
+  {
+   "coverLarger": "https://p16-common-sign.tiktokcdn.com/tiktok-obj/16ae41c128a04ab2e065b7589965a3bf.jpeg~tplv-tiktokx-origin.image?dr=14566&x-expires=1790208000&x-signature=q4PGMbAdYxphbrgt5JKavEZdWU0%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=my2",
+   "coverMedium": "https://p16-common-sign.tiktokcdn.com/tiktok-obj/16ae41c128a04ab2e065b7589965a3bf.jpeg~tplv-tiktokx-origin.image?dr=14566&x-expires=1790208000&x-signature=q4PGMbAdYxphbrgt5JKavEZdWU0%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=my2",
+   "coverThumb": "https://p16-common-sign.tiktokcdn.com/tiktok-obj/16ae41c128a04ab2e065b7589965a3bf.jpeg~tplv-tiktokx-origin.image?dr=14566&x-expires=1790208000&x-signature=q4PGMbAdYxphbrgt5JKavEZdWU0%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=my2",
+   "desc": "From routines to glow ups, discover how the skincare community on TikTok keeps their skin cared for.",
+   "id": "504245",
+   "profileLarger": "",
+   "profileMedium": "",
+   "profileThumb": "",
+   "title": "skincare"
+  }
+ ],
+ "channelTags": [],
+ "collected": false,
+ "comments": [],
+ "contents": [
+  {
+   "desc": "sobrang dami na ng tiktok affiliates ngayon 😅 here's how i'm actually different: ingredients decoded, label checks, real reviews, realistic timelines 🧴 follow along sa journey ko 🌟",
+   "textExtra": []
+  },
+  {
+   "desc": "#affiliatemarketing #creatorsearchinsights2026 ",
+   "textExtra": [
+    {
+     "awemeId": "",
+     "end": 19,
+     "hashtagId": "59289072",
+     "hashtagName": "affiliatemarketing",
+     "isCommerce": false,
+     "start": 0,
+     "subType": 0,
+     "type": 1
+    },
+    {
+     "awemeId": "",
+     "end": 46,
+     "hashtagId": "7444324807765819448",
+     "hashtagName": "creatorsearchinsights2026",
+     "isCommerce": false,
+     "start": 20,
+     "subType": 0,
+     "type": 1
+    }
+   ]
+  },
+  {
+   "desc": "#creatorsearchinsights #skincare ",
+   "textExtra": [
+    {
+     "awemeId": "",
+     "end": 22,
+     "hashtagId": "7340824418278440993",
+     "hashtagName": "creatorsearchinsights",
+     "isCommerce": false,
+     "start": 0,
+     "subType": 0,
+     "type": 1
+    },
+    {
+     "awemeId": "",
+     "end": 32,
+     "hashtagId": "504245",
+     "hashtagName": "skincare",
+     "isCommerce": false,
+     "start": 23,
+     "subType": 0,
+     "type": 1
+    }
+   ]
+  }
+ ],
+ "createTime": "1789045200",
+ "creatorAIComment": {
+  "categoryList": [],
+  "eligibleVideo": false,
+  "hasAITopic": false,
+  "notEligibleReason": 101
+ },
+ "date": "2026-09-10 13:00:00",
+ "desc": "sobrang dami na ng tiktok affiliates ngayon 😅 here's how i'm actually different: ingredients decoded, label checks, real reviews, realistic timelines 🧴 follow along sa journey ko 🌟 #affiliatemarketing #creatorsearchinsights2026  #creatorsearchinsights #skincare ",
+ "digged": false,
+ "duetDisplay": 0,
+ "effectStickers": [],
+ "forFriend": false,
+ "id": "7683568097717980424",
+ "imagePost": {
+  "cover": {
+   "imageHeight": 828,
+   "imageURL": {
+    "urlList": [
+     "https://p16-common-sign.tiktokcdn.com/tos-alisg-i-photomode-sg/70e4c020ccf9402d8cf82e2b67c8435c~tplv-photomode-image.jpeg?dr=14555&x-expires=1790359200&x-signature=OrTCe60kQO59%2Bt5AjP3yzwT%2Bv0o%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=my2&ftpl=1",
+     "https://p19-common-sign.tiktokcdn.com/tos-alisg-i-photomode-sg/70e4c020ccf9402d8cf82e2b67c8435c~tplv-photomode-image.jpeg?dr=14555&x-expires=1790359200&x-signature=gJtnKI5Tb%2FL4yUHHWGyC3Q5HCPA%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=my2&ftpl=1"
+    ]
+   },
+   "imageWidth": 828
+  },
+  "images": [
+   {
+    "imageHeight": 1080,
+    "imageURL": {
+     "urlList": [
+      "https://p16-common-sign.tiktokcdn.com/tos-alisg-i-photomode-sg/6e1bd32992a94af7986e8107a2cd7708~tplv-photomode-image.jpeg?dr=14555&x-expires=1790359200&x-signature=RXLOdzlgRJXdy3L1%2B5USt17xdwA%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=my2&ftpl=1",
+      "https://p19-common-sign.tiktokcdn.com/tos-alisg-i-photomode-sg/6e1bd32992a94af7986e8107a2cd7708~tplv-photomode-image.jpeg?dr=14555&x-expires=1790359200&x-signature=z0PtNz4juvrNdXngbbus8X1AIKU%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=my2&ftpl=1"
+     ]
+    },
+    "imageWidth": 1080
+   },
+   {
+    "imageHeight": 1080,
+    "imageURL": {
+     "urlList": [
+      "https://p16-common-sign.tiktokcdn.com/tos-alisg-i-photomode-sg/e818c58e43374427888a949250ce1dee~tplv-photomode-image.jpeg?dr=14555&x-expires=1790359200&x-signature=MRV0o7dNFbunHcAHp4aYDRQqBAc%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=my2&ftpl=1",
+      "https://p19-common-sign.tiktokcdn.com/tos-alisg-i-photomode-sg/e818c58e43374427888a949250ce1dee~tplv-photomode-image.jpeg?dr=14555&x-expires=1790359200&x-signature=msH9fAWUKD6c5gZxPIve3jj%2FeHo%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=my2&ftpl=1"
+     ]
+    },
+    "imageWidth": 1080
+   },
+   {
+    "imageHeight": 1080,
+    "imageURL": {
+     "urlList": [
+      "https://p16-common-sign.tiktokcdn.com/tos-alisg-i-photomode-sg/4a56a13c326b404facfb5e889f5c6e65~tplv-photomode-image.jpeg?dr=14555&x-expires=1790359200&x-signature=pmjv8XF5rnZUoviyMOUqIJ9ma4A%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=my2&ftpl=1",
+      "https://p19-common-sign.tiktokcdn.com/tos-alisg-i-photomode-sg/4a56a13c326b404facfb5e889f5c6e65~tplv-photomode-image.jpeg?dr=14555&x-expires=1790359200&x-signature=tDN6ehhNuvYWmsa8H9LM7WPKcNo%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=my2&ftpl=1"
+     ]
+    },
+    "imageWidth": 1080
+   },
+   {
+    "imageHeight": 1080,
+    "imageURL": {
+     "urlList": [
+      "https://p19-common-sign.tiktokcdn.com/tos-alisg-i-photomode-sg/d166fad712704f6d80e8296d13758821~tplv-photomode-image.jpeg?dr=14555&x-expires=1790359200&x-signature=pAwJKNCIcQhEy7jlKcxyet6HkuQ%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=my2&ftpl=1",
+      "https://p16-common-sign.tiktokcdn.com/tos-alisg-i-photomode-sg/d166fad712704f6d80e8296d13758821~tplv-photomode-image.jpeg?dr=14555&x-expires=1790359200&x-signature=RsTm3pa2CNELcx4GHH2hl7tJm%2Bc%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=my2&ftpl=1"
+     ]
+    },
+    "imageWidth": 1080
+   },
+   {
+    "imageHeight": 1080,
+    "imageURL": {
+     "urlList": [
+      "https://p16-common-sign.tiktokcdn.com/tos-alisg-i-photomode-sg/7d8b75fd51564fdd89ca559b99f3b6ad~tplv-photomode-image.jpeg?dr=14555&x-expires=1790359200&x-signature=FCxXgkcJPR%2BPyyLxSIOq1HY9Drg%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=my2&ftpl=1",
+      "https://p19-common-sign.tiktokcdn.com/tos-alisg-i-photomode-sg/7d8b75fd51564fdd89ca559b99f3b6ad~tplv-photomode-image.jpeg?dr=14555&x-expires=1790359200&x-signature=NIWJyQXt%2Fxx%2F1SDIhrstRhzbSZ4%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=my2&ftpl=1"
+     ]
+    },
+    "imageWidth": 1080
+   },
+   {
+    "imageHeight": 1080,
+    "imageURL": {
+     "urlList": [
+      "https://p16-common-sign.tiktokcdn.com/tos-alisg-i-photomode-sg/3cb82dcaa93440e3a507ddc059d7cd1f~tplv-photomode-image.jpeg?dr=14555&x-expires=1790359200&x-signature=cEw8rNb24Mpc2%2FZ60gwg0iaTGL4%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=my2&ftpl=1",
+      "https://p19-common-sign.tiktokcdn.com/tos-alisg-i-photomode-sg/3cb82dcaa93440e3a507ddc059d7cd1f~tplv-photomode-image.jpeg?dr=14555&x-expires=1790359200&x-signature=SDM1ImTjHjhpgzRvU5m3O92XlUY%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=my2&ftpl=1"
+     ]
+    },
+    "imageWidth": 1080
+   }
+  ],
+  "shareCover": {
+   "imageHeight": 828,
+   "imageURL": {
+    "urlList": [
+     "https://p16-common-sign.tiktokcdn.com/tos-alisg-i-photomode-sg/70e4c020ccf9402d8cf82e2b67c8435c~tplv-photomode-image.jpeg?dr=14555&x-expires=1790359200&x-signature=OrTCe60kQO59%2Bt5AjP3yzwT%2Bv0o%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=my2&ftpl=1",
+     "https://p19-common-sign.tiktokcdn.com/tos-alisg-i-photomode-sg/70e4c020ccf9402d8cf82e2b67c8435c~tplv-photomode-image.jpeg?dr=14555&x-expires=1790359200&x-signature=gJtnKI5Tb%2FL4yUHHWGyC3Q5HCPA%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=my2&ftpl=1"
+    ]
+   },
+   "imageWidth": 828
+  },
+  "title": "follow if you want to be a smart shopper 💰"
+ },
+ "indexEnabled": true,
+ "isAd": false,
+ "isProhibited": false,
+ "isReviewing": false,
+ "itemCommentStatus": 0,
+ "item_control": {
+  "can_repost": true
+ },
+ "locationCreated": "PH",
+ "music": {
+  "album": "FREAKED OUT",
+  "authorName": "Fat Papi & prodshushy",
+  "collected": false,
+  "coverLarge": "https://p16-sg.tiktokcdn.com/aweme/720x720/tos-alisg-v-2774/ocjfALGEm1GnREATU7IEkeFKjAPA8fAS7oesKA.jpeg",
+  "coverMedium": "https://p16-sg.tiktokcdn.com/aweme/200x200/tos-alisg-v-2774/ocjfALGEm1GnREATU7IEkeFKjAPA8fAS7oesKA.jpeg",
+  "coverThumb": "https://p16-sg.tiktokcdn.com/aweme/100x100/tos-alisg-v-2774/ocjfALGEm1GnREATU7IEkeFKjAPA8fAS7oesKA.jpeg",
+  "duration": 14,
+  "id": "7646775660023974664",
+  "isCopyrighted": false,
+  "is_commerce_music": false,
+  "is_unlimited_music": false,
+  "original": false,
+  "playUrl": "https://sf16-ies-music-sg.tiktokcdn.com/obj/tos-alisg-ve-2774/ochaiGLopIG2pUDFXfuAeeIgUtMDzc1DggzlCC",
+  "preciseDuration": {
+   "preciseAuditionDuration": 14.106,
+   "preciseDuration": 14.106,
+   "preciseShootDuration": 14.106,
+   "preciseVideoDuration": 60
+  },
+  "private": false,
+  "scheduleSearchTime": 0,
+  "shoot_duration": 14,
+  "title": "FREAKED OUT",
+  "tt2dsp": {
+   "tt_to_dsp_song_infos": []
+  }
+ },
+ "officalItem": false,
+ "originalItem": false,
+ "post_type": "image",
+ "privateItem": false,
+ "scheduleTime": 0,
+ "secret": false,
+ "shareEnabled": true,
+ "stats": {
+  "collectCount": "1",
+  "commentCount": 0,
+  "diggCount": 5,
+  "playCount": 155,
+  "shareCount": 0
+ },
+ "statsV2": {
+  "collectCount": "1",
+  "commentCount": "0",
+  "diggCount": "5",
+  "playCount": "155",
+  "repostCount": "0",
+  "shareCount": "0"
+ },
+ "stickersOnItem": [],
+ "stitchDisplay": 0,
+ "subcategory": "post",
+ "suggestedWords": [],
+ "takeDown": 0,
+ "textExtra": [
+  {
+   "awemeId": "",
+   "end": 203,
+   "hashtagId": "59289072",
+   "hashtagName": "affiliatemarketing",
+   "isCommerce": false,
+   "start": 184,
+   "subType": 0,
+   "type": 1
+  },
+  {
+   "awemeId": "",
+   "end": 230,
+   "hashtagId": "7444324807765819448",
+   "hashtagName": "creatorsearchinsights2026",
+   "isCommerce": false,
+   "start": 204,
+   "subType": 0,
+   "type": 1
+  },
+  {
+   "awemeId": "",
+   "end": 254,
+   "hashtagId": "7340824418278440993",
+   "hashtagName": "creatorsearchinsights",
+   "isCommerce": false,
+   "start": 232,
+   "subType": 0,
+   "type": 1
+  },
+  {
+   "awemeId": "",
+   "end": 264,
+   "hashtagId": "504245",
+   "hashtagName": "skincare",
+   "isCommerce": false,
+   "start": 255,
+   "subType": 0,
+   "type": 1
+  }
+ ],
+ "textLanguage": "en",
+ "textTranslatable": true,
+ "titleLanguage": "en",
+ "titleTranslatable": true,
+ "user": "smartshopper858",
+ "video": {
+  "cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-i-photomode-sg/70e4c020ccf9402d8cf82e2b67c8435c~tplv-photomode-image.jpeg?dr=14555&x-expires=1790359200&x-signature=OrTCe60kQO59%2Bt5AjP3yzwT%2Bv0o%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=my2&ftpl=1",
+  "downloadAddr": "",
+  "duration": 0,
+  "dynamicCover": "",
+  "height": 0,
+  "id": "7683568097717980424",
+  "originCover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-i-photomode-sg/70e4c020ccf9402d8cf82e2b67c8435c~tplv-photomode-image.jpeg?dr=14555&x-expires=1790359200&x-signature=OrTCe60kQO59%2Bt5AjP3yzwT%2Bv0o%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=my2&ftpl=1",
+  "playAddr": "",
+  "ratio": "",
+  "reflowCover": "",
+  "shareCover": [
+   ""
+  ],
+  "width": 0
+ },
+ "warnInfo": []
+}

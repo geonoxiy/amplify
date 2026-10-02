@@ -1,0 +1,66 @@
+{
+  "id": "7687418841432919304",
+  "url": "https://www.tiktok.com/@bluebro.fit/photo/7687418841432919304",
+  "creator": "bluebro.fit",
+  "type": "slideshow",
+  "collected_at": "2026-09-25T02:47:08+00:00",
+  "published": {
+    "utc": "2026-09-20T01:11:25+00:00",
+    "local": "2026-09-20T09:11:25+08:00",
+    "timezone": "Asia/Manila",
+    "weekday": "Sunday",
+    "hour": 9
+  },
+  "caption": "Tired of having skinny legs? Here’s the only leg workout you need! #legdayworkout #legday #gymworkout #hypertrophy ",
+  "hashtags": [
+    "legdayworkout",
+    "legday",
+    "gymworkout",
+    "hypertrophy"
+  ],
+  "mentions": [],
+  "stats": {
+    "views": 16700,
+    "likes": 526,
+    "comments": 5,
+    "shares": 29,
+    "saves": 380
+  },
+  "rates": {
+    "engagement": 0.0563,
+    "save": 0.0228,
+    "share": 0.0017,
+    "comment": 0.0003
+  },
+  "sound": {
+    "title": "Paper Moon Static",
+    "author": "Marnie Cusk",
+    "original": false,
+    "id": "7684150471292291098"
+  },
+  "slide_count": 9,
+  "duration": null,
+  "size": {
+    "width": 1080,
+    "height": 1350
+  },
+  "labels": {
+    "ad": false,
+    "ai_generated": false,
+    "location": "NZ"
+  },
+  "files": {
+    "sound": "sound.mp3",
+    "slides": [
+      "slides/01.jpg",
+      "slides/02.jpg",
+      "slides/03.jpg",
+      "slides/04.jpg",
+      "slides/05.jpg",
+      "slides/06.jpg",
+      "slides/07.jpg",
+      "slides/08.jpg",
+      "slides/09.jpg"
+    ]
+  }
+}

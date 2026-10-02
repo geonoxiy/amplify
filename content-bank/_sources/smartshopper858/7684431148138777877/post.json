@@ -1,0 +1,65 @@
+{
+  "id": "7684431148138777877",
+  "url": "https://www.tiktok.com/@smartshopper858/photo/7684431148138777877",
+  "creator": "smartshopper858",
+  "type": "slideshow",
+  "collected_at": "2026-09-23T18:02:09+00:00",
+  "published": {
+    "utc": "2026-09-12T11:00:00+00:00",
+    "local": "2026-09-12T19:00:00+08:00",
+    "timezone": "Asia/Manila",
+    "weekday": "Saturday",
+    "hour": 19
+  },
+  "caption": "a new \"skincare brand\" pops up on your feed every single day 😳 but how do you actually know it's safe to put on your face? swipe through for the exact labels to check before you buy 🔍 spoiler: a lot of viral products skip these completely 🚩 save this so you have it ready next time you're about to check out 📌 not medical or legal advice, always verify at verification.fda.gov.ph before you buy 💛 follow for more label breakdowns and ingredient checks 🧴 #TikTokMadeMeBuyIt #SkincareTips #SkincarePH #FDAApproved #budolfinds",
+  "hashtags": [
+    "TikTokMadeMeBuyIt",
+    "SkincareTips",
+    "SkincarePH",
+    "FDAApproved",
+    "budolfinds"
+  ],
+  "mentions": [],
+  "stats": {
+    "views": 282,
+    "likes": 4,
+    "comments": 0,
+    "shares": 0,
+    "saves": 2
+  },
+  "rates": {
+    "engagement": 0.0213,
+    "save": 0.0071,
+    "share": 0.0,
+    "comment": 0.0
+  },
+  "sound": {
+    "title": "I Think I Like When It Rains",
+    "author": "WILLIS",
+    "original": false,
+    "id": "6895811481653266433"
+  },
+  "slide_count": 7,
+  "duration": null,
+  "size": {
+    "width": 1080,
+    "height": 1080
+  },
+  "labels": {
+    "ad": false,
+    "ai_generated": false,
+    "location": "PH"
+  },
+  "files": {
+    "sound": "sound.mp3",
+    "slides": [
+      "slides/01.jpg",
+      "slides/02.jpg",
+      "slides/03.jpg",
+      "slides/04.jpg",
+      "slides/05.jpg",
+      "slides/06.jpg",
+      "slides/07.jpg"
+    ]
+  }
+}

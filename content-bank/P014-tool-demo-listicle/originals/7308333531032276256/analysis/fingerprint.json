@@ -1,0 +1,68 @@
+{
+  "post": "7308333531032276256",
+  "type": "slideshow",
+  "fingerprint": {
+    "structure": "7 slides: cover (hook + subtitle) → 6 tool-demo slides, one tool per slide, in no particular ranked order. No CTA slide; the caption carries 2 extra ideas as a soft CTA to keep reading.",
+    "hook": "Value-promise title over a lifestyle photo: `How To Find [outcome] [topic]  [emoji]` / `From A [credibility line]`. States the payoff (trending content ideas) and a credibility tag (social media manager) before showing any tool.",
+    "camera_motion": "humans + web/app UI screenshots mixed. Slide 1: a high-angle lifestyle photo, someone reclined on a couch holding a phone up (selfie-style but the phone doubles as a prop, not framing this shot), a laptop showing a blurred calendar app visible beside them, a creator watermark bottom-left. Slides 2-7: a real laptop screen photographed at a low angle from the keyboard, each showing a different website loaded full-screen, the same calendar app faintly visible behind/around the laptop each time (a consistent desk setup, reused across slides).",
+    "pacing": "7 slides, 2 short text lines per slide (a heading and a one-line subheading at the bottom), quick to read; built for a swipe-through.",
+    "text_overlay": "TikTok Classic on every slide: white with a thick black outline, the heading top-left in Title Case with a trailing emoji, a one-line subheading bottom-center, smaller and in Title Case with occasional lowercase asides and an emoji.",
+    "audio": "a trending sped-up pop song, music only, not the creator's voice.",
+    "arc": "A trusted-expert listicle: the cover promises a payoff, then each slide is proof (a real screenshot of a free tool), ending without a hard sell; the caption adds 2 more ideas as a soft continue-reading hook."
+  },
+  "units": [
+    {"n": 1, "role": "hook", "confidence": "high", "class": "humans",
+     "frame": {"canvas": "1440x1920 (3:4)",
+       "layers": [{"type": "photo", "box": [0, 0, 100, 100], "note": "high-angle lifestyle photo, reclined figure holding a phone, laptop beside them"},
+                  {"type": "text", "box": [5, 5, 70, 12], "note": "heading, top-left"},
+                  {"type": "text", "box": [5, 16, 60, 5], "note": "subheading, under the heading"},
+                  {"type": "mark", "box": [3, 55, 30, 4], "note": "creator watermark"}],
+       "composition": {"zone": "top-left", "balance": "text upper-left, the person and laptop fill the lower two-thirds"},
+       "color_light": "neutral indoor light, soft greys and skin tones",
+       "quality": "phone photo, brightness 58%, sharpness 790, clutter 5.1% (measured, slide 1)",
+       "origin_realism": "real photo (not AI)"},
+     "text_blocks": [
+       {"text": "How To Find Trending\nContent Ideas 💡", "origin": "overlay", "role": "headline", "pattern": "top-headline", "box": [5, 5, 70, 12], "zone": "top-left", "align": "left", "font": "TikTok Sans (closest match), bold", "size_pct": 3.6, "case": "Title Case", "fill": "#ffffff", "stroke": "thick black outline (TikTok Classic)", "under": "the wall behind the couch"},
+       {"text": "From A Social Media Manager", "origin": "overlay", "role": "subhead", "pattern": "top-headline", "box": [5, 16, 60, 5], "zone": "top-left", "align": "left", "font": "TikTok Sans (closest match), medium", "size_pct": 2.0, "case": "Title Case", "fill": "#ffffff", "stroke": "thick black outline (TikTok Classic)", "under": "the wall behind the couch"}
+     ],
+     "image": {"people": 1, "face_visible": false, "pose_expression_gaze": "reclined, phone held up toward the ceiling as if taking a photo of the laptop screen below, face not in frame", "outfit": "white top, visible forearm", "camera_height": "high angle, looking down at the scene", "setting": "a couch, a laptop showing a blurred calendar app beside her, indoors", "clutter": "low-medium"}
+    },
+    {"n": 2, "role": "tip", "confidence": "high", "class": "ui-screenshots", "same_as": "slide 1, except: no photo of a person — a laptop screen alone, angled up from the keyboard, showing a tool's website; a smaller heading top-center with an emoji and a one-line subheading bottom-center",
+     "text_blocks": [
+       {"text": "HubSpot Blog Ideas\nGenerator 👀", "origin": "overlay", "role": "headline", "pattern": "top-headline", "box": [22, 5, 56, 8], "zone": "top-center"},
+       {"text": "Gives You 5 FREE Ideas", "origin": "overlay", "role": "subhead", "pattern": "bottom-caption", "box": [28, 47, 44, 4], "zone": "middle-center"}
+     ]},
+    {"n": 3, "role": "tip", "confidence": "high", "class": "ui-screenshots", "same_as": "slide 2, a different tool's website on the laptop screen",
+     "text_blocks": [
+       {"text": "Canva Magic Write ✍️", "origin": "overlay", "role": "headline", "pattern": "top-headline", "box": [22, 5, 56, 8], "zone": "top-center"},
+       {"text": "This is my favourite and not many people know about it 👀", "origin": "overlay", "role": "subhead", "pattern": "bottom-caption", "box": [22, 46, 56, 6], "zone": "middle-center"}
+     ]},
+    {"n": 4, "role": "tip", "confidence": "high", "class": "ui-screenshots", "same_as": "slide 2, a different tool's website",
+     "text_blocks": [
+       {"text": "Semrush Free Title\nGenerator ✍️", "origin": "overlay", "role": "headline", "pattern": "top-headline", "box": [22, 5, 56, 8], "zone": "top-center"},
+       {"text": "Love Semrush For SEO As Well ✨", "origin": "overlay", "role": "subhead", "pattern": "bottom-caption", "box": [22, 46, 56, 5], "zone": "middle-center"}
+     ]},
+    {"n": 5, "role": "tip", "confidence": "high", "class": "ui-screenshots", "same_as": "slide 2, a different tool's website",
+     "text_blocks": [
+       {"text": "AnswerThePublic 👀", "origin": "overlay", "role": "headline", "pattern": "top-headline", "box": [22, 5, 56, 8], "zone": "top-center"},
+       {"text": "Ideas that people are actually searching for", "origin": "overlay", "role": "subhead", "pattern": "bottom-caption", "box": [22, 46, 56, 6], "zone": "middle-center"}
+     ]},
+    {"n": 6, "role": "tip", "confidence": "high", "class": "ui-screenshots", "same_as": "slide 2, a plain Google search instead of a tool site",
+     "text_blocks": [
+       {"text": "Google 📱", "origin": "overlay", "role": "headline", "pattern": "top-headline", "box": [22, 5, 56, 8], "zone": "top-center"},
+       {"text": "The “people also ask” section is perfect for endless ideas", "origin": "overlay", "role": "subhead", "pattern": "bottom-caption", "box": [18, 46, 64, 6], "zone": "middle-center"}
+     ]},
+    {"n": 7, "role": "tip", "confidence": "high", "class": "ui-screenshots", "same_as": "slide 2, a different tool's website",
+     "text_blocks": [
+       {"text": "BuzzSumo Content\nDiscovery 💡", "origin": "overlay", "role": "headline", "pattern": "top-headline", "box": [22, 5, 56, 8], "zone": "top-center"},
+       {"text": "2 more ideas in the caption 👇🏻", "origin": "overlay", "role": "subhead", "pattern": "bottom-caption", "box": [22, 46, 56, 5], "zone": "middle-center"}
+     ]}
+  ],
+  "product": "none named directly on the slides; the tools shown are the product of the post (free-tool recommendations), unbranded to the creator",
+  "proof_device": "the laptop screen itself is the proof device: a real screenshot of each tool loaded",
+  "series": "single post; the account's watermark suggests a recurring 'tips from a social media manager' format",
+  "caption": "restates the hook, then 2 more tool ideas as a bonus list (keeps the value going past the slides), then 8 niche marketing hashtags",
+  "hashtags": "8, all niche/community tags for the social-media-manager audience (#socialmediamarketing #smm #contentcreator etc.), no broad tags",
+  "topic": "content-idea tools for social media managers (tag only)",
+  "language": "English, first person plural implied ('I also LOVE using'), enthusiastic, emoji-heavy, numbered list in the caption"
+}

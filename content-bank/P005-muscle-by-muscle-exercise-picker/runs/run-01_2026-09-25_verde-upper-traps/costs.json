@@ -1,0 +1,100 @@
+[
+ {
+  "model": "nano-banana-pro",
+  "task_id": "775dc60e02092ec34b8964f95197998d",
+  "credits": 18.0,
+  "output": "content-bank/P005-muscle-by-muscle-exercise-picker/runs/run-01_2026-09-25_verde-upper-traps/raw/cover.png",
+  "prompt": "The SAME character as in the reference image (Verde: faceless teal-green muscular athlete, smooth rounded helmet head with one amber horizontal visor band, charcoal shorts with a white side stripe, amber wrist wraps) drawn in exactly the same bold comic cel-shaded style with thick dark navy outlines"
+ },
+ {
+  "model": "nano-banana-pro",
+  "task_id": "f085fc781eac298f88366f49e3689fab",
+  "credits": 18.0,
+  "output": "content-bank/P005-muscle-by-muscle-exercise-picker/runs/run-01_2026-09-25_verde-upper-traps/raw/overview.png",
+  "prompt": "The SAME character as in the reference image (Verde: faceless teal-green muscular athlete, smooth rounded helmet head with one amber visor band, charcoal shorts, amber wrist wraps), same bold comic cel-shaded style with thick dark navy outlines. Full back view from head to mid-thigh, standing straig"
+ },
+ {
+  "model": "nano-banana-pro",
+  "task_id": "2d1cba7f32dc2b6fcdbdc05a96ab9370",
+  "credits": 18.0,
+  "output": "content-bank/P005-muscle-by-muscle-exercise-picker/runs/run-01_2026-09-25_verde-upper-traps/raw/cover.png",
+  "prompt": "Reference image 1 is the character sheet of Verde (faceless teal-green muscular athlete, smooth rounded helmet head with one amber visor band, charcoal shorts with white side stripe, amber wrist wraps). Reference image 2 is a back-view anatomy diagram: the RED area at the top of the back, the short "
+ },
+ {
+  "model": "nano-banana-pro",
+  "task_id": "735c3a6928b9c9b1e6c194d093ee97bc",
+  "credits": 18.0,
+  "output": "content-bank/P005-muscle-by-muscle-exercise-picker/runs/run-01_2026-09-25_verde-upper-traps/raw/ex1_db_shrug.png",
+  "prompt": "The SAME character as in the reference image (Verde: faceless teal-green muscular athlete with a smooth rounded helmet head and one horizontal amber visor band, thick trapezius, charcoal shorts with a white side stripe, white shoes, amber wrist wraps), in exactly the same bold western comic cel-shad"
+ },
+ {
+  "model": "nano-banana-pro",
+  "task_id": "4f52002987536644242650e9f8af48f8",
+  "credits": 18.0,
+  "output": "content-bank/P005-muscle-by-muscle-exercise-picker/runs/run-01_2026-09-25_verde-upper-traps/raw/ex2_bb_shrug.png",
+  "prompt": "The SAME character as in the reference image (Verde: faceless teal-green muscular athlete with a smooth rounded helmet head and one horizontal amber visor band, thick trapezius, charcoal shorts with a white side stripe, white shoes, amber wrist wraps), in exactly the same bold western comic cel-shad"
+ },
+ {
+  "model": "nano-banana-pro",
+  "task_id": "3197d6fabb8e486b525f71de3bd5e7f4",
+  "credits": 18.0,
+  "output": "content-bank/P005-muscle-by-muscle-exercise-picker/runs/run-01_2026-09-25_verde-upper-traps/raw/ex3_cable_upright_row.png",
+  "prompt": "The SAME character as in the reference image (Verde: faceless teal-green muscular athlete with a smooth rounded helmet head and one horizontal amber visor band, thick trapezius, charcoal shorts with a white side stripe, white shoes, amber wrist wraps), in exactly the same bold western comic cel-shad"
+ },
+ {
+  "model": "nano-banana-pro",
+  "task_id": "bdc1594faba9794de4318c6f839261ad",
+  "credits": 18.0,
+  "output": "content-bank/P005-muscle-by-muscle-exercise-picker/runs/run-01_2026-09-25_verde-upper-traps/raw/ex4_db_upright_row.png",
+  "prompt": "The SAME character as in the reference image (Verde: faceless teal-green muscular athlete with a smooth rounded helmet head and one horizontal amber visor band, thick trapezius, charcoal shorts with a white side stripe, white shoes, amber wrist wraps), in exactly the same bold western comic cel-shad"
+ },
+ {
+  "model": "nano-banana-pro",
+  "task_id": "f8174bd704d20cb0e48cacb2c1ca4ef5",
+  "credits": 18.0,
+  "output": "content-bank/P005-muscle-by-muscle-exercise-picker/runs/run-01_2026-09-25_verde-upper-traps/raw/ex5_farmers_carry.png",
+  "prompt": "The SAME character as in the reference image (Verde: faceless teal-green muscular athlete with a smooth rounded helmet head and one horizontal amber visor band, thick trapezius, charcoal shorts with a white side stripe, white shoes, amber wrist wraps), in exactly the same bold western comic cel-shad"
+ },
+ {
+  "model": "nano-banana-pro",
+  "task_id": "39364db93f704d27621917430134b5ff",
+  "credits": 18.0,
+  "output": "content-bank/P005-muscle-by-muscle-exercise-picker/runs/run-01_2026-09-25_verde-upper-traps/raw/ex6_suitcase_carry.png",
+  "prompt": "The SAME character as in the reference image (Verde: faceless teal-green muscular athlete with a smooth rounded helmet head and one horizontal amber visor band, thick trapezius, charcoal shorts with a white side stripe, white shoes, amber wrist wraps), in exactly the same bold western comic cel-shad"
+ },
+ {
+  "model": "nano-banana-pro",
+  "task_id": "45de222319a594a2082b633225b5dbef",
+  "credits": 18.0,
+  "output": "content-bank/P005-muscle-by-muscle-exercise-picker/runs/run-01_2026-09-25_verde-upper-traps/raw/ex7_db_shoulder_press.png",
+  "prompt": "The SAME character as in the reference image (Verde: faceless teal-green muscular athlete with a smooth rounded helmet head and one horizontal amber visor band, thick trapezius, charcoal shorts with a white side stripe, white shoes, amber wrist wraps), in exactly the same bold western comic cel-shad"
+ },
+ {
+  "model": "nano-banana-pro",
+  "task_id": "0b8ebd188efb27351fefa4564296da31",
+  "credits": 18.0,
+  "output": "content-bank/P005-muscle-by-muscle-exercise-picker/runs/run-01_2026-09-25_verde-upper-traps/raw/ex8_landmine_press.png",
+  "prompt": "The SAME character as in the reference image (Verde: faceless teal-green muscular athlete with a smooth rounded helmet head and one horizontal amber visor band, thick trapezius, charcoal shorts with a white side stripe, white shoes, amber wrist wraps), in exactly the same bold western comic cel-shad"
+ },
+ {
+  "model": "nano-banana-pro",
+  "task_id": "0112a7a1d00cabfa517a52c5676bea5e",
+  "credits": 18.0,
+  "output": "content-bank/P005-muscle-by-muscle-exercise-picker/runs/run-01_2026-09-25_verde-upper-traps/raw/ex4_db_upright_row.png",
+  "prompt": "The SAME character as in the reference image (Verde: faceless teal-green muscular athlete with a smooth rounded helmet head and one horizontal amber visor band, thick trapezius, charcoal shorts with a white side stripe, white shoes, amber wrist wraps), in exactly the same bold western comic cel-shad"
+ },
+ {
+  "model": "nano-banana-pro",
+  "task_id": "4b7071c3a00d8fd45ecef23961b174a8",
+  "credits": 18.0,
+  "output": "content-bank/P005-muscle-by-muscle-exercise-picker/runs/run-01_2026-09-25_verde-upper-traps/raw/ex6_suitcase_carry.png",
+  "prompt": "The SAME character as in the reference image (Verde: faceless teal-green muscular athlete with a smooth rounded helmet head and one horizontal amber visor band, thick trapezius, charcoal shorts with a white side stripe, white shoes, amber wrist wraps), in exactly the same bold western comic cel-shad"
+ },
+ {
+  "model": "nano-banana-pro",
+  "task_id": "49e90e536e518d374322339348978740",
+  "credits": 18.0,
+  "output": "content-bank/P005-muscle-by-muscle-exercise-picker/runs/run-01_2026-09-25_verde-upper-traps/raw/cover.png",
+  "prompt": "Reference image 1 is the character sheet of Verde (faceless teal-green muscular athlete, smooth rounded helmet head with one amber visor band, charcoal shorts with white side stripe, amber wrist wraps). Reference image 2 is a back-view anatomy diagram of the same character with the trapezius shown i"
+ }
+]

@@ -1,0 +1,23 @@
+[
+ {
+  "model": "nano-banana-pro",
+  "task_id": "4a5653fe458c3a737a2d10819c9ffd44",
+  "credits": 18.0,
+  "output": "/Users/love/Documents/Claude/Amplify/mockups/templates/laptop-02/template.png",
+  "prompt": "Recreate this reference photo as a new, original photo to use as a product mockup template. Keep the same kind of laptop (same model, colour and size), the same camera angle, height, tilt and distance, the same framing and crop, the same lighting mood and time of day, and similar surroundings.\n\nThe "
+ },
+ {
+  "model": "nano-banana-pro",
+  "task_id": "581ab48347aadcd2fa69818ee2be92df",
+  "credits": 24.0,
+  "output": "/Users/love/Documents/Claude/Amplify/mockups/templates/laptop-02/template.png",
+  "prompt": "Recreate this reference photo as a new, original photo to use as a product mockup template. Keep the same kind of laptop (same model, colour and size), the same camera angle, height, tilt and distance, the same framing and crop, and the same lighting mood and time of day.\n\nThe laptop is switched on "
+ },
+ {
+  "model": "nano-banana-pro",
+  "task_id": "e62ebad5fe14309c1e3a0b342001f62d",
+  "credits": 24.0,
+  "output": "/Users/love/Documents/Claude/Amplify/mockups/templates/laptop-02/template.png",
+  "prompt": "Recreate this reference photo as a new, original photo to use as a product mockup template. Keep the same kind of laptop (same model, colour and size), the same camera angle, height, tilt and distance, the same framing and crop, and the same lighting mood and time of day.\n\nThe laptop is switched on "
+ }
+]

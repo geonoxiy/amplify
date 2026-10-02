@@ -1,0 +1,112 @@
+{
+  "n": 1,
+  "role": "hook",
+  "class": "2d-characters",
+  "confidence": "high",
+  "summary": "cover: 2-line problem hook over the mascot's back, upper traps highlighted",
+  "frame": {
+    "canvas": "4:5 portrait, 1080x1350",
+    "layers": [
+      {
+        "type": "background",
+        "box": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "note": "flat card colour #f2f3ee"
+      },
+      {
+        "type": "mark",
+        "box": [
+          2.7,
+          2.1,
+          19.8,
+          4.2
+        ],
+        "note": "placeholder brand mark: teal circle with an amber visor slit + wordmark, top-left on every slide (swap for the real handle)"
+      },
+      {
+        "type": "mascot",
+        "box": [
+          2.0,
+          46.6,
+          96.0,
+          53.4
+        ],
+        "note": "original mascot Verde, rear double-biceps pose; only the upper trapezius slope is highlighted (red); bleeds off the bottom edge"
+      }
+    ],
+    "composition": {
+      "subject_box": [
+        2.0,
+        46.6,
+        96.0,
+        53.4
+      ]
+    }
+  },
+  "text_blocks": [
+    {
+      "text": "VERDE FIT",
+      "origin": "mark",
+      "role": "watermark",
+      "pattern": "corner-mark",
+      "box": [
+        9.1,
+        3.0,
+        13.5,
+        2.5
+      ],
+      "zone": "top-left",
+      "align": "left",
+      "font": "DIN Condensed Bold",
+      "size_pct": 3.5,
+      "case": "ALL CAPS",
+      "fill": "#16202b",
+      "stroke": "none",
+      "under": "solid card background"
+    },
+    {
+      "text": "FLAT",
+      "origin": "designed",
+      "role": "hook",
+      "pattern": "top-headline",
+      "box": [
+        36.2,
+        11.5,
+        27.5,
+        11.0
+      ],
+      "zone": "top-center",
+      "align": "center",
+      "font": "DIN Condensed Bold",
+      "size_pct": 15.5,
+      "case": "ALL CAPS",
+      "fill": "#16202b",
+      "stroke": "none",
+      "under": "solid card background"
+    },
+    {
+      "text": "TRAPS?",
+      "origin": "designed",
+      "role": "hook",
+      "pattern": "top-headline",
+      "box": [
+        27.3,
+        25.2,
+        45.4,
+        11.2
+      ],
+      "zone": "top-center",
+      "align": "center",
+      "font": "DIN Condensed Bold",
+      "size_pct": 15.5,
+      "case": "ALL CAPS",
+      "fill": "#0b8a77",
+      "stroke": "none",
+      "under": "solid card background"
+    }
+  ]
+}

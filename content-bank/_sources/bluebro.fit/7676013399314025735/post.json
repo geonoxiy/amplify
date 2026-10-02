@@ -1,0 +1,55 @@
+{
+  "id": "7676013399314025735",
+  "url": "https://www.tiktok.com/@bluebro.fit/video/7676013399314025735",
+  "creator": "bluebro.fit",
+  "type": "video",
+  "collected_at": "2026-09-25T02:47:39+00:00",
+  "published": {
+    "utc": "2026-08-20T07:32:37+00:00",
+    "local": "2026-08-20T15:32:37+08:00",
+    "timezone": "Asia/Manila",
+    "weekday": "Thursday",
+    "hour": 15
+  },
+  "caption": "The ultimate shoulder workout for HUGE delts. #shoulderworkout #shoulderday #deltoids #gymworkout ",
+  "hashtags": [
+    "shoulderworkout",
+    "shoulderday",
+    "deltoids",
+    "gymworkout"
+  ],
+  "mentions": [],
+  "stats": {
+    "views": 6066,
+    "likes": 204,
+    "comments": 2,
+    "shares": 7,
+    "saves": 76
+  },
+  "rates": {
+    "engagement": 0.0476,
+    "save": 0.0125,
+    "share": 0.0012,
+    "comment": 0.0003
+  },
+  "sound": {
+    "title": "som original",
+    "author": "𝑼𝑺𝑬 𝑯𝑬𝑨𝑫𝑺𝑬𝑻•音楽🎶🎧",
+    "original": true,
+    "id": "7653881570983299858"
+  },
+  "slide_count": null,
+  "duration": 20,
+  "size": {
+    "width": 576,
+    "height": 1002
+  },
+  "labels": {
+    "ad": false,
+    "ai_generated": false,
+    "location": "NZ"
+  },
+  "files": {
+    "video": "video.mp4"
+  }
+}

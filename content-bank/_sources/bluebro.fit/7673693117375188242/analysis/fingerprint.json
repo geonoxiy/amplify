@@ -1,0 +1,69 @@
+{
+  "post": "7673693117375188242",
+  "type": "slideshow",
+  "fingerprint": {
+    "structure": "6 slides: hook ('TOP 5 CHEST EXERCISES / ACTUALLY WORTH DOING' pill tagline) → 5 ranked exercises, each with a green score badge (9 to 10/10), a one-line verdict and the mascot on the equipment on a grey circle. No CTA. Slide order glitch: #5 comes before #4",
+    "hook": "'TOP 5 CHEST EXERCISES' with a pill tagline 'ACTUALLY WORTH DOING' over the mascot on an incline bench, chest highlighted red",
+    "camera_motion": "2d-characters (mascot) on designed cards; 4:5 slides",
+    "pacing": "6 slides, 8 to 15 words of body text per item",
+    "text_overlay": "Headings: Anton-like condensed heavy grotesque, Title Case (ALL CAPS on covers), navy #041732 with accent blue; '#N' numerals in blue, slightly italic; short blue underline (about 12.6% wide) under each heading; body: Didact Gothic-like light sans, gray #4b4945, about 2.7% of frame height, left-aligned at x=10%, 2 to 4 short lines; BLUE BRO logo top-left on every slide; score badge green rounded rectangle; grey circle behind the figure",
+    "audio": "third-party sound (library-style title and author), not original, no voiceover; slideshow so the sound is only background",
+    "arc": "Promise a curated list → five items with scores → no CTA"
+  },
+  "units": [
+    {
+      "n": 1,
+      "role": "hook",
+      "class": "2d-characters",
+      "confidence": "high",
+      "summary": "cover with pill tagline and mascot doing incline dumbbell press with red chest"
+    },
+    {
+      "n": 2,
+      "role": "ranked-item",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "#1 Incline Smith Press, 9/10: 'Great stability & can heavily overload'",
+      "same_as": "ranking-splits post slide 2 layout, with an exercise illustration instead of a strip"
+    },
+    {
+      "n": 3,
+      "role": "ranked-item",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "#2 Weighted Chest Dips, 9/10",
+      "same_as": "slide 2"
+    },
+    {
+      "n": 4,
+      "role": "ranked-item",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "#3 Seated Cable Flys, 9.5/10",
+      "same_as": "slide 2"
+    },
+    {
+      "n": 5,
+      "role": "ranked-item",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "#5 Pec Dec, 10/10 (shown before #4)",
+      "same_as": "slide 2"
+    },
+    {
+      "n": 6,
+      "role": "ranked-item",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "#4 Machine Press, 9.5/10",
+      "same_as": "slide 2"
+    }
+  ],
+  "product": "none",
+  "proof_device": "none",
+  "series": "single post",
+  "caption": "Short: 'GOATED chest exercises actually worth doing!' + 3 hashtags",
+  "hashtags": "3: #chestexercise #chestdayworkout #workouttips",
+  "topic": "chest exercises",
+  "language": "English, slang ('GOATED'), opinionated; the scores do not follow the rank order"
+}

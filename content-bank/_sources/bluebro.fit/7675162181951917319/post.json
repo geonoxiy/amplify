@@ -1,0 +1,64 @@
+{
+  "id": "7675162181951917319",
+  "url": "https://www.tiktok.com/@bluebro.fit/photo/7675162181951917319",
+  "creator": "bluebro.fit",
+  "type": "slideshow",
+  "collected_at": "2026-09-25T02:47:48+00:00",
+  "published": {
+    "utc": "2026-08-18T00:29:19+00:00",
+    "local": "2026-08-18T08:29:19+08:00",
+    "timezone": "Asia/Manila",
+    "weekday": "Tuesday",
+    "hour": 8
+  },
+  "caption": "Ranking all popular gym splits from worst to best for muscle growth! #gymsplits #workoutroutine #musclegrowthtips ",
+  "hashtags": [
+    "gymsplits",
+    "workoutroutine",
+    "musclegrowthtips"
+  ],
+  "mentions": [],
+  "stats": {
+    "views": 30600,
+    "likes": 1057,
+    "comments": 21,
+    "shares": 59,
+    "saves": 477
+  },
+  "rates": {
+    "engagement": 0.0527,
+    "save": 0.0156,
+    "share": 0.0019,
+    "comment": 0.0007
+  },
+  "sound": {
+    "title": "original sound",
+    "author": "spidrsaudios",
+    "original": true,
+    "id": "7271875369760803614"
+  },
+  "slide_count": 8,
+  "duration": null,
+  "size": {
+    "width": 1080,
+    "height": 1350
+  },
+  "labels": {
+    "ad": false,
+    "ai_generated": false,
+    "location": "NZ"
+  },
+  "files": {
+    "sound": "sound.mp3",
+    "slides": [
+      "slides/01.jpg",
+      "slides/02.jpg",
+      "slides/03.jpg",
+      "slides/04.jpg",
+      "slides/05.jpg",
+      "slides/06.jpg",
+      "slides/07.jpg",
+      "slides/08.jpg"
+    ]
+  }
+}

@@ -1,0 +1,245 @@
+{
+  "posts": 5,
+  "types": {
+    "slideshow": 5
+  },
+  "first": "2026-09-10T19:00:00+08:00",
+  "last": "2026-09-12T21:00:00+08:00",
+  "posts_per_week": 16.8,
+  "max_posts_in_a_day": 3,
+  "median_gap_hours": 1.5,
+  "weekdays": {
+    "Saturday": 3,
+    "Thursday": 2
+  },
+  "hours_local": {
+    "19": 2,
+    "20": 1,
+    "21": 2
+  },
+  "timezone": "Asia/Manila",
+  "median_views": 738,
+  "average_rates": {
+    "engagement": 0.0243,
+    "save": 0.0052,
+    "share": 0.0007,
+    "comment": 0.0002
+  },
+  "ranked_by": "engagement rate among posts with at least 5,000 views (5 of 5 posts)",
+  "top_5": [
+    {
+      "id": "7683568097717980424",
+      "type": "slideshow",
+      "views": 155,
+      "engagement": 0.0387,
+      "save": 0.0065,
+      "caption": "sobrang dami na ng tiktok affiliates ngayon 😅 here's how i'm actually different:"
+    },
+    {
+      "id": "7683549117112470804",
+      "type": "slideshow",
+      "views": 738,
+      "engagement": 0.023,
+      "save": 0.0068,
+      "caption": "effective ba talaga si dermorepublic??? share your experience sa comments! #derm"
+    },
+    {
+      "id": "7684431148138777877",
+      "type": "slideshow",
+      "views": 282,
+      "engagement": 0.0213,
+      "save": 0.0071,
+      "caption": "a new \"skincare brand\" pops up on your feed every single day 😳 but how do you ac"
+    },
+    {
+      "id": "7684432581869178132",
+      "type": "slideshow",
+      "views": 1061,
+      "engagement": 0.0198,
+      "save": 0.0028,
+      "caption": "check ur skincare 👀 retinol is everywhere but it's NOT the same as tretinoin (th"
+    },
+    {
+      "id": "7684431864446127380",
+      "type": "slideshow",
+      "views": 1029,
+      "engagement": 0.0185,
+      "save": 0.0029,
+      "caption": "check ur skincare 👀 glycolic acid is everywhere, but do u actually know what it "
+    }
+  ],
+  "bottom_5": [
+    {
+      "id": "7684431864446127380",
+      "type": "slideshow",
+      "views": 1029,
+      "engagement": 0.0185,
+      "save": 0.0029,
+      "caption": "check ur skincare 👀 glycolic acid is everywhere, but do u actually know what it "
+    },
+    {
+      "id": "7684432581869178132",
+      "type": "slideshow",
+      "views": 1061,
+      "engagement": 0.0198,
+      "save": 0.0028,
+      "caption": "check ur skincare 👀 retinol is everywhere but it's NOT the same as tretinoin (th"
+    },
+    {
+      "id": "7684431148138777877",
+      "type": "slideshow",
+      "views": 282,
+      "engagement": 0.0213,
+      "save": 0.0071,
+      "caption": "a new \"skincare brand\" pops up on your feed every single day 😳 but how do you ac"
+    },
+    {
+      "id": "7683549117112470804",
+      "type": "slideshow",
+      "views": 738,
+      "engagement": 0.023,
+      "save": 0.0068,
+      "caption": "effective ba talaga si dermorepublic??? share your experience sa comments! #derm"
+    },
+    {
+      "id": "7683568097717980424",
+      "type": "slideshow",
+      "views": 155,
+      "engagement": 0.0387,
+      "save": 0.0065,
+      "caption": "sobrang dami na ng tiktok affiliates ngayon 😅 here's how i'm actually different:"
+    }
+  ],
+  "top_5_by_views": [
+    {
+      "id": "7684432581869178132",
+      "type": "slideshow",
+      "views": 1061,
+      "engagement": 0.0198,
+      "save": 0.0028,
+      "caption": "check ur skincare 👀 retinol is everywhere but it's NOT the same as tretinoin (th"
+    },
+    {
+      "id": "7684431864446127380",
+      "type": "slideshow",
+      "views": 1029,
+      "engagement": 0.0185,
+      "save": 0.0029,
+      "caption": "check ur skincare 👀 glycolic acid is everywhere, but do u actually know what it "
+    },
+    {
+      "id": "7683549117112470804",
+      "type": "slideshow",
+      "views": 738,
+      "engagement": 0.023,
+      "save": 0.0068,
+      "caption": "effective ba talaga si dermorepublic??? share your experience sa comments! #derm"
+    },
+    {
+      "id": "7684431148138777877",
+      "type": "slideshow",
+      "views": 282,
+      "engagement": 0.0213,
+      "save": 0.0071,
+      "caption": "a new \"skincare brand\" pops up on your feed every single day 😳 but how do you ac"
+    },
+    {
+      "id": "7683568097717980424",
+      "type": "slideshow",
+      "views": 155,
+      "engagement": 0.0387,
+      "save": 0.0065,
+      "caption": "sobrang dami na ng tiktok affiliates ngayon 😅 here's how i'm actually different:"
+    }
+  ],
+  "bottom_5_by_views": [
+    {
+      "id": "7683568097717980424",
+      "type": "slideshow",
+      "views": 155,
+      "engagement": 0.0387,
+      "save": 0.0065,
+      "caption": "sobrang dami na ng tiktok affiliates ngayon 😅 here's how i'm actually different:"
+    },
+    {
+      "id": "7684431148138777877",
+      "type": "slideshow",
+      "views": 282,
+      "engagement": 0.0213,
+      "save": 0.0071,
+      "caption": "a new \"skincare brand\" pops up on your feed every single day 😳 but how do you ac"
+    },
+    {
+      "id": "7683549117112470804",
+      "type": "slideshow",
+      "views": 738,
+      "engagement": 0.023,
+      "save": 0.0068,
+      "caption": "effective ba talaga si dermorepublic??? share your experience sa comments! #derm"
+    },
+    {
+      "id": "7684431864446127380",
+      "type": "slideshow",
+      "views": 1029,
+      "engagement": 0.0185,
+      "save": 0.0029,
+      "caption": "check ur skincare 👀 glycolic acid is everywhere, but do u actually know what it "
+    },
+    {
+      "id": "7684432581869178132",
+      "type": "slideshow",
+      "views": 1061,
+      "engagement": 0.0198,
+      "save": 0.0028,
+      "caption": "check ur skincare 👀 retinol is everywhere but it's NOT the same as tretinoin (th"
+    }
+  ],
+  "brand_palette": [
+    {
+      "hex": "#f4dee9",
+      "share": 0.267
+    },
+    {
+      "hex": "#d8e6de",
+      "share": 0.22
+    },
+    {
+      "hex": "#dbecf9",
+      "share": 0.214
+    },
+    {
+      "hex": "#111214",
+      "share": 0.139
+    },
+    {
+      "hex": "#f8efcc",
+      "share": 0.114
+    },
+    {
+      "hex": "#5f5e5d",
+      "share": 0.046
+    }
+  ],
+  "hashtags": {
+    "tiktokmademebuyit": 3,
+    "skincaretips": 3,
+    "skincareph": 3,
+    "skincare": 2,
+    "affiliatemarketing": 2,
+    "budol": 2,
+    "skinimalism": 2,
+    "dermorepubliq": 1,
+    "underarmserum": 1,
+    "creatorsearchinsights2026": 1,
+    "creatorsearchinsights": 1,
+    "fdaapproved": 1,
+    "budolfinds": 1
+  },
+  "sounds": {
+    "original sound - ⌖ – ⌖": 1,
+    "FREAKED OUT – Fat Papi & prodshushy": 1,
+    "I Think I Like When It Rains – WILLIS": 1,
+    "Pretty (Sped Up) – MEYY": 1,
+    "Kung Ako Na Lang Sana – Sarah Geronimo": 1
+  }
+}

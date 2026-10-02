@@ -1,0 +1,262 @@
+{
+  "n": 4,
+  "role": "muscle-pick",
+  "class": "other:designed-card",
+  "confidence": "high",
+  "summary": "muscle pick: explainer + two exercise illustrations",
+  "frame": {
+    "canvas": "4:5 portrait, 1080x1350",
+    "layers": [
+      {
+        "type": "background",
+        "box": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "note": "flat card colour #f2f3ee"
+      },
+      {
+        "type": "mark",
+        "box": [
+          2.7,
+          2.1,
+          19.8,
+          4.2
+        ],
+        "note": "placeholder brand mark: teal circle with an amber visor slit + wordmark, top-left on every slide (swap for the real handle)"
+      },
+      {
+        "type": "accent-line",
+        "box": [
+          10,
+          26.9,
+          12.6,
+          0.5
+        ],
+        "note": "short accent underline under the heading"
+      },
+      {
+        "type": "mascot",
+        "box": [
+          5.7,
+          50.5,
+          37.5,
+          39.0
+        ],
+        "note": "exercise illustration: Cable Upright Row"
+      },
+      {
+        "type": "mascot",
+        "box": [
+          60.4,
+          50.5,
+          30.1,
+          39.0
+        ],
+        "note": "exercise illustration: Dumbbell Upright Row"
+      },
+      {
+        "type": "badge",
+        "box": [
+          47.1,
+          67.7,
+          5.7,
+          4.6
+        ],
+        "note": "round accent 'OR' badge between the two options"
+      }
+    ],
+    "composition": {
+      "subject_box": [
+        3,
+        50.5,
+        94,
+        39
+      ]
+    }
+  },
+  "text_blocks": [
+    {
+      "text": "VERDE FIT",
+      "origin": "mark",
+      "role": "watermark",
+      "pattern": "corner-mark",
+      "box": [
+        9.1,
+        3.0,
+        13.5,
+        2.5
+      ],
+      "zone": "top-left",
+      "align": "left",
+      "font": "DIN Condensed Bold",
+      "size_pct": 3.5,
+      "case": "ALL CAPS",
+      "fill": "#16202b",
+      "stroke": "none",
+      "under": "solid card background"
+    },
+    {
+      "text": "#2",
+      "origin": "designed",
+      "role": "number",
+      "pattern": "numbered-heading",
+      "box": [
+        10.0,
+        17.2,
+        7.1,
+        5.4
+      ],
+      "zone": "top-left",
+      "align": "left",
+      "font": "DIN Condensed Bold",
+      "size_pct": 7.6,
+      "case": "n/a",
+      "fill": "#0b8a77",
+      "stroke": "none",
+      "under": "solid card background"
+    },
+    {
+      "text": "Upright Rows",
+      "origin": "designed",
+      "role": "headline",
+      "pattern": "numbered-heading",
+      "box": [
+        24.4,
+        18.4,
+        30.6,
+        5.5
+      ],
+      "zone": "top-center",
+      "align": "left",
+      "font": "DIN Condensed Bold",
+      "size_pct": 5.9,
+      "case": "Title Case",
+      "fill": "#16202b",
+      "stroke": "none",
+      "under": "solid card background"
+    },
+    {
+      "text": "2-3 Sets x 8-12 Reps",
+      "origin": "designed",
+      "role": "label",
+      "pattern": "numbered-heading",
+      "box": [
+        24.4,
+        24.2,
+        25.0,
+        2.1
+      ],
+      "zone": "top-center",
+      "align": "left",
+      "font": "Avenir Next Medium",
+      "size_pct": 2.1,
+      "case": "Title Case",
+      "fill": "#4a5561",
+      "stroke": "none",
+      "under": "solid card background"
+    },
+    {
+      "text": "Pulls that end with your shoulders lifting also load the upper traps. Lead with your elbows and stop at chest height.",
+      "origin": "designed",
+      "role": "body",
+      "pattern": "top-headline",
+      "box": [
+        10.0,
+        31.9,
+        61.9,
+        12.4
+      ],
+      "zone": "middle-center",
+      "align": "left",
+      "font": "Avenir Next Regular",
+      "size_pct": 2.6,
+      "case": "Sentence case",
+      "fill": "#4a5561",
+      "stroke": "none",
+      "under": "solid card background"
+    },
+    {
+      "text": "Pick either:",
+      "origin": "designed",
+      "role": "label",
+      "pattern": "callout",
+      "box": [
+        10.0,
+        46.7,
+        14.0,
+        1.7
+      ],
+      "zone": "middle-left",
+      "align": "left",
+      "font": "Avenir Next Demi Bold",
+      "size_pct": 2.2,
+      "case": "Sentence case",
+      "fill": "#16202b",
+      "stroke": "none",
+      "under": "solid card background"
+    },
+    {
+      "text": "Cable Upright Row",
+      "origin": "designed",
+      "role": "caption",
+      "pattern": "callout",
+      "box": [
+        11.4,
+        91.5,
+        26.2,
+        2.4
+      ],
+      "zone": "bottom-left",
+      "align": "center",
+      "font": "Avenir Next Medium",
+      "size_pct": 2.4,
+      "case": "Title Case",
+      "fill": "#16202b",
+      "stroke": "none",
+      "under": "solid card background"
+    },
+    {
+      "text": "Dumbbell Upright Row",
+      "origin": "designed",
+      "role": "caption",
+      "pattern": "callout",
+      "box": [
+        59.6,
+        91.5,
+        31.9,
+        2.4
+      ],
+      "zone": "bottom-right",
+      "align": "center",
+      "font": "Avenir Next Medium",
+      "size_pct": 2.4,
+      "case": "Title Case",
+      "fill": "#16202b",
+      "stroke": "none",
+      "under": "solid card background"
+    },
+    {
+      "text": "OR",
+      "origin": "designed",
+      "role": "label",
+      "pattern": "callout",
+      "box": [
+        48.0,
+        68.6,
+        4.1,
+        2.8
+      ],
+      "zone": "bottom-center",
+      "align": "center",
+      "font": "DIN Condensed Bold",
+      "size_pct": 3.8,
+      "case": "ALL CAPS",
+      "fill": "#ffffff",
+      "stroke": "none",
+      "under": "accent circle"
+    }
+  ]
+}

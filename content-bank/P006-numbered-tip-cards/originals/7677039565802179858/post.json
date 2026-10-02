@@ -1,0 +1,68 @@
+{
+  "id": "7677039565802179858",
+  "url": "https://www.tiktok.com/@bluebro.fit/photo/7677039565802179858",
+  "creator": "bluebro.fit",
+  "type": "slideshow",
+  "collected_at": "2026-09-25T02:47:35+00:00",
+  "published": {
+    "utc": "2026-08-23T01:54:34+00:00",
+    "local": "2026-08-23T09:54:34+08:00",
+    "timezone": "Asia/Manila",
+    "weekday": "Sunday",
+    "hour": 9
+  },
+  "caption": "This is how you build muscle as fast as humanly possible! I use @HealthMeter to log my nutrition! #musclegrowthtips #gymtips #buildmuscle #healthmeter #gymtok ",
+  "hashtags": [
+    "musclegrowthtips",
+    "gymtips",
+    "buildmuscle",
+    "healthmeter",
+    "gymtok"
+  ],
+  "mentions": [
+    "healthmeter.app",
+    "HealthMeter"
+  ],
+  "stats": {
+    "views": 35800,
+    "likes": 1014,
+    "comments": 3,
+    "shares": 53,
+    "saves": 427
+  },
+  "rates": {
+    "engagement": 0.0418,
+    "save": 0.0119,
+    "share": 0.0015,
+    "comment": 0.0001
+  },
+  "sound": {
+    "title": "QUANTUM 2.0",
+    "author": "PHNKR & dnvn & Phonk King",
+    "original": false,
+    "id": "7661904348721481729"
+  },
+  "slide_count": 7,
+  "duration": null,
+  "size": {
+    "width": 1080,
+    "height": 1350
+  },
+  "labels": {
+    "ad": false,
+    "ai_generated": false,
+    "location": "NZ"
+  },
+  "files": {
+    "sound": "sound.mp3",
+    "slides": [
+      "slides/01.jpg",
+      "slides/02.jpg",
+      "slides/03.jpg",
+      "slides/04.jpg",
+      "slides/05.jpg",
+      "slides/06.jpg",
+      "slides/07.jpg"
+    ]
+  }
+}

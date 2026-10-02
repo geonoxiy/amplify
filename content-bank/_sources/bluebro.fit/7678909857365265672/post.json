@@ -1,0 +1,68 @@
+{
+  "id": "7678909857365265672",
+  "url": "https://www.tiktok.com/@bluebro.fit/photo/7678909857365265672",
+  "creator": "bluebro.fit",
+  "type": "slideshow",
+  "collected_at": "2026-09-25T02:47:27+00:00",
+  "published": {
+    "utc": "2026-08-28T02:52:14+00:00",
+    "local": "2026-08-28T10:52:14+08:00",
+    "timezone": "Asia/Manila",
+    "weekday": "Friday",
+    "hour": 10
+  },
+  "caption": "Here is the simplest way to figure out your macro ratio.  This teaches you exactly how much carbs, proteins & fats u should be eating! Using @HealthMeter to track my calories #macronutrientes #nutritiontips #healthmeter #nutrition ",
+  "hashtags": [
+    "macronutrientes",
+    "nutritiontips",
+    "healthmeter",
+    "nutrition"
+  ],
+  "mentions": [
+    "healthmeter.app",
+    "HealthMeter"
+  ],
+  "stats": {
+    "views": 12100,
+    "likes": 307,
+    "comments": 1,
+    "shares": 25,
+    "saves": 234
+  },
+  "rates": {
+    "engagement": 0.0469,
+    "save": 0.0193,
+    "share": 0.0021,
+    "comment": 0.0001
+  },
+  "sound": {
+    "title": "Shard Veins",
+    "author": "Lilypad Whiskers",
+    "original": false,
+    "id": "7651695161643206666"
+  },
+  "slide_count": 8,
+  "duration": null,
+  "size": {
+    "width": 1080,
+    "height": 1350
+  },
+  "labels": {
+    "ad": false,
+    "ai_generated": false,
+    "location": "NZ"
+  },
+  "files": {
+    "sound": "sound.mp3",
+    "slides": [
+      "slides/01.jpg",
+      "slides/02.jpg",
+      "slides/03.jpg",
+      "slides/04.jpg",
+      "slides/05.jpg",
+      "slides/06.jpg",
+      "slides/07.jpg",
+      "slides/08.jpg"
+    ]
+  }
+}

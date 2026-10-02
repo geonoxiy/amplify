@@ -1,0 +1,68 @@
+{
+  "id": "7308333531032276256",
+  "url": "https://www.tiktok.com/@mainlysocials/photo/7308333531032276256",
+  "creator": "mainlysocials",
+  "type": "slideshow",
+  "collected_at": "2026-09-28T15:17:10+00:00",
+  "published": {
+    "utc": "2023-12-03T11:46:46+00:00",
+    "local": "2023-12-03T19:46:46+08:00",
+    "timezone": "Asia/Manila",
+    "weekday": "Sunday",
+    "hour": 19
+  },
+  "caption": "How To Find New Content Ideas 💡 I also LOVE using: 1. My own comment section to answer FAQs 💭 2. Competitors comment sections on TikTok to see what questions people commonly ask them 👀 #socialmediamarketing #socialmediamanagers #socialmediamanager #socialmediamanagement #smm #contentcreator #contentcreators #marketingtips ",
+  "hashtags": [
+    "socialmediamarketing",
+    "socialmediamanagers",
+    "socialmediamanager",
+    "socialmediamanagement",
+    "smm",
+    "contentcreator",
+    "contentcreators",
+    "marketingtips"
+  ],
+  "mentions": [],
+  "stats": {
+    "views": 224500,
+    "likes": 3443,
+    "comments": 41,
+    "shares": 373,
+    "saves": 5314
+  },
+  "rates": {
+    "engagement": 0.0409,
+    "save": 0.0237,
+    "share": 0.0017,
+    "comment": 0.0002
+  },
+  "sound": {
+    "title": "IT GIRL (Sped up Version)",
+    "author": "Aliyah's Interlude",
+    "original": false,
+    "id": "7282421140570572801"
+  },
+  "slide_count": 7,
+  "duration": null,
+  "size": {
+    "width": 1440,
+    "height": 1920
+  },
+  "labels": {
+    "ad": false,
+    "ai_generated": false,
+    "location": "GB"
+  },
+  "files": {
+    "sound": "sound.mp3",
+    "slides": [
+      "slides/01.jpg",
+      "slides/02.jpg",
+      "slides/03.jpg",
+      "slides/04.jpg",
+      "slides/05.jpg",
+      "slides/06.jpg",
+      "slides/07.jpg"
+    ]
+  }
+}

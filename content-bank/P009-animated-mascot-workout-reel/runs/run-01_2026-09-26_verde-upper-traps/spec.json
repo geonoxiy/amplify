@@ -1,0 +1,89 @@
+{
+ "run": "content-bank/P009-animated-mascot-workout-reel/runs/run-01_2026-09-26_verde-upper-traps",
+ "canvas": [
+  1080,
+  1920
+ ],
+ "fps": 30,
+ "theme": {},
+ "title": "The Perfect Upper Traps Workout",
+ "title_ref": "The Perfect Pull Workout",
+ "icon": {
+  "art": "content-bank/P005-muscle-by-muscle-exercise-picker/runs/run-01_2026-09-25_verde-upper-traps/raw/overview_fixed.png",
+  "crop_top": 0.62
+ },
+ "layout": {
+  "art_box": [
+   8,
+   42,
+   84,
+   38
+  ],
+  "tracker_box": [
+   5.6,
+   18.1,
+   91.6,
+   8.9
+  ],
+  "title_y": 14.0,
+  "name_y": 31.5
+ },
+ "timing": {
+  "shot": 2.7,
+  "tick_at": 1.2,
+  "title_in": [
+   0.15,
+   0.9
+  ]
+ },
+ "shots": [
+  {
+   "name": "Dumbbell Shrug",
+   "reps": "2-3 x 8-12",
+   "still": "content-bank/P005-muscle-by-muscle-exercise-picker/runs/run-01_2026-09-25_verde-upper-traps/raw/ex1_db_shrug.png",
+   "clip": "raw/clip1.mp4",
+   "prompt": "The character performs dumbbell shrugs. ONLY the shoulders and neck muscles move: the shoulders lift straight up a short distance toward the ears (a small, compact movement) and drop back down. The arms hang straight down the entire time with the elbows locked and never bending; the dumbbells stay hanging beside the thighs and only rise slightly because the shoulders rise. The arms never lift away from the body. This is NOT a bicep curl, NOT a lateral raise, NOT a press. Two slow reps, the feet stay planted. Flat 2D cel-shaded comic-book illustration animation. Camera completely locked, no zoom, no pan, no cuts. The plain off-white background and the floor shadow stay perfectly still. The character keeps exactly the same design, colours, proportions and outline throughout, with no morphing, no extra limbs, no face appearing on the helmet. Nothing appears in the empty space above or below. No text, no letters, no logos."
+  },
+  {
+   "name": "Barbell Shrug",
+   "reps": "2-3 x 8-12",
+   "still": "content-bank/P005-muscle-by-muscle-exercise-picker/runs/run-01_2026-09-25_verde-upper-traps/raw/ex2_bb_shrug.png",
+   "clip": "raw/clip2.mp4",
+   "prompt": "The character performs dumbbell shrugs. ONLY the shoulders and neck muscles move: the shoulders lift straight up a short distance toward the ears (a small, compact movement) and drop back down. The arms stay straight in front of the thighs holding the barbell the entire time with the elbows locked and never bending; the barbell stays in front of the thighs and only rise slightly because the shoulders rise. The arms never lift away from the body. This is NOT a bicep curl, NOT a lateral raise, NOT a press. Two slow reps, the feet stay planted. Flat 2D cel-shaded comic-book illustration animation. Camera completely locked, no zoom, no pan, no cuts. The plain off-white background and the floor shadow stay perfectly still. The character keeps exactly the same design, colours, proportions and outline throughout, with no morphing, no extra limbs, no face appearing on the helmet. Nothing appears in the empty space above or below. No text, no letters, no logos."
+  },
+  {
+   "name": "Cable Upright Row",
+   "reps": "2-3 x 10-12",
+   "still": "content-bank/P005-muscle-by-muscle-exercise-picker/runs/run-01_2026-09-25_verde-upper-traps/raw/ex3_cable_upright_row.png",
+   "clip": "raw/clip3.mp4",
+   "prompt": "The character is in the top position of a cable upright row: the bar is at chest height with the elbows raised high and out. He slowly lowers the bar straight down the front of his body to the front of his thighs with his arms nearly straight, pauses, then pulls it back up along the front of his body to chest height with the elbows leading, and stops there. The bar NEVER goes above chest height, never goes above or behind the head, never above the shoulders. The hands stay in front of the body the whole time. This is NOT an overhead press, NOT a triceps extension, NOT a curl. One slow rep down and up. The feet stay planted and the cable machine stays completely still. Flat 2D cel-shaded comic-book illustration animation. Camera completely locked, no zoom, no pan, no cuts. The plain off-white background and the floor shadow stay perfectly still. The character keeps exactly the same design, colours, proportions and outline throughout, with no morphing, no extra limbs, no face appearing on the helmet. Nothing appears in the empty space above or below. No text, no letters, no logos."
+  },
+  {
+   "name": "Dumbbell Shoulder Press",
+   "reps": "2-3 x 8-10",
+   "still": "content-bank/P005-muscle-by-muscle-exercise-picker/runs/run-01_2026-09-25_verde-upper-traps/raw/ex7_db_shoulder_press.png",
+   "clip": "raw/clip4.mp4",
+   "prompt": "The seated character performs a slow dumbbell shoulder press: both dumbbells travel straight up from shoulder height until the arms are fully extended overhead, pause, then lower slowly to shoulder height. This is NOT a bicep curl. Two slow reps. The bench stays completely still and he stays seated. Flat 2D cel-shaded comic-book illustration animation. Camera completely locked, no zoom, no pan, no cuts. The plain off-white background and the floor shadow stay perfectly still. The character keeps exactly the same design, colours, proportions and outline throughout, with no morphing, no extra limbs, no face appearing on the helmet. Nothing appears in the empty space above or below. No text, no letters, no logos."
+  },
+  {
+   "name": "Farmer's Carry",
+   "reps": "2-3 x 30 sec",
+   "still": "content-bank/P005-muscle-by-muscle-exercise-picker/runs/run-01_2026-09-25_verde-upper-traps/raw/ex5_farmers_carry.png",
+   "clip": "raw/clip5.mp4",
+   "prompt": "The character walks in place with a steady, heavy stride, like on a treadmill, gripping the two heavy weights hanging straight down at his sides with straight arms and tall shoulders; only the legs alternate and the body bobs slightly. He stays centred in the frame and does not travel across it. Flat 2D cel-shaded comic-book illustration animation. Camera completely locked, no zoom, no pan, no cuts. The plain off-white background and the floor shadow stay perfectly still. The character keeps exactly the same design, colours, proportions and outline throughout, with no morphing, no extra limbs, no face appearing on the helmet. Nothing appears in the empty space above or below. No text, no letters, no logos."
+  },
+  {
+   "name": "Suitcase Carry",
+   "reps": "2-3 x 30 sec",
+   "still": "content-bank/P005-muscle-by-muscle-exercise-picker/runs/run-01_2026-09-25_verde-upper-traps/raw/ex6_suitcase_carry.png",
+   "clip": "raw/clip6.mp4",
+   "prompt": "The character walks in place with a steady stride, like on a treadmill, gripping one heavy weight hanging straight down in one hand at his side with a straight arm, torso upright; only the legs alternate and the body bobs slightly. He stays centred in the frame and does not travel across it. Flat 2D cel-shaded comic-book illustration animation. Camera completely locked, no zoom, no pan, no cuts. The plain off-white background and the floor shadow stay perfectly still. The character keeps exactly the same design, colours, proportions and outline throughout, with no morphing, no extra limbs, no face appearing on the helmet. Nothing appears in the empty space above or below. No text, no letters, no logos."
+  }
+ ],
+ "sources": [
+  "content-bank/P009-animated-mascot-workout-reel/originals/7687128368654847240/analysis/frames",
+  "content-bank/P009-animated-mascot-workout-reel/originals/7688954741229128968/analysis/frames",
+  "content-bank/P009-animated-mascot-workout-reel/originals/7686084738775321863/analysis/frames",
+  "content-bank/P009-animated-mascot-workout-reel/originals/7673417473269435666/analysis/frames"
+ ]
+}

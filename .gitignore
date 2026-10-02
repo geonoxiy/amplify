@@ -1,0 +1,47 @@
+# Secrets: each person keeps their own key in .env (copy .env.example)
+.env
+
+# Python environment and caches (rebuilt from requirements.txt)
+.venv/
+.cache/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Local scratch from the capture and preview steps
+_render_tmp/
+.claude/launch.json
+.claude/settings.local.json
+
+# Downloaded TikTok posts: the analysis text (post.json, measures, fingerprints, summaries) is kept,
+# the downloaded media stays on the machine that fetched it. Pillar originals/ are kept in full,
+# because originality.py compares every new run against them.
+content-bank/_sources/**/*.mp4
+content-bank/_sources/**/*.mov
+content-bank/_sources/**/*.jpg
+content-bank/_sources/**/*.jpeg
+content-bank/_sources/**/*.png
+content-bank/_sources/**/*.webp
+content-bank/_sources/**/*.mp3
+content-bank/_sources/**/*.m4a
+content-bank/_sources/**/*.wav
+
+# Finished renders (slides, videos) are outputs, not tools: share them through Drive.
+# The run's text (package.md, review.md, caption, specs, costs) is kept.
+content-bank/*/runs/**/*.mp4
+content-bank/*/runs/**/*.mov
+content-bank/*/runs/**/*.jpg
+content-bank/*/runs/**/*.jpeg
+content-bank/*/runs/**/*.png
+content-bank/*/runs/**/*.webp
+content-bank/*/runs/**/*.mp3
+content-bank/*/runs/**/*.m4a
+content-bank/*/runs/**/*.wav
+
+# Mockups: templates are kept (the tool needs them); inspiration photos, screenshots and outputs are not
+mockups/inspo/
+mockups/shots/
+mockups/out/
+
+# Reddit and Letterboxd capture outputs
+captures/

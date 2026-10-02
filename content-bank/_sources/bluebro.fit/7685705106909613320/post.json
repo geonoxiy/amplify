@@ -1,0 +1,66 @@
+{
+  "id": "7685705106909613320",
+  "url": "https://www.tiktok.com/@bluebro.fit/photo/7685705106909613320",
+  "creator": "bluebro.fit",
+  "type": "slideshow",
+  "collected_at": "2026-09-25T02:47:21+00:00",
+  "published": {
+    "utc": "2026-09-15T10:21:16+00:00",
+    "local": "2026-09-15T18:21:16+08:00",
+    "timezone": "Asia/Manila",
+    "weekday": "Tuesday",
+    "hour": 18
+  },
+  "caption": "Weak back? Then you have to train all aspects of it! #backday #backtraining #backgrowth #gymtip #musclegrowth ",
+  "hashtags": [
+    "backday",
+    "backtraining",
+    "backgrowth",
+    "gymtip",
+    "musclegrowth"
+  ],
+  "mentions": [],
+  "stats": {
+    "views": 16000,
+    "likes": 511,
+    "comments": 2,
+    "shares": 18,
+    "saves": 326
+  },
+  "rates": {
+    "engagement": 0.0536,
+    "save": 0.0204,
+    "share": 0.0011,
+    "comment": 0.0001
+  },
+  "sound": {
+    "title": "Heavy Hours",
+    "author": "Dance Trance Kid",
+    "original": false,
+    "id": "7656125883844954158"
+  },
+  "slide_count": 8,
+  "duration": null,
+  "size": {
+    "width": 1080,
+    "height": 1350
+  },
+  "labels": {
+    "ad": false,
+    "ai_generated": false,
+    "location": "NZ"
+  },
+  "files": {
+    "sound": "sound.mp3",
+    "slides": [
+      "slides/01.jpg",
+      "slides/02.jpg",
+      "slides/03.jpg",
+      "slides/04.jpg",
+      "slides/05.jpg",
+      "slides/06.jpg",
+      "slides/07.jpg",
+      "slides/08.jpg"
+    ]
+  }
+}

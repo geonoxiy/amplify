@@ -1,0 +1,18 @@
+{
+ "our_words": 52,
+ "our_unique": 38,
+ "shared_unique_words": [
+  "a",
+  "and",
+  "be",
+  "feel",
+  "in",
+  "my",
+  "said",
+  "that",
+  "the"
+ ],
+ "overlap_of_ours_pct": 23.7,
+ "longest_shared_run_words": 2,
+ "longest_shared_run": "in the"
+}

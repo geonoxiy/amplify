@@ -1,0 +1,112 @@
+{
+  "type": "video",
+  "length": 15.0,
+  "size": {
+    "width": 1024,
+    "height": 1820
+  },
+  "shot_detector": "content-27",
+  "shot_count": 1,
+  "cuts_per_second": 0.0,
+  "average_shot_length": 15.0,
+  "shots": [
+    {
+      "shot": 1,
+      "start": 0.0,
+      "end": 15.0,
+      "length": 15.0,
+      "key_frame": "frames/shot_01_7.5s.jpg",
+      "palette": [
+        {
+          "hex": "#8e6d55",
+          "share": 0.241
+        },
+        {
+          "hex": "#64564a",
+          "share": 0.237
+        },
+        {
+          "hex": "#ad8e74",
+          "share": 0.235
+        },
+        {
+          "hex": "#aebdc8",
+          "share": 0.226
+        },
+        {
+          "hex": "#3d322a",
+          "share": 0.061
+        }
+      ],
+      "visual": {
+        "brightness_pct": 50.8,
+        "contrast_pct": 18.6,
+        "saturation_pct": 32.7,
+        "sharpness": 762.5,
+        "noise_sigma": 0.79,
+        "clutter_pct": 10.46,
+        "bars_pct": {
+          "top": 0.0,
+          "bottom": 0.0,
+          "left": 0.0,
+          "right": 0.0
+        },
+        "phash": "c3bdec923f168309",
+        "dhash": "6c8bc26cf3c9c5e3"
+      },
+      "motion": {
+        "label": "zoom out / pull-back",
+        "speed_pct_w_per_s": 5.12,
+        "consistency": 0.36,
+        "zoom_pct_per_s": -3.04,
+        "rotation_deg_per_s": 0.76,
+        "subject_motion_pct_w_per_s": 12.3,
+        "pairs": 8,
+        "note": "rough label from optical flow; static/handheld/pan/zoom thresholds are set on test clips"
+      }
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "has_speech": true,
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 5.42,
+        "text": "Every single night, I pray that my tits are sitting right",
+        "no_speech": 0.0,
+        "avg_logprob": -0.29,
+        "compression_ratio": 1.32,
+        "suspect": []
+      },
+      {
+        "start": 5.42,
+        "end": 8.74,
+        "text": "Milan Rouge, my corset is so tight",
+        "no_speech": 0.0,
+        "avg_logprob": -0.29,
+        "compression_ratio": 1.32,
+        "suspect": []
+      },
+      {
+        "start": 8.74,
+        "end": 12.92,
+        "text": "Baby girl in control, I feel like Nicole",
+        "no_speech": 0.0,
+        "avg_logprob": -0.29,
+        "compression_ratio": 1.32,
+        "suspect": []
+      },
+      {
+        "start": 12.92,
+        "end": 15.0,
+        "text": "And every single night",
+        "no_speech": 0.0,
+        "avg_logprob": -0.29,
+        "compression_ratio": 1.32,
+        "suspect": []
+      }
+    ],
+    "note": "A segment with a non-empty 'suspect' list is probably music or noise, not words. has_speech is true only if at least one segment passes."
+  }
+}

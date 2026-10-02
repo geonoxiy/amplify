@@ -1,0 +1,71 @@
+{
+  "post": "7684431864446127380",
+  "type": "slideshow",
+  "fingerprint": {
+    "structure": "7 slides: hook → what is it → why it works (3-step icon flow) → safe % chart → honest timeline → pair with / avoid → disclaimer + follow CTA (no comparison slide)",
+    "hook": "Ingredient-spotlight hook: pill label 'INGREDIENT SPOTLIGHT' + huge ingredient name + 'check your skincare! 👀' + 'what is it, really?'",
+    "camera_motion": "Static designed cards (no photos)",
+    "pacing": "Low text density: 5–15 words per slide",
+    "text_overlay": "Bold rounded sans (closest: Inter / SF Pro Bold), all lowercase except pill labels; small uppercase letter-spaced pill label above each title; titles in a deep shade of the slide's pastel; centered; short body lines in the same hue; no outlines or boxes.",
+    "audio": "Trending sped-up song (Pretty (Sped Up) – MEYY), not original",
+    "arc": "Curiosity → clarity → practical rules → reassurance; payoff = safe % and timeline"
+  },
+  "units": [
+    {
+      "n": 1,
+      "role": "hook",
+      "text": "INGREDIENT SPOTLIGHT / glycolic acid / check your skincare! 👀 / what is it, really?",
+      "visual": "green card",
+      "layout": "centered stack"
+    },
+    {
+      "n": 2,
+      "role": "definition",
+      "text": "what is it? / the acid that melts away dead skin cells / COMMONLY FOUND IN: toners, serums, peel pads",
+      "visual": "drop icon",
+      "layout": "icon left, text right, chips"
+    },
+    {
+      "n": 3,
+      "role": "mechanism",
+      "text": "why it works / dissolves dead skin → boosts collagen → fades dark spots",
+      "visual": "3 icons with arrows",
+      "layout": "3-step flow"
+    },
+    {
+      "n": 4,
+      "role": "dosage",
+      "text": "SAFE % CHART / 5% beginners · 10% typical max · 20%+ pro only",
+      "visual": "slider",
+      "layout": "scale"
+    },
+    {
+      "n": 5,
+      "role": "timeline",
+      "text": "HONEST TIMELINE / week 1 1x per week only · wk 2-4 build to 2-3x/week · results gradual, not overnight",
+      "visual": "3 icons on a line",
+      "layout": "timeline"
+    },
+    {
+      "n": 6,
+      "role": "pairing",
+      "text": "✅ PAIR WITH SPF, moisturizer / 🚫 AVOID SAME NIGHT retinol, other acids",
+      "visual": "green vs red cards",
+      "layout": "2 cards"
+    },
+    {
+      "n": 7,
+      "role": "disclaimer + CTA",
+      "text": "not medical advice, just research / NOTE sensitive skin or eczema? talk to a derm first / NEXT follow for more ingredient breakdowns 🔍",
+      "visual": "search icon",
+      "layout": "heading + 2 columns"
+    }
+  ],
+  "product": "None on slides",
+  "proof_device": "None",
+  "series": "Recurring series 'Ingredient spotlight'",
+  "caption": "Same formula as retinol post: 'check ur skincare 👀 X is everywhere, but…' → swipe promise → disclaimer → follow CTA → same 5 hashtags",
+  "hashtags": "Same 5-tag set as the retinol post",
+  "topic": "skincare ingredient: glycolic acid",
+  "language": "English, lowercase, second person, calm expert-friend tone"
+}

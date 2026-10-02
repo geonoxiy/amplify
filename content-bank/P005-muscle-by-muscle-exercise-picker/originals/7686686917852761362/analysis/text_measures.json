@@ -1,0 +1,290 @@
+{
+  "unit 1": {
+    "problems": [],
+    "text_blocks": [
+      {
+        "i": 1,
+        "text": "YOUR FOREARMS LOOK SMALL",
+        "box": [
+          8.1,
+          14.8,
+          84,
+          6.1
+        ],
+        "contrast": {
+          "bg_hex": "#f4f1ea",
+          "text_hex": "#051b3a",
+          "text_hex_source": "sampled",
+          "contrast_ratio": 15.22,
+          "band": "good (4.5+)"
+        },
+        "safe_zone": {
+          "applies": false,
+          "note": "zones are for 9:16 (aspect 0.80 here)"
+        }
+      },
+      {
+        "i": 2,
+        "text": "HERE'S HOW TO LOOK",
+        "box": [
+          6.1,
+          25.6,
+          87.9,
+          8.6
+        ],
+        "contrast": {
+          "bg_hex": "#f4f1ea",
+          "text_hex": "#011c42",
+          "text_hex_source": "sampled",
+          "contrast_ratio": 14.93,
+          "band": "good (4.5+)"
+        },
+        "safe_zone": {
+          "applies": false,
+          "note": "zones are for 9:16 (aspect 0.80 here)"
+        }
+      },
+      {
+        "i": 3,
+        "text": "MASSIVE IN A T-SHIRT",
+        "box": [
+          4.4,
+          35.7,
+          91.3,
+          8.2
+        ],
+        "contrast": {
+          "bg_hex": "#f4f1ea",
+          "text_hex": "#0375d8",
+          "text_hex_source": "sampled",
+          "contrast_ratio": 4.1,
+          "band": "ok for large text (3-4.5)"
+        },
+        "safe_zone": {
+          "applies": false,
+          "note": "zones are for 9:16 (aspect 0.80 here)"
+        }
+      },
+      {
+        "i": 4,
+        "text": "BLUE BRO",
+        "box": [
+          5.7,
+          2.1,
+          11.4,
+          4.2
+        ],
+        "contrast": {
+          "bg_hex": "#f4f1ea",
+          "text_hex": "#020101",
+          "text_hex_source": "sampled",
+          "contrast_ratio": 18.44,
+          "band": "good (4.5+)"
+        },
+        "safe_zone": {
+          "applies": false,
+          "note": "zones are for 9:16 (aspect 0.80 here)"
+        }
+      }
+    ]
+  },
+  "unit 3": {
+    "problems": [],
+    "text_blocks": [
+      {
+        "i": 1,
+        "text": "#1",
+        "box": [
+          10,
+          16.6,
+          8.3,
+          6.6
+        ],
+        "contrast": {
+          "bg_hex": "#f4f1ea",
+          "text_hex": "#0275d8",
+          "text_hex_source": "sampled",
+          "contrast_ratio": 4.1,
+          "band": "ok for large text (3-4.5)"
+        },
+        "safe_zone": {
+          "applies": false,
+          "note": "zones are for 9:16 (aspect 0.80 here)"
+        }
+      },
+      {
+        "i": 2,
+        "text": "Brachioradialis",
+        "box": [
+          24.4,
+          17.8,
+          37.4,
+          5.0
+        ],
+        "contrast": {
+          "bg_hex": "#f4f1ea",
+          "text_hex": "#051b3a",
+          "text_hex_source": "sampled",
+          "contrast_ratio": 15.22,
+          "band": "good (4.5+)"
+        },
+        "safe_zone": {
+          "applies": false,
+          "note": "zones are for 9:16 (aspect 0.80 here)"
+        }
+      },
+      {
+        "i": 3,
+        "text": "To grow your brachioradialis, you want t",
+        "box": [
+          10,
+          31.3,
+          60.2,
+          16.5
+        ],
+        "contrast": {
+          "bg_hex": "#f4f1ea",
+          "text_hex": "#4b4946",
+          "text_hex_source": "sampled",
+          "contrast_ratio": 7.91,
+          "band": "good (4.5+)"
+        },
+        "safe_zone": {
+          "applies": false,
+          "note": "zones are for 9:16 (aspect 0.80 here)"
+        }
+      },
+      {
+        "i": 4,
+        "text": "Hammer Curl Variation",
+        "box": [
+          9.5,
+          90.8,
+          30.8,
+          2.8
+        ],
+        "contrast": {
+          "bg_hex": "#f4f1ea",
+          "text_hex": "#4b4947",
+          "text_hex_source": "sampled",
+          "contrast_ratio": 7.9,
+          "band": "good (4.5+)"
+        },
+        "safe_zone": {
+          "applies": false,
+          "note": "zones are for 9:16 (aspect 0.80 here)"
+        }
+      },
+      {
+        "i": 5,
+        "text": "Reverse Curl Variation",
+        "box": [
+          60,
+          90.8,
+          30,
+          2.8
+        ],
+        "contrast": {
+          "bg_hex": "#f4f1ea",
+          "text_hex": "#4b4946",
+          "text_hex_source": "sampled",
+          "contrast_ratio": 7.91,
+          "band": "good (4.5+)"
+        },
+        "safe_zone": {
+          "applies": false,
+          "note": "zones are for 9:16 (aspect 0.80 here)"
+        }
+      },
+      {
+        "i": 6,
+        "text": "BLUE BRO",
+        "box": [
+          5.7,
+          2.1,
+          11.4,
+          4.2
+        ],
+        "contrast": {
+          "bg_hex": "#f4f1ea",
+          "text_hex": "#020101",
+          "text_hex_source": "sampled",
+          "contrast_ratio": 18.44,
+          "band": "good (4.5+)"
+        },
+        "safe_zone": {
+          "applies": false,
+          "note": "zones are for 9:16 (aspect 0.80 here)"
+        }
+      }
+    ]
+  },
+  "unit 6": {
+    "problems": [],
+    "text_blocks": [
+      {
+        "i": 1,
+        "text": "Want A Better Physique?",
+        "box": [
+          10,
+          14.5,
+          60.1,
+          5.5
+        ],
+        "contrast": {
+          "bg_hex": "#f4f1ea",
+          "text_hex": "#051b3a",
+          "text_hex_source": "sampled",
+          "contrast_ratio": 15.22,
+          "band": "good (4.5+)"
+        },
+        "safe_zone": {
+          "applies": false,
+          "note": "zones are for 9:16 (aspect 0.80 here)"
+        }
+      },
+      {
+        "i": 2,
+        "text": "If you're still confused about what actu",
+        "box": [
+          10,
+          28.5,
+          60,
+          12.6
+        ],
+        "contrast": {
+          "bg_hex": "#f4f1ea",
+          "text_hex": "#4b4946",
+          "text_hex_source": "sampled",
+          "contrast_ratio": 7.91,
+          "band": "good (4.5+)"
+        },
+        "safe_zone": {
+          "applies": false,
+          "note": "zones are for 9:16 (aspect 0.80 here)"
+        }
+      },
+      {
+        "i": 3,
+        "text": "BLUE BRO",
+        "box": [
+          5.7,
+          2.1,
+          11.4,
+          4.2
+        ],
+        "contrast": {
+          "bg_hex": "#f4f1ea",
+          "text_hex": "#020101",
+          "text_hex_source": "sampled",
+          "contrast_ratio": 18.43,
+          "band": "good (4.5+)"
+        },
+        "safe_zone": {
+          "applies": false,
+          "note": "zones are for 9:16 (aspect 0.80 here)"
+        }
+      }
+    ]
+  }
+}

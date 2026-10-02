@@ -1,0 +1,133 @@
+{
+  "unit 2": {
+    "problems": [],
+    "text_blocks": [
+      {
+        "i": 1,
+        "text": "#7",
+        "box": [
+          8.5,
+          14.5,
+          10.5,
+          5.3
+        ],
+        "contrast": {
+          "bg_hex": "#f4f1ea",
+          "text_hex": "#0375d7",
+          "text_hex_source": "sampled",
+          "contrast_ratio": 4.1,
+          "band": "ok for large text (3-4.5)"
+        },
+        "safe_zone": {
+          "applies": false,
+          "note": "zones are for 9:16 (aspect 0.80 here)"
+        }
+      },
+      {
+        "i": 2,
+        "text": "Push, Pull, Skip",
+        "box": [
+          22.7,
+          14.6,
+          47.6,
+          5.0
+        ],
+        "contrast": {
+          "bg_hex": "#f4f1ea",
+          "text_hex": "#343433",
+          "text_hex_source": "sampled",
+          "contrast_ratio": 11.1,
+          "band": "good (4.5+)"
+        },
+        "safe_zone": {
+          "applies": false,
+          "note": "zones are for 9:16 (aspect 0.80 here)"
+        }
+      },
+      {
+        "i": 3,
+        "text": "1/10",
+        "box": [
+          8.9,
+          27.1,
+          10.9,
+          5.9
+        ],
+        "contrast": {
+          "bg_hex": "#f4f1ea",
+          "text_hex": "#e2002a",
+          "text_hex_source": "sampled",
+          "contrast_ratio": 4.37,
+          "band": "ok for large text (3-4.5)"
+        },
+        "safe_zone": {
+          "applies": false,
+          "note": "zones are for 9:16 (aspect 0.80 here)"
+        }
+      },
+      {
+        "i": 4,
+        "text": "Your little chicken legs aren't going to",
+        "box": [
+          10,
+          36.3,
+          61,
+          7.6
+        ],
+        "contrast": {
+          "bg_hex": "#f4f1ea",
+          "text_hex": "#4b4946",
+          "text_hex_source": "sampled",
+          "contrast_ratio": 7.91,
+          "band": "good (4.5+)"
+        },
+        "safe_zone": {
+          "applies": false,
+          "note": "zones are for 9:16 (aspect 0.80 here)"
+        }
+      },
+      {
+        "i": 5,
+        "text": "PUSH PULL LEGS PUSH PULL LEGS",
+        "box": [
+          2.7,
+          52.3,
+          94.6,
+          3.5
+        ],
+        "contrast": {
+          "bg_hex": "#f4f1ea",
+          "text_hex": "#333334",
+          "text_hex_source": "sampled",
+          "contrast_ratio": 11.18,
+          "band": "good (4.5+)"
+        },
+        "safe_zone": {
+          "applies": false,
+          "note": "zones are for 9:16 (aspect 0.80 here)"
+        }
+      },
+      {
+        "i": 6,
+        "text": "BLUE BRO",
+        "box": [
+          5.7,
+          2.1,
+          11.4,
+          4.2
+        ],
+        "contrast": {
+          "bg_hex": "#f4f1ea",
+          "text_hex": "#353434",
+          "text_hex_source": "sampled",
+          "contrast_ratio": 10.98,
+          "band": "good (4.5+)"
+        },
+        "safe_zone": {
+          "applies": false,
+          "note": "zones are for 9:16 (aspect 0.80 here)"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+[
+ {
+  "model": "nano-banana-pro",
+  "task_id": "b6e4687fd1e385e19453ed0069b3c108",
+  "credits": 18.0,
+  "output": "content-bank/P010-quote-over-candid-photo/runs/run-01_2026-09-25_willow-the-less-you-care/raw/slide1.png",
+  "prompt": "Candid amateur photo taken on an iPhone with the on-camera flash, vertical 9:16, at night. The woman is the same person as in the reference image (same face, freckles, dark brown shoulder-length hair, light-olive skin, small gold hoops). She is slouched back on a worn dark grey fabric sofa in a dim,"
+ },
+ {
+  "model": "nano-banana-pro",
+  "task_id": "2f3a0731662f4eee911d8030d75a7e2a",
+  "credits": 18.0,
+  "output": "content-bank/P010-quote-over-candid-photo/runs/run-01_2026-09-25_willow-the-less-you-care/raw/slide1.png",
+  "prompt": "Candid amateur photo taken on an iPhone with the harsh on-camera flash, vertical 9:16, late at night in a dark living room. The woman is the same person as in the reference image (same face, freckles, dark brown shoulder-length hair, light-olive skin, small gold hoops). She sits slouched deep into a"
+ }
+]

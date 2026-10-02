@@ -1,0 +1,67 @@
+{
+  "id": "7677822379434724626",
+  "url": "https://www.tiktok.com/@bluebro.fit/photo/7677822379434724626",
+  "creator": "bluebro.fit",
+  "type": "slideshow",
+  "collected_at": "2026-09-25T02:47:30+00:00",
+  "published": {
+    "utc": "2026-08-25T04:32:12+00:00",
+    "local": "2026-08-25T12:32:12+08:00",
+    "timezone": "Asia/Manila",
+    "weekday": "Tuesday",
+    "hour": 12
+  },
+  "caption": "Part 2 of the gym tips I wish I knew sooner for muscle growth! Using @HealthMeter to log all my calories #gymtips #musclegrowthtips #buildmuscle #healthmeter ",
+  "hashtags": [
+    "gymtips",
+    "musclegrowthtips",
+    "buildmuscle",
+    "healthmeter"
+  ],
+  "mentions": [
+    "healthmeter.app",
+    "HealthMeter"
+  ],
+  "stats": {
+    "views": 28100,
+    "likes": 846,
+    "comments": 3,
+    "shares": 16,
+    "saves": 403
+  },
+  "rates": {
+    "engagement": 0.0451,
+    "save": 0.0143,
+    "share": 0.0006,
+    "comment": 0.0001
+  },
+  "sound": {
+    "title": "Orbiting Stillness",
+    "author": "Retro Rocket Revival",
+    "original": false,
+    "id": "7660450831250966579"
+  },
+  "slide_count": 7,
+  "duration": null,
+  "size": {
+    "width": 1080,
+    "height": 1350
+  },
+  "labels": {
+    "ad": false,
+    "ai_generated": false,
+    "location": "NZ"
+  },
+  "files": {
+    "sound": "sound.mp3",
+    "slides": [
+      "slides/01.jpg",
+      "slides/02.jpg",
+      "slides/03.jpg",
+      "slides/04.jpg",
+      "slides/05.jpg",
+      "slides/06.jpg",
+      "slides/07.jpg"
+    ]
+  }
+}

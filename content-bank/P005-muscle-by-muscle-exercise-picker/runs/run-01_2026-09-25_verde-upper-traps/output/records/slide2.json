@@ -1,0 +1,182 @@
+{
+  "n": 2,
+  "role": "anatomy",
+  "class": "2d-characters",
+  "confidence": "high",
+  "summary": "anatomy overview: colour-coded trapezius regions with callouts",
+  "frame": {
+    "canvas": "4:5 portrait, 1080x1350",
+    "layers": [
+      {
+        "type": "background",
+        "box": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "note": "flat card colour #f2f3ee"
+      },
+      {
+        "type": "mark",
+        "box": [
+          2.7,
+          2.1,
+          19.8,
+          4.2
+        ],
+        "note": "placeholder brand mark: teal circle with an amber visor slit + wordmark, top-left on every slide (swap for the real handle)"
+      },
+      {
+        "type": "accent-line",
+        "box": [
+          43.7,
+          20.6,
+          12.6,
+          0.5
+        ],
+        "note": "short accent underline under the heading"
+      },
+      {
+        "type": "mascot",
+        "box": [
+          18.2,
+          31.0,
+          63.6,
+          63.0
+        ],
+        "note": "anatomy diagram: mascot back view with the upper trapezius in red and the middle and lower trapezius in yellow"
+      },
+      {
+        "type": "callout",
+        "box": [
+          3.5,
+          32.5,
+          26.1,
+          5.4
+        ],
+        "note": "UPPER TRAPS pill with a leader line to the red region"
+      },
+      {
+        "type": "callout",
+        "box": [
+          59.3,
+          32.5,
+          37.2,
+          5.4
+        ],
+        "note": "MID + LOWER TRAPS pill with a leader line to the yellow region"
+      }
+    ],
+    "composition": {
+      "subject_box": [
+        18.2,
+        31.0,
+        63.6,
+        63.0
+      ]
+    }
+  },
+  "text_blocks": [
+    {
+      "text": "VERDE FIT",
+      "origin": "mark",
+      "role": "watermark",
+      "pattern": "corner-mark",
+      "box": [
+        9.1,
+        3.0,
+        13.5,
+        2.5
+      ],
+      "zone": "top-left",
+      "align": "left",
+      "font": "DIN Condensed Bold",
+      "size_pct": 3.5,
+      "case": "ALL CAPS",
+      "fill": "#16202b",
+      "stroke": "none",
+      "under": "solid card background"
+    },
+    {
+      "text": "Trap Anatomy",
+      "origin": "designed",
+      "role": "headline",
+      "pattern": "numbered-heading",
+      "box": [
+        31.0,
+        12.5,
+        38.1,
+        6.7
+      ],
+      "zone": "top-center",
+      "align": "center",
+      "font": "DIN Condensed Bold",
+      "size_pct": 7.3,
+      "case": "Title Case",
+      "fill": "#16202b",
+      "stroke": "none",
+      "under": "solid card background"
+    },
+    {
+      "text": "The upper traps run from your neck out to your shoulders. They lift and rotate your shoulder blades.",
+      "origin": "designed",
+      "role": "body",
+      "pattern": "top-headline",
+      "box": [
+        12.9,
+        24.1,
+        74.3,
+        7.2
+      ],
+      "zone": "top-center",
+      "align": "center",
+      "font": "Avenir Next Regular",
+      "size_pct": 2.5,
+      "case": "Sentence case",
+      "fill": "#4a5561",
+      "stroke": "none",
+      "under": "solid card background"
+    },
+    {
+      "text": "UPPER TRAPS",
+      "origin": "designed",
+      "role": "label",
+      "pattern": "callout",
+      "box": [
+        6.5,
+        33.8,
+        20.2,
+        2.8
+      ],
+      "zone": "middle-left",
+      "align": "center",
+      "font": "DIN Condensed Bold",
+      "size_pct": 3.8,
+      "case": "ALL CAPS",
+      "fill": "#ffffff",
+      "stroke": "none",
+      "under": "red pill"
+    },
+    {
+      "text": "MID + LOWER TRAPS",
+      "origin": "designed",
+      "role": "label",
+      "pattern": "callout",
+      "box": [
+        62.3,
+        33.8,
+        31.2,
+        2.8
+      ],
+      "zone": "middle-right",
+      "align": "center",
+      "font": "DIN Condensed Bold",
+      "size_pct": 3.8,
+      "case": "ALL CAPS",
+      "fill": "#16202b",
+      "stroke": "none",
+      "under": "yellow pill"
+    }
+  ]
+}

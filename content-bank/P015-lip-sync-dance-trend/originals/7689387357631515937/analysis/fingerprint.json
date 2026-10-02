@@ -1,0 +1,55 @@
+{
+  "post": "7689387357631515937",
+  "type": "video",
+  "fingerprint": {
+    "structure": "1 continuous shot, 15.0 s, no cuts: the person dances and lip-syncs to a trending song from the first frame to the last. No text, no reveal, no payoff shot; the performance is the content.",
+    "hook": "Movement-as-hook: frame 0 is a close-up of the face mid-expression (lips pursed, eyes half shut) while the camera pulls back, so the first second is a face and the second second is the whole dance. No on-screen hook text. The caption is a short all-caps exclamation riffing on the song's theme.",
+    "camera_motion": "humans (dynamic, short-form). Filmed by someone else (not a selfie, not a mirror selfie), handheld at chest height. Measured: zoom out / pull-back (-3.0% scale per second) with handheld drift (5.1% of the width per second, consistency 0.36). Pose (motion.py, measured): one person throughout, framing waist up at 0 s widening to knees up from about 2 s; label 'full body, travelling': arms 140 deg/s, head 45, legs 27, torso 20; hips travel 0.79 torso lengths; 1.1 hits per second. Arms carry the dance: waves, hand flicks, hands framing the face, one hand on the hip, shoulder rolls, head tilts and side steps.",
+    "pacing": "15.0 s, 1 shot, 0 cuts (measured). Movement hits about 1.1 per second (measured), on the beat of the song.",
+    "text_overlay": "none",
+    "audio": "trending third-party song (TikTok 'original sound' from another account, sound ID 7684719903756045069), sung vocals, lip-synced by the person. Suggestive, confident lyrics; no voiceover. Runs pick the same sound in TikTok.",
+    "arc": "Confident, cheeky self-hype: the song's line is acted out with exaggerated faces and hand choreography; the payoff is attitude, not information."
+  },
+  "units": [
+    {
+      "n": 1,
+      "role": "hook",
+      "confidence": "medium",
+      "class": "humans",
+      "frame": {
+        "canvas": "1024x1820 analysis copy of a 9:16 video, 15.0 s, one shot",
+        "layers": [
+          {"type": "video", "box": [0, 0, 100, 100], "note": "full-frame handheld clip of one person dancing in a narrow brick alley"}
+        ],
+        "composition": {
+          "focal": [50, 32],
+          "subject_box": [18, 30, 64, 70],
+          "zone": "middle-center",
+          "negative_space": [[0, 0, 100, 28]],
+          "balance": "person centred between two brick walls that converge to a vanishing point behind the head; sky and buildings fill the top quarter; at 0 s the face fills the frame, then the pull-back settles on knees up"
+        },
+        "safe_zones": "no text; the person's head sits around y 30 to 40%, clear of the top UI; hands sometimes pass the right-hand buttons",
+        "color_light": "bright late-afternoon sun from camera left, warm orange-red brick, cool pale-blue jacket against it; palette #8e6d55 #64564a #ad8e74 #aebdc8 #3d322a (measured)",
+        "quality": "phone-camera realism: brightness 50.8%, contrast 18.6%, saturation 32.7%, sharpness 763, noise 0.79, clutter 10.5% (all measured)",
+        "origin_realism": "real person filmed outdoors on a phone (not AI; TikTok AI label off)"
+      },
+      "text_blocks": [],
+      "image": {
+        "people": 1,
+        "face_visible": true,
+        "pose_expression_gaze": "standing, dancing on the spot with small side steps; exaggerated lip-sync faces (pursed lips, open-mouth 'oh', eyes half closed, eyebrow raises), looking into the lens most of the time",
+        "outfit": "oversized pale-blue plaid zip track jacket with a high collar, light grey wide joggers, cream over-ear headphones",
+        "camera_height": "chest height, straight on, handheld by a second person",
+        "setting": "narrow alley between two brick buildings, doors along the walls, a folding chair, sunlit",
+        "selfie_term": "not a selfie: filmed by someone else"
+      }
+    }
+  ],
+  "product": "none",
+  "proof_device": "none",
+  "series": "single post",
+  "caption": "one short all-caps exclamation that riffs on the song's theme, no emoji, no hashtags",
+  "hashtags": "none",
+  "topic": "dance / lip-sync trend",
+  "language": "English, first person (song), playful and confident"
+}

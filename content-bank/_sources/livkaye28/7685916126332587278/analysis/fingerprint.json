@@ -1,0 +1,43 @@
+{
+  "post": "7685916126332587278",
+  "type": "slideshow",
+  "fingerprint": {
+    "structure": "3 slides: attitude selfie with meme caption (hook) → 'before' mirror selfie in the thing people judge (baggy clothes) → 'after' mirror selfie, identical pose/room/framing, in the reveal outfit (payoff)",
+    "hook": "Clapback meme: 'When someone says \"[judging question about you]\" like [sarcastic version of what they assume]'; paired with a smug, unbothered selfie expression; promises a reveal on the next slides",
+    "camera_motion": "Phone photos: slide 1 casual close-up selfie (lying down, wink, lollipop = attitude); slides 2–3 full-body mirror selfies, phone covering face, same spot and pose so only the outfit changes",
+    "pacing": "3 slides; text only on slide 1 (about 20 words, 4 lines); slides 2–3 have no text so the contrast lands on its own",
+    "text_overlay": "TikTok native font (TikTok Sans / Classic), white, sentence case, thin dark shadow, centered horizontally, middle of the frame, 4 short lines; quotation marks around the judging question",
+    "audio": "Trending confident song (Bow Bow Bow – Zeddy Will), not original",
+    "arc": "Mild annoyance → attitude → reveal/flex; payoff = the before/after contrast; emotions: humor, validation, confidence"
+  },
+  "units": [
+    {
+      "n": 1,
+      "role": "hook",
+      "text": "When someone says \"why do you always wear baggy clothes\" like my body was gonna disappoint",
+      "visual": "close-up selfie lying on an outdoor couch, wink, lollipop, grey sweatshirt; siding wall background",
+      "layout": "face lower half, text centered mid-frame"
+    },
+    {
+      "n": 2,
+      "role": "before",
+      "text": "(none)",
+      "visual": "full-body mirror selfie, oversized white sweatshirt + baggy dark pants, bright living room, dog in foreground",
+      "layout": "subject centered, head in top third"
+    },
+    {
+      "n": 3,
+      "role": "after / reveal",
+      "text": "(none)",
+      "visual": "same mirror, pose and room; fitted plum long-sleeve mini dress + heels; shows the physique",
+      "layout": "identical framing to slide 2"
+    }
+  ],
+  "product": "None named; the reveal outfit/body is the 'product'. For brands: the reveal item (dress, activewear, fitted piece)",
+  "proof_device": "None (the before/after photo pair is the proof)",
+  "series": "Single post; a repeatable meme template",
+  "caption": "Emoji only (🤫🤫🤫) + 5 hashtags; the caption adds nothing, the slides carry it",
+  "hashtags": "5: 1 broad (#fyp), 3 niche body/fitness (#quads, #legs, #gymmotivation), 1 product-ish (#dress)",
+  "topic": "fitness / body confidence / outfit reveal",
+  "language": "English, first person, sassy and confident, meme phrasing ('when someone says… like…')"
+}

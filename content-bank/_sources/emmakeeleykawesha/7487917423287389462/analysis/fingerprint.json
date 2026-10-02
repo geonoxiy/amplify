@@ -1,0 +1,97 @@
+{
+  "post": "7487917423287389462",
+  "type": "slideshow",
+  "fingerprint": {
+    "structure": "1 slide: a single selfie with a crowdsourcing question as the whole post. No hook-then-payoff sequence; the payoff is in the comments (the replies she is asking for).",
+    "hook": "Direct-address advice request, on screen from the start: `I'm incredibly broke, please give me your most unhinged money making hacks. I'm not talking [safe, boring example] - i wanna hear something crazy but you don't regret it.` A confession + a request for extreme answers + a pre-emptive rule-out of the boring answer + a safety caveat.",
+    "camera_motion": "humans. Selfie (term 1: front camera, close, no phone in shot), tight face crop from the nose up, brows raised, wide unblinking eyes, exaggerated distress. Plain grey-brown wall behind, low clutter.",
+    "pacing": "1 slide, about 40 words in the text block: dense but a single read is enough because it is a question, not a story.",
+    "text_overlay": "TikTok native text, white with a thick black outline (Classic), sentence case, centred, 6 lines, sits in the middle of the frame over her forehead and eyes area (the crop is tight enough that the text overlaps the top of her head slightly).",
+    "audio": "a dramatic classical orchestral piece ('Dance of the Knights', Prokofiev; not an original sound), used for comic irony against the deadpan/distressed face, not for lyrics.",
+    "arc": "Comic distress bait: the exaggerated crying-adjacent face plus a self-aware, escalating request is the whole joke; the format exists to farm wild replies in the comments."
+  },
+  "units": [
+    {
+      "n": 1,
+      "role": "hook",
+      "confidence": "medium",
+      "class": "humans",
+      "frame": {
+        "canvas": "1080x1920 (9:16)",
+        "layers": [
+          {
+            "type": "photo",
+            "box": [
+              0,
+              0,
+              100,
+              100
+            ],
+            "note": "tight selfie crop, nose to hairline, plain wall behind"
+          },
+          {
+            "type": "text",
+            "box": [
+              8,
+              24,
+              84,
+              30
+            ],
+            "note": "measured by eye"
+          }
+        ],
+        "composition": {
+          "zone": "middle-center",
+          "subject_box": [
+            5,
+            0,
+            90,
+            100
+          ],
+          "balance": "face fills the frame, text sits over the upper half"
+        },
+        "color_light": "flat indoor light, muted warm greys and browns; palette #9d9484 #b9a996 #78695d #2d201c #c2735a (measured)",
+        "quality": "phone selfie: brightness 51.6%, sharpness 1891, noise 1.68, clutter 8.2% (measured)",
+        "origin_realism": "real person filmed on a phone (not AI)"
+      },
+      "text_blocks": [
+        {
+          "text": "I'm incredibly broke,\nplease give me your most\nunhinged money making\nhacks. I'm not talking\ndooordash on the side - i\nwanna hear something\ncrazy but you don't regret\nit",
+          "origin": "overlay",
+          "role": "hook",
+          "pattern": "center-block",
+          "box": [
+            8,
+            24,
+            84,
+            30
+          ],
+          "zone": "middle-center",
+          "align": "center",
+          "font": "TikTok Sans (closest match), bold",
+          "size_pct": 3.4,
+          "case": "sentence case",
+          "fill": "#ffffff",
+          "stroke": "thick black outline (TikTok Classic)",
+          "under": "her forehead and the wall, clear of her eyes"
+        }
+      ],
+      "image": {
+        "people": 1,
+        "face_visible": true,
+        "pose_expression_gaze": "extreme close crop from the nose up, brows raised high, eyes wide and unblinking, a look of exaggerated distress played for comedy",
+        "outfit": "not visible (crop is too tight)",
+        "camera_height": "eye level, arm's length selfie",
+        "setting": "plain wall, indoors, no visible objects",
+        "clutter": "very low"
+      }
+    }
+  ],
+  "product": "none",
+  "proof_device": "none",
+  "series": "single post",
+  "caption": "a short aside in the creator's own voice ('i need to get creative lollol') plus 3 broad hashtags (#fyp #advice #unhinged)",
+  "hashtags": "3, all broad/genre tags, nothing niche",
+  "topic": "money-making advice, crowdsourced (tag only)",
+  "language": "English, first person, self-deprecating, casual punctuation (a lowercase dash, no full stops)"
+}

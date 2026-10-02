@@ -1,0 +1,15 @@
+{
+  "style": "soft",
+  "brand": "brands/boltpharmacy.md",
+  "disclosure_position": "end",
+  "characters": 396,
+  "hashtags": 4,
+  "first_100_characters": "Everyone has a coworker who treats doing your job well, and still having a laugh while you do it, li",
+  "fails": [
+    "banned punctuation present: colon (never use these in overlay/caption text)"
+  ],
+  "warnings": [
+    "style rule is lowercase for overlay/caption text; found capitalised word(s): ['Everyone', 'The']"
+  ],
+  "verdict": "FAIL"
+}

@@ -1,0 +1,63 @@
+{
+  "id": "7686686917852761362",
+  "url": "https://www.tiktok.com/@bluebro.fit/photo/7686686917852761362",
+  "creator": "bluebro.fit",
+  "type": "slideshow",
+  "collected_at": "2026-09-25T02:47:12+00:00",
+  "published": {
+    "utc": "2026-09-18T01:51:20+00:00",
+    "local": "2026-09-18T09:51:20+08:00",
+    "timezone": "Asia/Manila",
+    "weekday": "Friday",
+    "hour": 9
+  },
+  "caption": "Your guide to huge forearms! #forearms #gymtip #forearmsworkout #hypertrophy ",
+  "hashtags": [
+    "forearms",
+    "gymtip",
+    "forearmsworkout",
+    "hypertrophy"
+  ],
+  "mentions": [],
+  "stats": {
+    "views": 14400,
+    "likes": 472,
+    "comments": 3,
+    "shares": 18,
+    "saves": 283
+  },
+  "rates": {
+    "engagement": 0.0539,
+    "save": 0.0197,
+    "share": 0.0013,
+    "comment": 0.0002
+  },
+  "sound": {
+    "title": "Frozen Backseat",
+    "author": "Tom Delano",
+    "original": false,
+    "id": "7674351436200871945"
+  },
+  "slide_count": 6,
+  "duration": null,
+  "size": {
+    "width": 1080,
+    "height": 1350
+  },
+  "labels": {
+    "ad": false,
+    "ai_generated": false,
+    "location": "NZ"
+  },
+  "files": {
+    "sound": "sound.mp3",
+    "slides": [
+      "slides/01.jpg",
+      "slides/02.jpg",
+      "slides/03.jpg",
+      "slides/04.jpg",
+      "slides/05.jpg",
+      "slides/06.jpg"
+    ]
+  }
+}

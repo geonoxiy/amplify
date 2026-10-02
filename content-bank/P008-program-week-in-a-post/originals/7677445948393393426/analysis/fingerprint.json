@@ -1,0 +1,93 @@
+{
+  "post": "7677445948393393426",
+  "type": "slideshow",
+  "fingerprint": {
+    "structure": "9 slides: hook ('CONSISTENCY' + 3 mascots labelled 1 MONTH / 6 MONTHS / 12 MONTHS) → meal plan (no header) → 6 program days as grids (#1 Push, #2 Pull, #3 Leg Day & Abs, #4 Chest & Back, #5 Shoulders & Arms, #6 Leg Day) → Bonus Tip (HealthMeter phone in the mascot's hand)",
+    "hook": "One-word title 'CONSISTENCY' (blue) over a 3-stage body transformation of the mascot",
+    "camera_motion": "2d-characters (mascot) + card grids; 4:5 slides",
+    "pacing": "9 slides, almost no body text",
+    "text_overlay": "Headings: Anton-like condensed heavy grotesque, Title Case (ALL CAPS on covers), navy #041732 with accent blue; '#N' numerals in blue, slightly italic; short blue underline (about 12.6% wide) under each heading; body: Didact Gothic-like light sans, gray #4b4945, about 2.7% of frame height, left-aligned at x=10%, 2 to 4 short lines; BLUE BRO logo top-left on every slide",
+    "audio": "third-party sound (library-style title and author), not original, no voiceover; slideshow so the sound is only background",
+    "arc": "Motivation → meals → weekly split → app plug. Highest views of the account (448K)"
+  },
+  "units": [
+    {
+      "n": 1,
+      "role": "hook",
+      "class": "2d-characters",
+      "confidence": "high",
+      "summary": "cover: 'CONSISTENCY' + 3 mascot stages (1 MONTH, 6 MONTHS, 12 MONTHS)"
+    },
+    {
+      "n": 2,
+      "role": "meal-plan",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "meals: breakfast 600 kcal 39g, lunch 745 kcal 70g, dinner 740 kcal 48g",
+      "same_as": "discipline post slide 2, without the daily-total header"
+    },
+    {
+      "n": 3,
+      "role": "program-day",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "#1 Push Day grid",
+      "same_as": "discipline post slide 3"
+    },
+    {
+      "n": 4,
+      "role": "program-day",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "#2 Pull Day grid",
+      "same_as": "slide 3"
+    },
+    {
+      "n": 5,
+      "role": "program-day",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "#3 Leg Day & Abs grid",
+      "same_as": "slide 3"
+    },
+    {
+      "n": 6,
+      "role": "program-day",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "#4 Chest & Back grid",
+      "same_as": "slide 3"
+    },
+    {
+      "n": 7,
+      "role": "program-day",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "#5 Shoulders & Arms grid",
+      "same_as": "slide 3"
+    },
+    {
+      "n": 8,
+      "role": "program-day",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "#6 Leg Day grid (repeats slide 5's exercises)",
+      "same_as": "slide 3"
+    },
+    {
+      "n": 9,
+      "role": "bonus-tip",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "Bonus Tip: 'Track what you actually eat, not what you think you eat. I use HealthMeter.' + phone in a mascot hand",
+      "same_as": "gym-tips pt2 slide 7"
+    }
+  ],
+  "product": "Slide 9: soft-sell HealthMeter plug (bonus tip); caption '@HealthMeter'; no ad label",
+  "proof_device": "phone UI screenshot (HealthMeter)",
+  "series": "single post",
+  "caption": "Medium: theme line + '@HealthMeter' plug + 5 hashtags",
+  "hashtags": "5: #musclegrowth #consistencyiskey #gymtips #buildmuscle #healthmeter",
+  "topic": "consistency / program + nutrition app",
+  "language": "English, motivational, first person plug"
+}

@@ -1,0 +1,62 @@
+{
+  "id": "7676311354575277320",
+  "url": "https://www.tiktok.com/@bluebro.fit/photo/7676311354575277320",
+  "creator": "bluebro.fit",
+  "type": "slideshow",
+  "collected_at": "2026-09-25T02:47:37+00:00",
+  "published": {
+    "utc": "2026-08-21T02:48:41+00:00",
+    "local": "2026-08-21T10:48:41+08:00",
+    "timezone": "Asia/Manila",
+    "weekday": "Friday",
+    "hour": 10
+  },
+  "caption": "Part 1. Who wants to see part 2?  #gymtips #musclebuildingtips #growthtips ",
+  "hashtags": [
+    "gymtips",
+    "musclebuildingtips",
+    "growthtips"
+  ],
+  "mentions": [],
+  "stats": {
+    "views": 36200,
+    "likes": 1200,
+    "comments": 14,
+    "shares": 41,
+    "saves": 622
+  },
+  "rates": {
+    "engagement": 0.0519,
+    "save": 0.0172,
+    "share": 0.0011,
+    "comment": 0.0004
+  },
+  "sound": {
+    "title": "Liminal (Slowed)",
+    "author": "Fyex & Navjaxx",
+    "original": false,
+    "id": "7356206054630590480"
+  },
+  "slide_count": 6,
+  "duration": null,
+  "size": {
+    "width": 1080,
+    "height": 1338
+  },
+  "labels": {
+    "ad": false,
+    "ai_generated": false,
+    "location": "NZ"
+  },
+  "files": {
+    "sound": "sound.mp3",
+    "slides": [
+      "slides/01.jpg",
+      "slides/02.jpg",
+      "slides/03.jpg",
+      "slides/04.jpg",
+      "slides/05.jpg",
+      "slides/06.jpg"
+    ]
+  }
+}

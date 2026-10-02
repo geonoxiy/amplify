@@ -1,0 +1,61 @@
+{
+  "id": "7685916126332587278",
+  "url": "https://www.tiktok.com/@livkaye28/photo/7685916126332587278",
+  "creator": "livkaye28",
+  "type": "slideshow",
+  "collected_at": "2026-09-23T23:33:46+00:00",
+  "published": {
+    "utc": "2026-09-16T00:00:07+00:00",
+    "local": "2026-09-16T08:00:07+08:00",
+    "timezone": "Asia/Manila",
+    "weekday": "Wednesday",
+    "hour": 8
+  },
+  "caption": "🤫🤫🤫 #fyp #quads #dress #gymmotivation #legs ",
+  "hashtags": [
+    "fyp",
+    "quads",
+    "dress",
+    "gymmotivation",
+    "legs"
+  ],
+  "mentions": [],
+  "stats": {
+    "views": 2500000,
+    "likes": 523300,
+    "comments": 5317,
+    "shares": 38800,
+    "saves": 14825
+  },
+  "rates": {
+    "engagement": 0.2329,
+    "save": 0.0059,
+    "share": 0.0155,
+    "comment": 0.0021
+  },
+  "sound": {
+    "title": "Bow Bow Bow",
+    "author": "Zeddy Will",
+    "original": false,
+    "id": "7683550930130257937"
+  },
+  "slide_count": 3,
+  "duration": null,
+  "size": {
+    "width": 1620,
+    "height": 2880
+  },
+  "labels": {
+    "ad": false,
+    "ai_generated": false,
+    "location": "US"
+  },
+  "files": {
+    "sound": "sound.mp3",
+    "slides": [
+      "slides/01.jpg",
+      "slides/02.jpg",
+      "slides/03.jpg"
+    ]
+  }
+}

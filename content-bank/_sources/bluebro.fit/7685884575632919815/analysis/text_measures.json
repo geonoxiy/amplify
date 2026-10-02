@@ -1,0 +1,91 @@
+{
+  "unit 3": {
+    "problems": [],
+    "text_blocks": [
+      {
+        "i": 1,
+        "text": "#2",
+        "box": [
+          10,
+          17,
+          9.8,
+          6.6
+        ],
+        "contrast": {
+          "bg_hex": "#f4f1ea",
+          "text_hex": "#0375d8",
+          "text_hex_source": "record",
+          "contrast_ratio": 4.1,
+          "band": "ok for large text (3-4.5)"
+        },
+        "safe_zone": {
+          "applies": false,
+          "note": "zones are for 9:16 (aspect 0.80 here)"
+        }
+      },
+      {
+        "i": 2,
+        "text": "Eat a High Protein Intake",
+        "box": [
+          24.4,
+          17.8,
+          59.8,
+          5.4
+        ],
+        "contrast": {
+          "bg_hex": "#f4f1ea",
+          "text_hex": "#051b3a",
+          "text_hex_source": "record",
+          "contrast_ratio": 15.21,
+          "band": "good (4.5+)"
+        },
+        "safe_zone": {
+          "applies": false,
+          "note": "zones are for 9:16 (aspect 0.80 here)"
+        }
+      },
+      {
+        "i": 3,
+        "text": "To preserve muscle in a deficit, protein",
+        "box": [
+          10,
+          33.2,
+          64.7,
+          19.5
+        ],
+        "contrast": {
+          "bg_hex": "#f4f1ea",
+          "text_hex": "#4b4946",
+          "text_hex_source": "record",
+          "contrast_ratio": 7.95,
+          "band": "good (4.5+)"
+        },
+        "safe_zone": {
+          "applies": false,
+          "note": "zones are for 9:16 (aspect 0.80 here)"
+        }
+      },
+      {
+        "i": 4,
+        "text": "BLUE BRO",
+        "box": [
+          5.7,
+          2.1,
+          11.4,
+          4.2
+        ],
+        "contrast": {
+          "bg_hex": "#f4f1ea",
+          "text_hex": "#020101",
+          "text_hex_source": "record",
+          "contrast_ratio": 18.48,
+          "band": "good (4.5+)"
+        },
+        "safe_zone": {
+          "applies": false,
+          "note": "zones are for 9:16 (aspect 0.80 here)"
+        }
+      }
+    ]
+  }
+}

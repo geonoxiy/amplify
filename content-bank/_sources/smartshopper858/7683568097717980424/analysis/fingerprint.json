@@ -1,0 +1,64 @@
+{
+  "post": "7683568097717980424",
+  "type": "slideshow",
+  "fingerprint": {
+    "structure": "6 slides: intro hook → pillar 01 → pillar 02 → pillar 03 → pillar 04 → follow CTA",
+    "hook": "Self-introduction in Taglish: 'hey tiktok 👋 sobrang dami na ng affiliates dito. so here's how i'm different'",
+    "camera_motion": "Static designed cards (no photos)",
+    "pacing": "Low text density; one numbered item per slide with a giant faded number in the corner",
+    "text_overlay": "Bold rounded sans (closest: Inter / SF Pro Bold), all lowercase except pill labels; small uppercase letter-spaced pill label above each title; titles in a deep shade of the slide's pastel; centered; short body lines in the same hue; no outlines or boxes.",
+    "audio": "Trending song (FREAKED OUT – Fat Papi & prodshushy)",
+    "arc": "Differentiation → what to expect → follow"
+  },
+  "units": [
+    {
+      "n": 1,
+      "role": "hook",
+      "text": "hey tiktok 👋 sobrang dami na ng affiliates dito. / so here's how i'm different",
+      "visual": "blue card, text only",
+      "layout": "centered"
+    },
+    {
+      "n": 2,
+      "role": "item",
+      "text": "PILLAR 01 / ingredient spotlight / we break down what's actually inside / e.g. glycolic acid, retinol",
+      "visual": "🔍 in circle, giant '01'",
+      "layout": "centered + corner number"
+    },
+    {
+      "n": 3,
+      "role": "item",
+      "text": "PILLAR 02 / label decode / how to spot a legit product",
+      "visual": "🏷️, '02'",
+      "layout": "same"
+    },
+    {
+      "n": 4,
+      "role": "item",
+      "text": "PILLAR 03 / community insights / real reviews before you buy / e.g. reddit deep dives",
+      "visual": "💬, '03'",
+      "layout": "same"
+    },
+    {
+      "n": 5,
+      "role": "item",
+      "text": "PILLAR 04 / expectation setter / realistic timelines, no fake hype / e.g. day 1 vs day 30",
+      "visual": "⏳, '04'",
+      "layout": "same"
+    },
+    {
+      "n": 6,
+      "role": "CTA",
+      "text": "follow me if you want to shop smarter 🌟",
+      "visual": "blue card",
+      "layout": "centered"
+    }
+  ],
+  "product": "None",
+  "proof_device": "None",
+  "series": "One-off account intro",
+  "caption": "Taglish hook → the 4 themes listed → 'follow along sa journey ko' → 4 hashtags incl. #affiliatemarketing, #creatorsearchinsights",
+  "hashtags": "4: #affiliatemarketing, #creatorsearchinsights2026, #creatorsearchinsights, #skincare",
+  "topic": "account intro / what this account posts",
+  "language": "Taglish, first person, friendly"
+}

@@ -1,0 +1,64 @@
+{
+  "id": "7681862925019073810",
+  "url": "https://www.tiktok.com/@bluebro.fit/photo/7681862925019073810",
+  "creator": "bluebro.fit",
+  "type": "slideshow",
+  "collected_at": "2026-09-25T02:47:23+00:00",
+  "published": {
+    "utc": "2026-09-05T01:51:38+00:00",
+    "local": "2026-09-05T09:51:38+08:00",
+    "timezone": "Asia/Manila",
+    "weekday": "Saturday",
+    "hour": 9
+  },
+  "caption": "How the perfect push day should look. This push day trains your entire chest, shoulders, & triceps. Training is only half the battle. To fully grow, track your calories & macros to make sure you’re eating right. I uss @HealthMeter  #healthmeter #gymtips #pushday #pushworkout #musclebuilding ",
+  "hashtags": [
+    "healthmeter",
+    "gymtips",
+    "pushday",
+    "pushworkout",
+    "musclebuilding"
+  ],
+  "mentions": [
+    "healthmeter.app",
+    "HealthMeter"
+  ],
+  "stats": {
+    "views": 20500,
+    "likes": 691,
+    "comments": 3,
+    "shares": 16,
+    "saves": 388
+  },
+  "rates": {
+    "engagement": 0.0536,
+    "save": 0.0189,
+    "share": 0.0008,
+    "comment": 0.0001
+  },
+  "sound": {
+    "title": "Ghost in the Gears",
+    "author": "Petey Corners",
+    "original": false,
+    "id": "7672680310974335003"
+  },
+  "slide_count": 3,
+  "duration": null,
+  "size": {
+    "width": 1080,
+    "height": 1350
+  },
+  "labels": {
+    "ad": false,
+    "ai_generated": false,
+    "location": "NZ"
+  },
+  "files": {
+    "sound": "sound.mp3",
+    "slides": [
+      "slides/01.jpg",
+      "slides/02.jpg",
+      "slides/03.jpg"
+    ]
+  }
+}

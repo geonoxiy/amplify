@@ -1,0 +1,56 @@
+{
+  "id": "7686084738775321863",
+  "url": "https://www.tiktok.com/@bluebro.fit/video/7686084738775321863",
+  "creator": "bluebro.fit",
+  "type": "video",
+  "collected_at": "2026-09-25T02:47:14+00:00",
+  "published": {
+    "utc": "2026-09-16T10:54:23+00:00",
+    "local": "2026-09-16T18:54:23+08:00",
+    "timezone": "Asia/Manila",
+    "weekday": "Wednesday",
+    "hour": 18
+  },
+  "caption": "The percect push workout in 6 exercises! #pushday #pushworkout #gymtips #gymworkout #musclegrowth ",
+  "hashtags": [
+    "pushday",
+    "pushworkout",
+    "gymtips",
+    "gymworkout",
+    "musclegrowth"
+  ],
+  "mentions": [],
+  "stats": {
+    "views": 53800,
+    "likes": 1600,
+    "comments": 4,
+    "shares": 115,
+    "saves": 1448
+  },
+  "rates": {
+    "engagement": 0.0589,
+    "save": 0.0269,
+    "share": 0.0021,
+    "comment": 0.0001
+  },
+  "sound": {
+    "title": "Gong Bass",
+    "author": "Saxophone Jones",
+    "original": false,
+    "id": "7666839333111793673"
+  },
+  "slide_count": null,
+  "duration": 16,
+  "size": {
+    "width": 576,
+    "height": 1024
+  },
+  "labels": {
+    "ad": false,
+    "ai_generated": false,
+    "location": "NZ"
+  },
+  "files": {
+    "video": "video.mp4"
+  }
+}

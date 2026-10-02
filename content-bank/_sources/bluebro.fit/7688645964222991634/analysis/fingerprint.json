@@ -1,0 +1,262 @@
+{
+  "post": "7688645964222991634",
+  "type": "slideshow",
+  "fingerprint": {
+    "structure": "8 slides: hook ('THE POWER OF DISCIPLINE' + before/after mascots) → daily meal plan (breakfast, lunch, dinner with kcal and protein) → 6 program days (#1 Upper Body grid, #2 Lower Body grid, #3 Rest Day mascot on an armchair, #4 Push grid, #5 Pull grid, #6 Leg Day + Abs grid)",
+    "hook": "Motivation title 'THE POWER OF DISCIPLINE' (navy + blue) over a thin-to-muscular mascot pair with a >> arrow",
+    "camera_motion": "2d-characters (mascot) + card grids (3x2 exercise cards); 4:5 slides",
+    "pacing": "8 slides, almost no body text; grid slides carry 6 exercise names each",
+    "text_overlay": "Headings: Anton-like condensed heavy grotesque, Title Case (ALL CAPS on covers), navy #041732 with accent blue; '#N' numerals in blue, slightly italic; short blue underline (about 12.6% wide) under each heading; body: Didact Gothic-like light sans, gray #4b4945, about 2.7% of frame height, left-aligned at x=10%, 2 to 4 short lines; BLUE BRO logo top-left on every slide; grid cards: numbered dark circle + grey condensed exercise name + '2-3 Sets x 6-8 Reps'",
+    "audio": "third-party sound (library-style title and author), not original, no voiceover; slideshow so the sound is only background",
+    "arc": "Motivation → what to eat → what to train each day (with a rest day) → comment-to-DM eBook funnel in the caption"
+  },
+  "units": [
+    {
+      "n": 1,
+      "role": "hook",
+      "class": "2d-characters",
+      "confidence": "high",
+      "summary": "cover: two mascots (lean vs muscular) and a >> arrow under a 2-line title"
+    },
+    {
+      "n": 2,
+      "role": "meal-plan",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "'DAILY TOTAL: 2500 kcal, 160g Protein': BREAKFAST 650 kcal 40g, LUNCH 800 kcal 55g, DINNER 1050 kcal 65g; each with a mascot torso, a bullet list and a plate illustration"
+    },
+    {
+      "n": 3,
+      "role": "program-day",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "#1 Upper Body: 6 numbered exercise cards in a 3x2 grid, each with the mascot on the machine and sets x reps",
+      "frame": {
+        "canvas": "4:5 portrait, 1080x1350, no bars or border",
+        "layers": [
+          {
+            "type": "background",
+            "box": [
+              0,
+              0,
+              100,
+              100
+            ],
+            "note": "flat warm beige (#f4f1ea); no gradient, no texture"
+          },
+          {
+            "type": "mark",
+            "box": [
+              2.7,
+              2.1,
+              14.4,
+              4.2
+            ],
+            "note": "BLUE BRO wordmark (black condensed caps) with the blue mascot-head icon, top-left on every slide and video frame"
+          },
+          {
+            "type": "accent-line",
+            "box": [
+              10,
+              26.6,
+              12.6,
+              0.5
+            ],
+            "note": "blue underline"
+          },
+          {
+            "type": "card-grid",
+            "box": [
+              2.7,
+              35.2,
+              94.5,
+              57.4
+            ],
+            "note": "3 columns x 2 rows of rounded light-grey cards (#ebe7df), each: dark numbered circle + exercise name (grey condensed), mascot on a black machine, '2-3 Sets x 6-8 Reps' caption"
+          }
+        ],
+        "composition": {
+          "focal": [
+            50,
+            64
+          ],
+          "subject_box": [
+            2.7,
+            35.2,
+            94.5,
+            57.4
+          ],
+          "zone": "bottom-center",
+          "negative_space": [
+            [
+              10,
+              8,
+              88,
+              8
+            ],
+            [
+              30,
+              28,
+              68,
+              6
+            ]
+          ],
+          "balance": "heading top-left, grid fills the lower 60%",
+          "grouping": "heading row → underline → 3x2 card grid"
+        },
+        "safe_zones": "not applicable (4:5 slide)",
+        "color_light": "same palette, plus card grey #ebe7df",
+        "quality": "clean vector-like render",
+        "origin_realism": "designed card grid with mascot illustrations"
+      },
+      "text_blocks": [
+        {
+          "text": "#1",
+          "origin": "designed",
+          "role": "number",
+          "pattern": "numbered-heading",
+          "box": [
+            10,
+            16.6,
+            8.5,
+            6.6
+          ],
+          "zone": "top-left",
+          "align": "left",
+          "font": "Anton (closest): condensed heavy grotesque, slightly italic",
+          "size_pct": 9.2,
+          "case": "n/a",
+          "stroke": "none",
+          "under": "solid beige background",
+          "fill": "#0275d8",
+          "bg": "#f4f1ea",
+          "contrast_ratio": 4.1,
+          "fill_source": "sampled from the pixels in the box (measure.py)"
+        },
+        {
+          "text": "Upper Body",
+          "origin": "designed",
+          "role": "headline",
+          "pattern": "numbered-heading",
+          "box": [
+            24.4,
+            17.8,
+            27.6,
+            5.0
+          ],
+          "zone": "top-center",
+          "align": "left",
+          "font": "Anton (closest): condensed heavy grotesque",
+          "size_pct": 5.4,
+          "case": "Title Case",
+          "stroke": "none",
+          "under": "solid beige background",
+          "fill": "#041b3a",
+          "bg": "#f4f1ea",
+          "contrast_ratio": 15.25,
+          "fill_source": "sampled from the pixels in the box (measure.py)"
+        },
+        {
+          "text": "Lat Pulldown / Incline Machine Press / T-Bar Row / Pec Dec / Triceps Extensions / Preacher Curl (each with '2-3 Sets x 6-8 Reps' or '8-12')",
+          "origin": "designed",
+          "role": "list item",
+          "pattern": "card-grid",
+          "box": [
+            2.7,
+            35.2,
+            94.5,
+            57.4
+          ],
+          "zone": "bottom-center",
+          "align": "left",
+          "font": "grey condensed (Oswald-like) names, Didact Gothic-like captions",
+          "size_pct": 2.2,
+          "case": "Title Case",
+          "stroke": "none",
+          "under": "light grey cards (#ebe7df)",
+          "fill": "not measured",
+          "fill_source": "box spans six illustrations and cards; a single text contrast is not meaningful (names are mid-grey on #ebe7df cards)"
+        },
+        {
+          "text": "BLUE BRO",
+          "origin": "mark",
+          "role": "watermark",
+          "pattern": "corner-mark",
+          "box": [
+            5.7,
+            2.1,
+            11.4,
+            4.2
+          ],
+          "zone": "top-left",
+          "align": "left",
+          "font": "Anton-like condensed caps",
+          "size_pct": 3.0,
+          "case": "ALL CAPS",
+          "stroke": "none",
+          "under": "solid beige background",
+          "fill": "#020101",
+          "bg": "#f4f1ea",
+          "contrast_ratio": 18.43,
+          "fill_source": "sampled from the pixels in the box (measure.py)"
+        }
+      ],
+      "image": {
+        "art_style": "western comic / cel-shaded illustration, thick black outline, flat fills with a little hard shading (likely AI-generated, very consistent across posts)",
+        "character": "Blue Bro mascot: faceless, fully blue (#0270f9) muscular male figure, white almond-shaped eyes with black outline, black shorts, black smartwatch on the left wrist, thick black outline, cel-shaded comic style with vein and abs detail",
+        "pose": "seated or standing on each machine, mid-rep, cropped inside its card",
+        "recurring": true,
+        "rights": "original brand mascot (owner's own character)",
+        "model_sheet_needed": true,
+        "extra": "6 different exercises per slide, same mascot"
+      }
+    },
+    {
+      "n": 4,
+      "role": "program-day",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "#2 Lower Body: 6 cards (Hack Squat, Romanian Deadlift, Leg Extension, Seated Leg Curl, Adductor Machine, Standing Calf Raises)",
+      "same_as": "slide 3"
+    },
+    {
+      "n": 5,
+      "role": "rest-day",
+      "class": "2d-characters",
+      "confidence": "high",
+      "summary": "#3 Rest Day: mascot in grey hoodie and sweatpants on an armchair with a remote",
+      "same_as": "slide 3 heading; single illustration instead of a grid"
+    },
+    {
+      "n": 6,
+      "role": "program-day",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "#4 Push Day: 6 cards",
+      "same_as": "slide 3"
+    },
+    {
+      "n": 7,
+      "role": "program-day",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "#5 Pull Day: 6 cards",
+      "same_as": "slide 3"
+    },
+    {
+      "n": 8,
+      "role": "program-day",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "#6 Leg Day + Abs: 6 cards",
+      "same_as": "slide 3"
+    }
+  ],
+  "product": "Caption: hard-sell comment-to-DM funnel: 'I've put everything into one simple Muscle Manual. Comment \"EBOOK\" and I'll DM you the link.' No product slide inside the slides",
+  "proof_device": "none",
+  "series": "single post (a weekly program in one post)",
+  "caption": "Long: hook line + 5 bullet benefits + comment-to-DM CTA + 5 hashtags (the only post with a long caption and emoji)",
+  "hashtags": "5: #MuscleGrowth #Hypertrophy #GymWorkout #BuildMuscle #FitnessTips (CamelCase, broad)",
+  "topic": "training program + eBook funnel",
+  "language": "English, second person, motivational; the only caption written as a sales pitch"
+}

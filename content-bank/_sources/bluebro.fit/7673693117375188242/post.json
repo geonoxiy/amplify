@@ -1,0 +1,62 @@
+{
+  "id": "7673693117375188242",
+  "url": "https://www.tiktok.com/@bluebro.fit/photo/7673693117375188242",
+  "creator": "bluebro.fit",
+  "type": "slideshow",
+  "collected_at": "2026-09-25T02:47:57+00:00",
+  "published": {
+    "utc": "2026-08-14T01:28:46+00:00",
+    "local": "2026-08-14T09:28:46+08:00",
+    "timezone": "Asia/Manila",
+    "weekday": "Friday",
+    "hour": 9
+  },
+  "caption": "GOATED chest exercises actually worth doing! #chestexercise #chestdayworkout #workouttips ",
+  "hashtags": [
+    "chestexercise",
+    "chestdayworkout",
+    "workouttips"
+  ],
+  "mentions": [],
+  "stats": {
+    "views": 27900,
+    "likes": 788,
+    "comments": 5,
+    "shares": 25,
+    "saves": 338
+  },
+  "rates": {
+    "engagement": 0.0414,
+    "save": 0.0121,
+    "share": 0.0009,
+    "comment": 0.0002
+  },
+  "sound": {
+    "title": "original sound",
+    "author": "Mr Bobby ™️",
+    "original": true,
+    "id": "7662058237327526663"
+  },
+  "slide_count": 6,
+  "duration": null,
+  "size": {
+    "width": 1080,
+    "height": 1350
+  },
+  "labels": {
+    "ad": false,
+    "ai_generated": false,
+    "location": "NZ"
+  },
+  "files": {
+    "sound": "sound.mp3",
+    "slides": [
+      "slides/01.jpg",
+      "slides/02.jpg",
+      "slides/03.jpg",
+      "slides/04.jpg",
+      "slides/05.jpg",
+      "slides/06.jpg"
+    ]
+  }
+}

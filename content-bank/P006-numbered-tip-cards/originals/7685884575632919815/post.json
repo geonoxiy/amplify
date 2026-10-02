@@ -1,0 +1,64 @@
+{
+  "id": "7685884575632919815",
+  "url": "https://www.tiktok.com/@bluebro.fit/photo/7685884575632919815",
+  "creator": "bluebro.fit",
+  "type": "slideshow",
+  "collected_at": "2026-09-25T02:47:16+00:00",
+  "published": {
+    "utc": "2026-09-15T21:57:59+00:00",
+    "local": "2026-09-16T05:57:59+08:00",
+    "timezone": "Asia/Manila",
+    "weekday": "Wednesday",
+    "hour": 5
+  },
+  "caption": "How to cut weight as fast as possible (while still being healthy) #cuttingweight #weightloss #gymtips ",
+  "hashtags": [
+    "cuttingweight",
+    "weightloss",
+    "gymtips"
+  ],
+  "mentions": [],
+  "stats": {
+    "views": 5347,
+    "likes": 234,
+    "comments": 2,
+    "shares": 5,
+    "saves": 90
+  },
+  "rates": {
+    "engagement": 0.0619,
+    "save": 0.0168,
+    "share": 0.0009,
+    "comment": 0.0004
+  },
+  "sound": {
+    "title": "The Well Pump",
+    "author": "Tin Can Faith",
+    "original": false,
+    "id": "7675103452812560422"
+  },
+  "slide_count": 8,
+  "duration": null,
+  "size": {
+    "width": 1080,
+    "height": 1350
+  },
+  "labels": {
+    "ad": false,
+    "ai_generated": false,
+    "location": "NZ"
+  },
+  "files": {
+    "sound": "sound.mp3",
+    "slides": [
+      "slides/01.jpg",
+      "slides/02.jpg",
+      "slides/03.jpg",
+      "slides/04.jpg",
+      "slides/05.jpg",
+      "slides/06.jpg",
+      "slides/07.jpg",
+      "slides/08.jpg"
+    ]
+  }
+}

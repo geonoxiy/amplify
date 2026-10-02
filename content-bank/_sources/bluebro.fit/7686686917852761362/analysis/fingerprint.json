@@ -1,0 +1,655 @@
+{
+  "post": "7686686917852761362",
+  "type": "slideshow",
+  "fingerprint": {
+    "structure": "6 slides: hook (problem + promise headline over the mascot) → anatomy diagram (3 forearm muscles color-coded) → 3 muscle slides (#1 to #3), each one explainer paragraph + 2 exercise illustrations → CTA (eBook)",
+    "hook": "Problem-then-promise: 'YOUR FOREARMS LOOK SMALL / HERE'S HOW TO LOOK MASSIVE IN A T-SHIRT'; mascot in a fists-up stance",
+    "camera_motion": "2d-characters (mascot) on designed cards; illustrations only, no photos; 4:5 slides",
+    "pacing": "6 slides, 0 to 26 words of body text; one idea and one pair of illustrations per slide",
+    "text_overlay": "Headings: Anton-like condensed heavy grotesque, Title Case (ALL CAPS on covers), navy #041732 with accent blue; '#N' numerals in blue, slightly italic; short blue underline (about 12.6% wide) under each heading; body: Didact Gothic-like light sans, gray #4b4945, about 2.7% of frame height, left-aligned at x=10%, 2 to 4 short lines; BLUE BRO logo top-left on every slide",
+    "audio": "third-party sound (library-style title and author), not original, no voiceover; slideshow so the sound is only background",
+    "arc": "Diagnose a body-part problem → name the muscles → pick exercises per muscle → sell the full program"
+  },
+  "units": [
+    {
+      "n": 1,
+      "role": "hook",
+      "class": "2d-characters",
+      "confidence": "high",
+      "summary": "cover: problem-then-promise headline, mascot in boxing stance and t-shirt",
+      "frame": {
+        "canvas": "4:5 portrait, 1080x1350, no bars or border",
+        "layers": [
+          {
+            "type": "background",
+            "box": [
+              0,
+              0,
+              100,
+              100
+            ],
+            "note": "flat warm beige (#f4f1ea); no gradient, no texture"
+          },
+          {
+            "type": "mark",
+            "box": [
+              2.7,
+              2.1,
+              14.4,
+              4.2
+            ],
+            "note": "BLUE BRO wordmark (black condensed caps) with the blue mascot-head icon, top-left on every slide and video frame"
+          },
+          {
+            "type": "mascot",
+            "box": [
+              26.6,
+              44.1,
+              50.1,
+              55.9
+            ],
+            "note": "mascot in a fists-up boxing stance wearing a black oversized t-shirt (the only slide where he is dressed); bleeds off the bottom edge"
+          }
+        ],
+        "composition": {
+          "focal": [
+            50,
+            55
+          ],
+          "subject_box": [
+            26.6,
+            44.1,
+            50.1,
+            55.9
+          ],
+          "zone": "bottom-center",
+          "negative_space": [
+            [
+              0,
+              45,
+              26,
+              55
+            ],
+            [
+              77,
+              45,
+              23,
+              55
+            ]
+          ],
+          "balance": "text block fills the top 45%, single figure centered below; symmetrical",
+          "grouping": "three-line stacked headline above one centered figure"
+        },
+        "safe_zones": "not applicable (4:5 slide)",
+        "color_light": "beige #f4f1ea, mascot blue, navy text; flat, no photographic light",
+        "quality": "clean vector-like render (code: sharpness/noise/clutter in measures.json)",
+        "origin_realism": "AI-generated or drawn illustration, stylized"
+      },
+      "text_blocks": [
+        {
+          "text": "YOUR FOREARMS LOOK SMALL",
+          "origin": "designed",
+          "role": "hook",
+          "pattern": "top-headline",
+          "box": [
+            8.1,
+            14.8,
+            84,
+            6.1
+          ],
+          "zone": "top-center",
+          "align": "center",
+          "font": "Anton (closest): condensed heavy grotesque",
+          "size_pct": 8.4,
+          "case": "ALL CAPS",
+          "stroke": "none",
+          "under": "solid beige background",
+          "fill": "#051b3a",
+          "bg": "#f4f1ea",
+          "contrast_ratio": 15.22,
+          "fill_source": "sampled from the pixels in the box (measure.py)"
+        },
+        {
+          "text": "HERE'S HOW TO LOOK",
+          "origin": "designed",
+          "role": "hook",
+          "pattern": "top-headline",
+          "box": [
+            6.1,
+            25.6,
+            87.9,
+            8.6
+          ],
+          "zone": "top-center",
+          "align": "center",
+          "font": "Anton (closest): condensed heavy grotesque",
+          "size_pct": 10.4,
+          "case": "ALL CAPS",
+          "stroke": "none",
+          "under": "solid beige background",
+          "fill": "#011c42",
+          "bg": "#f4f1ea",
+          "contrast_ratio": 14.93,
+          "fill_source": "sampled from the pixels in the box (measure.py)"
+        },
+        {
+          "text": "MASSIVE IN A T-SHIRT",
+          "origin": "designed",
+          "role": "hook",
+          "pattern": "top-headline",
+          "box": [
+            4.4,
+            35.7,
+            91.3,
+            8.2
+          ],
+          "zone": "middle-center",
+          "align": "center",
+          "font": "Anton (closest): condensed heavy grotesque",
+          "size_pct": 11.0,
+          "case": "ALL CAPS",
+          "stroke": "none",
+          "under": "solid beige background",
+          "fill": "#0375d8",
+          "bg": "#f4f1ea",
+          "contrast_ratio": 4.1,
+          "fill_source": "sampled from the pixels in the box (measure.py)"
+        },
+        {
+          "text": "BLUE BRO",
+          "origin": "mark",
+          "role": "watermark",
+          "pattern": "corner-mark",
+          "box": [
+            5.7,
+            2.1,
+            11.4,
+            4.2
+          ],
+          "zone": "top-left",
+          "align": "left",
+          "font": "Anton-like condensed caps",
+          "size_pct": 3.0,
+          "case": "ALL CAPS",
+          "stroke": "none",
+          "under": "solid beige background",
+          "fill": "#020101",
+          "bg": "#f4f1ea",
+          "contrast_ratio": 18.44,
+          "fill_source": "sampled from the pixels in the box (measure.py)"
+        }
+      ],
+      "image": {
+        "art_style": "western comic / cel-shaded illustration, thick black outline, flat fills with a little hard shading (likely AI-generated, very consistent across posts)",
+        "character": "Blue Bro mascot: faceless, fully blue (#0270f9) muscular male figure, white almond-shaped eyes with black outline, black shorts, black smartwatch on the left wrist, thick black outline, cel-shaded comic style with vein and abs detail",
+        "pose": "boxing stance, fists up, head slightly tilted; the mascot is dressed in a t-shirt to match the 'look massive in a t-shirt' promise",
+        "recurring": true,
+        "rights": "original brand mascot (owner's own character)",
+        "model_sheet_needed": true,
+        "extra": ""
+      }
+    },
+    {
+      "n": 2,
+      "role": "anatomy",
+      "class": "2d-characters",
+      "confidence": "high",
+      "summary": "'Forearm Anatomy': mascot forearm diagram with 3 colored muscle regions (red brachioradialis, yellow flexors, green extensors) and colored labels with leader lines",
+      "image": {
+        "art_style": "western comic / cel-shaded illustration, thick black outline, flat fills with a little hard shading (likely AI-generated, very consistent across posts)",
+        "character": "Blue Bro mascot: faceless, fully blue (#0270f9) muscular male figure, white almond-shaped eyes with black outline, black shorts, black smartwatch on the left wrist, thick black outline, cel-shaded comic style with vein and abs detail",
+        "pose": "single forearm and wrist, wearing the black watch",
+        "recurring": true,
+        "rights": "original brand mascot (owner's own character)",
+        "model_sheet_needed": true,
+        "extra": "anatomy diagram: color-coded muscle regions with matching colored labels"
+      }
+    },
+    {
+      "n": 3,
+      "role": "muscle-pick",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "#1 Brachioradialis: one explainer paragraph, then two exercise illustrations with captions",
+      "frame": {
+        "canvas": "4:5 portrait, 1080x1350, no bars or border",
+        "layers": [
+          {
+            "type": "background",
+            "box": [
+              0,
+              0,
+              100,
+              100
+            ],
+            "note": "flat warm beige (#f4f1ea); no gradient, no texture"
+          },
+          {
+            "type": "mark",
+            "box": [
+              2.7,
+              2.1,
+              14.4,
+              4.2
+            ],
+            "note": "BLUE BRO wordmark (black condensed caps) with the blue mascot-head icon, top-left on every slide and video frame"
+          },
+          {
+            "type": "text-block",
+            "box": [
+              10,
+              16.6,
+              8.3,
+              6.6
+            ],
+            "note": "rank number"
+          },
+          {
+            "type": "accent-line",
+            "box": [
+              10,
+              26.6,
+              12.6,
+              0.5
+            ],
+            "note": "short blue underline under the heading, same width and place on every content slide"
+          },
+          {
+            "type": "mascot",
+            "box": [
+              16.8,
+              50.8,
+              15.2,
+              37.1
+            ],
+            "note": "exercise 1: standing cable hammer curl, mascot full body"
+          },
+          {
+            "type": "mascot",
+            "box": [
+              63.5,
+              50.8,
+              22.9,
+              36.1
+            ],
+            "note": "exercise 2: standing reverse curl with a bar and cable, mascot full body"
+          }
+        ],
+        "composition": {
+          "focal": [
+            24,
+            68
+          ],
+          "subject_box": [
+            10,
+            16.6,
+            78,
+            77
+          ],
+          "zone": "middle-center",
+          "negative_space": [
+            [
+              73,
+              16,
+              25,
+              30
+            ],
+            [
+              10,
+              48,
+              80,
+              2
+            ]
+          ],
+          "balance": "text stack in the top-left, two figures in a bottom row, empty top-right",
+          "grouping": "heading row (number + title) → underline → paragraph → row of two captioned figures"
+        },
+        "safe_zones": "not applicable (4:5 slide)",
+        "color_light": "beige #f4f1ea, navy heading, blue accent, gray body; flat",
+        "quality": "clean vector-like render",
+        "origin_realism": "designed card with AI-generated or drawn mascot illustrations"
+      },
+      "text_blocks": [
+        {
+          "text": "#1",
+          "origin": "designed",
+          "role": "number",
+          "pattern": "numbered-heading",
+          "box": [
+            10,
+            16.6,
+            8.3,
+            6.6
+          ],
+          "zone": "top-left",
+          "align": "left",
+          "font": "Anton (closest): condensed heavy grotesque, slightly italic",
+          "size_pct": 9.2,
+          "case": "n/a",
+          "stroke": "none",
+          "under": "solid beige background",
+          "fill": "#0275d8",
+          "bg": "#f4f1ea",
+          "contrast_ratio": 4.1,
+          "fill_source": "sampled from the pixels in the box (measure.py)"
+        },
+        {
+          "text": "Brachioradialis",
+          "origin": "designed",
+          "role": "headline",
+          "pattern": "numbered-heading",
+          "box": [
+            24.4,
+            17.8,
+            37.4,
+            5.0
+          ],
+          "zone": "top-center",
+          "align": "left",
+          "font": "Anton (closest): condensed heavy grotesque",
+          "size_pct": 5.4,
+          "case": "Title Case",
+          "stroke": "none",
+          "under": "solid beige background",
+          "fill": "#051b3a",
+          "bg": "#f4f1ea",
+          "contrast_ratio": 15.22,
+          "fill_source": "sampled from the pixels in the box (measure.py)"
+        },
+        {
+          "text": "To grow your brachioradialis, you want to be performing a curl variation with a neutral or pronated (overhand) wrist positon. / The best options are:",
+          "origin": "designed",
+          "role": "body",
+          "pattern": "top-headline",
+          "box": [
+            10,
+            31.3,
+            60.2,
+            16.5
+          ],
+          "zone": "top-left",
+          "align": "left",
+          "font": "Didact Gothic (closest): light geometric humanist sans",
+          "size_pct": 2.7,
+          "case": "Sentence case",
+          "stroke": "none",
+          "under": "solid beige background",
+          "fill": "#4b4946",
+          "bg": "#f4f1ea",
+          "contrast_ratio": 7.91,
+          "fill_source": "sampled from the pixels in the box (measure.py)"
+        },
+        {
+          "text": "Hammer Curl Variation",
+          "origin": "designed",
+          "role": "caption",
+          "pattern": "callout",
+          "box": [
+            9.5,
+            90.8,
+            30.8,
+            2.8
+          ],
+          "zone": "bottom-left",
+          "align": "center",
+          "font": "Didact Gothic (closest): light geometric humanist sans",
+          "size_pct": 2.5,
+          "case": "Title Case",
+          "stroke": "none",
+          "under": "solid beige background",
+          "fill": "#4b4947",
+          "bg": "#f4f1ea",
+          "contrast_ratio": 7.9,
+          "fill_source": "sampled from the pixels in the box (measure.py)"
+        },
+        {
+          "text": "Reverse Curl Variation",
+          "origin": "designed",
+          "role": "caption",
+          "pattern": "callout",
+          "box": [
+            60,
+            90.8,
+            30,
+            2.8
+          ],
+          "zone": "bottom-center",
+          "align": "center",
+          "font": "Didact Gothic (closest): light geometric humanist sans",
+          "size_pct": 2.5,
+          "case": "Title Case",
+          "stroke": "none",
+          "under": "solid beige background",
+          "fill": "#4b4946",
+          "bg": "#f4f1ea",
+          "contrast_ratio": 7.91,
+          "fill_source": "sampled from the pixels in the box (measure.py)"
+        },
+        {
+          "text": "BLUE BRO",
+          "origin": "mark",
+          "role": "watermark",
+          "pattern": "corner-mark",
+          "box": [
+            5.7,
+            2.1,
+            11.4,
+            4.2
+          ],
+          "zone": "top-left",
+          "align": "left",
+          "font": "Anton-like condensed caps",
+          "size_pct": 3.0,
+          "case": "ALL CAPS",
+          "stroke": "none",
+          "under": "solid beige background",
+          "fill": "#020101",
+          "bg": "#f4f1ea",
+          "contrast_ratio": 18.44,
+          "fill_source": "sampled from the pixels in the box (measure.py)"
+        }
+      ],
+      "image": {
+        "art_style": "western comic / cel-shaded illustration, thick black outline, flat fills with a little hard shading (likely AI-generated, very consistent across posts)",
+        "character": "Blue Bro mascot: faceless, fully blue (#0270f9) muscular male figure, white almond-shaped eyes with black outline, black shorts, black smartwatch on the left wrist, thick black outline, cel-shaded comic style with vein and abs detail",
+        "pose": "full-body standing, performing each exercise; two poses per slide, no faces",
+        "recurring": true,
+        "rights": "original brand mascot (owner's own character)",
+        "model_sheet_needed": true,
+        "extra": "equipment drawn realistically in black and grey, the only non-blue color besides text"
+      }
+    },
+    {
+      "n": 4,
+      "role": "muscle-pick",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "#2 Forearm Flexors: paragraph + DB wrist curls and cable wrist curls",
+      "same_as": "slide 3, except the title, paragraph and two exercises"
+    },
+    {
+      "n": 5,
+      "role": "muscle-pick",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "#3 Forearm Extensors: paragraph + DB wrist extensions and cable wrist extensions",
+      "same_as": "slide 3, except the title, paragraph and two exercises"
+    },
+    {
+      "n": 6,
+      "role": "cta",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "Hard-sell product slide: 'Want A Better Physique?' with the mascot holding a tablet showing the Muscle Manual eBook cover",
+      "frame": {
+        "canvas": "4:5 portrait, 1080x1350, no bars or border",
+        "layers": [
+          {
+            "type": "background",
+            "box": [
+              0,
+              0,
+              100,
+              100
+            ],
+            "note": "flat warm beige (#f4f1ea); no gradient, no texture"
+          },
+          {
+            "type": "mark",
+            "box": [
+              2.7,
+              2.1,
+              14.4,
+              4.2
+            ],
+            "note": "BLUE BRO wordmark (black condensed caps) with the blue mascot-head icon, top-left on every slide and video frame"
+          },
+          {
+            "type": "accent-line",
+            "box": [
+              10,
+              23.3,
+              12.6,
+              0.5
+            ],
+            "note": "blue underline"
+          },
+          {
+            "type": "mascot",
+            "box": [
+              21.5,
+              43.9,
+              62.5,
+              56.1
+            ],
+            "note": "mascot from the waist up, right hand offering a tablet, bleeds off the bottom edge"
+          },
+          {
+            "type": "product-mockup",
+            "box": [
+              24.4,
+              65.2,
+              21,
+              23
+            ],
+            "note": "tablet showing the 'MUSCLE MANUAL - Complete Muscle Growth eBook' cover (mascot on a mountain top with a gym bag)"
+          }
+        ],
+        "composition": {
+          "focal": [
+            45,
+            72
+          ],
+          "subject_box": [
+            21.5,
+            43.9,
+            62.5,
+            56.1
+          ],
+          "zone": "bottom-center",
+          "negative_space": [
+            [
+              0,
+              45,
+              20,
+              55
+            ]
+          ],
+          "balance": "text top-left, figure and product bottom-right",
+          "grouping": "heading → underline → two short paragraphs → figure holding product"
+        },
+        "safe_zones": "not applicable (4:5 slide)",
+        "color_light": "same palette as every content slide",
+        "quality": "clean vector-like render",
+        "origin_realism": "designed card, illustration, product mockup drawn in the same style"
+      },
+      "text_blocks": [
+        {
+          "text": "Want A Better Physique?",
+          "origin": "designed",
+          "role": "cta",
+          "pattern": "numbered-heading",
+          "box": [
+            10,
+            14.5,
+            60.1,
+            5.5
+          ],
+          "zone": "top-left",
+          "align": "left",
+          "font": "Anton (closest): condensed heavy grotesque",
+          "size_pct": 5.6,
+          "case": "Title Case",
+          "stroke": "none",
+          "under": "solid beige background",
+          "fill": "#051b3a",
+          "bg": "#f4f1ea",
+          "contrast_ratio": 15.22,
+          "fill_source": "sampled from the pixels in the box (measure.py)"
+        },
+        {
+          "text": "If you're still confused about what actually builds muscle, that's exactly why I wrote this. / \"Muscle Manual\" is available now.",
+          "origin": "designed",
+          "role": "cta",
+          "pattern": "top-headline",
+          "box": [
+            10,
+            28.5,
+            60,
+            12.6
+          ],
+          "zone": "top-left",
+          "align": "left",
+          "font": "Didact Gothic (closest): light geometric humanist sans",
+          "size_pct": 2.7,
+          "case": "Sentence case",
+          "stroke": "none",
+          "under": "solid beige background",
+          "fill": "#4b4946",
+          "bg": "#f4f1ea",
+          "contrast_ratio": 7.91,
+          "fill_source": "sampled from the pixels in the box (measure.py)"
+        },
+        {
+          "text": "BLUE BRO",
+          "origin": "mark",
+          "role": "watermark",
+          "pattern": "corner-mark",
+          "box": [
+            5.7,
+            2.1,
+            11.4,
+            4.2
+          ],
+          "zone": "top-left",
+          "align": "left",
+          "font": "Anton-like condensed caps",
+          "size_pct": 3.0,
+          "case": "ALL CAPS",
+          "stroke": "none",
+          "under": "solid beige background",
+          "fill": "#020101",
+          "bg": "#f4f1ea",
+          "contrast_ratio": 18.43,
+          "fill_source": "sampled from the pixels in the box (measure.py)"
+        }
+      ],
+      "image": {
+        "art_style": "western comic / cel-shaded illustration, thick black outline, flat fills with a little hard shading (likely AI-generated, very consistent across posts)",
+        "character": "Blue Bro mascot: faceless, fully blue (#0270f9) muscular male figure, white almond-shaped eyes with black outline, black shorts, black smartwatch on the left wrist, thick black outline, cel-shaded comic style with vein and abs detail",
+        "pose": "presenting a tablet toward the viewer, half-body",
+        "recurring": true,
+        "rights": "original brand mascot (owner's own character)",
+        "model_sheet_needed": true,
+        "extra": "the product (eBook) is shown as an object the mascot holds, not as a link or price"
+      }
+    }
+  ],
+  "product": "Slide 6: hard-sell CTA for the 'Muscle Manual' eBook; the mascot holds a tablet showing the cover. No price, no link on the slide; the link is in the bio (Linktree, $19.99)",
+  "proof_device": "none (anatomy diagram acts as the explainer)",
+  "series": "single post",
+  "caption": "Very short: 'Your guide to huge forearms!' + 4 hashtags. Repeats the post's promise, no CTA in the caption, no emoji",
+  "hashtags": "4: #forearms #gymtip #forearmsworkout #hypertrophy (topic-specific + one niche tag), no broad tags",
+  "topic": "forearm training",
+  "language": "English, second person 'you', direct, instructional; a typo on slide 3 ('positon')"
+}

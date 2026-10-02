@@ -1,0 +1,30 @@
+{
+ "video": "content-bank/P011-deadpan-desk-rant/runs/run-01_2026-09-27_willow-desk-rant/output/final.mp4",
+ "seconds": 5.03,
+ "fps": 30.0,
+ "size": [
+  1080,
+  1920
+ ],
+ "cuts": 0,
+ "max_frame_jump": 2.02,
+ "subject_zone_motion": 0.86,
+ "checks": [
+  {
+   "check": "one shot, no cuts",
+   "ok": true,
+   "detail": "0 cuts, largest frame-to-frame jump 2.02"
+  },
+  {
+   "check": "9:16 at 1080x1920",
+   "ok": true,
+   "detail": "[1080, 1920]"
+  },
+  {
+   "check": "the subject moves (not a frozen image)",
+   "ok": true,
+   "detail": "mean frame change 0.86"
+  }
+ ],
+ "verdict": "pass"
+}

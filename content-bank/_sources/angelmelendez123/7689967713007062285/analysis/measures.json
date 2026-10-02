@@ -1,0 +1,85 @@
+{
+  "type": "video",
+  "length": 5.14,
+  "size": {
+    "width": 1024,
+    "height": 1820
+  },
+  "shot_detector": "content-27",
+  "shot_count": 1,
+  "cuts_per_second": 0.0,
+  "average_shot_length": 5.14,
+  "shots": [
+    {
+      "shot": 1,
+      "start": 0.0,
+      "end": 5.14,
+      "length": 5.14,
+      "key_frame": "frames/shot_01_2.6s.jpg",
+      "palette": [
+        {
+          "hex": "#030203",
+          "share": 0.41
+        },
+        {
+          "hex": "#4d3826",
+          "share": 0.198
+        },
+        {
+          "hex": "#2b2015",
+          "share": 0.14
+        },
+        {
+          "hex": "#855c40",
+          "share": 0.134
+        },
+        {
+          "hex": "#17100a",
+          "share": 0.118
+        }
+      ],
+      "visual": {
+        "brightness_pct": 13.2,
+        "contrast_pct": 19.2,
+        "saturation_pct": 60.0,
+        "sharpness": 1438.0,
+        "noise_sigma": 0.74,
+        "clutter_pct": 4.85,
+        "bars_pct": {
+          "top": 0.0,
+          "bottom": 6.1,
+          "left": 0.0,
+          "right": 0.0
+        },
+        "phash": "9dbd6c6560389333",
+        "dhash": "27337831d0cc4101"
+      },
+      "motion": {
+        "label": "static",
+        "speed_pct_w_per_s": 0.04,
+        "consistency": 0.18,
+        "zoom_pct_per_s": -0.02,
+        "rotation_deg_per_s": 0.0,
+        "subject_motion_pct_w_per_s": 0.21,
+        "pairs": 8,
+        "note": "rough label from optical flow; static/handheld/pan/zoom thresholds are set on test clips"
+      }
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "has_speech": true,
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 5.1,
+        "text": "Letting go, moving on, keeping strong and finding God",
+        "no_speech": 0.0,
+        "avg_logprob": -0.18,
+        "compression_ratio": 1.0,
+        "suspect": []
+      }
+    ],
+    "note": "A segment with a non-empty 'suspect' list is probably music or noise, not words. has_speech is true only if at least one segment passes."
+  }
+}

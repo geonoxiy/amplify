@@ -1,0 +1,85 @@
+{
+  "type": "video",
+  "length": 8.08,
+  "size": {
+    "width": 720,
+    "height": 1280
+  },
+  "shot_detector": "content-27",
+  "shot_count": 1,
+  "cuts_per_second": 0.0,
+  "average_shot_length": 8.08,
+  "shots": [
+    {
+      "shot": 1,
+      "start": 0.0,
+      "end": 8.08,
+      "length": 8.08,
+      "key_frame": "frames/shot_01_4.0s.jpg",
+      "palette": [
+        {
+          "hex": "#334356",
+          "share": 0.31
+        },
+        {
+          "hex": "#e6e4e2",
+          "share": 0.289
+        },
+        {
+          "hex": "#959086",
+          "share": 0.211
+        },
+        {
+          "hex": "#b17763",
+          "share": 0.116
+        },
+        {
+          "hex": "#c2b9b3",
+          "share": 0.075
+        }
+      ],
+      "visual": {
+        "brightness_pct": 57.4,
+        "contrast_pct": 26.2,
+        "saturation_pct": 22.4,
+        "sharpness": 95.4,
+        "noise_sigma": 0.25,
+        "clutter_pct": 2.16,
+        "bars_pct": {
+          "top": 0.0,
+          "bottom": 0.0,
+          "left": 0.0,
+          "right": 0.0
+        },
+        "phash": "a1eb562e4dce9614",
+        "dhash": "079f8f9b978e8d8c"
+      },
+      "motion": {
+        "label": "handheld",
+        "speed_pct_w_per_s": 2.02,
+        "consistency": 0.24,
+        "zoom_pct_per_s": -0.34,
+        "rotation_deg_per_s": 0.1,
+        "subject_motion_pct_w_per_s": 5.99,
+        "pairs": 8,
+        "note": "rough label from optical flow; static/handheld/pan/zoom thresholds are set on test clips"
+      }
+    }
+  ],
+  "transcript": {
+    "language": "en",
+    "has_speech": true,
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 7.68,
+        "text": "I don't want me, we could take it, I don't want me.",
+        "no_speech": 0.0,
+        "avg_logprob": -0.65,
+        "compression_ratio": 1.09,
+        "suspect": []
+      }
+    ],
+    "note": "A segment with a non-empty 'suspect' list is probably music or noise, not words. has_speech is true only if at least one segment passes."
+  }
+}

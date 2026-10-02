@@ -1,0 +1,247 @@
+{
+  "post": "7687128368654847240",
+  "type": "video",
+  "fingerprint": {
+    "structure": "16.8s video, 6 shots of about 2.8s: 6 exercises, one per shot; a progress tracker of 6 muscle icons ticks off one more exercise per shot; title, exercise name and sets x reps change on each cut; ends on the last exercise (no outro, no CTA)",
+    "hook": "First 2 seconds: the first exercise already playing (mascot rep animating) with the tracker at 0 ticks; the title and tracker fade in within about 1s",
+    "camera_motion": "2d-characters (mascot) on a plain near-white background, AI-animated (image-to-video) with a locked camera; 9:16, 720x1280",
+    "pacing": "16.8s, 6 shots (0.3 cuts/s), about 2.8s per exercise, same layout every shot",
+    "text_overlay": "Title Title-Case condensed (dark grey) top-center, tracker card below it, exercise name + sets x reps centered under the tracker; logo top-left; no captions or subtitles",
+    "audio": "third-party music, no speech (a music hallucination in the transcript is filtered out)",
+    "arc": "Promise a perfect workout → show 6 exercises in order with visible progress → end"
+  },
+  "units": [
+    {
+      "n": 1,
+      "role": "exercise",
+      "class": "2d-characters",
+      "confidence": "high",
+      "summary": "Lat Pulldown 2-3 x 6-10 (tracker 0/6)"
+    },
+    {
+      "n": 2,
+      "role": "exercise",
+      "class": "2d-characters",
+      "confidence": "high",
+      "summary": "second exercise (tracker 1/6)"
+    },
+    {
+      "n": 3,
+      "role": "exercise",
+      "class": "2d-characters",
+      "confidence": "high",
+      "summary": "Exercise 3 of 6 ('Close-Grip Seated Row'): tracker strip with 3 green ticks, exercise name, sets x reps, mascot on the machine (animated)",
+      "frame": {
+        "canvas": "9:16 portrait, 720x1280, no bars",
+        "layers": [
+          {
+            "type": "background",
+            "box": [
+              0,
+              0,
+              100,
+              100
+            ],
+            "note": "near-white (#f9f9f9) with a faint cloudy vignette"
+          },
+          {
+            "type": "mark",
+            "box": [
+              5.8,
+              2.3,
+              17,
+              3.2
+            ],
+            "note": "BLUE BRO wordmark with mascot-head icon, top-left"
+          },
+          {
+            "type": "text-block",
+            "box": [
+              26.8,
+              12.5,
+              46.4,
+              3.0
+            ],
+            "note": "video title"
+          },
+          {
+            "type": "progress-tracker",
+            "box": [
+              5.6,
+              18.1,
+              91.6,
+              8.9
+            ],
+            "note": "white rounded card with soft shadow; 6 torso icons of the mascot, each with the target muscle highlighted red; under each a white empty circle (pending) or a green tick (done). Ticks accumulate: 0 → 6 across the video"
+          },
+          {
+            "type": "text-block",
+            "box": [
+              32.8,
+              28.6,
+              36,
+              5.9
+            ],
+            "note": "exercise name and sets x reps"
+          },
+          {
+            "type": "mascot",
+            "box": [
+              11.8,
+              43.8,
+              77.1,
+              35.9
+            ],
+            "note": "mascot performing the rep on the machine, animated (image-to-video); machine drawn realistically in black"
+          }
+        ],
+        "composition": {
+          "focal": [
+            55,
+            62
+          ],
+          "subject_box": [
+            11.8,
+            43.8,
+            77.1,
+            35.9
+          ],
+          "zone": "middle-center",
+          "negative_space": [
+            [
+              0,
+              80,
+              100,
+              20
+            ],
+            [
+              0,
+              34.5,
+              100,
+              9
+            ]
+          ],
+          "balance": "all text and tracker in the top 35%, subject in the middle, the bottom 20% left empty",
+          "grouping": "logo → title → tracker strip → exercise label → animated subject"
+        },
+        "safe_zones": "text and tracker sit in the top third; the bottom 20% is empty (clear of TikTok's caption block and buttons)",
+        "color_light": "near-white background, blue mascot, black machines, green ticks (#1af511), red muscle highlights",
+        "quality": "clean vector-like render, slight video compression",
+        "origin_realism": "illustration animated by AI (likely image-to-video)"
+      },
+      "text_blocks": [
+        {
+          "text": "The Perfect Pull Workout",
+          "origin": "designed",
+          "role": "headline",
+          "pattern": "top-headline",
+          "box": [
+            26.8,
+            12.5,
+            46.4,
+            3.0
+          ],
+          "zone": "top-center",
+          "align": "center",
+          "font": "Anton (closest): condensed heavy grotesque",
+          "size_pct": 3.6,
+          "case": "Title Case",
+          "stroke": "none",
+          "under": "near-white background",
+          "timing": "on screen for the whole video (title present from about 1s)",
+          "fill": "#373737",
+          "bg": "#f9f9f9",
+          "contrast_ratio": 11.36,
+          "fill_source": "sampled from the pixels in the box (measure.py)"
+        },
+        {
+          "text": "Close-Grip Seated Row / 2-3 x 6-10",
+          "origin": "designed",
+          "role": "label",
+          "pattern": "top-headline",
+          "box": [
+            32.8,
+            28.6,
+            36,
+            5.9
+          ],
+          "zone": "top-center",
+          "align": "center",
+          "font": "Anton (closest): condensed heavy grotesque",
+          "size_pct": 2.8,
+          "case": "Title Case",
+          "stroke": "none",
+          "under": "near-white background",
+          "timing": "changes on every cut (2.4 to 3.1s each): name and sets x reps swap with the exercise",
+          "fill": "#373737",
+          "bg": "#f8f8f8",
+          "contrast_ratio": 11.27,
+          "fill_source": "sampled from the pixels in the box (measure.py)"
+        },
+        {
+          "text": "BLUE BRO",
+          "origin": "mark",
+          "role": "watermark",
+          "pattern": "corner-mark",
+          "box": [
+            9.6,
+            2.3,
+            13.2,
+            3.2
+          ],
+          "zone": "top-left",
+          "align": "left",
+          "font": "Anton-like condensed caps",
+          "size_pct": 2.6,
+          "case": "ALL CAPS",
+          "stroke": "none",
+          "under": "near-white background",
+          "fill": "#030303",
+          "bg": "#f8f8f8",
+          "contrast_ratio": 19.4,
+          "fill_source": "sampled from the pixels in the box (measure.py)"
+        }
+      ],
+      "image": {
+        "art_style": "western comic / cel-shaded illustration, thick black outline, flat fills with a little hard shading (likely AI-generated, very consistent across posts)",
+        "character": "Blue Bro mascot: faceless, fully blue (#0270f9) muscular male figure, white almond-shaped eyes with black outline, black shorts, black smartwatch on the left wrist, thick black outline, cel-shaded comic style with vein and abs detail",
+        "pose": "performing the exercise (seated cable row), side view, animated rep",
+        "recurring": true,
+        "rights": "original brand mascot (owner's own character)",
+        "model_sheet_needed": true,
+        "extra": "camera is locked; only the mascot moves (code: subject motion about 1 %w/s, camera static)"
+      }
+    },
+    {
+      "n": 4,
+      "role": "exercise",
+      "class": "2d-characters",
+      "confidence": "high",
+      "summary": "Reverse Pec Dec 2-3 x 8-12 (tracker 3/6)",
+      "same_as": "shot 3"
+    },
+    {
+      "n": 5,
+      "role": "exercise",
+      "class": "2d-characters",
+      "confidence": "high",
+      "summary": "tracker 4/6",
+      "same_as": "shot 3"
+    },
+    {
+      "n": 6,
+      "role": "exercise",
+      "class": "2d-characters",
+      "confidence": "high",
+      "summary": "tracker 5/6, last exercise",
+      "same_as": "shot 3"
+    }
+  ],
+  "product": "none (bio link only)",
+  "proof_device": "progress tracker (muscle icons with ticks)",
+  "series": "single post (part of a weekly series: leg 09-24, pull 09-19, push 09-16)",
+  "caption": "Short: 'The pefect pull workout in 6 exercises!' + 4 hashtags (typo 'pefect')",
+  "hashtags": "4: #pullday #pullworkout #gymworkout #hypertrophy",
+  "topic": "pull workout",
+  "language": "English text, no speech; typo in the caption"
+}

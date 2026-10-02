@@ -1,0 +1,63 @@
+{
+ "fps": 30,
+ "shot_seconds": 2.7,
+ "cuts": [
+  2.7,
+  5.4,
+  8.133,
+  10.8,
+  13.533
+ ],
+ "ticks": [
+  {
+   "t": 1.2,
+   "count": 1
+  },
+  {
+   "t": 3.9,
+   "count": 2
+  },
+  {
+   "t": 6.6,
+   "count": 3
+  },
+  {
+   "t": 9.3,
+   "count": 4
+  },
+  {
+   "t": 12.0,
+   "count": 5
+  },
+  {
+   "t": 14.7,
+   "count": 6
+  }
+ ],
+ "texts": [
+  {
+   "t": 0.0,
+   "name": "Dumbbell Shrug"
+  },
+  {
+   "t": 2.7,
+   "name": "Barbell Shrug"
+  },
+  {
+   "t": 5.4,
+   "name": "Cable Upright Row"
+  },
+  {
+   "t": 8.133,
+   "name": "Dumbbell Shoulder Press"
+  },
+  {
+   "t": 10.8,
+   "name": "Farmer's Carry"
+  },
+  {
+   "t": 13.533,
+   "name": "Suitcase Carry"
+  }
+ ]
+}

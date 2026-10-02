@@ -1,0 +1,13 @@
+{
+  "style": "none",
+  "brand": null,
+  "disclosure_position": null,
+  "characters": 76,
+  "hashtags": 5,
+  "first_100_characters": "The department will survive.\n\n#worktok #9to5 #workhumor #worklife #relatable",
+  "fails": [],
+  "warnings": [
+    "style rule is lowercase for overlay/caption text; found capitalised word(s): ['The']"
+  ],
+  "verdict": "pass"
+}

@@ -1,0 +1,187 @@
+{
+  "type": "slideshow",
+  "slide_count": 8,
+  "size": {
+    "width": 1080,
+    "height": 1080
+  },
+  "aspect": "1080:1080",
+  "palettes": {
+    "slide 1": [
+      {
+        "hex": "#fde0e5",
+        "share": 0.743
+      },
+      {
+        "hex": "#f1d5d9",
+        "share": 0.147
+      },
+      {
+        "hex": "#e8bfc6",
+        "share": 0.066
+      },
+      {
+        "hex": "#b05e68",
+        "share": 0.023
+      },
+      {
+        "hex": "#fbf3f5",
+        "share": 0.021
+      }
+    ],
+    "slide 2": [
+      {
+        "hex": "#dbedfb",
+        "share": 0.702
+      },
+      {
+        "hex": "#d3e6f2",
+        "share": 0.118
+      },
+      {
+        "hex": "#c8dce9",
+        "share": 0.102
+      },
+      {
+        "hex": "#edf6fc",
+        "share": 0.064
+      },
+      {
+        "hex": "#91a8bb",
+        "share": 0.014
+      }
+    ],
+    "slide 3": [
+      {
+        "hex": "#fcf2cf",
+        "share": 0.636
+      },
+      {
+        "hex": "#fcf6df",
+        "share": 0.126
+      },
+      {
+        "hex": "#ede3bc",
+        "share": 0.122
+      },
+      {
+        "hex": "#f5ecc8",
+        "share": 0.106
+      },
+      {
+        "hex": "#bfb182",
+        "share": 0.01
+      }
+    ],
+    "slide 4": [
+      {
+        "hex": "#e0f2e4",
+        "share": 0.738
+      },
+      {
+        "hex": "#d7ead9",
+        "share": 0.122
+      },
+      {
+        "hex": "#cce1ce",
+        "share": 0.084
+      },
+      {
+        "hex": "#f0f9f1",
+        "share": 0.044
+      },
+      {
+        "hex": "#809a80",
+        "share": 0.012
+      }
+    ],
+    "slide 5": [
+      {
+        "hex": "#eddff6",
+        "share": 0.746
+      },
+      {
+        "hex": "#dbcfe5",
+        "share": 0.116
+      },
+      {
+        "hex": "#e5daee",
+        "share": 0.103
+      },
+      {
+        "hex": "#f6f2f9",
+        "share": 0.028
+      },
+      {
+        "hex": "#ad9ebc",
+        "share": 0.008
+      }
+    ],
+    "slide 6": [
+      {
+        "hex": "#fde0e5",
+        "share": 0.713
+      },
+      {
+        "hex": "#f4d9de",
+        "share": 0.126
+      },
+      {
+        "hex": "#edccd2",
+        "share": 0.107
+      },
+      {
+        "hex": "#fcf0f2",
+        "share": 0.042
+      },
+      {
+        "hex": "#ce9ca4",
+        "share": 0.012
+      }
+    ],
+    "slide 7": [
+      {
+        "hex": "#dbedfb",
+        "share": 0.633
+      },
+      {
+        "hex": "#d0dde9",
+        "share": 0.177
+      },
+      {
+        "hex": "#d5e7f4",
+        "share": 0.107
+      },
+      {
+        "hex": "#eaf5fb",
+        "share": 0.071
+      },
+      {
+        "hex": "#baacb0",
+        "share": 0.013
+      }
+    ],
+    "slide 8": [
+      {
+        "hex": "#e0f2e4",
+        "share": 0.726
+      },
+      {
+        "hex": "#daecdb",
+        "share": 0.119
+      },
+      {
+        "hex": "#cfe3d0",
+        "share": 0.112
+      },
+      {
+        "hex": "#a0b7a1",
+        "share": 0.023
+      },
+      {
+        "hex": "#f2f9f4",
+        "share": 0.021
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "post": "7683549117112470804",
+  "type": "slideshow",
+  "fingerprint": {
+    "structure": "6 slides: original question post (screenshot) → 5 reply screenshots (funny one first, then detailed experiences, a mini-thread, a balanced verdict)",
+    "hook": "A real person's question about a specific product in Taglish, shown as a Reddit post screenshot (subreddit badge, 'Review' flair, title question)",
+    "camera_motion": "Static phone screenshots (Reddit dark mode), cropped to content, no background design",
+    "pacing": "High text density: long comment blocks (40–120 words per slide)",
+    "text_overlay": "None added: all text is the screenshot itself; usernames and avatars blurred/blacked out",
+    "audio": "Creator's own 'original sound' (untitled)",
+    "arc": "Doubt → mixed real experiences (humor, success story, how-to, caveat) → viewer decides; payoff = social proof"
+  },
+  "units": [
+    {
+      "n": 1,
+      "role": "hook",
+      "text": "r/beautyph · Review · 'musta ang dermorepubliq toner experience mo?' + body asking if safe for face/underarm",
+      "visual": "Reddit post screenshot, dark mode",
+      "layout": "full-width screenshot"
+    },
+    {
+      "n": 2,
+      "role": "reply (humor)",
+      "text": "one-line joke reply",
+      "visual": "comment screenshot",
+      "layout": "screenshot"
+    },
+    {
+      "n": 3,
+      "role": "reply (success + routine)",
+      "text": "long Taglish routine and results",
+      "visual": "comment screenshot",
+      "layout": "screenshot"
+    },
+    {
+      "n": 4,
+      "role": "reply (verdict score)",
+      "text": "'I'll give them a 9/10'",
+      "visual": "comment screenshot",
+      "layout": "screenshot"
+    },
+    {
+      "n": 5,
+      "role": "reply thread (troubleshooting)",
+      "text": "reasons for burning + follow-up question + answer",
+      "visual": "nested comments",
+      "layout": "stacked screenshots"
+    },
+    {
+      "n": 6,
+      "role": "reply (balanced caution)",
+      "text": "patch test first, check the %",
+      "visual": "comment screenshot",
+      "layout": "screenshot"
+    }
+  ],
+  "product": "The whole post is about one product (dermorepubliq glycolic toner), named in the question; soft sell via community experiences; caption hashtags include the brand and #affiliatemarketing",
+  "proof_device": "Reddit thread screenshots (real public posts, usernames blurred)",
+  "series": "Recurring series 'Community insights' (reddit deep dives)",
+  "caption": "Question to the viewer in Taglish ('effective ba talaga si X???') + comment prompt + 4 hashtags",
+  "hashtags": "4: brand tag, #skincare, product-type tag (#underarmserum), #affiliatemarketing",
+  "topic": "product review: dermorepubliq glycolic toner",
+  "language": "Taglish (source comments), creator voice only in caption"
+}

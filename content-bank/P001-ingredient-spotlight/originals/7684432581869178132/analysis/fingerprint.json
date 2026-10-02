@@ -1,0 +1,78 @@
+{
+  "post": "7684432581869178132",
+  "type": "slideshow",
+  "fingerprint": {
+    "structure": "8 slides: hook → what is it → know the difference (vs. a look-alike) → why it works (3-step icon flow) → safe % chart → honest timeline → pair with / avoid → disclaimer + follow CTA",
+    "hook": "Ingredient-spotlight hook: pill label 'INGREDIENT SPOTLIGHT' + huge ingredient name + 'check your skincare! 👀' + curiosity question 'what is it, really?'",
+    "camera_motion": "Static designed cards (no photos)",
+    "pacing": "Low text density: 5–15 words per slide, one idea per slide",
+    "text_overlay": "Bold rounded sans (closest: Inter / SF Pro Bold), all lowercase except pill labels; small uppercase letter-spaced pill label above each title; titles in a deep shade of the slide's pastel; centered; short body lines in the same hue; no outlines or boxes.",
+    "audio": "Trending OPM song (Kung Ako Na Lang Sana – Sarah Geronimo), not original",
+    "arc": "Curiosity → clarity → practical rules → reassurance; payoff = the safe % and timeline (save-worthy reference)"
+  },
+  "units": [
+    {
+      "n": 1,
+      "role": "hook",
+      "text": "INGREDIENT SPOTLIGHT / retinol / check your skincare! 👀 / what is it, really?",
+      "visual": "pink card, giant title with soft glow",
+      "layout": "centered stack"
+    },
+    {
+      "n": 2,
+      "role": "definition",
+      "text": "what is it? / a vitamin A derivative that speeds up skin cell turnover / COMMONLY FOUND IN: serums, night creams, eye creams",
+      "visual": "moon icon in white circle, left",
+      "layout": "icon left, text right, chips row"
+    },
+    {
+      "n": 3,
+      "role": "comparison",
+      "text": "KNOW THE DIFFERENCE / retinol vs tretinoin cards / this post is about retinol only 👇",
+      "visual": "two cards side by side, second faded",
+      "layout": "2 cards"
+    },
+    {
+      "n": 4,
+      "role": "mechanism",
+      "text": "why it works / speeds cell turnover → boosts collagen → unclogs pores",
+      "visual": "3 icons with arrows",
+      "layout": "horizontal 3-step flow"
+    },
+    {
+      "n": 5,
+      "role": "dosage",
+      "text": "SAFE % CHART / 0.01–0.03% beginners · 0.1–0.3% moderate · 0.5–1% typical max",
+      "visual": "slider bar with marker",
+      "layout": "horizontal scale"
+    },
+    {
+      "n": 6,
+      "role": "timeline",
+      "text": "HONEST TIMELINE / wk 1-2 every third night · wk 3-6 build to nightly · 3+ months real results",
+      "visual": "3 icons on a line",
+      "layout": "horizontal 3-step timeline"
+    },
+    {
+      "n": 7,
+      "role": "pairing",
+      "text": "✅ PAIR WITH moisturizer, SPF next morning / 🚫 AVOID SAME NIGHT other acids, vitamin C",
+      "visual": "two cards, green vs red",
+      "layout": "2 cards"
+    },
+    {
+      "n": 8,
+      "role": "disclaimer + CTA",
+      "text": "not medical advice, just research / NOTE: sensitive skin? talk to a derm first / NEXT: follow for more ingredient breakdowns 🔍",
+      "visual": "search icon, divider",
+      "layout": "heading + 2 columns"
+    }
+  ],
+  "product": "None on slides (no brand named); account is an affiliate, so the product sits in the caption/bio at most",
+  "proof_device": "None",
+  "series": "Recurring series 'Ingredient spotlight' (same template, different ingredient)",
+  "caption": "Hook line repeating slide 1 ('check ur skincare 👀 X is everywhere but…') → what you'll get by swiping → disclaimer → follow CTA → 5 hashtags. Casual lowercase, 'ur/u', 3–4 emojis",
+  "hashtags": "5: budol/shopping culture (#Budol, #TikTokMadeMeBuyIt), niche (#SkincareTips, #SkincarePH), trend (#skinimalism); same set on both ingredient posts",
+  "topic": "skincare ingredient: retinol",
+  "language": "English, lowercase, second person, calm expert-friend tone, PH audience cues"
+}

@@ -1,0 +1,73 @@
+{
+  "post": "7680948992317885710",
+  "type": "video",
+  "fingerprint": {
+    "structure": "1 shot, 5.1 s, no cuts: a locked desk shot with the whole text block on screen from second 0. No reveal and no payoff shot; the payoff is the last line of the text and the deadpan face.",
+    "hook": "Rant-as-hook, on screen from 0 s: `I will never understand people who [get annoyed when someone does X] while [still doing the job]. I promise, [Name], [tiny thing] did not [bring the company to its knees].` Two sentences: a workplace grievance, then a sarcastic address to a named coworker with an exaggerated understatement. The caption repeats the joke in one line (`The quarterly earnings will recover`).",
+    "camera_motion": "humans (dynamic, short-form). Selfie video (term 1: front camera on the subject, no phone in shot), locked off, chest-up, phone propped on a desk slightly below eye level and tilted up. Measured: static camera (drift 0.06% of the width per second, no zoom, no rotation). Subject motion 3.4% of the width per second (measured): fingers typing at the bottom edge, a small head movement, eyes looking up and away.",
+    "pacing": "5.13 s, 1 shot, 0 cuts. About 34 words on screen for 5 s (about 6.6 words per second): faster than most people read on a first watch, so it plays as a loop or a re-watch.",
+    "text_overlay": "TikTok-style native text: white, sentence case, medium-heavy sans, centred, 8 short lines, a thin black outline (TikTok Classic, confirmed on an enlarged crop) and no soft shadow. Block box about x 21.5 to 78.6%, y 52.2 to 76.6% of the frame (centre about 64% of the height), sitting over the subject's torso, clear of the face, above the hands. On screen the whole duration.",
+    "audio": "trending third-party song, music only ('Ghost on the Walls', Wren Whispers; not an original sound). The 'Oh' transcript is the song's vocal, not speech. No voiceover.",
+    "arc": "Relatable workplace grievance, then a sarcastic understatement addressed to a named coworker; the subject's deadpan, slightly exasperated look answers the text. No product, no CTA."
+  },
+  "units": [
+    {
+      "n": 1,
+      "role": "hook",
+      "confidence": "medium",
+      "class": "humans",
+      "frame": {
+        "canvas": "1080x1920 (9:16), 5.13 s, 30 fps",
+        "layers": [
+          {"type": "video", "box": [0, 0, 100, 100], "note": "full-frame clip of one person at a desk"},
+          {"type": "text", "box": [21.5, 52.2, 57.1, 24.4], "note": "measured from a 1024x1820 frame by eye"}
+        ],
+        "composition": {
+          "focal": [50, 28],
+          "subject_box": [11, 17, 80, 83],
+          "zone": "middle-center",
+          "negative_space": [[0, 0, 100, 16]],
+          "balance": "face in the upper middle, text block over the torso, hands and keyboard along the bottom edge, a paper cup cut off at the bottom right"
+        },
+        "safe_zones": "the text block clears the right-hand buttons; the keyboard and hands run into the bottom caption area",
+        "color_light": "warm cream office wall, soft window-style daylight from the front, slightly yellow cast; dark cardigan; palette #2f242a #c9b7a0 #675553 #a4857a #e1d3bc (measured)",
+        "quality": "phone-camera realism: brightness 47.8%, contrast 27.3%, saturation 25.7%, sharpness 1285, noise 0.72, clutter 6.1% (all measured)",
+        "origin_realism": "real person filmed in a real office (not AI)"
+      },
+      "text_blocks": [
+        {
+          "text": "I will never understand\npeople who get annoyed\nwhen someone has fun at\nwork while still getting\neverything done. I promise,\nKaren, laughing for 30\nseconds did not bring the\ncompany to its knees.",
+          "origin": "overlay",
+          "role": "hook",
+          "pattern": "center-block",
+          "box": [21.5, 52.2, 57.1, 24.4],
+          "zone": "middle-center",
+          "align": "center",
+          "font": "TikTok Sans (closest match), medium-heavy",
+          "size_pct": 2.6,
+          "case": "sentence case",
+          "fill": "#ffffff",
+          "stroke": "thin black outline, TikTok Classic (seen on an enlarged crop)",
+          "under": "torso and cardigan, clear of the face and hands",
+          "timing": "on screen from 0.0 s to the end (estimated)"
+        }
+      ],
+      "image": {
+        "people": 1,
+        "face_visible": true,
+        "pose_expression_gaze": "sitting upright, typing, eyes rolled up and away from the camera, closed mouth, deadpan, slightly exasperated",
+        "outfit": "dark cardigan or blazer over a dark top, sunglasses pushed up on the head, brown scrunchie on the wrist",
+        "camera_height": "slightly below eye level, tilted up, chest-up framing",
+        "setting": "a small office: cream wall, wooden wall shelf with a plant and a bottle, a mesh file holder on the wall, a paper cup on the desk; tidy, lightly lived-in",
+        "clutter": "low to medium"
+      }
+    }
+  ],
+  "product": "none",
+  "proof_device": "none",
+  "series": "single post",
+  "caption": "one deadpan corporate line that finishes the joke (`The quarterly earnings will recover`), 5 hashtags, no CTA, no emoji",
+  "hashtags": "5, all topic and niche tags: #worktok #9to5 #workhumor #worklife #relateable (sic). No broad tags such as #fyp.",
+  "topic": "workplace humor / having fun at work (tag only)",
+  "language": "English, US, first person, dry and sarcastic, one named coworker addressed by first name"
+}

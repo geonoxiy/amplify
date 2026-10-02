@@ -1,0 +1,23 @@
+[
+ {
+  "model": "nano-banana-pro",
+  "task_id": "277bf2f91f7306c693fa42cf2af9d3af",
+  "credits": 18.0,
+  "output": "content-bank/P012-still-stare-advice-quote/runs/run-01_2026-09-27_willow-advice-quote/raw/still.png",
+  "prompt": "Very low-light phone selfie video frame, vertical 9:16, taken with the front-facing camera, the phone is not visible in the shot. Extremely tight close-up of a woman's face looking straight into the lens. The woman is the same person as in the reference image (same face, freckles, dark brown shoulde"
+ },
+ {
+  "model": "nano-banana-pro",
+  "task_id": "4edbf43b40ad28878c0ff03ee818c3c1",
+  "credits": 18.0,
+  "output": "content-bank/P012-still-stare-advice-quote/runs/run-01_2026-09-27_willow-advice-quote/raw/still.png",
+  "prompt": "Very low-light phone selfie video frame, vertical 9:16, taken with the front-facing camera held very close to her face, the phone is not visible in the shot. Extreme close-up of a woman's face looking straight into the lens, cropped tightly: the top of her head and hair are CUT OFF by the top edge o"
+ },
+ {
+  "model": "kling-3.0/video",
+  "task_id": "fe2a0bac93444c297f95395d3606a85c",
+  "credits": 70.0,
+  "output": "content-bank/P012-still-stare-advice-quote/runs/run-01_2026-09-27_willow-advice-quote/raw/clip.mp4",
+  "prompt": "Realistic very-low-light phone selfie video, the camera is completely locked off, no zoom, no pan, no shake, no cuts. The woman stays almost perfectly still, staring straight into the lens with a serious, expressionless, slightly glassy-eyed look. Only tiny natural movements: one slow blink, the eye"
+ }
+]

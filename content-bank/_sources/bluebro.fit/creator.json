@@ -1,0 +1,35 @@
+{
+  "handle": "bluebro.fit",
+  "name": "Blue Bro Fitness",
+  "bio": "📚 Muscle Growth eBook \n🏋️‍♂️ Training Program \n⬇️ Available Here",
+  "bio_link": "linktr.ee/bluebro.fit",
+  "verified": false,
+  "private": false,
+  "avatar": "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/75a72566c53b0dc072f868d7317f133f~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=86cfa0ba&x-expires=1790474400&x-signature=iOm6HWbpTAq%2BZUkuAbiFG8rAGMo%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
+  "followers": 325500,
+  "following": 25,
+  "likes": 6700000,
+  "posts": 234,
+  "collected_at": "2026-09-25T02:47:59+00:00",
+  "bio_link_note": "Not in the post metadata (fetch.py left it null). Read from the public profile page in the browser pane on 2026-09-25.",
+  "bio_link_destination": {
+    "type": "link hub (Linktree)",
+    "tagline": "Your Blueprint For Muscle Growth",
+    "products": [
+      {
+        "name": "Muscle Manual - eBook",
+        "price": "$19.99"
+      },
+      {
+        "name": "Training Program For Muscle Growth",
+        "price": "not shown on the hub"
+      }
+    ],
+    "socials": [
+      "Instagram",
+      "TikTok",
+      "Email"
+    ],
+    "hub_joined": "2025-08"
+  }
+}

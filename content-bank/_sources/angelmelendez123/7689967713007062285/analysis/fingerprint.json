@@ -1,0 +1,73 @@
+{
+  "post": "7689967713007062285",
+  "type": "video",
+  "fingerprint": {
+    "structure": "1 shot, 5.1 s, no cuts: a locked close-up of a face with the whole text block on screen from second 0. No reveal; the payoff is the last word of the text (`Don't.`).",
+    "hook": "Attributed advice, on screen from 0 s: `My [authority] [big outcome], [he/she] said:` then a quoted paragraph in the shape `There's a time when [good state]. And there's going to be a time when [bad state]. [Why it feels like the end]. In that moment you're going to want to [give up]. Don't.` A credibility line (a therapist who saved a relationship) followed by a two-part contrast and a one-word command.",
+    "camera_motion": "humans (dynamic, short-form). Selfie video (term 1: front camera on the subject, no phone in shot), very tight close-up, eye level, locked off (measured: static, drift about 0.2% of the width per second). Subject motion is almost nil (0.21% of the width per second): a still, expressionless, slightly glassy stare straight into the lens.",
+    "pacing": "5.14 s, 1 shot, 0 cuts. About 62 words on screen for 5 s (about 12 words per second): far faster than a first read, so it is paused or replayed.",
+    "text_overlay": "TikTok native text in pale yellow (#fcffb0, measured), no outline and no shadow, sentence case, medium weight, centred. An intro of 2 lines, a blank line, then a quoted paragraph of 8 lines (curly quotes). Block about x 16.3 to 84%, y 41.2 to 73.6% of the frame (centre about 57% of the height), over the black shirt, clear of the face. On screen the whole duration.",
+    "audio": "trending third-party song, music only ('Younger Years', Zach Bryan; not an original sound). The transcript reports the words 'Letting go, moving on, keeping strong and finding God' from 0 to 5 s; it is treated as part of the sound (lyrics or a voice line inside it), not the creator's voice. Not verified by ear.",
+    "arc": "Sincere, low-light emotional advice about not giving up in a hard stretch; the still stare shows the feeling, the last word `Don't.` is the payoff. No product, no CTA."
+  },
+  "units": [
+    {
+      "n": 1,
+      "role": "hook",
+      "confidence": "medium",
+      "class": "humans",
+      "frame": {
+        "canvas": "1080x1920 (9:16), 5.14 s",
+        "layers": [
+          {"type": "video", "box": [0, 0, 100, 100], "note": "full-frame close-up of one face in a dark room"},
+          {"type": "text", "box": [16.3, 41.2, 67.7, 32.4], "note": "measured by eye on a 1024x1820 frame"}
+        ],
+        "composition": {
+          "focal": [50, 22],
+          "subject_box": [15, 0, 75, 100],
+          "zone": "top-center",
+          "negative_space": [[0, 74, 100, 26]],
+          "balance": "the face fills the upper 45% (eyes at about 22% of the height, mouth at 34%); the text block sits over the black shirt; the bottom quarter is empty dark cloth"
+        },
+        "safe_zones": "the text clears the right-hand buttons; the bottom quarter is empty",
+        "color_light": "very low light, warm brown-olive cast on the wall and skin, deep blacks; palette from the dark shirt, the olive-brown wall and warm skin tones; text #fcffb0 (measured)",
+        "quality": "phone realism in low light: brightness 13.2%, clutter 4.9% (measured), visible sensor noise",
+        "origin_realism": "real person filmed in a real room (not AI)"
+      },
+      "text_blocks": [
+        {
+          "text": "My therapist saved\nmy relationship, he said:\n\n“Theres a time in the relationship\nwhere all you’ll feel is love and\ncomfort. And theres going to be a\ntime where all you’ll feel is anger,\ndistance, and discomfort. All of\nthose emotions are drowning out\nof love. In that moment you’re\ngoing to want to quit. Don’t.”",
+          "origin": "overlay",
+          "role": "hook",
+          "pattern": "center-block",
+          "box": [16.3, 41.2, 67.7, 32.4],
+          "zone": "middle-center",
+          "align": "center",
+          "font": "TikTok Sans (closest match), medium",
+          "size_pct": 2.5,
+          "case": "sentence case",
+          "fill": "#fcffb0",
+          "stroke": "none",
+          "under": "black shirt, clear of the face",
+          "timing": "on screen from 0.0 s to the end (estimated)"
+        }
+      ],
+      "image": {
+        "people": 1,
+        "face_visible": true,
+        "pose_expression_gaze": "face squarely to camera, still, closed mouth, expressionless and slightly glassy-eyed, straight into the lens",
+        "outfit": "plain black crew-neck top",
+        "camera_height": "eye level, very close",
+        "setting": "a dark room, plain wall behind, no visible objects",
+        "clutter": "very low"
+      }
+    }
+  ],
+  "product": "none",
+  "proof_device": "none",
+  "series": "single post",
+  "caption": "empty (no caption at all)",
+  "hashtags": "none",
+  "topic": "relationship advice / not giving up (tag only)",
+  "language": "English, US, first person, earnest; recurring error: `Theres` written without an apostrophe (twice)"
+}

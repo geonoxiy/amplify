@@ -1,0 +1,93 @@
+{
+  "post": "7685705106909613320",
+  "type": "slideshow",
+  "fingerprint": {
+    "structure": "8 slides: hook ('WEAK BACK?') → anatomy overview ('Let's fix that…', 4 muscle insets around a color-coded back) → 5 muscle slides (lats x2, traps, rear delts, erectors), each with a muscle-map icon + sets x reps + two exercises joined by 'OR' → CTA (eBook)",
+    "hook": "Two-word problem question 'WEAK BACK?' over the mascot flexing a back double-bicep with color-coded muscles",
+    "camera_motion": "2d-characters (mascot) on designed cards; illustrations only; 4:5 slides",
+    "pacing": "8 slides, almost no body text: each muscle slide is a heading, a sets x reps line and two illustrated options",
+    "text_overlay": "Headings: Anton-like condensed heavy grotesque, Title Case (ALL CAPS on covers), navy #041732 with accent blue; '#N' numerals in blue, slightly italic; short blue underline (about 12.6% wide) under each heading; body: Didact Gothic-like light sans, gray #4b4945, about 2.7% of frame height, left-aligned at x=10%, 2 to 4 short lines; BLUE BRO logo top-left on every slide; muscle slides put a small muscle-map icon left of the title",
+    "audio": "third-party sound (library-style title and author), not original, no voiceover; slideshow so the sound is only background",
+    "arc": "Name the problem → show the muscles → one choice of two exercises per muscle → sell the program"
+  },
+  "units": [
+    {
+      "n": 1,
+      "role": "hook",
+      "class": "2d-characters",
+      "confidence": "high",
+      "summary": "cover: 'WEAK BACK?' + mascot flexing, back muscles colored green (traps), red (lats), orange (rear delts), yellow (erectors)",
+      "same_as": "forearms post slide 1 layout (headline top, mascot bottom), except two-line headline and the back double-bicep pose"
+    },
+    {
+      "n": 2,
+      "role": "anatomy",
+      "class": "2d-characters",
+      "confidence": "high",
+      "summary": "'Let's Fix That…': back view with 4 callout insets (TRAPS, REAR-DELTS, LATS, ERECTORS) joined by leader lines",
+      "image": {
+        "art_style": "western comic / cel-shaded illustration, thick black outline, flat fills with a little hard shading (likely AI-generated, very consistent across posts)",
+        "character": "Blue Bro mascot: faceless, fully blue (#0270f9) muscular male figure, white almond-shaped eyes with black outline, black shorts, black smartwatch on the left wrist, thick black outline, cel-shaded comic style with vein and abs detail",
+        "pose": "back view, arms down",
+        "recurring": true,
+        "rights": "original brand mascot (owner's own character)",
+        "model_sheet_needed": true,
+        "extra": "callout insets: small mascot torso with the muscle in red, dark name tag under it"
+      }
+    },
+    {
+      "n": 3,
+      "role": "muscle-pick",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "Lats (Adduction): muscle-map icon, '2-3 Sets x 6-10 Reps', Weighted Pull-ups OR Lat Pulldown"
+    },
+    {
+      "n": 4,
+      "role": "muscle-pick",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "Lats (Extension): Close-Grip Seated Row OR Lat Pullover",
+      "same_as": "slide 3, except title and exercises"
+    },
+    {
+      "n": 5,
+      "role": "muscle-pick",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "Traps (Upper Back): Close-Grip Seated Row OR Lat Pullover",
+      "same_as": "slide 3"
+    },
+    {
+      "n": 6,
+      "role": "muscle-pick",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "Rear-Delts: Reverse Pec Dec OR Cable Reverse Fly",
+      "same_as": "slide 3"
+    },
+    {
+      "n": 7,
+      "role": "muscle-pick",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "Erectors (Lower Back): Back Extensions OR Hinge Pattern (note: trained on lower days)",
+      "same_as": "slide 3"
+    },
+    {
+      "n": 8,
+      "role": "cta",
+      "class": "other:designed-card",
+      "confidence": "high",
+      "summary": "'Want A Better Physique?' + Muscle Manual tablet",
+      "same_as": "forearms post slide 6, identical"
+    }
+  ],
+  "product": "Slide 8: same hard-sell eBook CTA as the forearms post, word for word",
+  "proof_device": "none",
+  "series": "single post",
+  "caption": "Short question + 5 hashtags: 'Weak back? Then you have to train all aspects of it!'",
+  "hashtags": "5: #backday #backtraining #backgrowth #gymtip #musclegrowth (topic-specific + niche)",
+  "topic": "back training",
+  "language": "English, second person, punchy; questions as hooks"
+}

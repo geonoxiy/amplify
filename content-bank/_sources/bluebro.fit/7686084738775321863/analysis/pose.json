@@ -1,0 +1,177 @@
+{
+  "video": "content-bank/_sources/bluebro.fit/7686084738775321863/video.mp4",
+  "length": 16.02,
+  "size": [
+    720,
+    1280
+  ],
+  "sampled_fps": 15,
+  "shot_detector": "content-12 (fallback: the default found few cuts)",
+  "shots": [
+    {
+      "shot": 1,
+      "start": 0.0,
+      "end": 2.67,
+      "people_max": 1,
+      "person_found_pct": 100.0,
+      "framing": "full body",
+      "label": "complex full body",
+      "energy_deg_per_s": {
+        "arms": 73.1,
+        "legs": 28.7,
+        "torso": 17.5,
+        "head": 48.8
+      },
+      "travel_torso_lengths": 0.1,
+      "hits_per_s": 1.88
+    },
+    {
+      "shot": 2,
+      "start": 2.67,
+      "end": 5.33,
+      "people_max": 1,
+      "person_found_pct": 100.0,
+      "framing": "full body",
+      "label": "arms only",
+      "energy_deg_per_s": {
+        "arms": 37.9,
+        "legs": 11.8,
+        "torso": 6.3,
+        "head": 16.4
+      },
+      "travel_torso_lengths": 0.06,
+      "hits_per_s": 0.79
+    },
+    {
+      "shot": 3,
+      "start": 5.33,
+      "end": 7.77,
+      "people_max": 2,
+      "person_found_pct": 91.9,
+      "framing": "full body",
+      "label": "complex full body",
+      "energy_deg_per_s": {
+        "arms": 120.0,
+        "legs": 155.3,
+        "torso": 261.6,
+        "head": 169.7
+      },
+      "travel_torso_lengths": 0.59,
+      "hits_per_s": 1.67
+    },
+    {
+      "shot": 4,
+      "start": 7.77,
+      "end": 10.4,
+      "people_max": 1,
+      "person_found_pct": 69.2,
+      "framing": "full body",
+      "label": "arms + torso + head only",
+      "energy_deg_per_s": {
+        "arms": 51.2,
+        "legs": 24.5,
+        "torso": 71.4,
+        "head": 119.5
+      },
+      "travel_torso_lengths": 0.25,
+      "hits_per_s": 1.58
+    },
+    {
+      "shot": 5,
+      "start": 10.4,
+      "end": 13.03,
+      "people_max": 1,
+      "person_found_pct": 100.0,
+      "framing": "full body",
+      "label": "arms only",
+      "energy_deg_per_s": {
+        "arms": 55.6,
+        "legs": 5.1,
+        "torso": 3.0,
+        "head": 15.0
+      },
+      "travel_torso_lengths": 0.05,
+      "hits_per_s": 0.77
+    },
+    {
+      "shot": 6,
+      "start": 13.03,
+      "end": 16.0,
+      "people_max": 1,
+      "person_found_pct": 100.0,
+      "framing": "full body",
+      "label": "arms only",
+      "energy_deg_per_s": {
+        "arms": 50.3,
+        "legs": 8.1,
+        "torso": 4.7,
+        "head": 15.3
+      },
+      "travel_torso_lengths": 0.05,
+      "hits_per_s": 0.7
+    }
+  ],
+  "overall": {
+    "label": "full body, travelling",
+    "energy_deg_per_s": {
+      "arms": 69.0,
+      "legs": 37.3,
+      "torso": 53.2,
+      "head": 59.0
+    },
+    "travel_torso_lengths": 1.22,
+    "hits_per_s": 1.38
+  },
+  "driver_segments": [],
+  "no_segment_shots": [
+    {
+      "shot": 1,
+      "start": 0.0,
+      "end": 2.67,
+      "why": [
+        "shot is 2.7s (motion control needs one continuous shot of 3s or more)"
+      ]
+    },
+    {
+      "shot": 2,
+      "start": 2.67,
+      "end": 5.33,
+      "why": [
+        "shot is 2.7s (motion control needs one continuous shot of 3s or more)"
+      ]
+    },
+    {
+      "shot": 3,
+      "start": 5.33,
+      "end": 7.77,
+      "why": [
+        "shot is 2.4s (motion control needs one continuous shot of 3s or more)"
+      ]
+    },
+    {
+      "shot": 4,
+      "start": 7.77,
+      "end": 10.4,
+      "why": [
+        "shot is 2.6s (motion control needs one continuous shot of 3s or more)"
+      ]
+    },
+    {
+      "shot": 5,
+      "start": 10.4,
+      "end": 13.03,
+      "why": [
+        "shot is 2.6s (motion control needs one continuous shot of 3s or more)"
+      ]
+    },
+    {
+      "shot": 6,
+      "start": 13.03,
+      "end": 16.0,
+      "why": [
+        "shot is 3.0s (motion control needs one continuous shot of 3s or more)"
+      ]
+    }
+  ],
+  "note": "Angles are image-plane; limb energy is the mean smoothed angular speed (a still person reads 5-12 deg/s from tracker jitter, 25+ counts as moving). Labels are rough. Pick a segment for `motion.py driver --segment N`."
+}

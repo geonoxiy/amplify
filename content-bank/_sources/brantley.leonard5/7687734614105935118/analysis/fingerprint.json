@@ -1,0 +1,56 @@
+{
+  "post": "7687734614105935118",
+  "type": "slideshow",
+  "evidence": "Read by eye from the public post page in the browser pane (logged out). The download was blocked (403), so there is no measures.json, no sheet.jpg and no stored image. Boxes and sizes are estimates from one 800x600 screenshot of the page, not code measurements.",
+  "fingerprint": {
+    "structure": "1 slide: a single photo with the quote on it. No hook-then-payoff sequence.",
+    "hook": "Quote-as-hook: a lowercase 4-line aphorism in the pattern 'the less you [verb] the more you [verb]' (a paired 'less X, more Y' contrast). Caption adds an engagement ask ('Like this up').",
+    "camera_motion": "humans. Phone photo of two people (no selfie term needed: both in frame, neither holding the phone in view) sitting close on a dark couch in a dim room, one arm over the other's shoulder, both making a hand sign at the camera, deadpan looks. Flash-like lighting, dark room, muted blacks and greys with one blue graphic tee.",
+    "pacing": "One image, four short lines of text (about 8 words), readable in about 2 seconds.",
+    "text_overlay": "Lowercase, white, sans-serif (looks like TikTok's native font), heavy weight, 4 forced short lines, centred, with a faint soft shadow and no thick outline. Block sits mid-frame (about 47% of the height) over the subjects' chests, between the faces and the lap.",
+    "audio": "unknown (not readable without the app)",
+    "arc": "Attitude statement. The photo shows the same 'unbothered' energy the quote states; no reveal."
+  },
+  "units": [
+    {
+      "n": 1,
+      "role": "hook",
+      "confidence": "medium",
+      "class": "humans",
+      "frame": {
+        "canvas": "1144x1596 (about 5:7, not 9:16)",
+        "layers": [
+          {"type": "photo", "box": [0, 0, 100, 100], "note": "candid two-person couch photo, dark room"},
+          {"type": "text", "box": [26, 36, 48, 30], "note": "estimated"}
+        ],
+        "composition": {"zone": "middle-center", "subject_box": [10, 12, 88, 88], "balance": "two people fill the frame; text sits in the middle over clothing"},
+        "color_light": "low-key, dark room, flash-like light on faces",
+        "quality": "phone photo, some softness and noise"
+      },
+      "text_blocks": [
+        {
+          "text": "the less\nyou care\nthe more\nyou live",
+          "origin": "overlay",
+          "role": "hook",
+          "pattern": "center-block",
+          "box": [30, 38, 40, 24],
+          "zone": "middle-center",
+          "align": "center",
+          "font": "TikTok Sans (closest match), bold",
+          "size_pct": 3.6,
+          "case": "lowercase",
+          "fill": "#ffffff",
+          "stroke": "faint soft shadow, no thick outline (estimated from a screenshot)",
+          "under": "clothing and chest, clear of the faces"
+        }
+      ]
+    }
+  ],
+  "product": "none",
+  "proof_device": "none",
+  "series": "single post",
+  "caption": "engagement ask ('Like this up') followed by hashtags",
+  "hashtags": "5: #relateble (sic) #texttrend #postidea #quotes #fyppp. All broad trend or genre tags, nothing niche.",
+  "topic": "carefree attitude / detachment (tag only)",
+  "language": "English, lowercase, second person, calm and blunt"
+}

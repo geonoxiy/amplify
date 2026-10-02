@@ -1,0 +1,69 @@
+{
+  "post": "7688954741229128968",
+  "type": "video",
+  "fingerprint": {
+    "structure": "16.0s video, 6 shots of about 2.7s: 6 exercises, one per shot; a progress tracker of 6 muscle icons ticks off one more exercise per shot; title, exercise name and sets x reps change on each cut; ends on the last exercise (no outro, no CTA)",
+    "hook": "First 2 seconds: the first exercise already playing (mascot rep animating) with the tracker at 0 ticks; the title and tracker fade in within about 1s",
+    "camera_motion": "2d-characters (mascot) on a plain near-white background, AI-animated (image-to-video) with a locked camera; 9:16, 720x1280",
+    "pacing": "16.0s, 6 shots (0.31 cuts/s), about 2.7s per exercise, same layout every shot",
+    "text_overlay": "Title Title-Case condensed (dark grey) top-center, tracker card below it, exercise name + sets x reps centered under the tracker; logo top-left; no captions or subtitles",
+    "audio": "third-party music, no speech (a music hallucination in the transcript is filtered out)",
+    "arc": "Promise a perfect workout → show 6 exercises in order with visible progress → end"
+  },
+  "units": [
+    {
+      "n": 1,
+      "role": "exercise",
+      "class": "2d-characters",
+      "confidence": "high",
+      "summary": "Hack Squat 2-3 x 6-10 (tracker 0/6); leg-muscle icons in the tracker"
+    },
+    {
+      "n": 2,
+      "role": "exercise",
+      "class": "2d-characters",
+      "confidence": "high",
+      "summary": "second exercise",
+      "same_as": "pull video shot 3"
+    },
+    {
+      "n": 3,
+      "role": "exercise",
+      "class": "2d-characters",
+      "confidence": "high",
+      "summary": "third exercise",
+      "same_as": "pull video shot 3"
+    },
+    {
+      "n": 4,
+      "role": "exercise",
+      "class": "2d-characters",
+      "confidence": "high",
+      "summary": "fourth exercise",
+      "same_as": "pull video shot 3"
+    },
+    {
+      "n": 5,
+      "role": "exercise",
+      "class": "2d-characters",
+      "confidence": "high",
+      "summary": "fifth exercise",
+      "same_as": "pull video shot 3"
+    },
+    {
+      "n": 6,
+      "role": "exercise",
+      "class": "2d-characters",
+      "confidence": "high",
+      "summary": "Seated Leg Curl and later exercises",
+      "same_as": "pull video shot 3"
+    }
+  ],
+  "product": "none",
+  "proof_device": "progress tracker",
+  "series": "single post (weekly series)",
+  "caption": "Short: 'The perfect leg day for muscle growth in 6 exercises!' + 4 hashtags",
+  "hashtags": "4: #gymworkout #legday #legworkout #hypertrophy",
+  "topic": "leg workout",
+  "language": "English text, no speech"
+}

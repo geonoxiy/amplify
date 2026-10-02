@@ -1,0 +1,442 @@
+{
+ "AIGCDescription": "",
+ "CategoryType": 120,
+ "IsAigc": false,
+ "ShowAIGC": true,
+ "author": {
+  "UserStoryStatus": 1,
+  "avatarLarger": "https://p19-common-sign.tiktokcdn.com/tos-alisg-avt-0068/75a72566c53b0dc072f868d7317f133f~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=5775bb1a&x-expires=1790474400&x-signature=5PS2CKrfa8EAx0laj0yK%2FQhUR3k%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
+  "avatarMedium": "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/75a72566c53b0dc072f868d7317f133f~tplv-tiktokx-cropcenter:720:720.jpeg?dr=14579&refresh_token=91b9d3cd&x-expires=1790474400&x-signature=5NZq6CcNUCg47qTvRlXt3fLb0eU%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
+  "avatarThumb": "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/75a72566c53b0dc072f868d7317f133f~tplv-tiktokx-cropcenter:100:100.jpeg?dr=14579&refresh_token=daf591c6&x-expires=1790474400&x-signature=6psX7Jk2nzFpsA9IRAwISl51Edc%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
+  "canExpPlaylist": false,
+  "commentSetting": 0,
+  "createTime": 1732935802,
+  "downloadSetting": 0,
+  "duetSetting": 0,
+  "ftc": false,
+  "id": "7442901283575088135",
+  "isADVirtual": false,
+  "isEmbedBanned": false,
+  "nickNameModifyTime": 0,
+  "nickname": "Blue Bro Fitness",
+  "nowInvitationCardUrl": "",
+  "openFavorite": false,
+  "privateAccount": false,
+  "recommendReason": "",
+  "relation": 0,
+  "roomId": "",
+  "secUid": "MS4wLjABAAAAk6-1a_GAHSEsoIW1BvQxsyAuOUsuAKi6j1p48-BZ978BExoTFt_4ZG8OD9S5u0Kr",
+  "secret": false,
+  "shortDramaCreator": {},
+  "shortId": "",
+  "signature": "📚 Muscle Growth eBook \n🏋️‍♂️ Training Program \n⬇️ Available Here",
+  "stitchSetting": 0,
+  "suggestAccountBind": false,
+  "ttSeller": false,
+  "uniqueId": "bluebro.fit",
+  "uniqueIdModifyTime": 0,
+  "verified": false
+ },
+ "authorStats": {
+  "diggCount": 1191,
+  "followerCount": 325500,
+  "followingCount": 25,
+  "friendCount": 0,
+  "heart": 6700000,
+  "heartCount": 6700000,
+  "videoCount": 234
+ },
+ "authorStatsV2": {
+  "diggCount": "1191",
+  "followerCount": "325500",
+  "followingCount": "25",
+  "friendCount": "0",
+  "heart": "6700000",
+  "heartCount": "6700000",
+  "videoCount": "234"
+ },
+ "backendSourceEventTracking": "",
+ "category": "tiktok",
+ "challenges": [
+  {
+   "coverLarger": "",
+   "coverMedium": "",
+   "coverThumb": "",
+   "desc": "",
+   "id": "220409",
+   "profileLarger": "",
+   "profileMedium": "",
+   "profileThumb": "",
+   "title": "backday"
+  },
+  {
+   "coverLarger": "",
+   "coverMedium": "",
+   "coverThumb": "",
+   "desc": "",
+   "id": "308985",
+   "profileLarger": "",
+   "profileMedium": "",
+   "profileThumb": "",
+   "title": "backtraining"
+  },
+  {
+   "coverLarger": "",
+   "coverMedium": "",
+   "coverThumb": "",
+   "desc": "",
+   "id": "1619313249921029",
+   "profileLarger": "",
+   "profileMedium": "",
+   "profileThumb": "",
+   "title": "backgrowth"
+  },
+  {
+   "coverLarger": "",
+   "coverMedium": "",
+   "coverThumb": "",
+   "desc": "",
+   "id": "80915438",
+   "profileLarger": "",
+   "profileMedium": "",
+   "profileThumb": "",
+   "title": "gymtip"
+  },
+  {
+   "coverLarger": "",
+   "coverMedium": "",
+   "coverThumb": "",
+   "desc": "",
+   "id": "89178570",
+   "profileLarger": "",
+   "profileMedium": "",
+   "profileThumb": "",
+   "title": "musclegrowth"
+  }
+ ],
+ "channelTags": [],
+ "collected": false,
+ "comments": [],
+ "contents": [
+  {
+   "desc": "Weak back? Then you have to train all aspects of it!",
+   "textExtra": []
+  },
+  {
+   "desc": "",
+   "textExtra": []
+  },
+  {
+   "desc": "#backday #backtraining #backgrowth #gymtip #musclegrowth ",
+   "textExtra": [
+    {
+     "awemeId": "",
+     "end": 8,
+     "hashtagId": "220409",
+     "hashtagName": "backday",
+     "isCommerce": false,
+     "start": 0,
+     "subType": 0,
+     "type": 1
+    },
+    {
+     "awemeId": "",
+     "end": 22,
+     "hashtagId": "308985",
+     "hashtagName": "backtraining",
+     "isCommerce": false,
+     "start": 9,
+     "subType": 0,
+     "type": 1
+    },
+    {
+     "awemeId": "",
+     "end": 34,
+     "hashtagId": "1619313249921029",
+     "hashtagName": "backgrowth",
+     "isCommerce": false,
+     "start": 23,
+     "subType": 0,
+     "type": 1
+    },
+    {
+     "awemeId": "",
+     "end": 42,
+     "hashtagId": "80915438",
+     "hashtagName": "gymtip",
+     "isCommerce": false,
+     "start": 35,
+     "subType": 0,
+     "type": 1
+    },
+    {
+     "awemeId": "",
+     "end": 56,
+     "hashtagId": "89178570",
+     "hashtagName": "musclegrowth",
+     "isCommerce": false,
+     "start": 43,
+     "subType": 0,
+     "type": 1
+    }
+   ]
+  }
+ ],
+ "createTime": "1789467676",
+ "creatorAIComment": {
+  "categoryList": [],
+  "eligibleVideo": false,
+  "hasAITopic": false,
+  "notEligibleReason": 101
+ },
+ "date": "2026-09-15 10:21:16",
+ "desc": "Weak back? Then you have to train all aspects of it! #backday #backtraining #backgrowth #gymtip #musclegrowth ",
+ "digged": false,
+ "duetDisplay": 0,
+ "effectStickers": [],
+ "forFriend": false,
+ "id": "7685705106909613320",
+ "imagePost": {
+  "cover": {
+   "imageHeight": 1350,
+   "imageURL": {
+    "urlList": [
+     "https://p16-common-sign.tiktokcdn.com/tos-alisg-i-photomode-sg/67abcab69ce24c608eb8ea5abcead8da~tplv-photomode-image.jpeg?dr=14555&x-expires=1790474400&x-signature=9a%2BAm4sTuTk4qahh6WMk86MnELE%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=my2&ftpl=1",
+     "https://p19-common-sign.tiktokcdn.com/tos-alisg-i-photomode-sg/67abcab69ce24c608eb8ea5abcead8da~tplv-photomode-image.jpeg?dr=14555&x-expires=1790474400&x-signature=RlsK%2ByboLa21oKArnFu2mgQvWtw%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=my2&ftpl=1"
+    ]
+   },
+   "imageWidth": 1080
+  },
+  "images": [
+   {
+    "imageHeight": 1350,
+    "imageURL": {
+     "urlList": [
+      "https://p16-common-sign.tiktokcdn.com/tos-alisg-i-photomode-sg/67abcab69ce24c608eb8ea5abcead8da~tplv-photomode-image.jpeg?dr=14555&x-expires=1790474400&x-signature=9a%2BAm4sTuTk4qahh6WMk86MnELE%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=my2&ftpl=1",
+      "https://p19-common-sign.tiktokcdn.com/tos-alisg-i-photomode-sg/67abcab69ce24c608eb8ea5abcead8da~tplv-photomode-image.jpeg?dr=14555&x-expires=1790474400&x-signature=RlsK%2ByboLa21oKArnFu2mgQvWtw%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=my2&ftpl=1"
+     ]
+    },
+    "imageWidth": 1080
+   },
+   {
+    "imageHeight": 1350,
+    "imageURL": {
+     "urlList": [
+      "https://p16-common-sign.tiktokcdn.com/tos-alisg-i-photomode-sg/1c31604416f94df99a3b66f93d329854~tplv-photomode-image.jpeg?dr=14555&x-expires=1790474400&x-signature=dmClaOqMXvhh9TKCg05RnnNGV58%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=my2&ftpl=1",
+      "https://p19-common-sign.tiktokcdn.com/tos-alisg-i-photomode-sg/1c31604416f94df99a3b66f93d329854~tplv-photomode-image.jpeg?dr=14555&x-expires=1790474400&x-signature=MXO8CpB9I0C%2Bue25EsNc%2FmxMo2w%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=my2&ftpl=1"
+     ]
+    },
+    "imageWidth": 1080
+   },
+   {
+    "imageHeight": 1350,
+    "imageURL": {
+     "urlList": [
+      "https://p16-common-sign.tiktokcdn.com/tos-alisg-i-photomode-sg/27d7466ea5694a6584c83c8c9b550386~tplv-photomode-image.jpeg?dr=14555&x-expires=1790474400&x-signature=6jM35VbyAtoKhWwiRGD9xmbQFvE%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=my2&ftpl=1",
+      "https://p19-common-sign.tiktokcdn.com/tos-alisg-i-photomode-sg/27d7466ea5694a6584c83c8c9b550386~tplv-photomode-image.jpeg?dr=14555&x-expires=1790474400&x-signature=A7fZ3OZRXPY6DPmpQVnon6Oyy2I%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=my2&ftpl=1"
+     ]
+    },
+    "imageWidth": 1080
+   },
+   {
+    "imageHeight": 1350,
+    "imageURL": {
+     "urlList": [
+      "https://p16-common-sign.tiktokcdn.com/tos-alisg-i-photomode-sg/7b3929849bb64f178222803f83bbcdc8~tplv-photomode-image.jpeg?dr=14555&x-expires=1790474400&x-signature=nyjoYkok%2Fv9uCtifk7QEysmpOJ0%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=my2&ftpl=1",
+      "https://p19-common-sign.tiktokcdn.com/tos-alisg-i-photomode-sg/7b3929849bb64f178222803f83bbcdc8~tplv-photomode-image.jpeg?dr=14555&x-expires=1790474400&x-signature=TelJunYPbNwg7wwRKXw1PHwPwHM%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=my2&ftpl=1"
+     ]
+    },
+    "imageWidth": 1080
+   },
+   {
+    "imageHeight": 1350,
+    "imageURL": {
+     "urlList": [
+      "https://p16-common-sign.tiktokcdn.com/tos-alisg-i-photomode-sg/1e9e0b7d77f44127aa1369b00f8c8bd7~tplv-photomode-image.jpeg?dr=14555&x-expires=1790474400&x-signature=aerhNfQKMMH0yU9tufnR5PQtQFk%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=my2&ftpl=1",
+      "https://p19-common-sign.tiktokcdn.com/tos-alisg-i-photomode-sg/1e9e0b7d77f44127aa1369b00f8c8bd7~tplv-photomode-image.jpeg?dr=14555&x-expires=1790474400&x-signature=UmcBTcqdnbzGwlAzSR3iUGg0vtI%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=my2&ftpl=1"
+     ]
+    },
+    "imageWidth": 1080
+   },
+   {
+    "imageHeight": 1350,
+    "imageURL": {
+     "urlList": [
+      "https://p16-common-sign.tiktokcdn.com/tos-alisg-i-photomode-sg/31908c85561a486d8ef540adcf7629c6~tplv-photomode-image.jpeg?dr=14555&x-expires=1790474400&x-signature=1yCdDDUWbCRug6LN%2BqRP9B1IJ%2F8%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=my2&ftpl=1",
+      "https://p19-common-sign.tiktokcdn.com/tos-alisg-i-photomode-sg/31908c85561a486d8ef540adcf7629c6~tplv-photomode-image.jpeg?dr=14555&x-expires=1790474400&x-signature=UWmcyVpi99bG2M7oz2JammuBu3w%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=my2&ftpl=1"
+     ]
+    },
+    "imageWidth": 1080
+   },
+   {
+    "imageHeight": 1350,
+    "imageURL": {
+     "urlList": [
+      "https://p16-common-sign.tiktokcdn.com/tos-alisg-i-photomode-sg/619685fa4b214a7392c9975c24d028fd~tplv-photomode-image.jpeg?dr=14555&x-expires=1790474400&x-signature=y%2B6ixNdGkIBTZCYaUcMN%2FUikjbI%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=my2&ftpl=1",
+      "https://p19-common-sign.tiktokcdn.com/tos-alisg-i-photomode-sg/619685fa4b214a7392c9975c24d028fd~tplv-photomode-image.jpeg?dr=14555&x-expires=1790474400&x-signature=Hh7pOC8tOzB6uvdESiwnE9C93tk%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=my2&ftpl=1"
+     ]
+    },
+    "imageWidth": 1080
+   },
+   {
+    "imageHeight": 1350,
+    "imageURL": {
+     "urlList": [
+      "https://p16-common-sign.tiktokcdn.com/tos-alisg-i-photomode-sg/fac2a44ca82d4f87bc77cf1a1981ec3c~tplv-photomode-image.jpeg?dr=14555&x-expires=1790474400&x-signature=0sxT7HhmF%2BXSEEtCxB6zNgQUYMM%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=my2&ftpl=1",
+      "https://p19-common-sign.tiktokcdn.com/tos-alisg-i-photomode-sg/fac2a44ca82d4f87bc77cf1a1981ec3c~tplv-photomode-image.jpeg?dr=14555&x-expires=1790474400&x-signature=Fngm5%2FFvWKJ%2FaZEJUddM%2B9h4suw%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=my2&ftpl=1"
+     ]
+    },
+    "imageWidth": 1080
+   }
+  ],
+  "shareCover": {
+   "imageHeight": 1350,
+   "imageURL": {
+    "urlList": [
+     "https://p16-common-sign.tiktokcdn.com/tos-alisg-i-photomode-sg/67abcab69ce24c608eb8ea5abcead8da~tplv-photomode-image.jpeg?dr=14555&x-expires=1790474400&x-signature=9a%2BAm4sTuTk4qahh6WMk86MnELE%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=my2&ftpl=1",
+     "https://p19-common-sign.tiktokcdn.com/tos-alisg-i-photomode-sg/67abcab69ce24c608eb8ea5abcead8da~tplv-photomode-image.jpeg?dr=14555&x-expires=1790474400&x-signature=RlsK%2ByboLa21oKArnFu2mgQvWtw%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=my2&ftpl=1"
+    ]
+   },
+   "imageWidth": 1080
+  },
+  "title": ""
+ },
+ "indexEnabled": true,
+ "isAd": false,
+ "isProhibited": false,
+ "isReviewing": false,
+ "itemCommentStatus": 0,
+ "item_control": {
+  "can_repost": true
+ },
+ "locationCreated": "NZ",
+ "music": {
+  "album": "Fading Gray Horizon",
+  "authorName": "Dance Trance Kid",
+  "collected": false,
+  "coverLarge": "https://p16-sg.tiktokcdn.com/aweme/720x720/tos-alisg-v-2774/o8AHAfVTDABqFAbtKAEBAiEsQBDEeA8gxoZ5bC.jpeg",
+  "coverMedium": "https://p16-sg.tiktokcdn.com/aweme/200x200/tos-alisg-v-2774/o8AHAfVTDABqFAbtKAEBAiEsQBDEeA8gxoZ5bC.jpeg",
+  "coverThumb": "https://p16-sg.tiktokcdn.com/aweme/100x100/tos-alisg-v-2774/o8AHAfVTDABqFAbtKAEBAiEsQBDEeA8gxoZ5bC.jpeg",
+  "duration": 52,
+  "id": "7656125883844954158",
+  "isCopyrighted": false,
+  "is_commerce_music": false,
+  "is_unlimited_music": false,
+  "original": false,
+  "playUrl": "https://sf16-ies-music-sg.tiktokcdn.com/obj/tos-alisg-ve-2774/ocA1AAwDiEgilZBBjQFIIS4msMB9BgN9Wf7M1h",
+  "preciseDuration": {
+   "preciseAuditionDuration": 52.8,
+   "preciseDuration": 52.8,
+   "preciseShootDuration": 52.8,
+   "preciseVideoDuration": 6000
+  },
+  "private": false,
+  "scheduleSearchTime": 0,
+  "shoot_duration": 52,
+  "title": "Heavy Hours",
+  "tt2dsp": {
+   "tt_to_dsp_song_infos": []
+  }
+ },
+ "officalItem": false,
+ "originalItem": false,
+ "post_type": "image",
+ "privateItem": false,
+ "scheduleTime": 0,
+ "secret": false,
+ "shareEnabled": true,
+ "stats": {
+  "collectCount": "326",
+  "commentCount": 2,
+  "diggCount": 511,
+  "playCount": 16000,
+  "shareCount": 18
+ },
+ "statsV2": {
+  "collectCount": "326",
+  "commentCount": "2",
+  "diggCount": "511",
+  "playCount": "16000",
+  "repostCount": "0",
+  "shareCount": "18"
+ },
+ "stickersOnItem": [],
+ "stitchDisplay": 0,
+ "subcategory": "post",
+ "suggestedWords": [],
+ "takeDown": 0,
+ "textExtra": [
+  {
+   "awemeId": "",
+   "end": 61,
+   "hashtagId": "220409",
+   "hashtagName": "backday",
+   "isCommerce": false,
+   "start": 53,
+   "subType": 0,
+   "type": 1
+  },
+  {
+   "awemeId": "",
+   "end": 75,
+   "hashtagId": "308985",
+   "hashtagName": "backtraining",
+   "isCommerce": false,
+   "start": 62,
+   "subType": 0,
+   "type": 1
+  },
+  {
+   "awemeId": "",
+   "end": 87,
+   "hashtagId": "1619313249921029",
+   "hashtagName": "backgrowth",
+   "isCommerce": false,
+   "start": 76,
+   "subType": 0,
+   "type": 1
+  },
+  {
+   "awemeId": "",
+   "end": 95,
+   "hashtagId": "80915438",
+   "hashtagName": "gymtip",
+   "isCommerce": false,
+   "start": 88,
+   "subType": 0,
+   "type": 1
+  },
+  {
+   "awemeId": "",
+   "end": 109,
+   "hashtagId": "89178570",
+   "hashtagName": "musclegrowth",
+   "isCommerce": false,
+   "start": 96,
+   "subType": 0,
+   "type": 1
+  }
+ ],
+ "textLanguage": "en",
+ "textTranslatable": true,
+ "titleLanguage": "un",
+ "titleTranslatable": false,
+ "user": "bluebro.fit",
+ "video": {
+  "cover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-i-photomode-sg/67abcab69ce24c608eb8ea5abcead8da~tplv-photomode-image.jpeg?dr=14555&x-expires=1790474400&x-signature=9a%2BAm4sTuTk4qahh6WMk86MnELE%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=my2&ftpl=1",
+  "downloadAddr": "",
+  "duration": 0,
+  "dynamicCover": "",
+  "height": 0,
+  "id": "7685705106909613320",
+  "originCover": "https://p16-common-sign.tiktokcdn.com/tos-alisg-i-photomode-sg/67abcab69ce24c608eb8ea5abcead8da~tplv-photomode-image.jpeg?dr=14555&x-expires=1790474400&x-signature=9a%2BAm4sTuTk4qahh6WMk86MnELE%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=9b759fb9&idc=my2&ftpl=1",
+  "playAddr": "",
+  "ratio": "",
+  "reflowCover": "",
+  "shareCover": [
+   ""
+  ],
+  "width": 0
+ },
+ "warnInfo": []
+}

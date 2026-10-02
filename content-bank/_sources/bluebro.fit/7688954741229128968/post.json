@@ -1,0 +1,55 @@
+{
+  "id": "7688954741229128968",
+  "url": "https://www.tiktok.com/@bluebro.fit/video/7688954741229128968",
+  "creator": "bluebro.fit",
+  "type": "video",
+  "collected_at": "2026-09-25T02:46:59+00:00",
+  "published": {
+    "utc": "2026-09-24T04:31:40+00:00",
+    "local": "2026-09-24T12:31:40+08:00",
+    "timezone": "Asia/Manila",
+    "weekday": "Thursday",
+    "hour": 12
+  },
+  "caption": "The perfect leg day for muscle growth in 6 exercises! #gymworkout #legday #legworkout #hypertrophy ",
+  "hashtags": [
+    "gymworkout",
+    "legday",
+    "legworkout",
+    "hypertrophy"
+  ],
+  "mentions": [],
+  "stats": {
+    "views": 36300,
+    "likes": 709,
+    "comments": 6,
+    "shares": 66,
+    "saves": 617
+  },
+  "rates": {
+    "engagement": 0.0385,
+    "save": 0.017,
+    "share": 0.0018,
+    "comment": 0.0002
+  },
+  "sound": {
+    "title": "Paper Mementos",
+    "author": "June Merrow",
+    "original": false,
+    "id": "7673060610490042418"
+  },
+  "slide_count": null,
+  "duration": 16,
+  "size": {
+    "width": 576,
+    "height": 1024
+  },
+  "labels": {
+    "ad": false,
+    "ai_generated": false,
+    "location": "NZ"
+  },
+  "files": {
+    "video": "video.mp4"
+  }
+}

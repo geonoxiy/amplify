@@ -1,0 +1,64 @@
+{
+  "id": "7674122199007022344",
+  "url": "https://www.tiktok.com/@bluebro.fit/photo/7674122199007022344",
+  "creator": "bluebro.fit",
+  "type": "slideshow",
+  "collected_at": "2026-09-25T02:47:52+00:00",
+  "published": {
+    "utc": "2026-08-15T05:13:36+00:00",
+    "local": "2026-08-15T13:13:36+08:00",
+    "timezone": "Asia/Manila",
+    "weekday": "Saturday",
+    "hour": 13
+  },
+  "caption": "Choose one of each exercise and you’ve built the PERFECT pull workout! #pullday #pullworkout #backday #workouttips ",
+  "hashtags": [
+    "pullday",
+    "pullworkout",
+    "backday",
+    "workouttips"
+  ],
+  "mentions": [],
+  "stats": {
+    "views": 156100,
+    "likes": 6637,
+    "comments": 22,
+    "shares": 272,
+    "saves": 5283
+  },
+  "rates": {
+    "engagement": 0.0782,
+    "save": 0.0338,
+    "share": 0.0017,
+    "comment": 0.0001
+  },
+  "sound": {
+    "title": "original sound - stevelacyoffline",
+    "author": "stevelacyoffline (fan)",
+    "original": true,
+    "id": "7667284290392083221"
+  },
+  "slide_count": 7,
+  "duration": null,
+  "size": {
+    "width": 1080,
+    "height": 1350
+  },
+  "labels": {
+    "ad": false,
+    "ai_generated": false,
+    "location": "NZ"
+  },
+  "files": {
+    "sound": "sound.mp3",
+    "slides": [
+      "slides/01.jpg",
+      "slides/02.jpg",
+      "slides/03.jpg",
+      "slides/04.jpg",
+      "slides/05.jpg",
+      "slides/06.jpg",
+      "slides/07.jpg"
+    ]
+  }
+}

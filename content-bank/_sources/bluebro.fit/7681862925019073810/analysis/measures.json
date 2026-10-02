@@ -1,0 +1,127 @@
+{
+  "type": "slideshow",
+  "slide_count": 3,
+  "size": {
+    "width": 1080,
+    "height": 1350
+  },
+  "aspect": "1080:1350",
+  "palettes": {
+    "slide 1": [
+      {
+        "hex": "#f3f0e9",
+        "share": 0.73
+      },
+      {
+        "hex": "#114c93",
+        "share": 0.116
+      },
+      {
+        "hex": "#a9bccc",
+        "share": 0.052
+      },
+      {
+        "hex": "#fbf6ee",
+        "share": 0.052
+      },
+      {
+        "hex": "#72738c",
+        "share": 0.049
+      }
+    ],
+    "slide 2": [
+      {
+        "hex": "#f3f0e9",
+        "share": 0.446
+      },
+      {
+        "hex": "#e6e3de",
+        "share": 0.328
+      },
+      {
+        "hex": "#265590",
+        "share": 0.115
+      },
+      {
+        "hex": "#9ba3b1",
+        "share": 0.086
+      },
+      {
+        "hex": "#fbf6ec",
+        "share": 0.025
+      }
+    ],
+    "slide 3": [
+      {
+        "hex": "#f3f0e9",
+        "share": 0.743
+      },
+      {
+        "hex": "#fafbfb",
+        "share": 0.128
+      },
+      {
+        "hex": "#c1c4c8",
+        "share": 0.063
+      },
+      {
+        "hex": "#202225",
+        "share": 0.035
+      },
+      {
+        "hex": "#6e80a0",
+        "share": 0.031
+      }
+    ]
+  },
+  "visual": {
+    "slide 1": {
+      "brightness_pct": 82.9,
+      "contrast_pct": 26.3,
+      "saturation_pct": 16.3,
+      "sharpness": 420.1,
+      "noise_sigma": 0.6,
+      "clutter_pct": 3.63,
+      "bars_pct": {
+        "top": 0.0,
+        "bottom": 0.0,
+        "left": 0.0,
+        "right": 0.0
+      },
+      "phash": "e6199da78591314f",
+      "dhash": "c727178e4e8e4d4d"
+    },
+    "slide 2": {
+      "brightness_pct": 82.8,
+      "contrast_pct": 24.0,
+      "saturation_pct": 11.7,
+      "sharpness": 879.0,
+      "noise_sigma": 1.52,
+      "clutter_pct": 5.54,
+      "bars_pct": {
+        "top": 0.0,
+        "bottom": 0.0,
+        "left": 0.0,
+        "right": 0.0
+      },
+      "phash": "ab69e90e161ec1d3",
+      "dhash": "2b0b9b6d69496969"
+    },
+    "slide 3": {
+      "brightness_pct": 89.6,
+      "contrast_pct": 20.3,
+      "saturation_pct": 5.4,
+      "sharpness": 767.5,
+      "noise_sigma": 0.76,
+      "clutter_pct": 3.84,
+      "bars_pct": {
+        "top": 0.0,
+        "bottom": 0.0,
+        "left": 0.0,
+        "right": 0.0
+      },
+      "phash": "e28d9b33cc616996",
+      "dhash": "f27c5363a45d5d25"
+    }
+  }
+}
