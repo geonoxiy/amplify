@@ -1,0 +1,17 @@
+{
+ "spec": "content-bank/P016-clinic-scene-insider-tip-list/runs/run-01_2026-10-05_bolt-pharmacy-habit-lists/specs/b_small-habits-big-time.json",
+ "boxes_pct": {
+  "hook": [
+   7.7,
+   10.0,
+   84.7,
+   13.1
+  ],
+  "list": [
+   9.6,
+   26.0,
+   80.7,
+   38.0
+  ]
+ }
+}

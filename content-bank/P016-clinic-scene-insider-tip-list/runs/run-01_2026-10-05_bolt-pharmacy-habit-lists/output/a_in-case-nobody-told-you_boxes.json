@@ -1,0 +1,17 @@
+{
+ "spec": "content-bank/P016-clinic-scene-insider-tip-list/runs/run-01_2026-10-05_bolt-pharmacy-habit-lists/specs/a_in-case-nobody-told-you.json",
+ "boxes_pct": {
+  "hook": [
+   9.6,
+   10.0,
+   80.9,
+   13.1
+  ],
+  "list": [
+   10.7,
+   27.0,
+   78.6,
+   38.0
+  ]
+ }
+}

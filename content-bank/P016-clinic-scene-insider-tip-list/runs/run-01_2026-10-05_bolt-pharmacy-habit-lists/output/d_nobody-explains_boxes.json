@@ -1,0 +1,17 @@
+{
+ "spec": "content-bank/P016-clinic-scene-insider-tip-list/runs/run-01_2026-10-05_bolt-pharmacy-habit-lists/specs/d_nobody-explains.json",
+ "boxes_pct": {
+  "hook": [
+   9.0,
+   10.0,
+   82.1,
+   9.5
+  ],
+  "list": [
+   9.2,
+   25.0,
+   81.5,
+   32.9
+  ]
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "hook": "in case nobody told you before starting a weight-loss plan...",
+ "list_style": "block",
+ "items": [
+  "eat your protein first at every meal, it keeps you full for longer",
+  "a 10 minute walk after meals adds up more than you think",
+  "drinks count. fizzy drinks, juice and fancy coffees add up fast",
+  "thinking about weight-loss treatment? get a uk clinician to check it's right for you first. Bolt Pharmacy does the check online, no appointment",
+  "short nights make you hungrier the next day, sleep is part of the plan",
+  "weigh yourself once a week, same day, same time. daily numbers jump around"
+ ],
+ "hook_style": "box",
+ "hook_y": 0.1,
+ "list_y": 0.27,
+ "allowed_caps": [
+  "Bolt",
+  "Pharmacy"
+ ],
+ "size": 0.0185,
+ "list_width": 0.76
+}

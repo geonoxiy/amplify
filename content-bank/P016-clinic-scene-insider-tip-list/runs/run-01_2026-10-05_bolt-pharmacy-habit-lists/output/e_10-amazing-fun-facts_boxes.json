@@ -1,0 +1,17 @@
+{
+ "spec": "content-bank/P016-clinic-scene-insider-tip-list/runs/run-01_2026-10-05_bolt-pharmacy-habit-lists/specs/e_10-amazing-fun-facts.json",
+ "boxes_pct": {
+  "hook": [
+   23.8,
+   11.0,
+   52.4,
+   7.1
+  ],
+  "list": [
+   8.3,
+   22.0,
+   83.4,
+   33.8
+  ]
+ }
+}

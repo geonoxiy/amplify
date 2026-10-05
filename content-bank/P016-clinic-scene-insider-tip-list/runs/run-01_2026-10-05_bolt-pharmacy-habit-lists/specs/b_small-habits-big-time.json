@@ -1,0 +1,27 @@
+{
+ "hook": "small habits that make a weight-loss plan actually stick (big time)",
+ "list_style": "block",
+ "size": 0.0168,
+ "items": [
+  "plan tomorrow's meals tonight",
+  "never food shop hungry",
+  "fill half your plate with veg first",
+  "keep a water bottle where you can see it",
+  "want a clinician's help with your plan? Bolt Pharmacy checks it online and a uk clinician reviews every case",
+  "put your fork down between bites",
+  "strength train twice a week to look after your muscle",
+  "swap one takeaway night for a home cook",
+  "go to bed at the same time every night",
+  "don't keep snacks at eye level",
+  "write down how you feel each week, not just the number",
+  "off day? just pick it back up at the next meal"
+ ],
+ "hook_style": "box",
+ "hook_y": 0.1,
+ "list_y": 0.26,
+ "allowed_caps": [
+  "Bolt",
+  "Pharmacy"
+ ],
+ "list_width": 0.78
+}

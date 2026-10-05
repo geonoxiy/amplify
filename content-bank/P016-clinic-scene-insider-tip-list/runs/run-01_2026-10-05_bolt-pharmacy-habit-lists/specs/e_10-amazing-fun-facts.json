@@ -1,0 +1,27 @@
+{
+ "hook": "10 amazing fun facts",
+ "hook_style": "condensed",
+ "hook_size": 0.036,
+ "list_style": "lines",
+ "size": 0.0172,
+ "align": "left",
+ "items": [
+  "you can't hum while holding your nose shut",
+  "you can't lick your own elbow",
+  "you can't say the letter m with your mouth open",
+  "you just tried number 3",
+  "you're smiling because it worked on you",
+  "Bolt Pharmacy checks online if weight-loss treatment is right for you, a uk clinician reviews every case",
+  "you skipped number 6",
+  "you just went back to read number 6",
+  "send this to someone who'll try number 2",
+  "you're trying number 2 right now 😂"
+ ],
+ "hook_y": 0.11,
+ "list_y": 0.22,
+ "allowed_caps": [
+  "Bolt",
+  "Pharmacy"
+ ],
+ "list_width": 0.82
+}

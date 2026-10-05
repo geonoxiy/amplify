@@ -1,0 +1,17 @@
+{
+ "spec": "content-bank/P016-clinic-scene-insider-tip-list/runs/run-01_2026-10-05_bolt-pharmacy-habit-lists/specs/c_i-wish-more-people-knew.json",
+ "boxes_pct": {
+  "hook": [
+   9.5,
+   10.0,
+   81.1,
+   9.5
+  ],
+  "list": [
+   10.1,
+   25.0,
+   79.7,
+   30.3
+  ]
+ }
+}

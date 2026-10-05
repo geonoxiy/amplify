@@ -1,0 +1,23 @@
+{
+ "hook": "things nobody explains when you start losing weight",
+ "list_style": "lines",
+ "size": 0.0178,
+ "align": "center",
+ "items": [
+  "the scale can go up after a good week, water does that",
+  "hunger comes in waves, a glass of water and 10 minutes helps you tell",
+  "protein and fibre keep you full, crisps don't",
+  "you can't out-walk a takeaway every night",
+  "an online pharmacy should still mean a real clinician checks you. at Bolt Pharmacy uk clinicians review every case",
+  "the first changes are often how your clothes fit",
+  "rest days are part of the plan too"
+ ],
+ "hook_style": "box",
+ "hook_y": 0.1,
+ "list_y": 0.25,
+ "allowed_caps": [
+  "Bolt",
+  "Pharmacy"
+ ],
+ "list_width": 0.8
+}

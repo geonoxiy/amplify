@@ -1,0 +1,72 @@
+[
+ {
+  "model": "gpt-image-2-5-sunburst-text-to-image",
+  "task_id": "4c023d9ad4bd452454ce43f94445b448",
+  "credits": 10.0,
+  "output": "content-bank/P016-clinic-scene-insider-tip-list/runs/run-01_2026-10-05_bolt-pharmacy-habit-lists/raw/stills/a_parcel.png",
+  "prompt": "Vertical 9:16 phone video still, filmed handheld by a coworker at chest height, unretouched phone camera: visible grain, slightly soft focus, uneven overhead fluorescent light mixed with daylight, a hint of glare. Not a stock photo, not a studio photo. A real, busy, slightly cluttered UK community p"
+ },
+ {
+  "model": "gpt-image-2-5-sunburst-text-to-image",
+  "task_id": "8b56b5d2b5992723f28045cfab01cb77",
+  "credits": 10.0,
+  "output": "content-bank/P016-clinic-scene-insider-tip-list/runs/run-01_2026-10-05_bolt-pharmacy-habit-lists/raw/stills/b_consult.png",
+  "prompt": "Vertical 9:16 phone video still, filmed handheld by a coworker at chest height, unretouched phone camera: visible grain, slightly soft focus, uneven overhead fluorescent light mixed with daylight, a hint of glare. Not a stock photo, not a studio photo. A real, busy, slightly cluttered UK community p"
+ },
+ {
+  "model": "gpt-image-2-5-sunburst-text-to-image",
+  "task_id": "d6d35be1694a5e2910d31f667c193957",
+  "credits": 10.0,
+  "output": "content-bank/P016-clinic-scene-insider-tip-list/runs/run-01_2026-10-05_bolt-pharmacy-habit-lists/raw/stills/c_label.png",
+  "prompt": "Vertical 9:16 phone video still, filmed handheld by a coworker at chest height, unretouched phone camera: visible grain, slightly soft focus, uneven overhead fluorescent light mixed with daylight, a hint of glare. Not a stock photo, not a studio photo. A real, busy, slightly cluttered UK community p"
+ },
+ {
+  "model": "bytedance/seedance-2-5",
+  "task_id": "987fae5ea47dde1bddf609c2076fcdad",
+  "credits": 567.0,
+  "output": "content-bank/P016-clinic-scene-insider-tip-list/runs/run-01_2026-10-05_bolt-pharmacy-habit-lists/raw/clips/a_parcel.mp4",
+  "prompt": "The worker finishes running the tape gun along the top of the cardboard box, presses the tape flat with a gloved hand, turns the parcel a little and smooths the edge. Handheld phone video filmed by a coworker, very slight natural sway, the camera stays at the same distance and angle the whole time, "
+ },
+ {
+  "model": "gpt-image-2-5-sunburst-text-to-image",
+  "task_id": "52a981f4e2c136ede80e56721fb23ca9",
+  "credits": 10.0,
+  "output": "content-bank/P016-clinic-scene-insider-tip-list/runs/run-01_2026-10-05_bolt-pharmacy-habit-lists/raw/stills/d_stack.png",
+  "prompt": "Vertical 9:16 phone video still, filmed handheld by a coworker at chest height, unretouched phone camera: visible grain, slightly soft focus, uneven overhead fluorescent light mixed with daylight, a hint of glare. Not a stock photo, not a studio photo. A real, busy, slightly cluttered UK community p"
+ },
+ {
+  "model": "bytedance/seedance-2-5",
+  "task_id": "5be9b50004b2164e8c245bae2c8de933",
+  "credits": 756.0,
+  "output": "content-bank/P016-clinic-scene-insider-tip-list/runs/run-01_2026-10-05_bolt-pharmacy-habit-lists/raw/clips/b_consult.mp4",
+  "prompt": "The masked worker keeps typing on the laptop, pauses to read the screen, glances down at the blood pressure monitor on the desk, then types again. Handheld phone video filmed by a coworker, very slight natural sway, the camera stays at the same distance and angle the whole time, no zoom, no cuts. Ke"
+ },
+ {
+  "model": "gpt-image-2-5-sunburst-text-to-image",
+  "task_id": "edf3e59ac1996a0ecaba30e21633f7ec",
+  "credits": 10.0,
+  "output": "content-bank/P016-clinic-scene-insider-tip-list/runs/run-01_2026-10-05_bolt-pharmacy-habit-lists/raw/stills/e_shelves.png",
+  "prompt": "Vertical 9:16 phone video still, filmed handheld by a coworker at chest height, unretouched phone camera: visible grain, slightly soft focus, uneven overhead fluorescent light mixed with daylight, a hint of glare. Not a stock photo, not a studio photo. A real, busy, slightly cluttered UK community p"
+ },
+ {
+  "model": "bytedance/seedance-2-5",
+  "task_id": "e9f1e3d745b13ec9bfcdd0bc1528a5bc",
+  "credits": 567.0,
+  "output": "content-bank/P016-clinic-scene-insider-tip-list/runs/run-01_2026-10-05_bolt-pharmacy-habit-lists/raw/clips/c_label.mp4",
+  "prompt": "The masked worker reads the printed sheet, turns the plain white carton in her gloved hand to check its side, then places it into the grey tray in front of her and picks up the next one. Handheld phone video filmed by a coworker, very slight natural sway, the camera stays at the same distance and an"
+ },
+ {
+  "model": "bytedance/seedance-2-5",
+  "task_id": "cdee15278f4f96f140a7f45f46e77662",
+  "credits": 567.0,
+  "output": "content-bank/P016-clinic-scene-insider-tip-list/runs/run-01_2026-10-05_bolt-pharmacy-habit-lists/raw/clips/d_stack.mp4",
+  "prompt": "The worker lowers the parcel into the grey tray, straightens it, picks up another sealed parcel from the trolley and places it next to the first. Handheld phone video filmed by a coworker, very slight natural sway, the camera stays at the same distance and angle the whole time, no zoom, no cuts. Kee"
+ },
+ {
+  "model": "bytedance/seedance-2-5",
+  "task_id": "943e61f7337b21d3183533b12e3debdb",
+  "credits": 630.0,
+  "output": "content-bank/P016-clinic-scene-insider-tip-list/runs/run-01_2026-10-05_bolt-pharmacy-habit-lists/raw/clips/e_shelves.mp4",
+  "prompt": "The masked worker slides the plain white box onto the shelf, lines it up with the others, reaches down into the open cardboard box for the next one and puts it on the shelf too. Handheld phone video filmed by a coworker, very slight natural sway, the camera stays at the same distance and angle the w"
+ }
+]

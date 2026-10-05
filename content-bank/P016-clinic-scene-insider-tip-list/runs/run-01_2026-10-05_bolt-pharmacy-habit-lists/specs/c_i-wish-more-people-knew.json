@@ -1,0 +1,23 @@
+{
+ "hook": "i wish more people knew this before trying to lose weight",
+ "list_style": "lines",
+ "size": 0.0178,
+ "align": "center",
+ "items": [
+  "weekends count as much as weekdays",
+  "low fat snacks can still be full of sugar, check the label",
+  "you don't have to cut out every food you love",
+  "weight-loss treatment isn't a diy job. at Bolt Pharmacy a uk clinician reviews your case before anything is prescribed",
+  "alcohol has more calories than most people think",
+  "stress and poor sleep make cravings louder",
+  "progress is never a straight line"
+ ],
+ "hook_style": "box",
+ "hook_y": 0.1,
+ "list_y": 0.25,
+ "allowed_caps": [
+  "Bolt",
+  "Pharmacy"
+ ],
+ "list_width": 0.8
+}
