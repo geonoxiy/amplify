@@ -1,0 +1,8 @@
+I0000 00:00:1791171936.061851 13541194 init-domain.cc:128] Fiber init: default domain = pthread, concurrency = 11, prefix = pthread-default
+I0000 00:00:1791171936.179543 13541194 gl_context.cc:407] GL version: 2.1 (2.1 Metal - 90.5), renderer: Apple M4
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+W0000 00:00:1791171936.245547 13541198 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791171936.274620 13541198 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791171936.307749 13541202 landmark_projection_calculator.cc:81] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+task 4d114efeef69bda0148c22032ce9abf5 (kling-3.0/motion-control 1080p, 10.0s driver, ~270 credits) …
+done: 270 credits ($1.350) → content-bank/_model-tests/runs/2026-10-05_top-models/motion/kling3mc.mp4

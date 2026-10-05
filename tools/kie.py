@@ -3,10 +3,15 @@
 
 Usage:
   kie.py balance
-  kie.py image --model nb|nb-edit|nb2 --prompt "…" [--ref img …] [--aspect 9:16] --out file.png
-               [--run <run folder>] [--run-cap 100] [--resolution 1K]
+  kie.py image --model nbp|nb2|sd5|gpt25s|gpt25f|gpt2|nb|nb-edit --prompt "…" [--ref img …] [--aspect 9:16]
+               --out file.png [--run <run folder>] [--run-cap 100] [--resolution 1K|2K|4K] [--take N]
   kie.py video --model kling3 --prompt "…" --first-frame still.png --duration 3 [--mode std|pro] --out clip.mp4
                [--run <run folder>] [--run-cap 100]      image-to-video, whole seconds 3 to 15, silent
+  kie.py video --model seedance25|wan3|h3|omni11 --prompt "…" --out clip.mp4 [--duration 6] [--resolution 1080p]
+               [--first-frame img [--last-frame img]]    first-frame mode, or reference mode:
+               [--ref img …] [--ref-video vid …] [--ref-audio a …]   (refs are Image1/Video1/Audio1 in the prompt)
+               [--audio] [--seed N] [--take N] [--aspect 9:16] [--run …] [--run-cap 100]
+               A reference video is a motion reference: every image sent with it must be a persona or a run still.
   kie.py motion --model kling3-mc --character still.png --driver driver.mp4 [--prompt "…"] [--orientation video|image]
                [--mode 720p|1080p] --out clip.mp4 [--run <run folder>] [--run-cap 100]
   kie.py upscale-video clip.mp4 --factor 1|2|4 --out up.mp4 [--run …]   Topaz video upscale (factor 1 = enhance only)
@@ -30,6 +35,7 @@ import os
 import shutil
 import sys
 import time
+from contextlib import contextmanager
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -47,14 +53,48 @@ MODELS = {  # alias: (model id, credits per image, how references are passed)
     "nb-edit": ("google/nano-banana-edit", 4, "image_urls"),
     "nb2": ("nano-banana-2", 8, "image_input"),  # 1K; 2K = 12, 4K = 18
     "nbp": ("nano-banana-pro", 18, "image_input"),  # best realism + identity hold; up to 8 refs; 1K/2K = 18, 4K = 24
-    "sd5": ("seedream/5-pro-image-to-image", 12, "image_urls"),  # Seedream 5.0 Pro: up to 10 refs; 1K = basic, 2K+ = high (2K); price unverified
+    "sd5": ("seedream/5-pro-image-to-image", 14, "image_urls"),  # Seedream 5.0 Pro: up to 10 refs; 1K = basic (7), 2K+ = high (2K, 14)
 }
+GPT_IMAGE = {  # alias: model id stem, + "-text-to-image" or "-image-to-image" (with refs: up to 16, field input_urls)
+    "gpt25s": "gpt-image-2-5-sunburst",  # GPT Image 2.5 Sunburst: #1 on Artificial Analysis text-to-image and editing (2026-10)
+    "gpt25f": "gpt-image-2-5-flare",  # the faster 2.5 variant, same price
+    "gpt2": "gpt-image-2",
+}
+GPT_PRICE = {"1K": 6, "2K": 10, "4K": 16}  # credits per image, kie pricing table 2026-10-05
 
 
 VIDEO_MODELS = {  # alias: (model id, estimated credits per second by mode). The estimate only guards the cap;
-    # the real cost (creditsConsumed) is what gets logged. Estimates come from a third-party price list, unverified.
+    # the real cost (creditsConsumed) is what gets logged. kie's pricing table (2026-10-05): 720p 14/s, 1080p 18/s silent.
     "kling3": ("kling-3.0/video", {"std": 14, "pro": 18}),
 }
+# Multimodal video models (first frame, or reference images/videos/audio). Prices from kie's pricing table, 2026-10-05.
+MULTI_VIDEO = {  # alias: model id, resolutions (first = default), durations, reference limits
+    "seedance25": {"id": "bytedance/seedance-2-5", "res": ["1080p", "720p", "480p"], "dur": (4, 30),
+                   "max": {"img": 30, "vid": 10, "aud": 10}, "vid_total": 30},
+    "wan3": {"id": "wan/3-0-video", "res": ["1080P", "720P", "480P"], "dur": (2, 30),
+             "max": {"img": 10, "vid": 5, "aud": 5}, "vid_total": 15},
+    "h3": {"id": "minimax-h3/image-to-video", "ref_id": "minimax-h3/reference-to-video", "res": ["2K", "768P"],
+           "dur": (4, 15), "max": {"img": 9, "vid": 3, "aud": 3}, "vid_total": 15},
+    "omni11": {"id": "google/gemini-omni-flash-1-1", "res": ["1080p", "720p", "360p", "4k"], "dur": (4, 10),
+               "max": {"img": 7, "vid": 1, "aud": 0}, "vid_total": 10},
+}
+AUDIO_EXT = {".mp3", ".wav"}
+
+
+def multi_price(alias, res, seconds, n_img, has_video, video_seconds=0):
+    """Credits for one multimodal video call (the cap guard; the real cost is logged)."""
+    if alias == "seedance25":  # with a reference video the lower rate applies to input + output seconds (measured
+        # 2026-10-05: 10 s reference + 10 s output at 1080p = 1900 credits)
+        rate = {"480p": (28, 17), "720p": (63, 38), "1080p": (158, 95)}[res][1 if has_video else 0]
+        return rate * (seconds + (math.ceil(video_seconds) if has_video else 0))
+    if alias == "wan3":
+        return {"480P": 8, "720P": 16, "1080P": 32}[res] * seconds
+    if alias == "h3":
+        return {"768P": 8, "2K": 13}[res] * seconds + 4 * n_img
+    if has_video:  # omni11: per video
+        return 252 if res == "4k" else 168
+    per = {4: 63, 6: 84, 8: 105, 10: 126} if res != "4k" else {4: 147, 6: 168, 8: 189, 10: 210}
+    return per[seconds]
 
 MOTION_MODELS = {  # alias: (model id, input style, estimated credits per second of driver by output resolution).
     # Kling 3.0 is measured (P015 run-01, 2026-10-01): 720p 280 credits for a 14.6 s driver (about 19.2/s), 1080p 351
@@ -107,12 +147,15 @@ def upload(path, max_edge=1280):
     index = json.loads(index_file.read_text()) if index_file.exists() else {}
     h = sha(path)
     is_video = Path(path).suffix.lower() in VIDEO_EXT
-    slot = h if is_video or max_edge == 1280 else f"{h}_{max_edge}"
+    is_audio = Path(path).suffix.lower() in AUDIO_EXT
+    slot = h if is_video or is_audio or max_edge == 1280 else f"{h}_{max_edge}"
     hit = index.get(slot)
     if hit and time.time() - hit["time"] < 20 * 3600:
         return hit["url"]
     if is_video:  # drivers go up as they are: motion.py driver already made them small
         send, mime = Path(path), "video/mp4"
+    elif is_audio:
+        send, mime = Path(path), "audio/mpeg" if Path(path).suffix.lower() == ".mp3" else "audio/wav"
     else:  # references only need to be readable, not full size: a 1280px JPEG uploads in seconds (an 8 MB PNG stalls)
         from PIL import Image
         send, mime = CACHE / (f"ref_{h[:16]}.jpg" if max_edge == 1280 else f"ref_{h[:16]}_{max_edge}.jpg"), "image/jpeg"
@@ -182,7 +225,33 @@ def run_spent(run):
     return sum(c["credits"] for c in json.loads(f.read_text())) if f.exists() else 0
 
 
+@contextmanager
+def locked(path, wait=60):
+    """Cross-platform lock (a .lock file made with O_EXCL), so parallel kie.py calls don't clobber the cost logs."""
+    lock = f"{path}.lock"
+    for _ in range(wait * 10):
+        try:
+            os.close(os.open(lock, os.O_CREAT | os.O_EXCL | os.O_WRONLY))
+            break
+        except FileExistsError:
+            time.sleep(0.1)
+    else:  # a stale lock from a killed process: take it over
+        print(f"  stale lock {lock}, taking it over", flush=True)
+    try:
+        yield
+    finally:
+        try:
+            os.remove(lock)
+        except FileNotFoundError:
+            pass
+
+
 def log(run, model, task, credits, out, prompt):
+    with locked(LEDGER):
+        _log(run, model, task, credits, out, prompt)
+
+
+def _log(run, model, task, credits, out, prompt):
     LEDGER.parent.mkdir(exist_ok=True)
     new = not LEDGER.exists()
     with open(LEDGER, "a", newline="") as f:
@@ -242,7 +311,11 @@ def submit(model, inp, price, cached, out, run, prompt, label, polls):
 
 
 def image(args):
+    if args.model in GPT_IMAGE:
+        return gpt_image(args)
     model, price, ref_field = MODELS[args.model]
+    if args.model == "sd5":
+        price = 7 if args.resolution == "1K" else 14
     if args.model == "nb2":
         price = {"1K": 8, "2K": 12, "4K": 18}[args.resolution]
     if args.model == "nbp":
@@ -250,8 +323,10 @@ def image(args):
     refs = args.ref or []
     if refs and not ref_field:
         sys.exit(f"{args.model} takes no reference images; use nb-edit or nb2")
-    cache_key = hashlib.sha256(json.dumps(
-        [model, args.prompt, [sha(r) for r in refs], args.aspect, args.resolution]).encode()).hexdigest()[:24]
+    key = [model, args.prompt, [sha(r) for r in refs], args.aspect, args.resolution]
+    if args.take > 1:  # a new take of the same request; take 1 keeps the old cache keys
+        key.append(args.take)
+    cache_key = hashlib.sha256(json.dumps(key).encode()).hexdigest()[:24]
     cached, out = CACHE / f"{cache_key}.png", Path(args.out)
     if from_cache(cached, out):
         return
@@ -266,8 +341,36 @@ def image(args):
     submit(model, inp, price, cached, out, args.run, args.prompt, model, polls=120)  # up to ~6 minutes
 
 
+def gpt_image(args):
+    """GPT Image 2 / 2.5: text-to-image, or image-to-image when references are given (up to 16)."""
+    refs = args.ref or []
+    if len(refs) > 16:
+        sys.exit("GPT Image takes up to 16 reference images")
+    if args.aspect in ("auto", "1:1") and args.resolution != "1K":
+        sys.exit("GPT Image renders auto and 1:1 at 1K only: give an aspect ratio or use --resolution 1K")
+    model = f"{GPT_IMAGE[args.model]}-{'image-to-image' if refs else 'text-to-image'}"
+    price = GPT_PRICE[args.resolution]
+    key = [model, args.prompt, [sha(r) for r in refs], args.aspect, args.resolution]
+    if args.take > 1:
+        key.append(args.take)
+    cache_key = hashlib.sha256(json.dumps(key).encode()).hexdigest()[:24]
+    cached, out = CACHE / f"{cache_key}.png", Path(args.out)
+    if from_cache(cached, out):
+        return
+    check_cap(args.run, price, args.run_cap)
+    inp = {"prompt": args.prompt, "aspect_ratio": args.aspect, "resolution": args.resolution}
+    if refs:
+        inp["input_urls"] = [r if r.startswith("http") else upload(r, max_edge=2048) for r in refs]
+    submit(model, inp, price, cached, out, args.run, args.prompt, model, polls=200)  # up to ~10 minutes
+
+
 def video(args):
     """Image-to-video: the first frame goes in, a silent clip comes out (whole seconds, 3 to 15)."""
+    if args.model in MULTI_VIDEO:
+        return multi_video(args)
+    if not args.first_frame:
+        sys.exit("kling3 needs --first-frame")
+    args.duration = args.duration or 3
     model, per_sec = VIDEO_MODELS[args.model]
     if not 3 <= args.duration <= 15:
         sys.exit("duration must be a whole number of seconds from 3 to 15")
@@ -284,6 +387,93 @@ def video(args):
            "sound": False, "multi_shots": False}
     submit(model, inp, price, cached, out, args.run, args.prompt,
            f"{model} {args.mode}, {args.duration}s", polls=300)  # up to ~15 minutes
+
+
+def multi_video(args):
+    """Seedance 2.5, Wan 3.0, MiniMax H3, Gemini Omni 1.1: first-frame mode (optional last frame) or reference mode
+    (images, videos, audio, named Image1/Video1/Audio1 in the prompt in the order given). The two modes can't mix."""
+    spec = MULTI_VIDEO[args.model]
+    args.duration = args.duration or 6
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    from motion import duration_of, rel
+    refs, vids, auds = args.ref or [], args.ref_video or [], args.ref_audio or []
+    framed = bool(args.first_frame or args.last_frame)
+    if args.last_frame and not args.first_frame:
+        sys.exit("--last-frame needs --first-frame")
+    if framed and (refs or vids or auds):
+        sys.exit("first/last frame and reference media can't be combined: pick one mode")
+    if not framed and not (refs or vids):
+        sys.exit("give --first-frame, or reference media (--ref / --ref-video)")
+    for kind, items in (("img", refs), ("vid", vids), ("aud", auds)):
+        if len(items) > spec["max"][kind]:
+            sys.exit(f"{args.model} takes at most {spec['max'][kind]} reference {kind} files")
+    if vids:  # a motion reference: the people in our images must be our fictional personas (owner rule)
+        for img in refs:
+            r = img if img.startswith("http") else rel(img)
+            if not (r.startswith("personas/") or (r.startswith("content-bank/") and "/runs/" in r)):
+                sys.exit(f"{img}: with a reference video, every image must be a persona file or a run still")
+    lengths = [duration_of(Path(v)) for v in vids]
+    if sum(lengths) > spec["vid_total"] + 0.05 and args.model != "omni11":
+        sys.exit(f"{args.model}: reference videos total {sum(lengths):.1f}s, the limit is {spec['vid_total']}s")
+    res = next((r for r in spec["res"] if r.lower() == (args.resolution or spec["res"][0]).lower()), None)
+    if not res:
+        sys.exit(f"{args.model} resolutions: {', '.join(spec['res'])}")
+    lo, hi = spec["dur"]
+    if args.model == "omni11" and args.duration not in (4, 6, 8, 10):
+        sys.exit("omni11 durations: 4, 6, 8 or 10 (ignored with a reference video)")
+    if not lo <= args.duration <= hi:
+        sys.exit(f"{args.model} durations: {lo} to {hi} s")
+    if args.model == "wan3" and vids and sum(lengths) + args.duration > 30:
+        sys.exit("wan3: reference video length + output duration must be 30 s or less")
+    n_img = len(refs) + bool(args.first_frame) + bool(args.last_frame)
+    price = multi_price(args.model, res, args.duration, n_img, bool(vids), sum(lengths))
+    if args.model == "wan3" and vids:  # unclear whether the input video is billed: guard as if it is
+        price += multi_price(args.model, res, math.ceil(sum(lengths)), 0, True)
+    inputs = [args.first_frame, args.last_frame] + refs + vids + auds
+    key = [spec["id"], args.prompt, [sha(i) for i in inputs if i], args.duration, res, args.aspect, args.audio,
+           args.seed]
+    if args.take > 1:
+        key.append(args.take)
+    cache_key = hashlib.sha256(json.dumps(key).encode()).hexdigest()[:24]
+    cached, out = CACHE / f"{cache_key}.mp4", Path(args.out)
+    if from_cache(cached, out):
+        return
+    check_cap(args.run, price, args.run_cap)
+    up = lambda f: f if f.startswith("http") else upload(f, max_edge=2048)  # noqa: E731
+    model, inp = spec["id"], {"prompt": args.prompt}
+    if args.model == "seedance25":
+        inp.update(resolution=res, aspect_ratio=args.aspect, duration=args.duration, generate_audio=args.audio,
+                   output_format="mp4")
+    elif args.model == "wan3":
+        inp.update(resolution=res, aspect_ratio=args.aspect, duration=args.duration, audio=args.audio)
+    elif args.model == "h3":
+        inp.update(resolution=res, duration=args.duration)
+        if not framed:
+            model = spec["ref_id"]
+            inp["aspect_ratio"] = args.aspect
+    else:  # omni11
+        inp.update(resolution=res, aspect_ratio=args.aspect, duration=str(args.duration))
+    if args.seed is not None and args.model in ("wan3", "omni11"):
+        inp["seed"] = args.seed
+    if args.first_frame:
+        inp["first_frame_url"] = up(args.first_frame)
+    if args.last_frame:
+        inp["last_frame_url"] = up(args.last_frame)
+    if args.model == "omni11":
+        if refs:
+            inp["image_urls"] = [up(r) for r in refs]
+        if vids:
+            inp["video_list"] = [{"url": up(vids[0]), "start": 0, "ends": round(min(lengths[0], 10), 2)}]
+    else:
+        if refs:
+            inp["reference_image_urls"] = [up(r) for r in refs]
+        if vids:
+            inp["reference_video_urls"] = [up(v) for v in vids]
+        if auds:
+            inp["reference_audio_urls"] = [up(a) for a in auds]
+    mode = "reference" if not framed else "first frame"
+    submit(model, inp, price, cached, out, args.run, args.prompt,
+           f"{model} {res}, {args.duration}s, {mode}", polls=700)  # up to ~35 minutes
 
 
 def motion(args):
@@ -362,19 +552,29 @@ def main():
     sub.add_parser("balance")
     sub.add_parser("spend")
     p = sub.add_parser("image")
-    p.add_argument("--model", choices=MODELS, default="nb")
+    p.add_argument("--model", choices=list(MODELS) + list(GPT_IMAGE), default="nb")
     p.add_argument("--prompt", required=True)
     p.add_argument("--ref", nargs="*", help="reference images: local files or URLs")
     p.add_argument("--aspect", default="9:16")
     p.add_argument("--resolution", default="1K", choices=["1K", "2K", "4K"])
     p.add_argument("--out", required=True)
+    p.add_argument("--take", type=int, default=1, help="take number: same request, new image (not served from the cache)")
     p.add_argument("--run", help="run folder, for per-run cost tracking and the cap")
     p.add_argument("--run-cap", type=float, default=100, help="max credits per run (default 100 = $0.50)")
     v = sub.add_parser("video")
-    v.add_argument("--model", choices=VIDEO_MODELS, default="kling3")
+    v.add_argument("--model", choices=list(VIDEO_MODELS) + list(MULTI_VIDEO), default="kling3")
     v.add_argument("--prompt", required=True)
-    v.add_argument("--first-frame", required=True, help="local image or URL: the first frame of the clip")
-    v.add_argument("--duration", type=int, default=3)
+    v.add_argument("--first-frame", help="local image or URL: the first frame of the clip")
+    v.add_argument("--last-frame", help="multimodal models: the last frame (needs --first-frame)")
+    v.add_argument("--ref", nargs="*", help="multimodal models: reference images (Image1, Image2, … in the prompt)")
+    v.add_argument("--ref-video", nargs="*", help="multimodal models: reference videos (Video1, …): motion or camera")
+    v.add_argument("--ref-audio", nargs="*", help="seedance25, wan3, h3: reference audio (Audio1, …): voice, music")
+    v.add_argument("--resolution", help="multimodal models: seedance25 1080p|720p|480p, wan3 1080P|720P|480P, "
+                                        "h3 2K|768P, omni11 1080p|720p|360p|4k (default: the highest listed first)")
+    v.add_argument("--audio", action="store_true", help="seedance25, wan3: generate a sound track (off by default)")
+    v.add_argument("--seed", type=int, help="wan3, omni11: fixed seed")
+    v.add_argument("--take", type=int, default=1, help="take number: same request, new clip (not served from the cache)")
+    v.add_argument("--duration", type=int, help="seconds (kling3 default 3, the multimodal models 6)")
     v.add_argument("--mode", choices=["std", "pro"], default="std")
     v.add_argument("--aspect", default="9:16")
     v.add_argument("--out", required=True)

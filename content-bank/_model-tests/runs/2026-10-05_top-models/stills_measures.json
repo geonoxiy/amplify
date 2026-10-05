@@ -1,0 +1,101 @@
+{
+ "nbp_t1": {
+  "size": "3072x5504",
+  "brightness_pct": 49.4,
+  "contrast_pct": 21.5,
+  "saturation_pct": 22.9,
+  "sharpness": 559.7,
+  "noise_sigma": 0.72,
+  "clutter_pct": 5.73
+ },
+ "nbp_t2": {
+  "size": "3072x5504",
+  "brightness_pct": 48.5,
+  "contrast_pct": 25.4,
+  "saturation_pct": 22.4,
+  "sharpness": 522.4,
+  "noise_sigma": 0.72,
+  "clutter_pct": 4.8
+ },
+ "gpt25s_t1": {
+  "size": "2160x3840",
+  "brightness_pct": 46.5,
+  "contrast_pct": 20.4,
+  "saturation_pct": 27.3,
+  "sharpness": 797.9,
+  "noise_sigma": 1.53,
+  "clutter_pct": 4.66
+ },
+ "gpt25s_t2": {
+  "size": "2160x3840",
+  "brightness_pct": 50.0,
+  "contrast_pct": 19.1,
+  "saturation_pct": 25.5,
+  "sharpness": 674.0,
+  "noise_sigma": 1.5,
+  "clutter_pct": 4.83
+ },
+ "gpt25f_t1": {
+  "size": "2160x3840",
+  "brightness_pct": 47.5,
+  "contrast_pct": 18.9,
+  "saturation_pct": 25.7,
+  "sharpness": 590.4,
+  "noise_sigma": 1.59,
+  "clutter_pct": 5.25
+ },
+ "gpt25f_t2": {
+  "size": "2160x3840",
+  "brightness_pct": 42.5,
+  "contrast_pct": 22.0,
+  "saturation_pct": 24.3,
+  "sharpness": 937.4,
+  "noise_sigma": 1.47,
+  "clutter_pct": 6.28
+ },
+ "gpt2_t2": {
+  "size": "2160x3840",
+  "brightness_pct": 47.7,
+  "contrast_pct": 20.8,
+  "saturation_pct": 26.8,
+  "sharpness": 1003.4,
+  "noise_sigma": 1.6,
+  "clutter_pct": 5.26
+ },
+ "nb2_t1": {
+  "size": "3072x5504",
+  "brightness_pct": 52.3,
+  "contrast_pct": 21.2,
+  "saturation_pct": 19.0,
+  "sharpness": 699.7,
+  "noise_sigma": 0.72,
+  "clutter_pct": 4.96
+ },
+ "nb2_t2": {
+  "size": "3072x5504",
+  "brightness_pct": 50.7,
+  "contrast_pct": 21.1,
+  "saturation_pct": 20.0,
+  "sharpness": 583.9,
+  "noise_sigma": 0.72,
+  "clutter_pct": 5.82
+ },
+ "sd5_t1": {
+  "size": "1530x2720",
+  "brightness_pct": 38.6,
+  "contrast_pct": 23.3,
+  "saturation_pct": 22.5,
+  "sharpness": 398.1,
+  "noise_sigma": 1.88,
+  "clutter_pct": 5.06
+ },
+ "sd5_t2": {
+  "size": "1530x2720",
+  "brightness_pct": 37.9,
+  "contrast_pct": 22.1,
+  "saturation_pct": 24.3,
+  "sharpness": 461.1,
+  "noise_sigma": 2.16,
+  "clutter_pct": 4.62
+ }
+}

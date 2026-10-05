@@ -1,0 +1,121 @@
+[
+ {
+  "model": "gpt-image-2-image-to-image",
+  "task_id": "e5ad49b513372f040fc6c40dd9e1c16f",
+  "credits": 0.0,
+  "output": "FAILED",
+  "prompt": "Vertical 9:16 phone photo. The camera is her own iPhone propped on the kitchen windowsill at chest height, level, about one metre from her: rear main camera, everything in focus, nothing creamy or blurred in the background.\n\nThe woman is the same woman as image 1 and image 2: Willow, 31, light-olive"
+ },
+ {
+  "model": "gpt-image-2-5-flare-image-to-image",
+  "task_id": "07a0201f162532b67acaafde9dbfd90f",
+  "credits": 16.0,
+  "output": "content-bank/_model-tests/runs/2026-10-05_top-models/stills/gpt25f_t2.png",
+  "prompt": "Vertical 9:16 phone photo. The camera is her own iPhone propped on the kitchen windowsill at chest height, level, about one metre from her: rear main camera, everything in focus, nothing creamy or blurred in the background.\n\nThe woman is the same woman as image 1 and image 2: Willow, 31, light-olive"
+ },
+ {
+  "model": "nano-banana-2",
+  "task_id": "4f1bf556395cf582b29a5159b33f9ba2",
+  "credits": 18.0,
+  "output": "content-bank/_model-tests/runs/2026-10-05_top-models/stills/nb2_t1.png",
+  "prompt": "Vertical 9:16 phone photo. The camera is her own iPhone propped on the kitchen windowsill at chest height, level, about one metre from her: rear main camera, everything in focus, nothing creamy or blurred in the background.\n\nThe woman is the same woman as image 1 and image 2: Willow, 31, light-olive"
+ },
+ {
+  "model": "gpt-image-2-5-sunburst-image-to-image",
+  "task_id": "9bed802895bca46def9408c4cc1ee2cd",
+  "credits": 16.0,
+  "output": "content-bank/_model-tests/runs/2026-10-05_top-models/stills/gpt25s_t1.png",
+  "prompt": "Vertical 9:16 phone photo. The camera is her own iPhone propped on the kitchen windowsill at chest height, level, about one metre from her: rear main camera, everything in focus, nothing creamy or blurred in the background.\n\nThe woman is the same woman as image 1 and image 2: Willow, 31, light-olive"
+ },
+ {
+  "model": "nano-banana-2",
+  "task_id": "5cc9dc9fbbb855a99050d9948de89c76",
+  "credits": 18.0,
+  "output": "content-bank/_model-tests/runs/2026-10-05_top-models/stills/nb2_t2.png",
+  "prompt": "Vertical 9:16 phone photo. The camera is her own iPhone propped on the kitchen windowsill at chest height, level, about one metre from her: rear main camera, everything in focus, nothing creamy or blurred in the background.\n\nThe woman is the same woman as image 1 and image 2: Willow, 31, light-olive"
+ },
+ {
+  "model": "gpt-image-2-5-sunburst-image-to-image",
+  "task_id": "9dc5ea1965d413eabba8d194534c95b2",
+  "credits": 16.0,
+  "output": "content-bank/_model-tests/runs/2026-10-05_top-models/stills/gpt25s_t2.png",
+  "prompt": "Vertical 9:16 phone photo. The camera is her own iPhone propped on the kitchen windowsill at chest height, level, about one metre from her: rear main camera, everything in focus, nothing creamy or blurred in the background.\n\nThe woman is the same woman as image 1 and image 2: Willow, 31, light-olive"
+ },
+ {
+  "model": "gpt-image-2-image-to-image",
+  "task_id": "934f26b2fbc4b2c8860ea99ea4a865bc",
+  "credits": 16.0,
+  "output": "content-bank/_model-tests/runs/2026-10-05_top-models/stills/gpt2_t2.png",
+  "prompt": "Vertical 9:16 phone photo. The camera is her own iPhone propped on the kitchen windowsill at chest height, level, about one metre from her: rear main camera, everything in focus, nothing creamy or blurred in the background.\n\nThe woman is the same woman as image 1 and image 2: Willow, 31, light-olive"
+ },
+ {
+  "model": "gpt-image-2-5-flare-image-to-image",
+  "task_id": "afcda38ce3e206c5d08f2420fd8f65e6",
+  "credits": 16.0,
+  "output": "content-bank/_model-tests/runs/2026-10-05_top-models/stills/gpt25f_t1.png",
+  "prompt": "Vertical 9:16 phone photo. The camera is her own iPhone propped on the kitchen windowsill at chest height, level, about one metre from her: rear main camera, everything in focus, nothing creamy or blurred in the background.\n\nThe woman is the same woman as image 1 and image 2: Willow, 31, light-olive"
+ },
+ {
+  "model": "nano-banana-pro",
+  "task_id": "db2f3bdb5c6fe99c9e94a0fc5f40e2fd",
+  "credits": 24.0,
+  "output": "content-bank/_model-tests/runs/2026-10-05_top-models/stills/nbp_t2.png",
+  "prompt": "Vertical 9:16 phone photo. The camera is her own iPhone propped on the kitchen windowsill at chest height, level, about one metre from her: rear main camera, everything in focus, nothing creamy or blurred in the background.\n\nThe woman is the same woman as image 1 and image 2: Willow, 31, light-olive"
+ },
+ {
+  "model": "seedream/5-pro-image-to-image",
+  "task_id": "1d53d54b080409a66757224a253b0b7c",
+  "credits": 15.0,
+  "output": "content-bank/_model-tests/runs/2026-10-05_top-models/stills/sd5_t2.png",
+  "prompt": "Vertical 9:16 phone photo. The camera is her own iPhone propped on the kitchen windowsill at chest height, level, about one metre from her: rear main camera, everything in focus, nothing creamy or blurred in the background.\n\nThe woman is the same woman as image 1 and image 2: Willow, 31, light-olive"
+ },
+ {
+  "model": "seedream/5-pro-image-to-image",
+  "task_id": "e5a5894510bc4f250643b2e4b4cfce43",
+  "credits": 15.0,
+  "output": "content-bank/_model-tests/runs/2026-10-05_top-models/stills/sd5_t1.png",
+  "prompt": "Vertical 9:16 phone photo. The camera is her own iPhone propped on the kitchen windowsill at chest height, level, about one metre from her: rear main camera, everything in focus, nothing creamy or blurred in the background.\n\nThe woman is the same woman as image 1 and image 2: Willow, 31, light-olive"
+ },
+ {
+  "model": "nano-banana-pro",
+  "task_id": "3b672a8f596d6988836bbc685ac16672",
+  "credits": 24.0,
+  "output": "content-bank/_model-tests/runs/2026-10-05_top-models/stills/nbp_t1.png",
+  "prompt": "Vertical 9:16 phone photo. The camera is her own iPhone propped on the kitchen windowsill at chest height, level, about one metre from her: rear main camera, everything in focus, nothing creamy or blurred in the background.\n\nThe woman is the same woman as image 1 and image 2: Willow, 31, light-olive"
+ },
+ {
+  "model": "bytedance/seedance-2-5",
+  "task_id": "a8ff73a74d5cf00fdfdc7e4cee61e591",
+  "credits": 1900.0,
+  "output": "content-bank/_model-tests/runs/2026-10-05_top-models/motion/seedance25.mp4",
+  "prompt": "@Image1 is the woman and the place: keep her face, hair, clothes, the background and the light exactly as in @Image1. @Video1 is the motion reference only: she performs exactly the body movement, timing, head movement, facial expressions and mouth movement of the person in @Video1, beat for beat. Do"
+ },
+ {
+  "model": "google/gemini-omni-flash-1-1",
+  "task_id": "a69ae874dae85b959a5e0366215f4aa6",
+  "credits": 168.0,
+  "output": "content-bank/_model-tests/runs/2026-10-05_top-models/motion/omni11.mp4",
+  "prompt": "The uploaded image is the woman and the place: keep her face, hair, clothes, the background and the light exactly as in the image. The uploaded video is the motion reference only: she performs exactly the body movement, timing, head movement, facial expressions and mouth movement of the person in th"
+ },
+ {
+  "model": "kling-3.0/motion-control",
+  "task_id": "4d114efeef69bda0148c22032ce9abf5",
+  "credits": 270.0,
+  "output": "content-bank/_model-tests/runs/2026-10-05_top-models/motion/kling3mc.mp4",
+  "prompt": "No distortion, the character's movements are consistent with the video."
+ },
+ {
+  "model": "wan/3-0-video",
+  "task_id": "6ba6309cfe2f9707c9686021d8f4ec66",
+  "credits": 640.0,
+  "output": "content-bank/_model-tests/runs/2026-10-05_top-models/motion/wan3.mp4",
+  "prompt": "Image1 is the woman and the place: keep her face, hair, clothes, the background and the light exactly as in Image1. Video1 is the motion reference only: she performs exactly the body movement, timing, head movement, facial expressions and mouth movement of the person in Video1, beat for beat. Do not"
+ },
+ {
+  "model": "minimax-h3/reference-to-video",
+  "task_id": "c7abed9cae655c90b93424b74233371e",
+  "credits": 260.0,
+  "output": "content-bank/_model-tests/runs/2026-10-05_top-models/motion/h3.mp4",
+  "prompt": "Image 1 is the woman and the place: keep her face, hair, clothes, the background and the light exactly as in Image 1. Video 1 is the motion reference only: she performs exactly the body movement, timing, head movement, facial expressions and mouth movement of the person in Video 1, beat for beat. Do"
+ }
+]

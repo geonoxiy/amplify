@@ -45,3 +45,6 @@ mockups/out/
 
 # Reddit and Letterboxd capture outputs
 captures/
+
+# Persona reference takes (raw generations); the picked refs live in personas/<id>/refs/
+personas/*/_takes/
