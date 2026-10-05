@@ -37,7 +37,7 @@ This builds on the Persona Appearance and Environment Guidelines (called "Person
 | 2. Scene plan | The scene sheet (2.2): world, depth, lens, focus, micro-motion, light events, method | Written by hand in `package.md` | Scene sheet template in the run folder |
 | 3. Character still | Persona in the new place, placed and lit to plan | `kie.py image` (Nano Banana Pro 4K, Seedream 5.0 Pro edit), layout guide, `motion.py fit` | Depth and light checks on the still |
 | 4. Clean plate and depth | The same still with the persona removed, plus its depth map | none | `motion.py plate` (image edit) and depth (Video Depth Anything) |
-| 5. Performance pass | The persona copies the driver: body, head, face | `kie.py motion` (Kling 3.0 Motion Control, 1080p, minimal prompt), `splice` | Model A/B tests; a face pass for close-ups; a local fix pass for hands |
+| 5. Performance pass | The persona copies the driver: body, head, face | `kie.py video --model seedance25` in reference mode (the main model, owner decision 2026-10-05); Kling 3.0 Motion Control as the fallback; `splice` | A face pass for close-ups; a local fix pass for hands |
 | 6. Background pass | Micro-motion in regions the person never covers; the foreground layer | none | Ambient clip (image-to-video of the clean plate, locked camera) and a region composite |
 | 7. Light and lens pass | Matched light, focus from depth, motion blur, camera, noise | `finish` (camera lock or replay, grade, sharpen, grain, pull-back) | Depth-based focus, shutter blur, exposure and white-balance lag, noise by brightness |
 | 8. Check | Per-channel numbers, frame tiles, face sheet | `check`, `faces`, `measure.py` | Per-channel check, plus stability, light and depth reports |
@@ -515,7 +515,7 @@ Reject:
 1. **Still** with the persona in the place (built, SKILL step 7.4).
 2. **Clean plate.** The same still with the persona removed, using an image edit of the still so the light, perspective and lens stay identical. What was behind them is filled in consistently with the room spec.
 3. **Depth map** of the plate, and the depth layers written down.
-4. **Performance pass** (built: Kling Motion Control with `background_source` set to the still). The model draws the background from the still and keeps the contact shadows and light spill around the person. Keep its background wherever it holds steady.
+4. **Performance pass** (built: Seedance 2.5 reference mode with the still as @Image1; fallback Kling Motion Control with `background_source` set to the still). The model draws the background from the still and keeps the contact shadows and light spill around the person. Keep its background wherever it holds steady.
 5. **Background check** (planned): boiling in static regions, object permanence, and motion energy against the source.
 6. **Region replacement.** Where the model's background boils, freezes or forgets, replace just those regions from the plate or from an ambient clip (6.5). Only use areas that the person and their shadow never cover anywhere in the clip (a person mask across all frames, grown by a margin). Never swap a whole layer.
 7. **Foreground layer** (5.9), then the light and lens pass (Parts 7 and 8).
@@ -719,7 +719,7 @@ Reject:
 
 | Shot type | Channels that matter most | Method | Known limits |
 | :---- | :---- | :---- | :---- |
-| Full-body dance, trend moves | Body, weight, foot contacts, hair, clothes, camera | Kling Motion Control from the source; still at the driver's framing; `finish --camera` | Face coarse at about 150 px; spins and hair flips smear for 0.2 to 0.3 s (P015) |
+| Full-body dance, trend moves | Body, weight, foot contacts, hair, clothes, camera | Seedance 2.5 reference mode from the source (Kling Motion Control as the fallback); still at the driver's framing; `finish --camera` | Face coarse at about 150 px; spins and hair flips smear for 0.2 to 0.3 s (P015) |
 | Talking or lip-sync close-up | Face, eyes, mouth, head, breathing, light on the face | Chest-up driver (face over about 400 px); performance pass, then a face pass if needed (to test); sound offset | Untested; teeth need refs |
 | Walking, travelling | Gait, contacts, parallax, camera bob, background life | Keep the model's camera; check parallax; background people by perspective | Kling pans to follow (P015 run-02); locking the camera costs a big zoom |
 | Props and products | Hands, grip, rigid product, label | Prop in hand in the still; drivers with large hands in frame; label in code | Hand-offs fail |
@@ -867,7 +867,7 @@ Ordered by value for effort. Phases 1 to 3 run locally with no new paid calls. P
 **Phase 4: generation tests (paid; one driver per test, costs logged by `kie.py`).**
 
 * Clean plate (image edit) and ambient clips (image-to-video with a locked camera).
-* A/B the performance pass on one driver: Kling 3.0 Motion Control against Seedance 2.5, MiniMax H3 (lists motion transfer), Wan Animate 2 (listed on kie as coming soon), and Kling 3.0 Omni. Seedance 2.5 takes our still as the first frame plus the driver as a reference video and the track as reference audio, up to 30 s, so it might do motion and lip-sync in one call. Its reference video guides the motion rather than locking every pose the way Kling Motion Control does, so check pose accuracy, and run the source-frame duplicate check, since the source video goes into the model.
+* Performance pass A/B, done 2026-10-05 on a 10 s P015 driver: Kling 3.0 Motion Control, Seedance 2.5, Wan 3.0, MiniMax H3 and Gemini Omni 1.1 (log: `content-bank/_model-tests/runs/2026-10-05_top-models/`). **Owner decision: Seedance 2.5 is the most accurate, so it is the main model** (SKILL step 7.5). It takes our still as a reference image (@Image1) plus the driver as a reference video (@Video1); a first frame can't be combined with a reference video. Billing covers reference plus output seconds (1900 credits for 10 s + 10 s at 1080p). Still to try: the track as reference audio (motion and lip-sync in one call), and Wan Animate 2 and Kling 4.0 once they are on kie. Run the source-frame duplicate check on every take, since the source video goes into the model.
 * Face pass on a chest-up talking driver: Volcengine video-to-video lip-sync, InfiniteTalk, OmniHuman 1.5, Kling AI Avatar.
 * Local fix pass: Seedance 2.5 local editing, Gemini Omni 1.1 Flash, Wan 2.7 Video Edit.
 

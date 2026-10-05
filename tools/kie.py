@@ -90,7 +90,8 @@ def multi_price(alias, res, seconds, n_img, has_video, video_seconds=0):
     if alias == "wan3":
         return {"480P": 8, "720P": 16, "1080P": 32}[res] * seconds
     if alias == "h3":
-        return {"768P": 8, "2K": 13}[res] * seconds + 4 * n_img
+        # measured 2026-10-05: 10 s reference + 10 s output at 2K = 260 credits, so reference seconds are billed too
+        return {"768P": 8, "2K": 13}[res] * (seconds + (math.ceil(video_seconds) if has_video else 0)) + 4 * n_img
     if has_video:  # omni11: per video
         return 252 if res == "4k" else 168
     per = {4: 63, 6: 84, 8: 105, 10: 126} if res != "4k" else {4: 147, 6: 168, 8: 189, 10: 210}
@@ -413,6 +414,15 @@ def multi_video(args):
             if not (r.startswith("personas/") or (r.startswith("content-bank/") and "/runs/" in r)):
                 sys.exit(f"{img}: with a reference video, every image must be a persona file or a run still")
     lengths = [duration_of(Path(v)) for v in vids]
+    if args.model == "seedance25":  # Seedance's reference-video limits, checked before paying
+        import cv2
+        for v in vids:
+            c = cv2.VideoCapture(str(v))
+            w, h, fps = int(c.get(3)), int(c.get(4)), c.get(5)
+            if not 409600 <= w * h <= 927408:
+                sys.exit(f"{v}: {w}x{h} is outside Seedance's reference size (480p or 720p); use motion.py driver --size 720")
+            if not 24 <= fps <= 60:
+                sys.exit(f"{v}: {fps:.1f} fps; Seedance takes 24 to 60")
     if sum(lengths) > spec["vid_total"] + 0.05 and args.model != "omni11":
         sys.exit(f"{args.model}: reference videos total {sum(lengths):.1f}s, the limit is {spec['vid_total']}s")
     res = next((r for r in spec["res"] if r.lower() == (args.resolution or spec["res"][0]).lower()), None)
@@ -562,7 +572,8 @@ def main():
     p.add_argument("--run", help="run folder, for per-run cost tracking and the cap")
     p.add_argument("--run-cap", type=float, default=100, help="max credits per run (default 100 = $0.50)")
     v = sub.add_parser("video")
-    v.add_argument("--model", choices=list(VIDEO_MODELS) + list(MULTI_VIDEO), default="kling3")
+    v.add_argument("--model", choices=list(VIDEO_MODELS) + list(MULTI_VIDEO), default="seedance25",
+                   help="seedance25 is the main model (owner, 2026-10-05); kling3 is the cheaper fallback")
     v.add_argument("--prompt", required=True)
     v.add_argument("--first-frame", help="local image or URL: the first frame of the clip")
     v.add_argument("--last-frame", help="multimodal models: the last frame (needs --first-frame)")

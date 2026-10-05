@@ -32,3 +32,6 @@ The owner's frame: **layers. background, character, foreground.** Change the bac
 - **Open scenes have no vanishing point:** the far ground edge shows the camera height (`layout` now detects it, draws it in the guide and states it in the prompt). Nano Banana Pro kept the camera at chest height or overdid a worm's-eye view; Seedream 5.0 Pro matched "phone at hip height, head and shoulders against the sky".
 - **Kling pans to follow a person who comes close** (both takes, 10% and 22%), even when the source camera is still. Locking it costs a big zoom; filling the uncovered edge shows a seam when the scene has depth (parallax). Until there's a fix, offer the owner the follow-pan version and the zoomed lock side by side.
 - **The face check is unreliable when the person is small or turned away:** run it on the driver too and compare (here both found a face in ~68% of samples), then judge by eye.
+
+## Model test (2026-10-05, owner verdict)
+- **Seedance 2.5 is the most accurate motion-transfer model** of the five tested on a 10 s cut of the run-01 driver (Kling 3.0 Motion Control, Seedance 2.5, Wan 3.0, MiniMax H3, Gemini Omni 1.1). It is now the main model (SKILL step 7.5); Kling Motion Control is the fallback. Log: `content-bank/_model-tests/runs/2026-10-05_top-models/`.
