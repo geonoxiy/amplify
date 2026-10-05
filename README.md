@@ -47,7 +47,7 @@ The tools start without step 6, but the Drive files are what let you re-edit pas
 |---|---|
 | `tools/`: every tool | Rendered slides, videos and raw AI art from every run (`content-bank/P0xx/runs/`) |
 | `.claude/skills/amplify/`: the agent's instructions | Downloaded TikTok videos and images (`content-bank/_sources/`): other creators' posts, for internal analysis only. Their analysis text is on GitHub |
-| `doc/`: scope of work, extraction guidelines, screenshot method | `mockups/inspo/`, `mockups/out/`, `mockups/shots/`: inspiration photos, sample mockups and site screenshots |
+| `doc/`: scope of work, extraction guidelines, screenshot method, persona appearance and environment guidelines, motion recreation and scene realism guidelines | `mockups/inspo/`, `mockups/out/`, `mockups/shots/`: inspiration photos, sample mockups and site screenshots |
 | `content-bank/`: the pillars, their source posts (`originals/`, needed by the originality check), learnings and run notes | `.cache/`: past paid AI generations (so the same request isn't paid for twice) and the pose model |
 | `personas/`, `brands/`, `templates/`, `assets/`: personas, brand files, blank templates, fonts | |
 | `mockups/templates/`: the 16 calibrated device templates | |
@@ -61,8 +61,10 @@ Kept in neither: `.env` (each person uses their own kie.ai key) and `.venv/` (2 
 | Link to pillar (post or profile) | Works. 15 pillars saved, all still `draft` until approved |
 | Static recreation (slides) | Works. Rendered runs in P004, P005, P010, P013, P014 |
 | Caption styles none / soft / hard | Works, with brand files for PagePilot and Bolt Pharmacy |
-| Video recreation | Works for two video types: animated mascot reels (P009, `reel.py`) and short clips with text on screen (P011 and P012, `textclip.py`). Other video formats have no renderer yet |
-| Motion transfer (a persona copies a source video's moves, `motion.py` + `kie.py motion`) | Built. The first run (P015) was sent back for more realism, so it is still being tuned |
+| Video recreation | Works for three video types: animated mascot reels (P009, `reel.py`), short clips with text on screen (P011 and P012, `textclip.py`) and motion transfer (below). Other video formats have no renderer yet |
+| Motion transfer (a persona copies a source video's moves, `motion.py` + `kie.py video --model seedance25`) | Built. Seedance 2.5 is the main model since 2026-10-05: it was the most accurate of five models tested on the same dance (Kling 3.0 Motion Control, `kie.py motion`, is the cheaper fallback). The realism guidelines in `doc/` list what is still being built (face, eye and hand tracking, background depth and light checks) |
+| AI models | `kie.py` calls the top models on kie.ai: Nano Banana Pro, GPT Image 2.5 and Seedream 5.0 Pro for images; Seedance 2.5 (default), Wan 3.0, MiniMax H3, Gemini Omni 1.1 and Kling 3.0 for video. Test notes in `content-bank/_model-tests/` |
+| Personas | Willow has a full profile and a 41-image reference set (face, body, expressions, light, rooms, states) in `personas/` |
 | Reddit and Letterboxd screenshots | Built. The username blur has been tested on a mock page, not yet on live Reddit and Letterboxd, so every screenshot is still checked by eye |
 | Mockups | Works for websites on laptops and phones. Making a template from a social post link is not built yet |
 | My Style questionnaire | Not built. Personas are written by hand in `personas/` |
