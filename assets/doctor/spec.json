@@ -1,0 +1,128 @@
+{
+ "canvas": [
+  1080,
+  1350
+ ],
+ "theme": {
+  "bg": "#f5f3fb",
+  "ink": "#1f1555",
+  "accent": "#4922ff",
+  "body": "#4b4860"
+ },
+ "brand": {
+  "name": "PagePilot",
+  "icon": "../../personas/pip/refs/sheet.png",
+  "icon_crop": [
+   0.045,
+   0.085,
+   0.325,
+   0.45
+  ]
+ },
+ "slides": [
+  {
+   "type": "cover",
+   "role": "hook",
+   "class": "2d-characters",
+   "lines": [
+    {
+     "text": "i wish i knew these",
+     "color": "ink",
+     "cap_pct": 8.6
+    },
+    {
+     "text": "product page tips",
+     "color": "accent",
+     "cap_pct": 8.6
+    },
+    {
+     "text": "sooner",
+     "color": "ink",
+     "cap_pct": 8.6
+    }
+   ],
+   "tag": "(pt. 1)",
+   "top_pct": 11.5,
+   "art": "cover.jpg",
+   "art_box": [
+    6,
+    47,
+    88,
+    53
+   ],
+   "art_note": "Pip waist up, holding a shopping bag and giving a thumbs up, bleeds off the bottom edge"
+  },
+  {
+   "type": "tip",
+   "role": "tip",
+   "number": "#1",
+   "title": "say what it does first",
+   "body": "your title says what the product is. the very first line under it should say what it does for them.\n\nspecs and materials go further down the page, after you have their attention.",
+   "art": "tip1.jpg",
+   "art_box": [
+    14,
+    53,
+    72,
+    43
+   ],
+   "art_note": "Pip shouting into a megaphone"
+  },
+  {
+   "type": "tip",
+   "role": "tip",
+   "number": "#2",
+   "title": "show it in use",
+   "body": "aim for 5 to 7 photos. one clean shot on a plain background, then the product in someone's hands, being used, and next to something everyone knows for scale.",
+   "art": "tip2.jpg",
+   "art_box": [
+    14,
+    53,
+    72,
+    43
+   ],
+   "art_note": "Pip photographing a mug on a stool"
+  },
+  {
+   "type": "tip",
+   "role": "tip",
+   "number": "#3",
+   "title": "answer the doubts early",
+   "body": "put shipping time, returns and sizing right under the add to cart button.\n\nevery question a shopper has to scroll for is another reason to leave.",
+   "art": "tip3.jpg",
+   "art_box": [
+    14,
+    53,
+    72,
+    43
+   ],
+   "art_note": "Pip holding out a shipping parcel"
+  },
+  {
+   "type": "bonus",
+   "role": "bonus-tip / product slot",
+   "title": "bonus tip",
+   "body": "stop building pages by hand. paste a product link into PagePilot and get a full Shopify page in under 60 seconds, then tweak it with drag and drop.",
+   "screen": "phone_top.jpg",
+   "screen_crop": [
+    0,
+    0,
+    1,
+    0.69
+   ],
+   "phone_box": [
+    9,
+    50,
+    36
+   ],
+   "body_w": 80,
+   "art": "bonus.jpg",
+   "art_box": [
+    50,
+    48,
+    44,
+    49
+   ],
+   "art_note": "Pip pointing left at the phone, hand on hip"
+  }
+ ]
+}

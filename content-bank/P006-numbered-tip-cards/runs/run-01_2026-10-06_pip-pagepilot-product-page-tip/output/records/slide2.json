@@ -1,0 +1,142 @@
+{
+  "n": 2,
+  "role": "tip",
+  "class": "other:designed-card",
+  "confidence": "high",
+  "summary": "tip #1: heading, underline, short paragraph, mascot with a prop",
+  "frame": {
+    "canvas": "4:5 portrait, 1080x1350",
+    "layers": [
+      {
+        "type": "background",
+        "box": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "note": "flat card colour #f5f3fb"
+      },
+      {
+        "type": "mark",
+        "box": [
+          2.7,
+          2.1,
+          21.2,
+          4.2
+        ],
+        "note": "brand mark top-left on every slide: mascot head icon + wordmark"
+      },
+      {
+        "type": "accent-line",
+        "box": [
+          10,
+          26.4,
+          12.6,
+          0.5
+        ],
+        "note": "short accent underline under the heading"
+      },
+      {
+        "type": "mascot",
+        "box": [
+          19.8,
+          53.0,
+          60.5,
+          43.0
+        ],
+        "note": "Pip shouting into a megaphone"
+      }
+    ],
+    "composition": {
+      "subject_box": [
+        19.8,
+        53.0,
+        60.5,
+        43.0
+      ]
+    }
+  },
+  "text_blocks": [
+    {
+      "text": "PagePilot",
+      "origin": "mark",
+      "role": "watermark",
+      "pattern": "corner-mark",
+      "box": [
+        8.9,
+        3.1,
+        15.0,
+        2.7
+      ],
+      "zone": "top-left",
+      "align": "left",
+      "font": "Avenir Next Demi Bold",
+      "size_pct": 2.8,
+      "case": "brand name",
+      "fill": "#1f1555",
+      "stroke": "none",
+      "under": "solid card background"
+    },
+    {
+      "text": "#1",
+      "origin": "designed",
+      "role": "number",
+      "pattern": "numbered-heading",
+      "box": [
+        10.0,
+        17.2,
+        7.1,
+        5.4
+      ],
+      "zone": "top-left",
+      "align": "left",
+      "font": "DIN Condensed Bold",
+      "size_pct": 7.6,
+      "case": "n/a",
+      "fill": "#4922ff",
+      "stroke": "none",
+      "under": "solid card background"
+    },
+    {
+      "text": "say what it does first",
+      "origin": "designed",
+      "role": "headline",
+      "pattern": "numbered-heading",
+      "box": [
+        20.1,
+        18.2,
+        49.4,
+        5.6
+      ],
+      "zone": "top-center",
+      "align": "left",
+      "font": "DIN Condensed Bold",
+      "size_pct": 6.2,
+      "case": "lowercase",
+      "fill": "#1f1555",
+      "stroke": "none",
+      "under": "solid card background"
+    },
+    {
+      "text": "your title says what the product is. the very first line under it should say what it does for them. / specs and materials go further down the page, after you have their attention.",
+      "origin": "designed",
+      "role": "body",
+      "pattern": "numbered-heading",
+      "box": [
+        10.0,
+        31.2,
+        70.7,
+        19.4
+      ],
+      "zone": "middle-center",
+      "align": "left",
+      "font": "Avenir Next Regular",
+      "size_pct": 2.6,
+      "case": "lowercase",
+      "fill": "#4b4860",
+      "stroke": "none",
+      "under": "solid card background"
+    }
+  ]
+}

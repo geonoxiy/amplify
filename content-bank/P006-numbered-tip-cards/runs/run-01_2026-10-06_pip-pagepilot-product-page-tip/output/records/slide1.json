@@ -1,0 +1,152 @@
+{
+  "n": 1,
+  "role": "hook",
+  "class": "2d-characters",
+  "confidence": "high",
+  "summary": "cover: regret hook with a series counter over the mascot",
+  "frame": {
+    "canvas": "4:5 portrait, 1080x1350",
+    "layers": [
+      {
+        "type": "background",
+        "box": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "note": "flat card colour #f5f3fb"
+      },
+      {
+        "type": "mark",
+        "box": [
+          2.7,
+          2.1,
+          21.2,
+          4.2
+        ],
+        "note": "brand mark top-left on every slide: mascot head icon + wordmark"
+      },
+      {
+        "type": "mascot",
+        "box": [
+          8.2,
+          47.0,
+          83.6,
+          53.0
+        ],
+        "note": "Pip waist up, holding a shopping bag and giving a thumbs up, bleeds off the bottom edge"
+      }
+    ],
+    "composition": {
+      "subject_box": [
+        8.2,
+        47.0,
+        83.6,
+        53.0
+      ]
+    }
+  },
+  "text_blocks": [
+    {
+      "text": "PagePilot",
+      "origin": "mark",
+      "role": "watermark",
+      "pattern": "corner-mark",
+      "box": [
+        8.9,
+        3.1,
+        15.0,
+        2.7
+      ],
+      "zone": "top-left",
+      "align": "left",
+      "font": "Avenir Next Demi Bold",
+      "size_pct": 2.8,
+      "case": "brand name",
+      "fill": "#1f1555",
+      "stroke": "none",
+      "under": "solid card background"
+    },
+    {
+      "text": "i wish i knew these",
+      "origin": "designed",
+      "role": "hook",
+      "pattern": "top-headline",
+      "box": [
+        5.1,
+        11.5,
+        89.8,
+        8.7
+      ],
+      "zone": "top-center",
+      "align": "center",
+      "font": "DIN Condensed Bold",
+      "size_pct": 12.1,
+      "case": "lowercase",
+      "fill": "#1f1555",
+      "stroke": "none",
+      "under": "solid card background"
+    },
+    {
+      "text": "product page tips",
+      "origin": "designed",
+      "role": "hook",
+      "pattern": "top-headline",
+      "box": [
+        9.2,
+        22.7,
+        81.6,
+        11.1
+      ],
+      "zone": "top-center",
+      "align": "center",
+      "font": "DIN Condensed Bold",
+      "size_pct": 12.1,
+      "case": "lowercase",
+      "fill": "#4922ff",
+      "stroke": "none",
+      "under": "solid card background"
+    },
+    {
+      "text": "sooner",
+      "origin": "designed",
+      "role": "hook",
+      "pattern": "top-headline",
+      "box": [
+        33.9,
+        36.3,
+        32.2,
+        6.3
+      ],
+      "zone": "middle-center",
+      "align": "center",
+      "font": "DIN Condensed Bold",
+      "size_pct": 12.1,
+      "case": "lowercase",
+      "fill": "#1f1555",
+      "stroke": "none",
+      "under": "solid card background"
+    },
+    {
+      "text": "(pt. 1)",
+      "origin": "designed",
+      "role": "series",
+      "pattern": "top-headline",
+      "box": [
+        67.4,
+        38.6,
+        12.5,
+        5.1
+      ],
+      "zone": "middle-right",
+      "align": "left",
+      "font": "DIN Condensed Bold",
+      "size_pct": 5.6,
+      "case": "lowercase",
+      "fill": "#4922ff",
+      "stroke": "none",
+      "under": "solid card background"
+    }
+  ]
+}

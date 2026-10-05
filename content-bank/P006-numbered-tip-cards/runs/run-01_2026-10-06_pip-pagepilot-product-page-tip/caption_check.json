@@ -1,0 +1,13 @@
+{
+  "style": "hard",
+  "brand": "brands/pagepilot.md",
+  "disclosure_position": "end",
+  "characters": 320,
+  "hashtags": 4,
+  "first_100_characters": "save this before you build your next product page 🛍️ bonus tip is the one that saves the most time, ",
+  "fails": [],
+  "warnings": [
+    "style rule is lowercase for overlay/caption text; found capitalised word(s): ['Shopify']"
+  ],
+  "verdict": "pass"
+}

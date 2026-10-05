@@ -1,0 +1,142 @@
+{
+  "n": 3,
+  "role": "tip",
+  "class": "other:designed-card",
+  "confidence": "high",
+  "summary": "tip #2: heading, underline, short paragraph, mascot with a prop",
+  "frame": {
+    "canvas": "4:5 portrait, 1080x1350",
+    "layers": [
+      {
+        "type": "background",
+        "box": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "note": "flat card colour #f5f3fb"
+      },
+      {
+        "type": "mark",
+        "box": [
+          2.7,
+          2.1,
+          21.2,
+          4.2
+        ],
+        "note": "brand mark top-left on every slide: mascot head icon + wordmark"
+      },
+      {
+        "type": "accent-line",
+        "box": [
+          10,
+          26.4,
+          12.6,
+          0.5
+        ],
+        "note": "short accent underline under the heading"
+      },
+      {
+        "type": "mascot",
+        "box": [
+          14.0,
+          54.6,
+          72.0,
+          41.4
+        ],
+        "note": "Pip photographing a mug on a stool"
+      }
+    ],
+    "composition": {
+      "subject_box": [
+        14.0,
+        54.6,
+        72.0,
+        41.4
+      ]
+    }
+  },
+  "text_blocks": [
+    {
+      "text": "PagePilot",
+      "origin": "mark",
+      "role": "watermark",
+      "pattern": "corner-mark",
+      "box": [
+        8.9,
+        3.1,
+        15.0,
+        2.7
+      ],
+      "zone": "top-left",
+      "align": "left",
+      "font": "Avenir Next Demi Bold",
+      "size_pct": 2.8,
+      "case": "brand name",
+      "fill": "#1f1555",
+      "stroke": "none",
+      "under": "solid card background"
+    },
+    {
+      "text": "#2",
+      "origin": "designed",
+      "role": "number",
+      "pattern": "numbered-heading",
+      "box": [
+        10.0,
+        17.2,
+        7.1,
+        5.4
+      ],
+      "zone": "top-left",
+      "align": "left",
+      "font": "DIN Condensed Bold",
+      "size_pct": 7.6,
+      "case": "n/a",
+      "fill": "#4922ff",
+      "stroke": "none",
+      "under": "solid card background"
+    },
+    {
+      "text": "show it in use",
+      "origin": "designed",
+      "role": "headline",
+      "pattern": "numbered-heading",
+      "box": [
+        20.1,
+        18.2,
+        32.9,
+        4.4
+      ],
+      "zone": "top-center",
+      "align": "left",
+      "font": "DIN Condensed Bold",
+      "size_pct": 6.2,
+      "case": "lowercase",
+      "fill": "#1f1555",
+      "stroke": "none",
+      "under": "solid card background"
+    },
+    {
+      "text": "aim for 5 to 7 photos. one clean shot on a plain background, then the product in someone's hands, being used, and next to something everyone knows for scale.",
+      "origin": "designed",
+      "role": "body",
+      "pattern": "numbered-heading",
+      "box": [
+        10.0,
+        31.2,
+        71.1,
+        17.2
+      ],
+      "zone": "middle-center",
+      "align": "left",
+      "font": "Avenir Next Regular",
+      "size_pct": 2.6,
+      "case": "lowercase",
+      "fill": "#4b4860",
+      "stroke": "none",
+      "under": "solid card background"
+    }
+  ]
+}

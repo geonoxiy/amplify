@@ -1,0 +1,120 @@
+{
+  "slides": [
+    {
+      "slide": 1,
+      "words": 10,
+      "raw_overlap_max": 0.5,
+      "raw_overlap_post": "7677822379434724626",
+      "shared_words_with_that_post": [
+        "i",
+        "knew",
+        "sooner",
+        "tips",
+        "wish"
+      ],
+      "content_overlap_max": 0.57,
+      "longest_shared_run_words": 4,
+      "longest_shared_run": "i wish i knew",
+      "longest_run_source": "7677822379434724626: Part 2 of the gym tips I wish I knew sooner for muscle growt",
+      "status": "FAIL"
+    },
+    {
+      "slide": 2,
+      "words": 30,
+      "raw_overlap_max": 0.17,
+      "raw_overlap_post": "7678909857365265672",
+      "shared_words_with_that_post": [
+        "is",
+        "should",
+        "the",
+        "you",
+        "your"
+      ],
+      "content_overlap_max": 0.06,
+      "longest_shared_run_words": 2,
+      "longest_shared_run": "is the",
+      "longest_run_source": "7678909857365265672: Here is the simplest way to figure out your macro ratio.  Th",
+      "status": "pass"
+    },
+    {
+      "slide": 3,
+      "words": 31,
+      "raw_overlap_max": 0.19,
+      "raw_overlap_post": "7685884575632919815",
+      "shared_words_with_that_post": [
+        "2",
+        "7",
+        "a",
+        "being",
+        "in",
+        "to"
+      ],
+      "content_overlap_max": 0.05,
+      "longest_shared_run_words": 1,
+      "longest_shared_run": "2",
+      "longest_run_source": "7676311354575277320: Part 1. Who wants to see part 2?  #gymtips #musclebuildingti",
+      "status": "pass"
+    },
+    {
+      "slide": 4,
+      "words": 28,
+      "raw_overlap_max": 0.11,
+      "raw_overlap_post": "7677822379434724626",
+      "shared_words_with_that_post": [
+        "for",
+        "the",
+        "to"
+      ],
+      "content_overlap_max": 0.0,
+      "longest_shared_run_words": 1,
+      "longest_shared_run": "the",
+      "longest_run_source": "7677822379434724626: Part 2 of the gym tips I wish I knew sooner for muscle growt",
+      "status": "pass"
+    },
+    {
+      "slide": 5,
+      "words": 28,
+      "raw_overlap_max": 0.07,
+      "raw_overlap_post": "7685884575632919815",
+      "shared_words_with_that_post": [
+        "a",
+        "in"
+      ],
+      "content_overlap_max": 0.0,
+      "longest_shared_run_words": 1,
+      "longest_shared_run": "a",
+      "longest_run_source": "7685884575632919815: Eat a High Protein Intake",
+      "status": "pass"
+    }
+  ],
+  "hook": {
+    "words": [
+      "i",
+      "knew",
+      "page",
+      "product",
+      "sooner",
+      "these",
+      "tips",
+      "wish"
+    ],
+    "overlap_by_source": {
+      "7676311354575277320": 0.75,
+      "7677039565802179858": 0.0,
+      "7677822379434724626": 0.75,
+      "7678909857365265672": 0.0,
+      "7685884575632919815": 0.0
+    },
+    "max": 0.75,
+    "status": "FAIL"
+  },
+  "images": {
+    "min_hash_distance": 11,
+    "closest_pair": "slide4.png ~ 7677822379434724626/05.jpg",
+    "near_duplicate_threshold": 10,
+    "status": "pass",
+    "source_blue_share_in_sources_mean": 0.066,
+    "source_blue_share_in_ours_mean": 0.0
+  },
+  "verdict": "FAIL"
+}

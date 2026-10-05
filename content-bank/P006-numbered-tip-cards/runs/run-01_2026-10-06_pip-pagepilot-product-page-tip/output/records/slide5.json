@@ -1,0 +1,132 @@
+{
+  "n": 5,
+  "role": "bonus-tip / product slot",
+  "class": "other:designed-card",
+  "confidence": "high",
+  "summary": "bonus tip: product plug with a phone showing the brand's real site, mascot pointing at it",
+  "frame": {
+    "canvas": "4:5 portrait, 1080x1350",
+    "layers": [
+      {
+        "type": "background",
+        "box": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "note": "flat card colour #f5f3fb"
+      },
+      {
+        "type": "mark",
+        "box": [
+          2.7,
+          2.1,
+          21.2,
+          4.2
+        ],
+        "note": "brand mark top-left on every slide: mascot head icon + wordmark"
+      },
+      {
+        "type": "accent-line",
+        "box": [
+          10,
+          26.4,
+          12.6,
+          0.5
+        ],
+        "note": "short accent underline under the heading"
+      },
+      {
+        "type": "phone-mockup",
+        "box": [
+          9.0,
+          50.0,
+          36.0,
+          39.3
+        ],
+        "note": "phone drawn in code showing a real screenshot of the brand's site (raw/shots/phone_top.png)"
+      },
+      {
+        "type": "mascot",
+        "box": [
+          50.0,
+          53.6,
+          44.0,
+          43.4
+        ],
+        "note": "Pip pointing left at the phone, hand on hip"
+      }
+    ],
+    "composition": {
+      "subject_box": [
+        50.0,
+        53.6,
+        44.0,
+        43.4
+      ]
+    }
+  },
+  "text_blocks": [
+    {
+      "text": "PagePilot",
+      "origin": "mark",
+      "role": "watermark",
+      "pattern": "corner-mark",
+      "box": [
+        8.9,
+        3.1,
+        15.0,
+        2.7
+      ],
+      "zone": "top-left",
+      "align": "left",
+      "font": "Avenir Next Demi Bold",
+      "size_pct": 2.8,
+      "case": "brand name",
+      "fill": "#1f1555",
+      "stroke": "none",
+      "under": "solid card background"
+    },
+    {
+      "text": "bonus tip",
+      "origin": "designed",
+      "role": "headline",
+      "pattern": "numbered-heading",
+      "box": [
+        10.0,
+        18.2,
+        21.9,
+        5.6
+      ],
+      "zone": "top-left",
+      "align": "left",
+      "font": "DIN Condensed Bold",
+      "size_pct": 6.2,
+      "case": "lowercase",
+      "fill": "#1f1555",
+      "stroke": "none",
+      "under": "solid card background"
+    },
+    {
+      "text": "stop building pages by hand. paste a product link into PagePilot and get a full Shopify page in under 60 seconds, then tweak it with drag and drop.",
+      "origin": "designed",
+      "role": "body",
+      "pattern": "numbered-heading",
+      "box": [
+        10.0,
+        31.2,
+        76.0,
+        12.4
+      ],
+      "zone": "middle-center",
+      "align": "left",
+      "font": "Avenir Next Regular",
+      "size_pct": 2.6,
+      "case": "lowercase",
+      "fill": "#4b4860",
+      "stroke": "none",
+      "under": "solid card background"
+    }
+  ]
+}

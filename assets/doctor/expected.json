@@ -1,0 +1,11 @@
+{
+ "machine": "Darwin arm64",
+ "hash_size": 16,
+ "slides": {
+  "slide1.png": "ba6ecf993670890f9165869369569fc6c4f04b03366e74991b334eec38b0633b",
+  "slide2.png": "b34ecdb1b2c66b19cde5b2b44c5bc3269cb134cec3313ce5031ae0c3cd39d247",
+  "slide3.png": "b91ec7e1191e3263c58d7856a661599e86633b1c99f2370ccc611b9fc0ec7e13",
+  "slide4.png": "a71999e6233166de9927849b99972665999a26692d9a33699c64619ace67d393",
+  "slide5.png": "bbd4c42bc0173bccc413697ee685197496e94e961b2d3cd2936dc097b54ac2b5"
+ }
+}

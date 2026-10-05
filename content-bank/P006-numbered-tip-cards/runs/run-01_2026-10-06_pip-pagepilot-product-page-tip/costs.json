@@ -1,0 +1,44 @@
+[
+ {
+  "model": "gpt-image-2-5-sunburst-text-to-image",
+  "task_id": "3fb064c469ea72f2f3b700a7b30d2fb0",
+  "credits": 10.0,
+  "output": "personas/pip/refs/sheet.png",
+  "prompt": "Character model sheet of one original cartoon mascot shown three times side by side on a plain pure white background: front view, side view (facing right), back view, full body, standing relaxed, same size in each view, evenly spaced, nothing touching the edges. The mascot: a friendly chunky little "
+ },
+ {
+  "model": "gpt-image-2-5-sunburst-image-to-image",
+  "task_id": "4484541de43b4df18eec2c1f32d1fde1",
+  "credits": 10.0,
+  "output": "content-bank/P006-numbered-tip-cards/runs/run-01_2026-10-06_pip-pagepilot-product-page-tip/raw/bonus.png",
+  "prompt": "Pip, full body, standing and turned toward the left of the image, pointing to the left with one arm fully stretched out, the other hand on his hip, excited presenting pose, leave empty space on the left side. Same character as the reference model sheet: Pip, a chunky little faceless pilot mascot wit"
+ },
+ {
+  "model": "gpt-image-2-5-sunburst-image-to-image",
+  "task_id": "95c6e3220ccee213cecd5f97d221c854",
+  "credits": 10.0,
+  "output": "content-bank/P006-numbered-tip-cards/runs/run-01_2026-10-06_pip-pagepilot-product-page-tip/raw/tip1.png",
+  "prompt": "Pip, full body, standing side-on, shouting happily into a big grey hand megaphone pointed up and to the right, his free arm raised in excitement. Same character as the reference model sheet: Pip, a chunky little faceless pilot mascot with a big round solid purple (#4922FF) head, round aviator goggle"
+ },
+ {
+  "model": "gpt-image-2-5-sunburst-image-to-image",
+  "task_id": "d0b0551dffc04ac8ab3acdc57f04bbaa",
+  "credits": 10.0,
+  "output": "content-bank/P006-numbered-tip-cards/runs/run-01_2026-10-06_pip-pagepilot-product-page-tip/raw/cover.png",
+  "prompt": "Pip shown from the waist up, large, facing the viewer at a slight angle, proudly holding up a big plain cream paper shopping bag with rope handles in one hand and giving a thumbs up with the other hand, cheerful confident pose. Same character as the reference model sheet: Pip, a chunky little facele"
+ },
+ {
+  "model": "gpt-image-2-5-sunburst-image-to-image",
+  "task_id": "082a9aa7508f503bc2581c4f4e57aec6",
+  "credits": 10.0,
+  "output": "content-bank/P006-numbered-tip-cards/runs/run-01_2026-10-06_pip-pagepilot-product-page-tip/raw/tip2.png",
+  "prompt": "Pip, full body, crouching slightly and taking a photo with a chunky black camera held to his goggles, aimed at a plain cream coffee mug standing on a small round wooden stool in front of him. Same character as the reference model sheet: Pip, a chunky little faceless pilot mascot with a big round sol"
+ },
+ {
+  "model": "gpt-image-2-5-sunburst-image-to-image",
+  "task_id": "f10e13e7d9082cb3ff0cbefb8b24dfa3",
+  "credits": 10.0,
+  "output": "content-bank/P006-numbered-tip-cards/runs/run-01_2026-10-06_pip-pagepilot-product-page-tip/raw/tip3.png",
+  "prompt": "Pip, full body, walking forward and holding out a closed brown cardboard shipping parcel with tape on top in both hands, offering it to the viewer, friendly helpful pose. Same character as the reference model sheet: Pip, a chunky little faceless pilot mascot with a big round solid purple (#4922FF) h"
+ }
+]
