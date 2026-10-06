@@ -143,7 +143,8 @@ def check_key(offline):
 
 def check_instructions():
     need = ["CLAUDE.md", ".claude/skills/amplify/SKILL.md", ".claude/skills/amplify-plus/SKILL.md",
-            ".claude/skills/amplify-account-copy/SKILL.md", "doc/Owner Rules.md", "doc/Project Deliverables.md"]
+            ".claude/skills/amplify-account-copy/SKILL.md", "doc/Owner Rules.md", "doc/Project Deliverables.md",
+            "doc/setup/Approved Models.md", "doc/setup/Setup Audit for Claude.md", "tools/manifest.py"]
     missing = [n for n in need if not (ROOT / n).exists()]
     if missing:
         report("fail", "instruction files Claude reads", "missing " + ", ".join(missing) + " (pull from GitHub)")

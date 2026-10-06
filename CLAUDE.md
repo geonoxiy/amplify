@@ -5,6 +5,8 @@ Amplify turns TikTok and Instagram posts into reusable content formats (pillars,
 ## Setup
 - Claude must run with this folder (the one holding this file) as the working folder, or the skills don't load.
 - The owner's results are made with **Claude Opus** (Opus 5.5 as of 2026-10). If you are a different model, say so in your first reply so the user can switch in the model picker.
+- **Image and video models: only the ones in `doc/setup/Approved Models.md`.** That file wins over older model lines in the skills.
+- Different results from the owner's? Run the audit in `doc/setup/Setup Audit for Claude.md`.
 - On a new machine, or after a `git pull`, run `./.venv/bin/python tools/doctor.py` (Windows: `./.venv/python.exe tools/doctor.py`) and fix every FAIL line with the README setup steps before making content. If `.venv` doesn't exist yet, do the README setup first.
 
 ## Every content request goes through the skills
