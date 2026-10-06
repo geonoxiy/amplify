@@ -1,24 +1,28 @@
-# Amplify: TikTok Content Pillar Engine
+# Amplify: TikTok and Instagram Content Pillar Engine
 
-An agent that turns a TikTok link into a reusable content format (a **pillar**) and then makes new posts in that format, for our own personas or for a brand (no sell, soft sell or hard sell). It also captures Reddit and Letterboxd screenshots and puts real websites on laptop and phone mockups.
+> **New here? Read [`doc/setup/Start Here.md`](doc/setup/Start%20Here.md)**: what Amplify is, setup, how to check your setup, the commands and how to ask for things. Use **Claude Code with Claude Opus 5.5**; ChatGPT and other chat apps can't run the tools.
 
-It is not a standalone app. It is a **Claude skill** (`.claude/skills/amplify/SKILL.md`) plus the Python tools in `tools/`. You open this folder in the Code tab of the Claude desktop app and talk to Claude; Claude runs the tools. It works on Mac and Windows.
+An agent that turns a TikTok or Instagram link into a reusable content format (a **pillar**) and then makes new posts in that format, for our own personas or for a brand (no sell, soft sell or hard sell). It also captures Reddit and Letterboxd screenshots and puts real websites on laptop and phone mockups.
+
+It is not a standalone app. It is a set of **Claude skills** (`.claude/skills/`) plus the Python tools in `tools/`. You open this folder in the Code tab of the Claude desktop app and talk to Claude; Claude runs the tools. It works on Mac and Windows.
 
 ## What you can ask for
 
 | You say | You get |
 |---|---|
-| `extract https://www.tiktok.com/@creator/photo/123…` (one post) or `extract https://www.tiktok.com/@creator` (a profile) | The posts downloaded and broken down, saved as pillars in `content-bank/`. A profile also gets a creator summary |
+| `extract https://www.tiktok.com/@creator/photo/123…` (one post) or `extract https://www.tiktok.com/@creator` (a profile). Instagram Reels, posts and profiles work the same way | The posts downloaded and broken down, saved as pillars in `content-bank/`. A profile also gets a creator summary |
 | `create content about <topic> using pillar P005 for persona willow caption soft brand pagepilot` | A content package (hooks, slide or shot plan, caption) plus rendered PNG slides, or an MP4 for the video pillars below. `caption` is `none`, `soft` or `hard`; soft and hard need a brand file in `brands/` |
+| `copy @bluebro.fit for my account pagepilot.ai` | The account's whole content system rebuilt for your brand: an original mascot or persona, its card look, one finished carousel |
 | `capture reddit <thread link>` / `capture letterboxd "<film title>"` | 9 cleaned screenshots (usernames blurred) and a `caption.txt` in `captures/` |
 | `find reddit ideas r/AskReddit top 10` / `find letterboxd ideas` | A ranked shortlist of threads or films. Nothing is captured until you pick numbers |
 | `mockup https://example.com` (runs `mockup.py make`) | The live site screenshotted at real device size and placed on 9 laptop and 7 phone templates |
+| `check my setup` · `how do I use this` | The setup checks below, or a short tour of the commands |
 
 Anything not on this list can still be asked in plain words; the skill file tells Claude which tool does what.
 
 ## Setup (once, on Mac or Windows)
 
-You need: the **Claude desktop app**, **Git** (on Windows: Git for Windows), **Miniconda**, a **kie.ai API key** (pays for AI images and video), the **[Amplify files](https://drive.google.com/drive/folders/1_2bNZz_jpjGRbOFUtdJIZkNzoUmn4_vB)** folder in Google Drive and, for Reddit and Letterboxd, the **Claude in Chrome** extension.
+You need: the **Claude desktop app** (Code tab, model **Claude Opus 5.5**), **Git** (on Windows: Git for Windows), **Miniconda**, a **kie.ai API key** (pays for AI images and video), the **[Amplify files](https://drive.google.com/drive/folders/1_2bNZz_jpjGRbOFUtdJIZkNzoUmn4_vB)** folder in Google Drive and, for Reddit and Letterboxd, the **Claude in Chrome** extension.
 
 In the Code tab, open a folder for the project and ask Claude: *"clone this repo and set it up using the README"*. Claude runs these steps and then asks you for your kie.ai key.
 
@@ -32,7 +36,14 @@ In the Code tab, open a folder for the project and ask Claude: *"clone this repo
 | 5. Key | `cp .env.example .env`, then paste the kie.ai key after `KIE_API_KEY=` | same |
 | 6. Files from Drive | Open the **[Amplify files](https://drive.google.com/drive/folders/1_2bNZz_jpjGRbOFUtdJIZkNzoUmn4_vB)** folder → Download (top right, or right-click the folder). Drive zips it (into several zips when it's over 2 GB). Tell Claude where the zips are: it unzips them and copies what is inside `Amplify files/` into the amplify folder, merging into the folders already there without deleting anything | same |
 
-Never commit `.env`; it is ignored on purpose. Then open the amplify folder in the Code tab and try `list pillars` to check that everything is in place.
+Never commit `.env`; it is ignored on purpose. Then **reopen the Code tab on the `amplify` folder itself** (the one with `CLAUDE.md`; opened on a parent folder, Claude never loads the skills) and say `check my setup`. Claude runs:
+
+- `tools/doctor.py`: environment, packages, ffmpeg, Chromium, fonts, the kie.ai key, Claude's instruction files, whether you're behind GitHub, and a test render compared with the owner's own (`same`, `close` on Windows, or `FAIL`)
+- `tools/manifest.py compare`: your files against the owner's file list (`doc/setup/owner-manifest.tsv`): what's missing, what was edited locally
+
+Then try `list pillars`. If your results ever look different from the owner's, say: *Read doc/setup/Setup Audit for Claude.md and do the audit*.
+
+**Updates.** When the owner pushes changes, say `pull the latest and check my setup` (it runs `git pull`, then both checks). Changed files update in place; nothing is duplicated.
 
 The tools start without step 6, but the Drive files are what let you re-edit past runs (their raw AI art and renders), make new mockup templates from the same inspiration photos, re-analyse a creator from their downloaded posts, and reuse past paid AI generations instead of paying for the same request again. When the owner adds new files, download the folder again and merge it the same way.
 
@@ -46,8 +57,8 @@ The tools start without step 6, but the Drive files are what let you re-edit pas
 | On GitHub (code and text) | In the **Amplify files** Drive folder (large media) |
 |---|---|
 | `tools/`: every tool | Rendered slides, videos and raw AI art from every run (`content-bank/P0xx/runs/`) |
-| `.claude/skills/amplify/`: the agent's instructions | Downloaded TikTok videos and images (`content-bank/_sources/`): other creators' posts, for internal analysis only. Their analysis text is on GitHub |
-| `doc/`: scope of work, extraction guidelines, screenshot method, persona appearance and environment guidelines, motion recreation and scene realism guidelines | `mockups/inspo/`, `mockups/out/`, `mockups/shots/`: inspiration photos, sample mockups and site screenshots |
+| `CLAUDE.md` and `.claude/skills/`: the agent's instructions (`amplify`, `amplify-account-copy`, `amplify-start`) | Downloaded TikTok videos and images (`content-bank/_sources/`): other creators' posts, for internal analysis only. Their analysis text is on GitHub |
+| `doc/setup/`: Start Here guide, approved models, setup audit, owner file list. `doc/`: owner rules, scope of work, extraction guidelines, screenshot method, persona appearance and environment guidelines, motion recreation and scene realism guidelines | `mockups/inspo/`, `mockups/out/`, `mockups/shots/`: inspiration photos, sample mockups and site screenshots |
 | `content-bank/`: the pillars, their source posts (`originals/`, needed by the originality check), learnings and run notes | `.cache/`: past paid AI generations (so the same request isn't paid for twice) and the pose model |
 | `personas/`, `brands/`, `templates/`, `assets/`: personas, brand files, blank templates, fonts | |
 | `mockups/templates/`: the 16 calibrated device templates | |
@@ -58,12 +69,13 @@ Kept in neither: `.env` (each person uses their own kie.ai key) and `.venv/` (2 
 
 | Part | Status |
 |---|---|
-| Link to pillar (post or profile) | Works. 15 pillars saved, all still `draft` until approved |
-| Static recreation (slides) | Works. Rendered runs in P004, P005, P010, P013, P014 |
+| Link to pillar (post or profile) | Works for TikTok and Instagram. 16 pillars saved, all still `draft` until approved |
+| Copy an account for a brand | Works: @bluebro.fit → PagePilot (P006, mascot Pip, `tipcards.py`) |
+| Static recreation (slides) | Works. Rendered runs in P004, P005, P006, P010, P013, P014, P016 |
 | Caption styles none / soft / hard | Works, with brand files for PagePilot and Bolt Pharmacy |
 | Video recreation | Works for three video types: animated mascot reels (P009, `reel.py`), short clips with text on screen (P011 and P012, `textclip.py`) and motion transfer (below). Other video formats have no renderer yet |
 | Motion transfer (a persona copies a source video's moves, `motion.py` + `kie.py video --model seedance25`) | Built. Seedance 2.5 is the main model since 2026-10-05: it was the most accurate of five models tested on the same dance (Kling 3.0 Motion Control, `kie.py motion`, is the cheaper fallback). The realism guidelines in `doc/` list what is still being built (face, eye and hand tracking, background depth and light checks) |
-| AI models | `kie.py` calls the top models on kie.ai: Nano Banana Pro, GPT Image 2.5 and Seedream 5.0 Pro for images; Seedance 2.5 (default), Wan 3.0, MiniMax H3, Gemini Omni 1.1 and Kling 3.0 for video. Test notes in `content-bank/_model-tests/` |
+| AI models | Approved list in `doc/setup/Approved Models.md`: GPT Image 2.5 Sunburst and Nano Banana Pro for images (Seedream 5.0 Pro for edits), Seedance 2.5 for video and motion transfer, Kling 3.0 as the fallback. `kie.py` can also call Wan 3.0, MiniMax H3 and Gemini Omni 1.1, for tests only. Test notes in `content-bank/_model-tests/` |
 | Personas | Willow has a full profile and a 41-image reference set (face, body, expressions, light, rooms, states) in `personas/` |
 | Reddit and Letterboxd screenshots | Built. The username blur has been tested on a mock page, not yet on live Reddit and Letterboxd, so every screenshot is still checked by eye |
 | Mockups | Works for websites on laptops and phones. Making a template from a social post link is not built yet |

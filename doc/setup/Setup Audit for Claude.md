@@ -22,7 +22,7 @@ Check each one in order, fix what you safely can, and write a report. Don't gene
 Report these:
 - Your model name. If it isn't **Claude Opus 5.5**, say so at the top of the report. The person should switch in the model picker and run the audit again.
 - Your working folder. It must be the folder that holds `CLAUDE.md`, `tools/` and `.claude/skills/`. A parent folder or a subfolder means the skills never load. That is the most common cause of very different results.
-- The skills you can see. `amplify`, `amplify-plus` and `amplify-account-copy` must be in your skill list. If they aren't, the working folder is wrong or the files are missing.
+- The skills you can see. `amplify`, `amplify-account-copy` and `amplify-start` must be in your skill list. If they aren't, the working folder is wrong or the files are missing.
 - Any other content, marketing or social-media skills or plugins you can see, such as a "content-creation", "marketing" or "social" plugin. List them. For Amplify requests, the `amplify*` skills must be used, not those. They can take over a prompt like "copy this account". The owner runs only the `ecc` plugin, which has no content skills that compete with Amplify.
 - Whether a `CLAUDE.md` exists at the root and you read it at the start.
 

@@ -1,6 +1,6 @@
 # Approved models · owner's list (2026-10-06)
 
-Claude reads this before any paid generation call. **This file wins** over model lines in older files (`.claude/skills/amplify/SKILL.md` still names Nano Banana Pro as the only stills default; that line is older than the 2026-10-05 model test).
+Claude reads this before any paid generation call. The `amplify` skill follows this list; if anything ever disagrees, this file wins.
 
 If a model is not on the approved list, don't call it. Don't switch to a cheaper model to save credits either. The owner's rule is "best models, not cheap ones". If an approved model fails twice on the same shot, stop and ask the user. Don't try models that aren't on the list.
 

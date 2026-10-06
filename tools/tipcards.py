@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Numbered tip cards (P006 layouts) on top of cards.py: cover, numbered tip, bonus tip with a phone showing a real screenshot.
-A new file so cards.py stays as it is on GitHub; it reuses cards.py's Card (text in code, art multiply-blended on the card).
+It reuses cards.py's Card (text in code, art multiply-blended on the card).
 
 Usage:
   tipcards.py <spec.json> [--out DIR]

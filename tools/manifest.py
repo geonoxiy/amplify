@@ -11,7 +11,8 @@ Each row is: path, where it comes from, size, hash. "Where it comes from":
   local       left out of git on purpose (downloaded media, finished renders, mockup photos, raw takes); the run
               text is in git, the media is on the owner's Drive folder (README step 6)
 Text files are hashed with Windows line endings turned into Unix ones, so a Windows checkout still matches.
-Never listed: .git, .venv, .cache, caches, .env (the key), .claude/settings.local.json, .claude/launch.json, web/data.
+Never listed: .git, .venv, .cache, caches, .env (the key), .claude/settings.local.json, .claude/launch.json,
+the web app (web/, tools/browse.py: on hold, owner's Mac only).
 """
 import hashlib
 import subprocess
@@ -22,7 +23,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "doc" / "setup" / "owner-manifest.tsv"
 SKIP_DIRS = {".git", ".venv", ".cache", "__pycache__", "_render_tmp"}
-SKIP_FILES = {".DS_Store", ".env", ".claude/settings.local.json", ".claude/launch.json", "doc/setup/owner-manifest.tsv"}
+SKIP_FILES = {".DS_Store", ".env", ".claude/settings.local.json", ".claude/launch.json", "doc/setup/owner-manifest.tsv", "tools/browse.py"}
 TEXT = {".py", ".md", ".json", ".txt", ".tsv", ".csv", ".yaml", ".yml", ".html", ".js", ".css", ".sh", ".log",
         ".gitignore", ".example", ".toml", ".srt", ".vtt"}
 
@@ -36,7 +37,7 @@ def files():
         rel = p.relative_to(ROOT).as_posix()
         if not p.is_file() or set(p.relative_to(ROOT).parts) & SKIP_DIRS or rel in SKIP_FILES:
             continue
-        if p.name == ".DS_Store" or rel.startswith("web/data/") or p.suffix == ".pyc":
+        if p.name == ".DS_Store" or rel.startswith("web/") or p.suffix == ".pyc":
             continue
         yield rel, p
 

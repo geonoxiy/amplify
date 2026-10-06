@@ -1,11 +1,11 @@
 ---
 name: amplify-account-copy
-description: "Copy a whole TikTok or Instagram account's content system for the user's own brand or account (e.g. 'copy @bluebro.fit for my account pagepilot.ai', 'clone this account for my brand', 'do what @x does for us'). Fixed defaults so every machine makes the same choices without asking. Use together with the amplify and amplify-plus skills."
+description: "Copy a whole TikTok or Instagram account's content system for the user's own brand or account (e.g. 'copy @bluebro.fit for my account pagepilot.ai', 'clone this account for my brand', 'do what @x does for us'). Fixed defaults so every machine makes the same choices without asking. Use together with the amplify skill."
 ---
 
 # Copy an account for a brand
 
-Read with `.claude/skills/amplify/SKILL.md` and `.claude/skills/amplify-plus/SKILL.md`. Worked example (owner's machine, 2026-10-06): @bluebro.fit → @pagepilot.ai, `content-bank/P006-numbered-tip-cards/runs/run-01_2026-10-06_pip-pagepilot-product-page-tip/` (read its `package.md` before the first run on a new machine).
+Read with `.claude/skills/amplify/SKILL.md`. Worked example (owner's machine, 2026-10-06): @bluebro.fit → @pagepilot.ai, `content-bank/P006-numbered-tip-cards/runs/run-01_2026-10-06_pip-pagepilot-product-page-tip/` (read its `package.md` before the first run on a new machine).
 
 "Copying an account" means: rebuild the account's **system** (recurring character or persona, card look, formats, how it sells) in the user's brand, with new characters, wording and art. It never means redrawing the account's mascot or reusing its posts.
 
@@ -21,9 +21,9 @@ Read with `.claude/skills/amplify/SKILL.md` and `.claude/skills/amplify-plus/SKI
 | Look | The pillar's layouts, boxes and font roles. Colours from the brand (sample the live site); background a light tint of the brand colour. Brand mark top-left: the mascot's head plus the brand name. |
 | Topic | What the brand's customers need to learn, in the brand's category (from the brand file's "What it is"). Tips must be true and general, and must not invent statistics. |
 | Selling | The source's product slot (for P006, the bonus-tip slide). The brand's real site on a phone or laptop (`webshot.py`, checked for other brands and faces), product claims only from the brand file. Caption **hard** when the product is on a slide, otherwise **soft**. |
-| Hook | The pillar's most-used hook formula, formula phrase kept, the rest new (amplify-plus rule 2). Label the mechanic in `package.md`. |
+| Hook | The pillar's most-used hook formula, formula phrase kept, the rest new (amplify skill, create step 2, "reuse the source's hook mechanics"). Label the mechanic in `package.md`. |
 | Art | GPT Image 2.5 Sunburst (`gpt25s`) at 2K, aspect 4:3 (square only renders at 1K), the model sheet as reference, plain white background, "no text, no letters, no numbers, no logos". |
-| Render | Text in code: `tools/tipcards.py` (P006 cover, tip and bonus layouts), `tools/cards.py` (P005). For P007, P008 or another pillar without a renderer, write a new tool file on top of `cards.py`, never edit the existing ones. |
+| Render | Text in code: `tools/tipcards.py` (P006 cover, tip and bonus layouts), `tools/cards.py` (P005). For P007, P008 or another pillar without a renderer, add a layout to `cards.py` or a renderer next to `tipcards.py`, and run `doctor.py` after to confirm the P006 test render still matches. |
 
 ## Steps
 1. Load the account's summary and pillar, the brand file, and the brand's mascot or persona file.

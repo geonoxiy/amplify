@@ -5,14 +5,14 @@ Amplify turns TikTok and Instagram posts into reusable content formats (pillars,
 ## Setup
 - Claude must run with this folder (the one holding this file) as the working folder, or the skills don't load.
 - The owner's results are made with **Claude Opus** (Opus 5.5 as of 2026-10). If you are a different model, say so in your first reply so the user can switch in the model picker.
-- **Image and video models: only the ones in `doc/setup/Approved Models.md`.** That file wins over older model lines in the skills.
+- **Image and video models: only the ones in `doc/setup/Approved Models.md`.**
 - Different results from the owner's? Run the audit in `doc/setup/Setup Audit for Claude.md`.
 - On a new machine, or after a `git pull`, run `./.venv/bin/python tools/doctor.py` (Windows: `./.venv/python.exe tools/doctor.py`) and fix every FAIL line with the README setup steps before making content. If `.venv` doesn't exist yet, do the README setup first.
 
 ## Every content request goes through the skills
 Before any other step, load these with the Skill tool:
-- `amplify` for anything about pillars, extracting posts or profiles, creating content, Reddit and Letterboxd captures, mockups.
-- `amplify-plus` as well, every time you create content or extract from Instagram.
+- `amplify` for anything about pillars, extracting TikTok or Instagram posts or profiles, creating content, Reddit and Letterboxd captures, mockups.
+- `amplify-start` for setup, "check my setup", or "how do I use this". New people start with `doc/setup/Start Here.md`.
 - `amplify-account-copy` as well, when the user asks to copy, clone, mirror or "do what @account does" for their brand or account.
 
 Never make content from a general idea of the account. Always start from the pillars in `content-bank/` (extract first if the account or post isn't in the bank yet), the brand file in `brands/`, and the tools.

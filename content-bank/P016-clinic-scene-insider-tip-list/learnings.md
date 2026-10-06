@@ -10,7 +10,7 @@ about mounjaro"). The boss's verdict: it copied the text format only; the visual
 people see authority) and the viral hooks were lost. A second request ("make it actually informational and viral")
 still didn't get there. A customer will use the tool directly, so the first output has to be right.
 
-Rules taken from it (also in `.claude/skills/amplify-plus/SKILL.md`):
+Rules taken from it (also in `.claude/skills/amplify/SKILL.md`, create step 2 and Rules):
 - The professional scene is the format. Never move the post to a persona's home; put the worker in the brand's own
   kind of workplace.
 - Write hooks with the source's mechanics and register (see pillar section 9), not a safe summary.

@@ -48,3 +48,7 @@ captures/
 
 # Persona reference takes (raw generations); the picked refs live in personas/<id>/refs/
 personas/*/_takes/
+
+# Web app: on hold, kept on the owner's Mac only
+web/
+tools/browse.py

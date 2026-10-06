@@ -75,11 +75,6 @@ def check_packages():
         report("ok", "mediapipe (motion tool)")
     except Exception:
         report("warn", "mediapipe (motion tool)", "not installed; only motion.py needs it (README step 3b)")
-    try:
-        importlib.import_module("claude_agent_sdk")
-        report("ok", "web app packages")
-    except Exception:
-        report("warn", "web app packages", "claude-agent-sdk missing; only the web app needs it")
 
 
 def check_ffmpeg():
@@ -142,9 +137,10 @@ def check_key(offline):
 
 
 def check_instructions():
-    need = ["CLAUDE.md", ".claude/skills/amplify/SKILL.md", ".claude/skills/amplify-plus/SKILL.md",
+    need = ["CLAUDE.md", ".claude/skills/amplify/SKILL.md", ".claude/skills/amplify-start/SKILL.md",
             ".claude/skills/amplify-account-copy/SKILL.md", "doc/Owner Rules.md", "doc/Project Deliverables.md",
-            "doc/setup/Approved Models.md", "doc/setup/Setup Audit for Claude.md", "tools/manifest.py"]
+            "doc/setup/Approved Models.md", "doc/setup/Setup Audit for Claude.md", "doc/setup/Start Here.md",
+            "tools/manifest.py"]
     missing = [n for n in need if not (ROOT / n).exists()]
     if missing:
         report("fail", "instruction files Claude reads", "missing " + ", ".join(missing) + " (pull from GitHub)")

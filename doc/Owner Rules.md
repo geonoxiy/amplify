@@ -1,6 +1,6 @@
 # Owner rules
 
-Feedback the owner gave across runs (2026-09-24 to 2026-10-06) that applies to every run, collected in one place so every machine follows the same rules. Most are also in `.claude/skills/amplify/SKILL.md` and `.claude/skills/amplify-plus/SKILL.md`; where those files go into more detail, they win.
+Feedback the owner gave across runs (2026-09-24 to 2026-10-06) that applies to every run, collected in one place so every machine follows the same rules. Most are also in `.claude/skills/amplify/SKILL.md`; where it goes into more detail, it wins. Models: `doc/setup/Approved Models.md`.
 
 ## Text and style
 - **Text is drawn in code.** The image model never writes text, numbers or logos (it garbles them, and the layout must match the pillar's measured boxes).

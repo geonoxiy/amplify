@@ -1,22 +1,22 @@
-# owner manifest, commit 8920ca2
+# owner manifest, commit 81fc0cf
 path	source	bytes	sha256_16
 .claude/settings.json	github	41	406cee8e8f1feb57
-.claude/skills/amplify/SKILL.md	github	41438	0f6e397313745d16
+.claude/skills/amplify/SKILL.md	unpushed	47709	4e26d9f8598d1591
 .claude/skills/amplify/visual-model-example.md	github	5841	600f0e1113257993
-.claude/skills/amplify-account-copy/SKILL.md	unpushed	4840	be04609af777b177
-.claude/skills/amplify-plus/SKILL.md	github	5689	b776d941b55bad6f
+.claude/skills/amplify-account-copy/SKILL.md	unpushed	4888	ca734f6adbe3db0d
+.claude/skills/amplify-start/SKILL.md	unpushed	3197	9ef448e4f9c389c6
 .env.example	github	39	f6b68f3c8d5a7c30
-.gitignore	unpushed	1628	b48f4d9f66b05781
-CLAUDE.md	unpushed	3135	2c2261d197777908
-README.md	github	8033	711c8e434e6a3ed6
-assets/doctor/bonus.jpg	unpushed	63354	cb2440b9381a2aa8
-assets/doctor/cover.jpg	unpushed	106658	36b1b474b3878469
-assets/doctor/expected.json	unpushed	484	5b5b900949bfb45f
-assets/doctor/phone_top.jpg	unpushed	162043	0e0c71c85f00e385
-assets/doctor/spec.json	unpushed	2612	a0c0e3372d92afbe
-assets/doctor/tip1.jpg	unpushed	91358	bf8861420113e836
-assets/doctor/tip2.jpg	unpushed	99016	bf4f79f40b8f3f9a
-assets/doctor/tip3.jpg	unpushed	76502	a774e7a577be65ff
+.gitignore	unpushed	1643	e33f56f6e107ab8d
+CLAUDE.md	unpushed	3139	18cc7b06b38fc92e
+README.md	unpushed	9853	58bb61883b512ecd
+assets/doctor/bonus.jpg	github	63354	cb2440b9381a2aa8
+assets/doctor/cover.jpg	github	106658	36b1b474b3878469
+assets/doctor/expected.json	github	484	5b5b900949bfb45f
+assets/doctor/phone_top.jpg	github	162043	0e0c71c85f00e385
+assets/doctor/spec.json	github	2612	a0c0e3372d92afbe
+assets/doctor/tip1.jpg	github	91358	bf8861420113e836
+assets/doctor/tip2.jpg	github	99016	bf4f79f40b8f3f9a
+assets/doctor/tip3.jpg	github	76502	a774e7a577be65ff
 assets/fonts/BarlowCondensed-SemiBold.ttf	github	109428	7b619d14bc232750
 assets/fonts/Inter-VF.ttf	github	876576	29160a80ff49ddca
 assets/fonts/NotoColorEmoji.ttf	github	10643852	39ee3c587e10e896
@@ -392,44 +392,44 @@ content-bank/P006-numbered-tip-cards/originals/7685884575632919815/slides/07.jpg
 content-bank/P006-numbered-tip-cards/originals/7685884575632919815/slides/08.jpg	github	158335	31cb1a6b2d49cf3d
 content-bank/P006-numbered-tip-cards/originals/7685884575632919815/sound.mp3	github	759050	b98962be9551c8fe
 content-bank/P006-numbered-tip-cards/pillar.md	github	10188	aac96a31f0dd84d1
-content-bank/P006-numbered-tip-cards/runs/run-01_2026-10-06_pip-pagepilot-product-page-tip/caption.json	unpushed	685	1765160d227ebe94
-content-bank/P006-numbered-tip-cards/runs/run-01_2026-10-06_pip-pagepilot-product-page-tip/caption.txt	unpushed	329	42f523ce9b28eb01
-content-bank/P006-numbered-tip-cards/runs/run-01_2026-10-06_pip-pagepilot-product-page-tip/caption_check.json	unpushed	412	68b3f7089164c6d8
-content-bank/P006-numbered-tip-cards/runs/run-01_2026-10-06_pip-pagepilot-product-page-tip/costs.json	unpushed	3293	796ba097a53052b1
+content-bank/P006-numbered-tip-cards/runs/run-01_2026-10-06_pip-pagepilot-product-page-tip/caption.json	github	685	1765160d227ebe94
+content-bank/P006-numbered-tip-cards/runs/run-01_2026-10-06_pip-pagepilot-product-page-tip/caption.txt	github	329	42f523ce9b28eb01
+content-bank/P006-numbered-tip-cards/runs/run-01_2026-10-06_pip-pagepilot-product-page-tip/caption_check.json	github	412	68b3f7089164c6d8
+content-bank/P006-numbered-tip-cards/runs/run-01_2026-10-06_pip-pagepilot-product-page-tip/costs.json	github	3293	796ba097a53052b1
 content-bank/P006-numbered-tip-cards/runs/run-01_2026-10-06_pip-pagepilot-product-page-tip/output/boxcheck/slide1_boxcheck.jpg	local	195555	2ceedc7b90853a3f
 content-bank/P006-numbered-tip-cards/runs/run-01_2026-10-06_pip-pagepilot-product-page-tip/output/boxcheck/slide2_boxcheck.jpg	local	153821	f04f51fcc560932e
 content-bank/P006-numbered-tip-cards/runs/run-01_2026-10-06_pip-pagepilot-product-page-tip/output/boxcheck/slide3_boxcheck.jpg	local	157469	6a436be70c2b1c30
 content-bank/P006-numbered-tip-cards/runs/run-01_2026-10-06_pip-pagepilot-product-page-tip/output/boxcheck/slide4_boxcheck.jpg	local	135451	174d04a5f7a78909
 content-bank/P006-numbered-tip-cards/runs/run-01_2026-10-06_pip-pagepilot-product-page-tip/output/boxcheck/slide5_boxcheck.jpg	local	173242	32c1760d4edb5038
-content-bank/P006-numbered-tip-cards/runs/run-01_2026-10-06_pip-pagepilot-product-page-tip/output/originality.json	unpushed	3079	785c7c9c52fa52f4
+content-bank/P006-numbered-tip-cards/runs/run-01_2026-10-06_pip-pagepilot-product-page-tip/output/originality.json	github	3079	785c7c9c52fa52f4
 content-bank/P006-numbered-tip-cards/runs/run-01_2026-10-06_pip-pagepilot-product-page-tip/output/preview.jpg	local	274445	3f6e44e5602a2c8f
-content-bank/P006-numbered-tip-cards/runs/run-01_2026-10-06_pip-pagepilot-product-page-tip/output/records/slide1.json	unpushed	3152	a7f64e53affc9b01
-content-bank/P006-numbered-tip-cards/runs/run-01_2026-10-06_pip-pagepilot-product-page-tip/output/records/slide2.json	unpushed	3039	49d5e98d815d5a62
-content-bank/P006-numbered-tip-cards/runs/run-01_2026-10-06_pip-pagepilot-product-page-tip/output/records/slide3.json	unpushed	3014	5d95f1d3a8155b80
-content-bank/P006-numbered-tip-cards/runs/run-01_2026-10-06_pip-pagepilot-product-page-tip/output/records/slide4.json	unpushed	3011	15a4c0667a869701
-content-bank/P006-numbered-tip-cards/runs/run-01_2026-10-06_pip-pagepilot-product-page-tip/output/records/slide5.json	unpushed	2886	8d620a16e9f315a2
+content-bank/P006-numbered-tip-cards/runs/run-01_2026-10-06_pip-pagepilot-product-page-tip/output/records/slide1.json	github	3152	a7f64e53affc9b01
+content-bank/P006-numbered-tip-cards/runs/run-01_2026-10-06_pip-pagepilot-product-page-tip/output/records/slide2.json	github	3039	49d5e98d815d5a62
+content-bank/P006-numbered-tip-cards/runs/run-01_2026-10-06_pip-pagepilot-product-page-tip/output/records/slide3.json	github	3014	5d95f1d3a8155b80
+content-bank/P006-numbered-tip-cards/runs/run-01_2026-10-06_pip-pagepilot-product-page-tip/output/records/slide4.json	github	3011	15a4c0667a869701
+content-bank/P006-numbered-tip-cards/runs/run-01_2026-10-06_pip-pagepilot-product-page-tip/output/records/slide5.json	github	2886	8d620a16e9f315a2
 content-bank/P006-numbered-tip-cards/runs/run-01_2026-10-06_pip-pagepilot-product-page-tip/output/slide1.png	local	600781	440a062e10527e16
 content-bank/P006-numbered-tip-cards/runs/run-01_2026-10-06_pip-pagepilot-product-page-tip/output/slide2.png	local	389129	77d477577431bc2a
 content-bank/P006-numbered-tip-cards/runs/run-01_2026-10-06_pip-pagepilot-product-page-tip/output/slide3.png	local	425760	e05a7aa5bbb03b1b
 content-bank/P006-numbered-tip-cards/runs/run-01_2026-10-06_pip-pagepilot-product-page-tip/output/slide4.png	local	304883	81e8ca5394ff1488
 content-bank/P006-numbered-tip-cards/runs/run-01_2026-10-06_pip-pagepilot-product-page-tip/output/slide5.png	local	467608	5664509fbd460d8c
-content-bank/P006-numbered-tip-cards/runs/run-01_2026-10-06_pip-pagepilot-product-page-tip/package.md	unpushed	3481	9b76215f4b5fda89
+content-bank/P006-numbered-tip-cards/runs/run-01_2026-10-06_pip-pagepilot-product-page-tip/package.md	github	3481	9b76215f4b5fda89
 content-bank/P006-numbered-tip-cards/runs/run-01_2026-10-06_pip-pagepilot-product-page-tip/raw/art_sheet.jpg	local	169008	b40d764dc7b0b862
-content-bank/P006-numbered-tip-cards/runs/run-01_2026-10-06_pip-pagepilot-product-page-tip/raw/bonus.log	unpushed	230	abfb45758768956f
+content-bank/P006-numbered-tip-cards/runs/run-01_2026-10-06_pip-pagepilot-product-page-tip/raw/bonus.log	github	230	abfb45758768956f
 content-bank/P006-numbered-tip-cards/runs/run-01_2026-10-06_pip-pagepilot-product-page-tip/raw/bonus.png	local	2742316	a328bca35951c96b
-content-bank/P006-numbered-tip-cards/runs/run-01_2026-10-06_pip-pagepilot-product-page-tip/raw/cover.log	unpushed	230	23df6aa4184395f1
+content-bank/P006-numbered-tip-cards/runs/run-01_2026-10-06_pip-pagepilot-product-page-tip/raw/cover.log	github	230	23df6aa4184395f1
 content-bank/P006-numbered-tip-cards/runs/run-01_2026-10-06_pip-pagepilot-product-page-tip/raw/cover.png	local	2909988	ea27efa223e79bc2
 content-bank/P006-numbered-tip-cards/runs/run-01_2026-10-06_pip-pagepilot-product-page-tip/raw/shots/phone_full.png	local	10045215	701129ec2e9a4f4f
-content-bank/P006-numbered-tip-cards/runs/run-01_2026-10-06_pip-pagepilot-product-page-tip/raw/shots/phone_top.json	unpushed	297	d77375b93973f0b1
+content-bank/P006-numbered-tip-cards/runs/run-01_2026-10-06_pip-pagepilot-product-page-tip/raw/shots/phone_top.json	github	297	d77375b93973f0b1
 content-bank/P006-numbered-tip-cards/runs/run-01_2026-10-06_pip-pagepilot-product-page-tip/raw/shots/phone_top.png	local	471770	6caa9e7b8d160dcf
-content-bank/P006-numbered-tip-cards/runs/run-01_2026-10-06_pip-pagepilot-product-page-tip/raw/tip1.log	unpushed	229	ff262d06233479f2
+content-bank/P006-numbered-tip-cards/runs/run-01_2026-10-06_pip-pagepilot-product-page-tip/raw/tip1.log	github	229	ff262d06233479f2
 content-bank/P006-numbered-tip-cards/runs/run-01_2026-10-06_pip-pagepilot-product-page-tip/raw/tip1.png	local	2663997	542ffb769771b5ba
-content-bank/P006-numbered-tip-cards/runs/run-01_2026-10-06_pip-pagepilot-product-page-tip/raw/tip2.log	unpushed	229	e35d3175ffd46c15
+content-bank/P006-numbered-tip-cards/runs/run-01_2026-10-06_pip-pagepilot-product-page-tip/raw/tip2.log	github	229	e35d3175ffd46c15
 content-bank/P006-numbered-tip-cards/runs/run-01_2026-10-06_pip-pagepilot-product-page-tip/raw/tip2.png	local	2670205	c6e87d1f58e4c80c
-content-bank/P006-numbered-tip-cards/runs/run-01_2026-10-06_pip-pagepilot-product-page-tip/raw/tip3.log	unpushed	229	4f8b0ee498e291cb
+content-bank/P006-numbered-tip-cards/runs/run-01_2026-10-06_pip-pagepilot-product-page-tip/raw/tip3.log	github	229	4f8b0ee498e291cb
 content-bank/P006-numbered-tip-cards/runs/run-01_2026-10-06_pip-pagepilot-product-page-tip/raw/tip3.png	local	3294620	3abf22706dcbce31
-content-bank/P006-numbered-tip-cards/runs/run-01_2026-10-06_pip-pagepilot-product-page-tip/review.md	unpushed	1756	d5abb1e7437477f6
-content-bank/P006-numbered-tip-cards/runs/run-01_2026-10-06_pip-pagepilot-product-page-tip/spec.json	unpushed	2293	44619d43e83f336e
+content-bank/P006-numbered-tip-cards/runs/run-01_2026-10-06_pip-pagepilot-product-page-tip/review.md	github	1756	d5abb1e7437477f6
+content-bank/P006-numbered-tip-cards/runs/run-01_2026-10-06_pip-pagepilot-product-page-tip/spec.json	github	2293	44619d43e83f336e
 content-bank/P007-ranked-countdown-with-score-badges/learnings.md	github	65	fe9c792b4159e2d6
 content-bank/P007-ranked-countdown-with-score-badges/originals/7673693117375188242/analysis/fingerprint.json	github	3004	becb284633553063
 content-bank/P007-ranked-countdown-with-score-badges/originals/7673693117375188242/analysis/measures.json	github	4523	00cdc4ad095460be
@@ -937,7 +937,7 @@ content-bank/P015-lip-sync-dance-trend/runs/run-02_2026-10-01_willow-car-park-da
 content-bank/P015-lip-sync-dance-trend/runs/run-02_2026-10-01_willow-car-park-dance/raw/stills/willow_v3_sd5_matched.fit.json	github	1244	7f5e75f44e885ff7
 content-bank/P015-lip-sync-dance-trend/runs/run-02_2026-10-01_willow-car-park-dance/raw/stills/willow_v3_sd5_matched.png	local	5577286	aef036c6e3ada89a
 content-bank/P015-lip-sync-dance-trend/runs/run-02_2026-10-01_willow-car-park-dance/review.md	github	3293	394d160cce871864
-content-bank/P016-clinic-scene-insider-tip-list/learnings.md	github	1500	27bc1f9c3c3212bb
+content-bank/P016-clinic-scene-insider-tip-list/learnings.md	unpushed	1520	3dbec9c0cef1a462
 content-bank/P016-clinic-scene-insider-tip-list/originals/screenshot/01_8-years-cleaning-teeth.png	github	229184	54330867860618c0
 content-bank/P016-clinic-scene-insider-tip-list/originals/screenshot/02_small-habits-slow-aging.png	github	184315	2bfc44e3192e79b6
 content-bank/P016-clinic-scene-insider-tip-list/originals/screenshot/03_in-case-your-dentist.png	github	173394	c81e579574e8e6db
@@ -1666,13 +1666,14 @@ content-bank/_sources/zaralarsson/7683300809983020310/video.mp4	local	3537013	42
 content-bank/index.md	github	5288	90aea9ca7c3ef943
 content-bank/spend.csv	unpushed	57691	4d5e6017a621bd30
 doc/Motion Recreation and Scene Realism Guidelines.md	github	70852	b0bd5a17bd7fd1d5
-doc/Owner Rules.md	unpushed	3376	5955a54b9006c425
+doc/Owner Rules.md	unpushed	3365	2f4d69f03703b8df
 doc/Persona Appearance and Environment Guidelines.md	github	43092	41bf07cefc3757cf
 doc/Project Deliverables.md	github	22350	f7efc22333024513
 doc/Screenshot Capture Method (Reddit and Letterboxd).md	github	12254	0899d6744b001810
 doc/TikTok Scraping and Extraction Guidelines.md	github	63524	7496e13180f94693
-doc/setup/Approved Models.md	unpushed	3077	04b8ed3d9b783748
-doc/setup/Setup Audit for Claude.md	unpushed	5827	a3be57d957acd2df
+doc/setup/Approved Models.md	unpushed	2966	c68a7e81622d2cde
+doc/setup/Setup Audit for Claude.md	unpushed	5828	a17cf3d46e890553
+doc/setup/Start Here.md	unpushed	10669	765e163b3ab9a4fb
 mockups/inspo/laptop-01.webp	local	134798	4d0b827e0dd19b12
 mockups/inspo/laptop-02.webp	local	150482	a66b81c8ae9dc26e
 mockups/inspo/laptop-03.webp	local	164190	23bc95a35475ef7a
@@ -1881,8 +1882,8 @@ mockups/templates/phone-07/costs.json	github	514	20c51970f9eb9894
 mockups/templates/phone-07/matte.png	github	127868	7c57d13b11164795
 mockups/templates/phone-07/meta.json	github	1702	aa1d43afd3de7360
 mockups/templates/phone-07/template.png	github	17680338	af4c26dafc552620
-personas/pip/refs/sheet.png	unpushed	2959229	1dfd4371f672804f
-personas/pip.md	unpushed	1958	e983d08cbaf3f063
+personas/pip/refs/sheet.png	github	2959229	1dfd4371f672804f
+personas/pip.md	github	1958	e983d08cbaf3f063
 personas/verde/costs.json	github	467	203403d77cde7c4d
 personas/verde/refs/sheet.png	github	5252762	41a6646927533673
 personas/verde.md	github	2693	b06326bd73ea40f3
@@ -2052,21 +2053,20 @@ personas/willow/refs/states/rain.jpg	github	972800	8034945dcab19f4b
 personas/willow/refs/states/wind.jpg	github	703037	012fee8efe0e768e
 personas/willow/refs/wardrobe/home.jpg	github	1588399	d44ef318a63ea7ec
 personas/willow.md	github	31820	a0cf33ded77ca2f3
-requirements.txt	unpushed	1448	bf956fe3cade6045
+requirements.txt	github	1350	508f186f89131b79
 templates/brand.md	github	1658	6feec26f09c14a11
 templates/pillar.md	github	3145	16791ce55baa959c
 tools/bank.py	github	5780	1b4be17ef3168e53
 tools/blur_usernames.js	github	8073	5a6bf94a3d766c34
 tools/boxlist.py	github	8818	b82809e3f65bdb1e
-tools/browse.py	unpushed	6905	843071b4e0021aba
 tools/caption.py	github	10187	69da769c12ee83e2
 tools/cards.py	github	17771	28f90ed178b71ada
 tools/creator_stats.py	github	5182	eed849af01dfbbc6
-tools/doctor.py	unpushed	10839	c3c28dbd7c6f246f
+tools/doctor.py	unpushed	10657	2eb84b499c764805
 tools/fetch.py	github	13384	1d2084dc0bee309b
 tools/fetch_insta.py	github	21665	ae504754ab3ed594
 tools/kie.py	github	32252	6a131361e9568e4c
-tools/manifest.py	unpushed	6298	8d4352177aca3682
+tools/manifest.py	unpushed	6366	506c16bfd5ec1a39
 tools/measure.py	github	19487	8a107e967ee0bd13
 tools/mockup.py	github	59779	296d88c1f963f248
 tools/motion.py	github	86205	19cdfd2e4f26a09f
@@ -2079,9 +2079,5 @@ tools/shortlist.py	github	5726	2336aada39615b84
 tools/shots.py	github	8290	38660ecdf6b9a092
 tools/sound.py	github	5592	bdfa792288b93f47
 tools/textclip.py	github	5644	c7a5b9e970175118
-tools/tipcards.py	unpushed	9048	31843ecccfbdbddc
+tools/tipcards.py	unpushed	8999	17b2fb277e222a12
 tools/webshot.py	github	9459	1b09895a7d657f21
-web/agent.py	unpushed	7140	11019211e112f7a9
-web/guard.py	unpushed	8151	2d8dbfc1e947aa32
-web/index.html	unpushed	18265	5d9b0aa5680685c9
-web/server.py	unpushed	15384	071b0e790dc691dd
